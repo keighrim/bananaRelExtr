@@ -1,0 +1,81 @@
+Project 3 instructions:
+
+
+The goal of this project is to develop a relation detection system, using the following classifier and datasets. 
+
+
+**Classifier:
+
+The maxent classifier that you can use for this project is here:
+
+/home/j/clp/chinese/bin/mallet-maxent-classifier.sh
+
+
+You're also free to use other classifiers such as SVM if you think you can get better performance. 
+
+**Data:
+
+The data you will need can be found here:
+
+/home/j/xuen/teaching/cosi137/spring-2015/projects/project3/data
+
+
+rel-trainset.gold: used to train the maxent classifier
+
+rel-devset.gold: used to tune your classifiers
+rel-devset.raw: same as 'coref-devset.gold' but with the answers stripped, used as input
+ 
+rel-testset.gold: used to report your results
+rel-testset.raw: same as 'coref-testset.gold' but with the answers stripped, used as input
+
+postagged-files: files in this directory are used to extract contextual features. These files maintain the original document structure as well as the POS tag for each token. The training, development and test sets contain pointers to these files.
+
+parsed-files: files in this directory are used to extract contextual features. These files maintain the original document structure as well as the syntactic parse for each sentence. The training, development and test sets contain pointers to these files.
+
+
+**Evaluation:
+
+There is an evaluation script here:
+
+/home/j/xuen/teaching/cosi137/spring-2015/projects/project3/relation-evaluator.py
+
+**Task: 
+
+Your main job is to extract the most effective features possible for the classifiers to get the best accuracy possible. You can also experiment with kernel methods for relation extraction.
+
+
+Sample training feature format:
+
+yes med=11 alias=false apposition=false
+no med=6 alias=false apposition=false
+no med=13 alias=false apposition=false
+no med=8 alias=false apposition=false
+no med=9 alias=false apposition=false
+
+
+Sample testing feature format:
+
+med=9 alias=false apposition=false
+med=12 alias=false apposition=false
+med=13 alias=false apposition=false
+med=4 alias=false apposition=false
+
+Note that the difference between training and testing features are that the former has answer keys as the first element of each training instance while the latter doesn't. Each line is a training/testing instance.
+
+**Using the classifer:
+
+Training:
+
+mallet-maxent-classifier.sh -train  -model=$basedir/models/rel-head-model -gold=rel-trainset-features.txt
+
+where 'rel-trainset-features.txt' is file that contains the training features 
+
+Testing:
+
+mallet-maxent-classifier.sh -classify  -model=$basedir/models/rel-head-model -input=rel-testset-features.txt > rel-testset.tagged
+
+where 'rel-testset-feature.txt' is the file that contains the testing features.
+
+Evaluation:
+
+relation-evaluator.py rel-testset.gold rel-testset.tagged
