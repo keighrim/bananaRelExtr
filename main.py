@@ -11,14 +11,12 @@ import subprocess
 import sys
 import cPickle as pickle
 
-from nltk.stem.lancaster import LancasterStemmer
-
 
 reload(sys)
 sys.setdefaultencoding('utf8')
 
 __author__ = ["Keigh Rim", "Todd Curcuru", "Yalin Liu"]
-__date__ = "3/1/2015"
+__date__ = "3/20/2015"
 __email__ = ['krim@brandeis.edu', 'tcurcuru@brandeis.edu', 'yalin@brandeis.edu']
 
 import os
@@ -27,7 +25,6 @@ import document_reader
 PROJECT_PATH = os.getcwd()
 DATA_PATH = os.path.join(PROJECT_PATH, "data")
 RES_PATH = os.path.join(PROJECT_PATH, "resources")
-YAGO_PATH = os.path.join(RES_PATH, "yago")
 
 
 class FeatureTagger():
@@ -251,8 +248,8 @@ class FeatureTagger():
     def populate_dict(self):
         """Populate dictionaries using external files"""
         # currently yago data only
-        with open(os.path.join("resources", "yago", "yago_entries.p"), "rb") as pjar:
-            self.dicts["yago"] = pickle.load(pjar)
+        # with open(os.path.join("resources", "yago", "yago_entries.p"), "rb") as pjar:
+        #     self.dicts["yago"] = pickle.load(pjar)
 
     def in_dict(self, typ):
         """See each token is in a certain dictionary"""

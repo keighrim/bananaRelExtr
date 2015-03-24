@@ -1,3 +1,4 @@
+@echo off
 set BASEDIR=lib\mallet_maxent
 set MALLET_HOME=lib\mallet\
 set MALLET_LIB=%MALLET_HOME%\lib
