@@ -1,0 +1,501 @@
+(ROOT
+  (FRAG
+    (NP (NNP APW20001021.1730.0351) (NNP NEWS) (NNP STORY))
+    (NP (CD 2000-10-21) (CD 17:48:31))))
+
+(ROOT
+  (NP (NNS Germany-Neo-Nazis)))
+
+(ROOT
+  (NP (NNP Germans) (NNP Demonstrate) (NNP Against) (NNP Hate)))
+
+(ROOT
+  (NP
+    (NP (NNP DORTMUND) (, ,) (NNP Germany) (NNP [AP) (NNP ]))
+    (: -)
+    (NP
+      (NP (NNS Thousands))
+      (PP (IN of)
+        (NP
+          (NP (NNS Germans))
+          (VP (VBN joined)
+            (ADVP (RB together)
+              (PP (IN in)
+                (NP (DT this) (JJ western) (NN city))
+                (NP (NNP Saturday))))
+            (S
+              (VP (TO to)
+                (VP (VB protest)
+                  (NP
+                    (NP (NN foreigner) (NN hate))
+                    (, ,)
+                    (NP (DT the) (JJ extreme) (NN right))
+                    (CC and)
+                    (NP (DT a) (JJ neo-Nazi) (NN demonstration))))))))))
+    (. .)))
+
+(ROOT
+  (SINV
+    (S
+      (NP (JJ ``This) (NN event))
+      (VP (MD shall)
+        (VP (VB serve)
+          (PP (IN as)
+            (NP
+              (NP (DT a) (NN beacon))
+              (PP (IN for)
+                (NP
+                  (NP (DT the) (NN uprising))
+                  (PP (IN of)
+                    (NP (VBN concerned) (NNS people) (NNS ,''))))))))))
+    (VP (VBD said))
+    (NP (NNP North) (NNP Rhine-Westphalia) (NN governor) (NNP Wolfgang) (NNP Clement))
+    (, ,)
+    (S
+      (VP (VBG alluding)
+        (PP (TO to)
+          (NP
+            (NP
+              (NP (NNP Chancellor) (NNP Gerhard) (NNP Schroeder) (POS 's))
+              (NN call))
+            (PP (IN for)
+              (NP (JJ ordinary) (NNS Germans)))))
+        (S
+          (VP (TO to)
+            (VP (VB speak)
+              (PRT (RP out))
+              (PP (IN against)
+                (NP
+                  (NP (DT a) (JJ recent) (NN wave))
+                  (PP (IN of)
+                    (NP (NN hate))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNS Organizers))
+    (VP (VBD said)
+      (SBAR
+        (S
+          (NP (CD 20,000) (NNS people))
+          (VP (VBD attended)
+            (NP (DT the) (NN event))
+            (PP (IN in)
+              (NP
+                (NP (NNP Dortmund))
+                (, ,)
+                (NP (DT an) (JJ industrial) (NN center))))
+            (PP (IN in)
+              (NP
+                (NP (NNP North) (NNP Rhine-Westphalia))
+                (, ,)
+                (NP
+                  (NP (NNP Germany) (POS 's))
+                  (ADJP (RBS most) (JJ populous))
+                  (NN state))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (ADVP (RB Later))
+    (, ,)
+    (NP
+      (QP (RB about) (CD 600))
+      (NNS neo-Nazis))
+    (VP (VBD marched)
+      (PP (IN through)
+        (NP
+          (NP (DT the) (NN middle))
+          (PP (IN of)
+            (NP (NN town)))))
+      (PP (IN under)
+        (NP (JJ heavy) (NN police) (NN guard))))
+    (. .)))
+
+(ROOT
+  (S
+    (S
+      (NP (CD Three) (NNS officers))
+      (VP (VBD were)
+        (VP (VBN injured)
+          (SBAR (IN as)
+            (S
+              (NP (JJ leftist) (NNS counter-demonstrators))
+              (VP (VBD tried)
+                (S
+                  (VP (TO to)
+                    (VP (VB break)
+                      (PP (IN through)
+                        (NP (NN police) (NNS lines))))))))))))
+    (, ,)
+    (CC and)
+    (S
+      (NP
+        (NP (CD two) (NNS leftists))
+        (CC and)
+        (NP (CD two) (NNS neo-Nazis)))
+      (VP (VBD were)
+        (VP (VBN arrested))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (NNS Counter-demonstrations))
+      (PP (IN against)
+        (NP (JJ rightist) (NNS events))))
+    (VP (VBP are)
+      (ADJP (JJ common)
+        (PP (IN in)
+          (NP (NNP Germany)))))
+    (. .)))
+
+(ROOT
+  (S (CC But)
+    (NP (DT the) (NNS events))
+    (VP (VBP have)
+      (VP (VBN taken)
+        (PP (IN on)
+          (NP
+            (NP (DT a) (JJR more) (JJ urgent) (NN tone))
+            (PP (RB because) (IN of)
+              (NP
+                (NP (DT a) (JJ recent) (NN wave))
+                (PP (IN of)
+                  (NP
+                    (NP (NN awareness))
+                    (PP (IN of)
+                      (NP (JJ hate-fueled) (NN violence)))))))
+            (SBAR
+              (WHNP (WDT that))
+              (S
+                (VP (VBD followed)
+                  (NP (DT a) (JJ still-unsolved) (NN bomb) (NN attack))
+                  (NP (JJ late) (NNP July))
+                  (PP (IN in)
+                    (NP
+                      (NP (NNP North) (NNP Rhine-Westphalia) (POS 's))
+                      (NN capital) (NNP Duesseldorf))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (S
+      (NP (DT That) (NN attack))
+      (VP (VBD left)
+        (NP
+          (NP (CD 10) (JJ recent) (NNS immigrants))
+          (VP (VBN injured)))))
+    (, ,)
+    (S
+      (NP
+        (NP
+          (QP (IN at) (JJS least) (CD six)))
+        (PP (IN of)
+          (NP (PRP them))))
+      (NP (NNPS Jews)))
+    (, ,)
+    (CC and)
+    (S
+      (NP
+        (QP (IN at) (JJS least) (CD three))
+        (NNS people))
+      (VP (VBD were)
+        (VP (VBN killed)
+          (PP (IN in)
+            (NP
+              (NP (JJ other) (NN hate) (NNS attacks))
+              (PP (IN over)
+                (NP (DT the) (NN summer))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (PP (IN In)
+      (NP
+        (NP (DT the) (JJS latest) (NN attack))
+        (NP (NNP Friday))))
+    (NP (NN night))
+    (, ,)
+    (NP (DT an) (NNP Algerian) (NN asylum-seeker))
+    (VP (VBD was)
+      (VP (VBN stabbed)
+        (PP (IN in)
+          (NP
+            (NP (DT the) (NN arm))
+            (PP (VBG following)
+              (NP
+                (NP (DT an) (NN argument))
+                (PP (IN about)
+                  (NP (NNS Germans)
+                    (CC and)
+                    (NNS foreigners)))))))
+        (PP (IN with)
+          (NP
+            (NP (CD two) (NNS men))
+            (, ,)
+            (VP (VBN aged)
+              (NP (CD 19)
+                (CC and)
+                (CD 20)))))))
+    (. .)))
+
+(ROOT
+  (S
+    (S
+      (NP (JJ Dortmund) (NNS authorities))
+      (VP (VBD had)
+        (VP (VBN tried)
+          (S
+            (VP (TO to)
+              (VP (VB ban)
+                (NP (DT the) (NNP Saturday) (NN neo-Nazi) (NN march))))))))
+    (, ,)
+    (CC but)
+    (S
+      (NP (DT a) (NN court))
+      (NP (JJ late) (NNP Friday) (NN evening))
+      (VP (VBD ruled)
+        (SBAR (IN that)
+          (S
+            (NP (PRP it))
+            (VP (MD could)
+              (VP (VB go)
+                (PRT (RP on))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP Clement))
+    (VP (VBD said)
+      (SBAR
+        (S
+          (NP
+            (NP (DT the) (NN counter-demonstration))
+            (: -)
+            (VP (VBN organized)
+              (PP (IN by)
+                (NP
+                  (NP (NNS citizens) (POS '))
+                  (NNS groups) (, ,) (JJ political) (NNS parties) (, ,) (NN sport) (NNS clubs) (, ,) (NNS students)
+                  (CC and)
+                  (NNS teachers))))
+            (: -))
+          (VP (VBD was)
+            (NP
+              (NP (DT the) (NN kind))
+              (PP (IN of)
+                (NP (NN involvement))))
+            (PP (IN by)
+              (NP
+                (NP (NN society))
+                (SBAR
+                  (WHNP (WDT that))
+                  (S
+                    (VP (MD would)
+                      (VP (VB help)
+                        (NP (NN ``again) (NN rub))
+                        (PRT (RP out))
+                        (PP (IN from)
+                          (NP
+                            (NP (PRP$ our) (NN country))
+                            (NP (DT the) (JJ brown) (NN specter))))
+                        (PP (IN from)
+                          (NP
+                            (NP (PRP$ our) (JJ past) (NN ,''))
+                            (VP (VBG referring)
+                              (PP (TO to)
+                                (NP
+                                  (NP (DT the) (NNPS Nazis) (POS '))
+                                  (JJ infamous) (NNS brownshirts))))))))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP Government) (NNS efforts)
+      (S
+        (VP (TO to)
+          (VP (VB stop)
+            (NP (NNS neo-Nazis))))))
+    (VP (VBP have)
+      (VP (VBN focused)
+        (PP (IN on)
+          (S
+            (VP (VBG banning)
+              (NP
+                (NP (DT the) (JJ small) (, ,) (JJ far-right) (NNP National) (JJ Democratic) (NN Party))
+                (, ,)
+                (VP (VBN blamed)
+                  (PP (IN for)
+                    (S
+                      (VP (VBG fueling)
+                        (NP
+                          (NP (DT some))
+                          (PP (IN of)
+                            (NP (DT the) (NN violence))))))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (PP (IN On)
+      (NP (NNP Friday)))
+    (, ,)
+    (NP
+      (NP (JJ interior) (NNS ministers) (NN meeting))
+      (PP (IN in)
+        (NP (NNP Berlin))))
+    (VP (VBD delayed)
+      (NP (DT a) (NN decision))
+      (PP (IN on)
+        (S
+          (VP (VBG seeking)
+            (NP (DT a) (NN ban))
+            (PP (IN before)
+              (NP
+                (NP (NNP Germany) (POS 's))
+                (JJS highest) (NN court)))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (NNP Bavaria) (NNP Interior) (NNP Minister) (NNP Guenther) (NNP Beckstein))
+      (, ,)
+      (NP
+        (NP (CD one))
+        (PP (IN of)
+          (NP
+            (NP (DT the) (VBG leading) (NNS proponents))
+            (PP (IN of)
+              (NP (DT a) (NN ban))))))
+      (, ,))
+    (VP (VBD told)
+      (NP
+        (NP (NNP Focus) (NNP newsmagazine))
+        (PP (IN in)
+          (NP (DT an) (NN interview))))
+      (NP (NNP Saturday))
+      (SBAR (IN that)
+        (S
+          (NP (PRP he))
+          (VP (VBD was)
+            (ADJP (RB ``firmly) (JJ convinced) ('' '')
+              (SBAR
+                (S
+                  (NP (DT a) (JJ legal) (NN motion))
+                  (VP (MD would)
+                    (ADVP (RB still))
+                    (VP (VB be)
+                      (VP (VBN filed)
+                        (NP (DT this) (NN year))))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (PRP He))
+    (ADVP (RB also))
+    (VP (VBD raised)
+      (NP
+        (NP (DT the) (NN possibility))
+        (PP (IN of)
+          (S
+            (VP (VBG seeking)
+              (NP
+                (NP
+                  (NP (NNS bans))
+                  (PP (IN about)
+                    (NP
+                      (NP (NNP Germany) (POS 's))
+                      (JJ other) (JJ far-right) (NNS parties))))
+                (PRN (: -)
+                  (NP
+                    (NP (DT the) (NNPS Republicans))
+                    (CC and)
+                    (NP (NNP German) (NNPS Peoples) (NNP Union)))
+                  (: -))
+                (SBAR
+                  (WHNP (DT both)
+                    (WHPP (IN of)
+                      (WHNP (WDT which))))
+                  (S
+                    (VP (VBP have)
+                      (VP (VBN had)
+                        (NP
+                          (NP
+                            (ADJP (RB far) (JJR more))
+                            (JJ electoral) (NN success))
+                          (PP (IN than)
+                            (NP (DT the)
+                              (ADJP (RB politically) (JJ insignificant))
+                              (NN NPD))))))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (DT Some))
+    (VP (VBP have)
+      (VP (VBN criticized)
+        (NP
+          (NP (DT a) (JJ potential) (NN party) (NN ban))
+          (PP (IN for)
+            (NP (PRP it)))
+          (SBAR
+            (S
+              (NP (PRP they))
+              (VP (MD would)
+                (ADVP (RB only))
+                (VP
+                  (VP (VB drive)
+                    (NP (NN party) (NNS members))
+                    (ADVP (RB underground)))
+                  (CC and)
+                  (VP (VB make)
+                    (S
+                      (NP (PRP them))
+                      (ADJP (JJR harder)
+                        (S
+                          (VP (TO to)
+                            (VP (VB monitor))))))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP
+        (NP (NNP Christian) (NNP Worch))
+        (PP (IN of)
+          (NP (NNP Hamburg))))
+      (, ,)
+      (NP
+        (NP (DT the) (NN neo-Nazi))
+        (SBAR
+          (WHNP (WP who))
+          (S
+            (VP (VBD led)
+              (NP (DT the) (NNP Saturday) (NN demonstration))))))
+      (, ,))
+    (VP (VBD gave)
+      (NP (NN support))
+      (PP (TO to)
+        (NP (DT that) (NN view))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (JJ ``Every) (NN ban))
+    (VP (VBZ makes)
+      (S
+        (NP (PRP us))
+        (ADJP
+          (ADJP (JJR stronger))
+          (CC and)
+          (ADJP (RBR more) (JJ alive)))
+        (S
+          (VP (VBG ,'')
+            (SBAR
+              (S
+                (NP (PRP he))
+                (VP (VBD told)
+                  (NP (NNS protesters)))))))))
+    (. .)))
+

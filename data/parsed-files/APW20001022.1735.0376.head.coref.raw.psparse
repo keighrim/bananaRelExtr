@@ -1,0 +1,247 @@
+(ROOT
+  (FRAG
+    (NP (NNP APW20001022.1735.0376) (NNP NEWS) (NNP STORY))
+    (NP (CD 2000-10-22) (CD 17:50:56))))
+
+(ROOT
+  (NP (NN Alps-Flooding)))
+
+(ROOT
+  (SINV
+    (NP (CD Five) (NNP Alps) (NNP Landslide) (NN Victims))
+    (VP (VBN Buried))))
+
+(ROOT
+  (NP
+    (NP (NNP ROME) (, ,) (NNP Italy) (NNP [AP) (NNP ]))
+    (: -)
+    (NP
+      (NP (DT A) (JJ little) (NN mountain) (NN village))
+      (PP (IN in)
+        (NP (JJ northern) (NNP Italy)))
+      (VP (VBN buried)
+        (NP
+          (NP (CD five) (NNS victims))
+          (PP (IN of)
+            (NP
+              (NP
+                (NP (JJ last) (NN week) (POS 's))
+                (JJ devastating) (JJ high) (NN water))
+              (CC and)
+              (NP (NNS mudslides)))))
+        (PP (IN on)
+          (NP (NNP Sunday)))
+        (, ,)
+        (NP
+          (NP (DT the) (NN day))
+          (SBAR
+            (S
+              (NP
+                (NP (DT a) (NN state))
+                (PP (IN of)
+                  (NP (NN emergency))))
+              (ADVP (RB finally))
+              (VP (VBD ran)
+                (PRT (RP out))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (NNS Floodwaters))
+      (PP (IN throughout)
+        (NP (DT the) (NN region)))
+      (, ,)
+      (PP (VBG including)
+        (NP (DT the) (NNP raging) (NNP Po) (NNP River)))
+      (, ,))
+    (VP (VBP have)
+      (VP (VBN ebbed) (, ,)
+        (S
+          (VP
+            (VP (VBG emptying)
+              (PP (IN into)
+                (NP (DT the) (NNP Adriatic))))
+            (CC and)
+            (VP (VBG revealing)
+              (NP
+                (NP (DT a) (VBG rising) (NN toll))
+                (PP (IN of)
+                  (NP (NN damage)))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (S
+      (NP (DT Some) (NNS roads)
+        (CC and)
+        (NNS bridges))
+      (VP
+        (VP (VBP are)
+          (ADVP (RB still))
+          (ADJP (JJ closed)))
+        (CC and)
+        (VP (MD could)
+          (VP (VB remain)
+            (ADVP (RB so))
+            (PP (IN for)
+              (NP (DT some) (NN time)))))))
+    (, ,)
+    (NP (NNS officials))
+    (VP (VBP say))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (DT The) (NN death) (NN toll))
+      (PP (IN from)
+        (NP
+          (NP (DT the) (JJ raging) (NNS floodwaters))
+          (CC and)
+          (NP (JJ fearsome) (NNS mudslides)))))
+    (VP (VBD reached)
+      (NP (CD 37))
+      (PP (VBN combined)
+        (PP (IN for)
+          (NP
+            (NP (DT the) (NNP Alpine) (NN region))
+            (PP (IN of)
+              (NP
+                (NP (JJ northern) (NNP Italy))
+                (CC and)
+                (NP (JJ southern) (NN Switzerland))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (CD Eighteen))
+      (PP (IN of)
+        (NP (DT those))))
+    (VP (VBD were)
+      (PP (IN from)
+        (NP
+          (NP (DT the) (JJ Valle) (NN d'Aosta))
+          (PP (IN in)
+            (NP (DT the) (JJ Italian) (NNPS Alps))))))
+    (. .)))
+
+(ROOT
+  (S
+    (PP (IN At)
+      (NP
+        (NP (DT the) (NN church))
+        (PP (IN of)
+          (NP
+            (NP (NNP San) (NNP Maurizio))
+            (PP (IN in)
+              (NP
+                (NP (NNP Fenis))
+                (, ,)
+                (NP
+                  (NP (DT a) (NN mountain) (NN hamlet))
+                  (PP (IN near)
+                    (NP
+                      (NP (DT the) (NN city))
+                      (PP (IN of)
+                        (NP (NNP Aosta))))))))))))
+    (, ,)
+    (NP (NNS villagers))
+    (VP (VBD paid)
+      (NP (PRP$ their) (JJ final) (NNS respects))
+      (PP (TO to)
+        (NP (CD five) (JJ local) (NNS victims))))
+    (. .)))
+
+(ROOT
+  (S
+    (PP (IN Among)
+      (NP (PRP them)))
+    (, ,)
+    (VP (VB double)
+      (NP
+        (NP
+          (NP (NNS losses))
+          (PP (IN for)
+            (NP (CD two) (NNS families))))
+        (: -)
+        (NP
+          (NP (DT a) (NN father)
+            (CC and)
+            (NN son))
+          (PP (IN in)
+            (NP (CD one))))
+        (, ,)
+        (NP
+          (NP (DT a) (NN mother)
+            (CC and)
+            (NN daughter))
+          (PP (IN in)
+            (NP (DT another))))))
+    (. .)))
+
+(ROOT
+  (S
+    (PP (IN Amid)
+      (NP
+        (NP (DT the) (NN grief))
+        (PP (IN in)
+          (NP
+            (NP (NNS communities))
+            (PP (IN throughout)
+              (NP (DT the) (JJ stricken) (NN area)))))))
+    (, ,)
+    (NP (NN life))
+    (VP (VBD was)
+      (ADVP (RB slowly))
+      (VP (VBG returning)
+        (PP (TO to)
+          (NP
+            (NP (NN something))
+            (VP (VBG resembling)
+              (ADJP (JJ normal)))))))
+    (. .)))
+
+(ROOT
+  (S (CC But)
+    (S
+      (NP (NNS thousands))
+      (VP (VBD were)
+        (ADVP (RB still))
+        (ADJP (JJ unable)
+          (S
+            (VP (TO to)
+              (VP (VB go)
+                (PRT (RP back))
+                (PP (TO to)
+                  (NP (PRP$ their)
+                    (ADJP (JJ drenched)
+                      (CC or)
+                      (JJ damaged))
+                    (NNS homes)))))))))
+    (CC and)
+    (S
+      (NP
+        (NP (DT a) (JJ huge) (NN task))
+        (PP (IN of)
+          (NP (NN rebuilding))))
+      (VP (VBD lay)
+        (ADVP (RB ahead))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNS Authorities))
+    (VP (VBP estimate)
+      (NP
+        (NP (DT the) (NN damage))
+        (PP (IN in)
+          (NP
+            (NP (DT the) (NNS hundreds))
+            (PP (IN of)
+              (NP (CD million)))))
+        (PP (IN of)
+          (NP (NNS dollars)))))
+    (. .)))
+

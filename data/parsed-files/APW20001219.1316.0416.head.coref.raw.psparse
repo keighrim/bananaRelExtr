@@ -1,0 +1,340 @@
+(ROOT
+  (FRAG
+    (NP (NNP APW20001219.1316.0416) (NNP NEWS) (NNP STORY))
+    (NP (CD 2000-12-19) (CD 14:10:44))))
+
+(ROOT
+  (NP (NNP FBN-Broncos-Bar)))
+
+(ROOT
+  (NP
+    (NP (NNS Broncos))
+    (NP (NNP Complain) (RB About) (NNPS Sports))
+    (NP (NNP Bar))))
+
+(ROOT
+  (FRAG
+    (NP (NNP DENVER) (NNP [AP) (NNP ]))
+    (: -)
+    (S
+      (NP
+        (NP (DT The) (NNP Denver) (NNS Broncos))
+        (CC and)
+        (NP (DT the) (NNP NFL)))
+      (VP (VBP want)
+        (S
+          (NP (DT a) (JJ commercial) (JJ real) (NN estate) (NN agent))
+          (VP (TO to)
+            (VP (VB take)
+              (PRT (RP down))
+              (NP
+                (NP (DT a) (NN sign) (NN advertising))
+                (SBAR
+                  (S
+                    (NP
+                      (NP (DT a) (NN site))
+                      (PP (IN for)
+                        (NP (DT a) (JJ potential) (NNS sports))))
+                    (VP (NN bar)
+                      (SBAR (IN because)
+                        (S
+                          (NP (PRP it))
+                          (VP (VBZ features)
+                            (NP
+                              (NP (DT the) (NN team) (POS 's))
+                              (NN name))))))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (NNP John) (NNP ``Jack'') (NNP Hanlon))
+      (PP (IN of)
+        (NP (NNP Coldwell) (NNP Banker) (NNP American) (NNP Spectrum))))
+    (VP (VBZ is)
+      (VP (VBG listing)
+        (NP
+          (NP (DT an) (NN acre))
+          (PP (IN of)
+            (NP (NN land))))
+        (PP (IN about)
+          (NP
+            (NP (DT a) (NN mile))
+            (PP (IN from)
+              (NP
+                (NP
+                  (NP (DT the) (NNS Broncos) (POS '))
+                  (NN training) (NN camp))
+                (PP (IN in)
+                  (NP (NNP Dove) (NNP Valley)))))))))
+    (. .)))
+
+(ROOT
+  (SINV
+    (S
+      (NP
+        (NP (NNP Hanlon))
+        (, ,)
+        (NP (DT a) (JJ longtime) (NNS Broncos) (NN fan))
+        (, ,))
+      (VP
+        (VP (VBZ thinks)
+          (SBAR
+            (S
+              (NP (PRP it))
+              (VP (VBZ is)
+                (NP
+                  (NP (DT the) (JJ perfect) (NN place))
+                  (PP (IN for)
+                    (NP (DT a) (NNS sports) (NN bar))))))))
+        (CC and)
+        (VP (VBZ has)
+          (VP (VBN put)
+            (PRT (RP up))
+            (NP (DT a) (JJ blue-and-orange) (NN sign) (NN reading))))))
+    (, ,)
+    (VP (VBD ``Wanted)
+      (S
+        (NP (NNP Broncos) (NNPS Sports) (NNP Bar))
+        (PP (IN On)
+          (NP (DT This)))))
+    (NP (NNP Site) (NNP .''))))
+
+(ROOT
+  (S
+    (NP (PRP He))
+    (VP (VBD said)
+      (SBAR (IN that)
+        (S
+          (NP (CD 47,000) (NNS cars))
+          (VP
+            (VP (VB drive)
+              (PP (IN by)
+                (NP (DT the) (NN site)))
+              (ADVP (RB daily)))
+            (CC and)
+            (VP (VB ``because)
+              (SBAR
+                (S
+                  (NP (DT the) (NNS players))
+                  (VP (VBP have)
+                    (S
+                      (VP (TO to)
+                        (VP (VB drive)
+                          (PP (IN by)
+                            (NP (PRP it)))
+                          (NP
+                            (NP (DT every) (NN day))
+                            (SBAR
+                              (S
+                                (NP (PRP it))
+                                (VP (MD could)
+                                  (VP (VB become)
+                                    (NP (DT a) (NN hangout))
+                                    (SBAR (IN for)
+                                      (S
+                                        (NP (PRP them))
+                                        (VP (VBZ .''))))))))))))))))))))))
+
+(ROOT
+  (S
+    (S
+      (NP (NNP Hanlon))
+      (VP (VBD said)
+        (SBAR
+          (S
+            (NP (PRP he))
+            (ADVP (RB never))
+            (VP (VBZ has)
+              (VP (VBN implied)
+                (SBAR (IN that)
+                  (S
+                    (NP (DT the) (JJ future) (NNS sports) (NN bar))
+                    (VP (MD would)
+                      (VP (VB be)
+                        (VP (VBN called)
+                          (NP (DT the) (JJ Broncos) (NN Bar)))))))))))))
+    (, ,)
+    (CC but)
+    (S
+      (NP (PRP$ his) (NN company))
+      (VP (VBZ has)
+        (VP (VBN turned)
+          (PP (IN over)
+            (NP (DT the) (NN matter)))
+          (PP (TO to)
+            (NP (PRP$ its) (JJ legal) (NN department))))))
+    (. .)))
+
+(ROOT
+  (S
+    (S
+      (NP (NNP ``I))
+      (VP (VBD thought)
+        (SBAR
+          (S
+            (NP (PRP it))
+            (VP (MD would)
+              (VP (VB be)
+                (NP (DT a) (JJ good) (NN idea)
+                  (S
+                    (VP (TO to)
+                      (VP (VB have)
+                        (NP
+                          (NP (DT a) (NN bar))
+                          (SBAR
+                            (WHNP (WDT that))
+                            (S
+                              (VP (MD would)
+                                (VP (VB celebrate)
+                                  (NP (DT the) (NNS Broncos)))))))))))))))
+        (, ,)
+        (S
+          (VP (VBG emphasizing)
+            (NP (NN everything) (NNS Broncos))
+            (PP (IN with)
+              (NP
+                (ADJP (JJ pregame)
+                  (CC and)
+                  (JJ postgame))
+                (NNS activities)))))))
+    (NP (NNP ,'') (NNP Hanlon))
+    (VP (VBD said))
+    (. .)))
+
+(ROOT
+  (S
+    (VP (VB ``But)
+      (S
+        (NP (PRP I))
+        (ADJP (JJ couldn't))
+        (S
+          (VP (VB put)
+            (NP
+              (NP (DT that))
+              (PP (IN on)
+                (NP (DT a) (JJ 4-by-8) (NN sign) (NN .''))))))))))
+
+(ROOT
+  (S
+    (NP (PRP He))
+    (VP (VBD said)
+      (SBAR
+        (S
+          (NP (PRP he))
+          (VP (MD will)
+            (VP (VB do)
+              (SBAR
+                (WHNP (WDT whatever))
+                (S
+                  (S
+                    (NP (PRP$ his) (NN lawyer))
+                    (VP (VBZ advises)))
+                  (, ,)
+                  (CC but)
+                  (S
+                    (NP (JJ ``I) (NN don't))
+                    (VP (VBP think)
+                      (SBAR
+                        (S
+                          (NP (DT the) (NNS Broncos))
+                          (VP (VBP own)
+                            (SBAR
+                              (S
+                                (NP (DT the) (NN word))
+                                (VP (VBZ 'Broncos)
+                                  (ADJP (JJ .''')))))))))))))))))))
+
+(ROOT
+  (S
+    (NP (NNP NFL) (NN lawyer) (NNP David) (NNP Proper))
+    (VP (VBZ has)
+      (VP (VBN given)
+        (NP (NNP Hanlon))
+        (PP (IN until)
+          (NP (NNP Dec)))))
+    (. .)))
+
+(ROOT
+  (FRAG
+    (NP (CD 26))
+    (S
+      (VP (TO to)
+        (VP (VB remove)
+          (NP (DT the) (NN sign)))))
+    (. .)))
+
+(ROOT
+  (FRAG
+    (PP (IN In)
+      (NP (DT a) (NNP Nov)))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (CD 28) (NN letter))
+      (, ,)
+      (NP (NNP Proper) (NNS states)))
+    (VP (VBP ``while)
+      (S
+        (NP (PRP we))
+        (VP (VB have)
+          (NP
+            (NP (DT no) (NN objection))
+            (PP (TO to)
+              (NP (PRP$ your) (NN advertising)))
+            (SBAR
+              (S
+                (NP
+                  (NP (DT the) (NN property))
+                  (PP (IN as)
+                    (NP
+                      (NP (DT a) (NN location))
+                      (PP (IN for)
+                        (NP (DT a) (NNS sports) (NN bar)))
+                      (, ,)
+                      (VP (VBG using)
+                        (NP
+                          (NP (DT the) (NNS Broncos) (POS '))
+                          (NN name)
+                          (CC and)
+                          (NNS colors))))))
+                (VP (VBZ gives)
+                  (NP (DT the) (JJ false) (NN impression))))))
+          (SBAR (IN that)
+            (S
+              (NP (DT the) (NN bar))
+              (VP
+                (VP (VBZ is))
+                (CC or)
+                (VP (MD can)
+                  (VP (VB be)
+                    (VP (VBN affiliated)
+                      (PP (IN with)
+                        (NP (DT the) (NNS Broncos) (NN .''))))))))))))))
+
+(ROOT
+  (S
+    (S
+      (S
+        (NP (DT The) (NN land))
+        (VP (VBZ is)
+          (VP (VBN valued)
+            (PP (IN at)
+              (NP (CD $650,000))))))
+      (CC and)
+      (S
+        (NP (DT the) (NN bar))
+        (VP (MD could)
+          (VP (VB cost)
+            (NP
+              (QP (RB about) (CD $1) (CD million)))
+            (PP (TO to)
+              (NP
+                (QP (CD $1.2) (CD million))))))))
+    (, ,)
+    (NP (NNP Hanlon))
+    (VP (VBD said))
+    (. .)))
+

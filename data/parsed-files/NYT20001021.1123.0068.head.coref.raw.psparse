@@ -1,0 +1,713 @@
+(ROOT
+  (FRAG
+    (NP (NNP NYT20001021.1123.0068) (NNP NEWS) (NNP STORY))
+    (NP (CD 2000-10-21) (CD 11:23:00))))
+
+(ROOT
+  (NP
+    (NP (CD A1772) (NNS &Cx1f))
+    (: ;)
+    (NP
+      (NP (NNP taf-z) (NNP u) (FW i) (NNP BC-POPE-RETIRE-NYT) (NNP &LR))
+      (: ;)
+      (NP
+        (QP (CD 10-21) (CD 0573))))))
+
+(ROOT
+  (NP (NNP BC-POPE-RETIRE-NYT)))
+
+(ROOT
+  (SINV
+    (VP (VBZ CARDINAL'S))
+    (NP (NNP BOOK) (NNP FUELS) (NNP TALK) (NNP THAT) (NNP POPE) (NNP WILL) (NNP STEP) (NNP DOWN))))
+
+(ROOT
+  (NP
+    (NP (NNP &UR))
+    (: ;)
+    (S
+      (S
+        (PP (IN By)
+          (NP
+            (NP (NNP ALESSANDRA) (NNP STANLEY))
+            (VP (VBN &LR)))))
+      (: ;)
+      (S
+        (VP (VBG &QC)))
+      (: ;)
+      (S
+        (VP (VBG &QL)))
+      (: ;)
+      (S
+        (VP (VBG &UR)))
+      (: ;)
+      (S
+        (VP (VBG c.2000)
+          (NP (NNP N.Y)))))
+    (. .)))
+
+(ROOT
+  (NP
+    (NP (NNP Times) (NNP News) (NNP Service) (NNP &LR))
+    (: ;)
+    (NP (CD &QC) (: ;) (CD &QL))
+    (: ;)))
+
+(ROOT
+  (FRAG
+    (NP (NNP ROME))
+    (: -)
+    (S
+      (S
+        (VP (VBG Fueling)
+          (NP (NN speculation))
+          (SBAR (IN that)
+            (S
+              (NP (NNP John) (NNP Paul) (NNP II))
+              (VP (MD might)
+                (VP (VB retire)
+                  (PP (IN at)
+                    (NP
+                      (NP (DT the) (NN end))
+                      (PP (IN of)
+                        (NP (DT this) (NN year)))))))))))
+      (, ,)
+      (NP (DT a) (JJ Belgian) (NN cardinal))
+      (VP (VBZ says)
+        (SBAR
+          (S
+            (NP (PRP he))
+            (VP (VBZ believes)
+              (SBAR (IN that)
+                (S
+                  (NP (DT the) (JJ frail) (, ,) (JJ ailing) (NN pope))
+                  (VP (MD could)
+                    (VP (VB do)
+                      (NP (RB exactly) (DT that)))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NN ``It))
+    (VP (MD would) (RB not)
+      (VP (VB surprise)
+        (NP (PRP me))
+        (SBAR (IN if)
+          (S
+            (NP (DT the) (NN pope))
+            (VP (VBD were)
+              (S
+                (VP (TO to)
+                  (VP (VB retire)
+                    (SBAR (IN after)
+                      (S
+                        (NP (CD 2000) (NNS ,''))
+                        (VP (VBZ says)
+                          (NP
+                            (NP (NNP Cardinal) (NNP Godfried) (NNP Danneels))
+                            (PP (IN in)
+                              (NP (DT a) (NN book)
+                                (S
+                                  (VP (TO to)
+                                    (VP (VB be)
+                                      (VP (VBN published)
+                                        (PP (IN on)
+                                          (NP (NNP Monday)))
+                                        (PP (IN in)
+                                          (NP (NNP Belgium)))))))))))))))))))))
+    (. .)))
+
+(ROOT
+  (FRAG
+    (S
+      (S
+        (NP (NN ``He))
+        (VP (VBD wanted)
+          (PP (IN at)
+            (NP (DT all) (NNS costs)))
+          (S
+            (VP (TO to)
+              (VP (VB reach)
+                (NP (DT the) (NNP Jubilee) (NN year) (CD 2000)))))))
+      (, ,)
+      (CC but)
+      (S
+        (NP (PRP I))
+        (VP (VBP consider)
+          (S
+            (NP (PRP him))
+            (ADJP (JJ capable)
+              (PP (IN of)
+                (S
+                  (VP (VBG retiring)
+                    (ADVP (RB afterward)
+                      (NP (CD .'')))))))))))))
+
+(ROOT
+  (S
+    (S
+      (NP (NNS Danneels))
+      (VP (VBZ is) (RB not)
+        (NP (DT the) (JJ first) (NNP Roman) (NNP Catholic) (NNP Church) (NN official)
+          (S
+            (VP (TO to)
+              (VP (VB broach)
+                (NP
+                  (NP (DT a) (NN topic))
+                  (VP (VBN considered)
+                    (ADJP (JJ taboo))
+                    (PP (IN at)
+                      (NP (DT the) (NNP Vatican)))))))))))
+    (, ,)
+    (CC but)
+    (S
+      (NP (PRP he))
+      (VP (VBZ is)
+        (NP (DT the) (JJ highest-ranking) (NN leader)
+          (S
+            (VP (TO to)
+              (VP (VB address)
+                (ADVP
+                  (NP (DT the) (NN question))
+                  (RB so))
+                (ADVP (RB openly))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (DT The) (JJ Vatican) (NN spokesman))
+      (, ,)
+      (NP (NNP Joaquin) (NNP Navarro-Valls))
+      (, ,))
+    (VP (VBD issued)
+      (NP (DT a) (JJ terse) (NN reaction))
+      (, ,)
+      (S
+        (VP (VBG saying)
+          (SBAR
+            (S
+              (NP (NNS ``this))
+              (VP (VBZ is)
+                (NP
+                  (NP (DT the) (JJ personal) (NN opinion))
+                  (PP (IN of)
+                    (NP (NNP Cardinal) (NNPS Danneels))))
+                (SBAR (IN that)
+                  (S
+                    (NP (PRP we))
+                    (VP (VBP do) (RB not)
+                      (VP (VB confirm)
+                        (NP (NNS .''))))))))))))))
+
+(ROOT
+  (NP
+    (NP
+      (NP (DT The) (NN cardinal))
+      (VP (VBD spoke)
+        (PP (IN in)
+          (NP (NN answer)))
+        (PP (TO to)
+          (NP
+            (NP (DT a) (NN question))
+            (PP (IN in)
+              (NP
+                (NP (DT an) (NN interview))
+                (VP (VBN included)
+                  (PP (IN in)
+                    (NP (PRP$ his) (NN book)))
+                  (, ,)
+                  (S
+                    (ADVP (RB ``Frankly))
+                    (VP (VBG Speaking))))))))))
+    (: :)
+    (NP
+      (NP (CD Six) (NNS Conversations))
+      (PP (IN with)
+        (NP (DT the) (NNP Cardinal) (NNP .''))))))
+
+(ROOT
+  (S
+    (NP
+      (NP (NN Speculation))
+      (SBAR (IN that)
+        (S
+          (NP (NNP John) (NNP Paul))
+          (VP (MD might)
+            (VP (VB step)
+              (PRT (RP down))
+              (SBAR (IN if)
+                (S
+                  (NP (PRP$ his) (NN health))
+                  (VP (VBZ deteriorates)
+                    (PP (TO to)
+                      (NP (DT the) (NN extent)))
+                    (SBAR (IN that)
+                      (S
+                        (NP (PRP he))
+                        (VP (VBP cannot)
+                          (VP (VB fulfill)
+                            (NP (PRP$ his) (NNS duties))))))))))))))
+    (VP (VBZ has)
+      (VP (VBN echoed)
+        (PP (IN around)
+          (NP (DT the) (NN church)))
+        (SBAR (RB ever) (IN since)
+          (S
+            (NP (PRP he))
+            (VP (VBD turned)
+              (NP
+                (NP (CD 75))
+                (, ,)
+                (NP
+                  (NP (DT the) (JJ mandatory) (NN retirement) (NN age))
+                  (PP (IN for)
+                    (NP (NNS bishops))))
+                (, ,))
+              (PP (IN in)
+                (NP (CD 1995))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (S
+      (NP (DT The) (NNS rumors))
+      (VP (VBD grew)
+        (ADVP (RBR louder))
+        (SBAR (IN as)
+          (S
+            (NP (DT the) (NN pope) (NN visibly))
+            (VP (VBD weakened))))))
+    (CC and)
+    (S
+      (NP (DT this) (NN year))
+      (VP (VBD passed)
+        (NP
+          (NP (PRP$ his) (JJ 80th) (NN birthday))
+          (, ,)
+          (NP
+            (NP (DT the) (NN age))
+            (SBAR
+              (WHPP (IN at)
+                (WHNP (WDT which)))
+              (S
+                (NP (NNS cardinals))
+                (VP (VBP become)
+                  (ADJP (JJ ineligible)
+                    (S
+                      (VP (TO to)
+                        (VP (VB vote)
+                          (PP (IN in)
+                            (NP
+                              (NP (DT a) (NN conclave))
+                              (PP (IN for)
+                                (NP (DT the) (JJ next) (NN pope))))))))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (PP (IN In)
+      (NP (NNP January)))
+    (, ,)
+    (NP
+      (NP (NNP Bishop) (NNP Karl) (NNP Lehmann))
+      (, ,)
+      (NP
+        (NP (NN leader))
+        (PP (IN of)
+          (NP (DT the) (JJ German) (NNS Bishops) (NN Conference))))
+      (, ,))
+    (VP (VBD unleashed)
+      (NP
+        (NP (DT a) (NN flurry))
+        (PP (IN of)
+          (NP
+            (NP (NNS articles))
+            (PP (IN in)
+              (NP (DT the) (JJ Italian) (NN press))))))
+      (SBAR
+        (WHADVP (WRB when))
+        (S
+          (NP (PRP he))
+          (VP (VBD told)
+            (NP (DT a) (NN questioner))
+            (PP (IN on)
+              (NP (JJ German) (NN radio)))
+            (SBAR (IN that)
+              (S
+                (NP (PRP he))
+                (VP (VBD believed)
+                  (SBAR (IN that)
+                    (S
+                      (NP (DT the) (NN pope))
+                      (VP (MD would)
+                        (VP (VB resign)
+                          (PP (IN for)
+                            (NP
+                              (NP (DT the) (NN good))
+                              (PP (IN of)
+                                (NP (DT the) (NN church)))))
+                          (SBAR (IN if)
+                            (S
+                              (NP (PRP he))
+                              (VP (VBD felt)
+                                (SBAR
+                                  (S
+                                    (NP (PRP he))
+                                    (VP (MD could) (RB not)
+                                      (VP (VB fulfill)
+                                        (NP (PRP$ his) (JJ papal) (NNS functions))))))))))))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (DT The) (NN pope))
+      (, ,)
+      (SBAR
+        (SBAR
+          (WHNP (WP$ whose) (NNS speech))
+          (S
+            (VP (VBZ is)
+              (VP (VBN slurred)))))
+        (CC and)
+        (SBAR
+          (WHNP (WP who))
+          (S
+            (VP (VBZ shakes)
+              (ADVP (RB badly))
+              (PP (RB because) (IN of)
+                (NP (DT a) (JJ neurological) (NN disorder)))))))
+      (, ,))
+    (VP (VBZ has)
+      (ADVP (RB nevertheless))
+      (VP (VBN marshaled)
+        (NP (PRP$ his) (NN strength)
+          (S
+            (VP (TO to)
+              (VP (VB preside)
+                (PP (IN over)
+                  (NP
+                    (NP
+                      (NP (DT this) (NN year) (POS 's))
+                      (NNP Jubilee))
+                    (, ,)
+                    (NP
+                      (NP (DT a) (JJ Holy) (NN Year))
+                      (PP (IN of)
+                        (NP (DT the) (NN church))))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (ADVP (RB Once))
+    (NP (DT the) (JJ Holy) (NN Year))
+    (VP (VBZ ends)
+      (PP (IN on)
+        (NP (NNP Jan))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (CD 6))
+    (, ,)
+    (ADVP (RB however))
+    (, ,)
+    (NP (DT many))
+    (VP (VBP wonder)
+      (SBAR (IN whether)
+        (S
+          (NP (PRP he))
+          (VP (MD might)
+            (VP (VB retire))))))
+    (. .)))
+
+(ROOT
+  (S
+    (S
+      (NP (DT The) (NN pope))
+      (VP (VBZ has) (RB not)
+        (VP (VBN addressed)
+          (NP (DT the) (NN issue))
+          (ADVP (RB directly)))))
+    (, ,)
+    (CC but)
+    (S
+      (NP
+        (NP (PRP$ his) (JJ few) (NNS comments))
+        (PP (IN on)
+          (NP (DT the) (NN subject))))
+      (VP (VBP suggest)
+        (SBAR (IN that)
+          (S
+            (NP (PRP he))
+            (VP (VBZ is)
+              (VP (VBN determined)
+                (S
+                  (VP (TO to)
+                    (VP (VB serve)
+                      (PRT (RP out))
+                      (NP (PRP$ his) (JJ full) (NN term)))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (PP (IN On)
+      (NP (PRP$ his) (JJ 75th) (NN birthday)))
+    (, ,)
+    (NP (PRP he))
+    (VP (VBD told)
+      (SBAR
+        (S
+          (NP
+            (NP (DT an) (NN audience))
+            (PP (IN of)
+              (NP
+                (NP (NNS pilgrims))
+                (PP (IN at)
+                  (NP (NNP St.) (NNPS Peter's))))))
+          (, ,)
+          (S
+            (VP (VBG referring)
+              (PP (TO to)
+                (NP (NNP God)))))
+          (, ,)
+          (VP (VBZ ``I)
+            (VP (VB leave)
+              (NP (PRP it))
+              (PP (TO to)
+                (NP (PRP him)))
+              (S
+                (VP (TO to)
+                  (VP (VB decide)
+                    (SBAR
+                      (WHADVP (WRB when)
+                        (CC and)
+                        (WRB how))
+                      (S
+                        (NP (PRP he))
+                        (VP (VBZ wants)
+                          (S
+                            (VP (TO to)
+                              (VP (VB relieve)
+                                (NP (PRP me))
+                                (PP (IN of)
+                                  (NP (DT this) (NN service) (NN .'')))))))))))))))))))
+
+(ROOT
+  (S
+    (S
+      (NP (DT The) (NN pope))
+      (VP (VBZ keeps)
+        (PRT (RP up))
+        (NP (DT a) (JJ full) (NN schedule))))
+    (, ,)
+    (CC and)
+    (S
+      (NP (DT the) (NNP Vatican))
+      (VP (VBZ says)
+        (SBAR
+          (S
+            (NP (PRP he))
+            (VP (VBZ wants)
+              (S
+                (VP (TO to)
+                  (VP (VB make)
+                    (NP (JJ other) (JJ important) (NNS trips))
+                    (PP (IN in)
+                      (NP (CD 2001)))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (EX There))
+    (VP (VBZ is)
+      (NP
+        (NP
+          (NP (DT no) (VBN detailed) (NN procedure))
+          (PP (IN for)
+            (NP (DT a) (JJ papal) (NN resignation))))
+        (, ,)
+        (CC and)
+        (NP (JJ little) (NN precedent))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (DT The) (JJ last) (NN pope)
+      (S
+        (VP (TO to)
+          (VP (VB resign)
+            (ADVP (RB voluntarily))))))
+    (VP (VBD was)
+      (NP
+        (NP (NNP Celestine) (NNP V))
+        (PP (IN in)
+          (NP (CD 1294)))))
+    (. .)))
+
+(ROOT
+  (S (CC But)
+    (NP (NN canon) (NN law))
+    (VP (VBZ does)
+      (VP (VB allow)
+        (NP (DT a) (NN pope)
+          (S
+            (VP (TO to)
+              (VP (VB resign) (, ,)
+                (S
+                  (VP (VBG saying)
+                    (SBAR
+                      (S
+                        (NP (PRP it))
+                        (VP (VBZ is)
+                          (ADJP (JJ valid))
+                          (ADVP
+                            (ADVP (RB as) (RB long))
+                            (SBAR (IN as)
+                              (S
+                                (NP (DT the) (NN pope))
+                                (VP (VBZ does)
+                                  (NP (PRP it))
+                                  (ADVP (RB freely)))))))))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (EX There))
+    (VP (VBP are)
+      (NP
+        (NP (DT no) (JJ explicit) (NNS instructions))
+        (PP (IN on)
+          (SBAR
+            (WHADVP (WRB how))
+            (S
+              (NP (DT the) (NNP Vatican))
+              (VP
+                (VP (MD should)
+                  (VP (VB function)
+                    (SBAR (IN if)
+                      (S
+                        (NP (DT a) (NN pope))
+                        (VP
+                          (VP (VBD had)
+                            (NP (DT a) (NN stroke)))
+                          (CC or)
+                          (VP (VBD went)
+                            (PP (IN into)
+                              (NP (DT a) (NN coma)))))))))
+                (CC and)
+                (VP (MD could) (RB not)
+                  (VP (VB express)
+                    (NP (PRP$ his) (NNS wishes))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (S
+      (NP
+        (NP (DT The) (NNP Rev.) (NNP Thomas) (NNP J.) (NNP Reese))
+        (, ,)
+        (NP
+          (NP (DT an) (NNP American) (NNP Jesuit))
+          (SBAR
+            (WHNP (WP who))
+            (S
+              (VP (VBD wrote)
+                (NP (DT a) (NN book))
+                (PP (IN on)
+                  (NP (JJ Vatican) (NN procedure)))))))
+        (, ,))
+      (VP (VBP ``Inside)
+        (NP (DT the) (NNP Vatican))))
+    (: :)
+    (S
+      (NP
+        (NP (DT The) (NN Politics))
+        (CC and)
+        (NP
+          (NP (NNP Organization))
+          (PP (IN of)
+            (NP (DT the) (NNP Catholic) (NNP Church) (NNP ,'')))))
+      (VP
+        (VP (VBD said))
+        (PRN (, ,)
+          (S
+            (NP (JJ ``The) (JJ real) (NN problem))
+            (VP (VBZ is)
+              (SBAR (IN if)
+                (S
+                  (NP (DT the) (NN pope))
+                  (VP (MD can)
+                    (ADVP (RB no) (RB longer))
+                    (VP (VB govern)))))))
+          (, ,))
+        (CC and)
+        (VP (VBZ is)
+          (ADJP (JJ incapable)
+            (PP (IN of)
+              (S
+                (VP (VBG resigning)
+                  (NP (NNS .'')))))))))))
+
+(ROOT
+  (S
+    (NP (DT Some) (JJ reform-minded) (NNPS Catholics))
+    (VP (VBP believe)
+      (SBAR (IN that)
+        (S
+          (NP (PRP it))
+          (VP (MD would)
+            (VP (VB be)
+              (ADJP (RBR healthier))
+              (PP (IN for)
+                (NP (DT the) (NN church)))
+              (SBAR (IN if)
+                (S
+                  (NP (NNS popes))
+                  (VP (VBD resigned)
+                    (SBAR
+                      (WHADVP (WRB when))
+                      (S
+                        (NP (PRP$ their) (NN health))
+                        (VP (VBD failed))))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNS Traditionalists))
+    (VP (VBP reject)
+      (NP
+        (NP (DT all) (NN talk))
+        (PP (IN of)
+          (NP (JJ papal) (NNS resignations)))
+        (, ,)
+        (RRC
+          (ADJP (JJ fearful))
+          (SBAR (IN that)
+            (S
+              (NP (PDT such) (DT a) (NN precedent))
+              (VP (MD would)
+                (VP (VB undermine)
+                  (NP
+                    (NP (DT the) (JJ special) (NN nature))
+                    (PP (IN of)
+                      (NP
+                        (NP (JJ papal) (NN authority))
+                        (, ,)
+                        (SBAR
+                          (WHNP (WDT which))
+                          (S
+                            (NP (NNPS Catholics))
+                            (VP (VBP believe)
+                              (SBAR
+                                (S
+                                  (VP (VBZ comes)
+                                    (ADVP (RB directly))
+                                    (PP (IN from)
+                                      (NP (NNP God)))))))))))))))))))
+    (. .)))
+
+(ROOT
+  (NP (NN NYT-10-21-00) (CD 1123EDT)))
+

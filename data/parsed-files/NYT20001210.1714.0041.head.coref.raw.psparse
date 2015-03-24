@@ -1,0 +1,666 @@
+(ROOT
+  (FRAG
+    (NP (NNP NYT20001210.1714.0041) (NNP NEWS) (NNP STORY))
+    (NP (CD 2000-12-10) (CD 17:14:10))))
+
+(ROOT
+  (NP
+    (NP
+      (NP (CD A5602) (NNS &Cx1f))
+      (: ;)
+      (NP
+        (QP (CD taf-z) (CD u)))
+      (X
+        (X (SYM f))
+        (NP (NNP BC-WEB-ECON-NYT) (NNP &LR))))
+    (: ;)
+    (NP
+      (QP (CD 12-10) (CD 0540)))))
+
+(ROOT
+  (NP (NNP BC-WEB-ECON-NYT)))
+
+(ROOT
+  (SINV
+    (VP (VBZ EFFICIENCIES))
+    (NP (NNP FOUND) (NNP ONLINE) (NNP HELP) (NNP COMPANIES) (NNP BUILD) (NNP PROFITS) (NNP ONLINE))))
+
+(ROOT
+  (NP
+    (NP (NNP &UR))
+    (: ;)
+    (PP (NNP By)
+      (NP (NNP CLAUDIA) (NNP H)))
+    (. .)))
+
+(ROOT
+  (NP
+    (NP (NNP DEUTSCH) (NNP &QC))
+    (: ;)
+    (S
+      (S
+        (VP (VBG &LR)))
+      (: ;)
+      (S
+        (VP (VBG &QL)))
+      (: ;)
+      (S
+        (VP (VBG &UR)))
+      (: ;)
+      (S
+        (VP (VBG c.2000)
+          (NP (NNP N.Y)))))
+    (. .)))
+
+(ROOT
+  (NP
+    (NP (NNP Times) (NNP News) (NNP Service) (NNP &QC))
+    (: ;)
+    (NP (CD &LR) (: ;) (CD &QL))
+    (: ;)))
+
+(ROOT
+  (S
+    (NP (DT The) (NNS dot-coms))
+    (VP (MD may)
+      (VP (VB get)
+        (NP (DT the) (NN publicity))))
+    (. .)))
+
+(ROOT
+  (S (CC But)
+    (NP (NNP John) (NNP F.) (NNP Welch) (NNP Jr.))
+    (VP (VBZ is)
+      (ADJP (JJ certain))
+      (SBAR (IN that)
+        (S
+          (NP
+            (NP (NNS companies))
+            (PP (IN like)
+              (NP (NNP General) (NNP Electric))))
+          (VP (MD will)
+            (VP (VB reap)
+              (NP (DT the) (NNS profits)))))))
+    (. .)))
+
+(ROOT
+  (SINV
+    (S
+      (NP (JJ ``The) (NN Internet))
+      (VP (VBD was)
+        (VP (VBN made)
+          (PP (IN for)
+            (NP (JJ big) (NNS companies) (NNS ,''))))))
+    (VP (VBD said))
+    (NP
+      (NP (NNP Welch))
+      (, ,)
+      (NP
+        (NP (NNP GE) (POS 's))
+        (NN chairman)
+        (CC and)
+        (NN Web) (NN champion-in-chief)))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (JJ ``The) (NNS dot-coms))
+    (VP (VBP understand)
+      (S
+        (VP (VBG buying)
+          (CC and)
+          (VBG selling))))
+    (. .)))
+
+(ROOT
+  (S (CC But)
+    (NP (DT the) (JJ real) (NNS efficiencies))
+    (VP (VBP come)
+      (PP (IN in)
+        (NP
+          (NP (DT that) (JJ middle) (NN part))
+          (PP (IN of)
+            (NP (DT the) (NN equation)))))
+      (: :)
+      (S
+        (VP (VBG making)
+          (NP (NNS things) (NNS .'')))))))
+
+(ROOT
+  (S
+    (PP
+      (ADVP (RB Long))
+      (IN before)
+      (NP (DT the) (NNP Web)))
+    (, ,)
+    (NP (JJ sophisticated) (JJ old-economy) (NNS companies))
+    (VP (VBD were)
+      (VP (VBG using)
+        (NP
+          (NP (NN computer) (NNS networks))
+          (, ,)
+          (CC and)
+          (NP (RB even) (DT the) (NN Internet))
+          (, ,))
+        (S
+          (VP (TO to)
+            (VP (VB communicate)
+              (PP (IN with)
+                (NP (NNS suppliers)))
+              (, ,)
+              (PP (TO to)
+                (NP (JJ fine-tune) (NNS inventories)))
+              (, ,)
+              (S
+                (VP (TO to)
+                  (VP (VB streamline)
+                    (NP (JJ back-office) (NNS functions))))))))))
+    (. .)))
+
+(ROOT
+  (S (CC But)
+    (NP
+      (NP (DT the) (NN Web))
+      (, ,)
+      (PP (IN as)
+        (NP
+          (NP (DT an)
+            (ADJP (JJ easy)
+              (S
+                (VP (TO to)
+                  (VP (VB use)))))
+            (NN interface))
+          (PP (IN for)
+            (NP (DT the) (NN Internet)))))
+      (, ,))
+    (VP (VBZ has)
+      (VP (VBN opened)
+        (NP
+          (NP (JJ large) (NNS swaths))
+          (PP (IN of)
+            (NP (JJ uncharted) (NN territory))))
+        (PP (IN for)
+          (NP (JJ industrial) (NNP America)))))
+    (. .)))
+
+(ROOT
+  (S
+    (PP (IN Through)
+      (NP (JJ Web-based) (NN buying) (NNS consortiums)))
+    (, ,)
+    (PP (IN through)
+      (NP
+        (NP
+          (NP (NNS auctions))
+          (CC and)
+          (NP (JJ reverse) (NNS auctions)))
+        (CC and)
+        (NP
+          (NP (JJ various) (JJ other) (NNS types))
+          (PP (IN of)
+            (NP (NNS e-marketplaces))))))
+    (, ,)
+    (NP (NNS companies))
+    (VP (VBP are)
+      (VP (VBG saving)
+        (NP
+          (NP (NNS millions))
+          (PP (IN of)
+            (NP
+              (NP (NNS dollars))
+              (PP (IN in)
+                (NP
+                  (NP (DT the) (NN procurement))
+                  (PP (IN of)
+                    (NP (NNS supplies)
+                      (CC and)
+                      (NNS services))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (DT The) (NNP Web))
+    (VP (VBZ is)
+      (VP (VBG changing)
+        (NP (DT the) (JJ sell) (NN side)))
+      (, ,)
+      (ADVP (RB too)))
+    (. .)))
+
+(ROOT
+  (S
+    (PP (IN With)
+      (NP (JJ well-designed) (NN home) (NNS pages)))
+    (, ,)
+    (NP (NNS companies))
+    (VP (MD can)
+      (VP (VB pitch)
+        (NP (PRP$ their) (NNS products))
+        (PP
+          (PP (IN at)
+            (NP
+              (NP (NNS businesses))
+              (ADJP (RB too) (JJ small)
+                (S
+                  (VP (TO to)
+                    (VP (VB warrant)
+                      (NP (DT a) (NNS sales) (NN call))))))))
+          (CC and)
+          (PP (IN at)
+            (NP
+              (NP (NNS consumers))
+              (SBAR
+                (WHNP (WP who))
+                (S
+                  (VP (MD may)
+                    (VP (VB live)
+                      (NP (NNS hours))
+                      (PRT (RP away))
+                      (PP (IN from)
+                        (NP
+                          (NP (DT the) (JJS nearest) (NN store))
+                          (CC or)
+                          (NP (NN distributor)))))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (DT The) (NNS companies))
+    (VP (MD can)
+      (VP (VB anticipate)
+        (NP (NNS questions)
+          (CC and)
+          (NN post) (NNS answers))
+        (SBAR (IN before)
+          (S
+            (NP (DT the) (NNS queries))
+            (VP (VBP are)
+              (ADVP (RB even))
+              (VP (VBN made)))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (PRP They))
+    (VP (MD can)
+      (VP (VB let)
+        (NP
+          (NP (NNS customers) (NN download) (NN software))
+          (SBAR
+            (WHNP (WDT that))
+            (S
+              (VP (VBZ helps)
+                (S
+                  (NP (PRP them))
+                  (VP (VB update)
+                    (NP (PRP$ their) (NNS products))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP Diversified) (NNS corporations))
+    (, ,)
+    (ADVP (RB meanwhile))
+    (, ,)
+    (VP (VBP are)
+      (VP (VBG learning)
+        (S
+          (VP (TO to)
+            (VP (VB use)
+              (NP (DT the) (NN Web))
+              (PP (TO to)
+                (NP (NN bundle) (NNS services))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (PP (IN In)
+      (NP (DT the) (JJ near) (NN future)))
+    (, ,)
+    (PP (IN for)
+      (NP (NN example)))
+    (, ,)
+    (NP
+      (NP (NN someone))
+      (VP (VBG buying)
+        (NP (DT a) (NN refrigerator))
+        (PP (IN from)
+          (NP
+            (NP (NNP GE) (NNP Appliance) (POS 's))
+            (NNP Web) (NN site)))))
+    (VP (MD might)
+      (VP (VB receive)
+        (NP (DT an) (NN offer))
+        (PP (IN from)
+          (NP (NNP GE) (NNP Capital)))
+        (S
+          (VP (TO to)
+            (VP (VB finance)
+              (NP (DT the) (NN purchase)))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (NNP GE))
+      (, ,)
+      (PP (IN with)
+        (NP
+          (NP (PRP$ its) (JJ corporate) (NNS tentacles))
+          (VP (VBG reaching)
+            (PP (IN into)
+              (NP
+                (NP (NNS businesses))
+                (ADJP (RB as) (JJ diverse))))
+            (PP (IN as)
+              (NP
+                (NP (NN X-ray) (NNS machines))
+                (, ,)
+                (NP (NNS mortgages))
+                (CC and)
+                (NP (JJ light) (NNS bulbs)))))))
+      (, ,))
+    (VP (VBZ provides)
+      (NP
+        (NP (RB perhaps) (DT the) (JJ leading) (NN example))
+        (PP (IN of)
+          (SBAR
+            (WHNP (WP what))
+            (S
+              (NP (DT an) (JJ old-economy) (NN company))
+              (VP (MD can)
+                (VP (VB do)
+                  (PP (IN with)
+                    (NP (JJ new-economy) (NNS tools))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP GE) (NNPS Plastics))
+    (VP (VBD put)
+      (PRT (RP up))
+      (NP
+        (NP (DT the) (NN company) (POS 's))
+        (JJ first) (NN Web) (NN page))
+      (PP (IN on)
+        (NP (NNP Oct))))
+    (. .)))
+
+(ROOT
+  (NP
+    (NP
+      (NP (CD 21))
+      (, ,)
+      (NP (CD 1994)))
+    (: ;)
+    (S
+      (NP (NN today))
+      (, ,)
+      (NP (DT each) (NNP GE) (NN business))
+      (VP (VBZ sells)
+        (NP
+          (NP (NNS products))
+          (PP (IN on)
+            (NP (DT the) (NNP Web))))))
+    (. .)))
+
+(ROOT
+  (S (CC And)
+    (NP (DT this) (NN year))
+    (, ,)
+    (NP (NNP GE))
+    (VP (MD will)
+      (ADVP (RB probably))
+      (VP (VB buy)
+        (NP
+          (NP
+            (QP (CD $6) (CD billion)))
+          (PP (IN of)
+            (NP (NNS goods))))
+        (PP (IN through)
+          (NP (DT the) (NNP Web)))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NN ``We))
+    (VP (MD 'll)
+      (VP (VB save)
+        (NP
+          (NP
+            (QP (NNS hundreds) (IN of) (NNS millions)))
+          (PP (IN of)
+            (NP (NNS dollars)))
+          (SBAR
+            (S
+              (NP (NNP ,'') (NNP Welch))
+              (VP (VBD said)))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NN ``Nothing) (RB else))
+    (VP (MD would)
+      (VP (VB give)
+        (NP (PRP you))
+        (NP
+          (NP (DT that) (NN type))
+          (PP (IN of)
+            (NP (NN quantum) (NN change) (NNS .''))))))))
+
+(ROOT
+  (S
+    (NP (DT The) (NNP Web))
+    (VP (VBZ is)
+      (ADVP (RB also))
+      (VP (VBG letting)
+        (S
+          (NP (NNP GE))
+          (VP (VB help)
+            (NP (PRP$ its) (JJ own) (NNS customers))
+            (VP (VB compare)
+              (NP (NNS notes)))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP GE) (NNS posts)
+      (NX
+        (NP (NNS data))
+        (PP (IN on)
+          (NP (PRP$ its) (NNP Web) (NNS pages))
+          (: -))))
+    (VP (VBD stripped) (, ,)
+      (PP (IN of)
+        (NP (NN course)))
+      (, ,)
+      (PP (IN of)
+        (NP
+          (NP (NN identification))
+          (: -)
+          (SBAR
+            (WHPP (IN on)
+              (WHNP (WRB how) (JJ efficiently)))
+            (S
+              (NP (NNS hospitals))
+              (VP (VBP use)
+                (NP (PRP$ its) (NNP CAT) (NNS scanners)))))
+          (, ,)
+          (SBAR
+            (WHADVP (WRB how) (RB often))
+            (S
+              (NP (NNS airlines))
+              (VP (VBP do)
+                (NP (JJ routine) (NN maintenance))
+                (PP (IN on)
+                  (NP (PRP$ its) (NNS engines)))
+                (, ,)
+                (SBAR
+                  (WHADVP (WRB how) (RB well))
+                  (S
+                    (NP (NNS utilities))
+                    (VP (VBP use)
+                      (NP (NN waste) (NN heat)
+                        (CC or)
+                        (NN water))
+                      (S
+                        (VP (TO to)
+                          (VP (VB generate)
+                            (NP (JJR more) (NN electricity))))))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (NNS Customers))
+      (PP (IN with)
+        (NP (DT a) (NN password))))
+    (VP (MD can)
+      (VP
+        (VP (VB tap)
+          (PP (IN into)
+            (NP (DT the) (NNS data))))
+        (CC and)
+        (VP (VB use)
+          (NP (PRP it))
+          (PP (TO to)
+            (NP (JJ benchmark) (PRP$ their) (JJ own) (NN performance))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP GE))
+    (VP (VBZ is)
+      (ADVP (RB even))
+      (VP (VBG using)
+        (NP (DT the) (NN Web)
+          (S
+            (VP (TO to)
+              (VP (VB let)
+                (S
+                  (NP (NNS customers))
+                  (VP (VB test-drive)
+                    (NP
+                      (NP (NN software))
+                      (, ,)
+                      (PP (VBG including)
+                        (NP
+                          (NP (DT the) (NNS programs))
+                          (SBAR
+                            (S
+                              (NP (DT the) (NN company))
+                              (VP (VBZ has)
+                                (VP (VBN developed)
+                                  (S
+                                    (VP (TO to)
+                                      (VP (VB help)
+                                        (S
+                                          (NP (NNS hospitals))
+                                          (VP (VB make)
+                                            (NP
+                                              (NP
+                                                (ADJP (RBR more) (JJ efficient))
+                                                (NN use))
+                                              (PP (IN of)
+                                                (NP (DT some) (JJ medical) (NN equipment))))))))))))))))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP GE))
+    (VP (MD will)
+      (VP (VB let)
+        (S
+          (NP (PRP them))
+          (VP
+            (VP (VB download)
+              (NP (DT the) (NN software)))
+            (CC and)
+            (VP (VB use)
+              (S
+                (NP (PRP it))
+                (ADJP (JJ free)))
+              (: -)
+              (PP (IN for)
+                (NP (CD 30) (NNS days))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (PP (IN After)
+      (NP (DT that)))
+    (, ,)
+    (NP (DT the) (NN software))
+    (VP (VBZ self-destructs) (, ,)
+      (SBAR (IN unless)
+        (S
+          (NP (DT the) (NN customer))
+          (VP (VBZ has)
+            (VP (VBN paid)
+              (S
+                (VP (TO to)
+                  (VP (VB receive)
+                    (NP (DT a) (JJ permanent) (NN version))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (VP
+      (VP
+        (VP (VB ``With)
+          (NP (DT the) (NN Web)))
+        (, ,)
+        (NP
+          (NP (DT every) (NN day))
+          (SBAR
+            (S
+              (NP (PRP you))
+              (VP (VBP wake)
+                (PRT (RP up)))))))
+      (CC and)
+      (VP (VB laugh)
+        (PP (IN at)
+          (SBAR
+            (WHNP (WRB how) (JJ little))
+            (S
+              (NP (PRP you))
+              (VP (VBD knew)
+                (NP (DT the) (NN day))
+                (SBAR (IN before)
+                  (S
+                    (NP (NNP ,'') (NNP Welch))
+                    (VP (VBD said))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NN ``It))
+    (VP (VBZ 's)
+      (PP (IN like)
+        (S
+          (VP (VBG peeling)
+            (PRT (RP back))
+            (NP (DT an) (NN onion))))))
+    (. .)))
+
+(ROOT
+  (FRAG
+    (NP (DT Every) (NN day)
+      (SBAR
+        (S
+          (NP (PRP we))
+          (VP (VB uncover)
+            (NP
+              (NP (NNS hundreds))
+              (PP (IN of)
+                (NP
+                  (NP (NNS millions))
+                  (PP (IN of)
+                    (NP
+                      (NP (NNS dollars))
+                      (PP (IN in)
+                        (NP (NNP efficiencies) (NNP .''))))))))))))))
+
+(ROOT
+  (NP (NN NYT-12-10-00) (CD 1714EST)))
+

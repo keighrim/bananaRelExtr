@@ -1,0 +1,302 @@
+(ROOT
+  (FRAG
+    (NP (NNP NYT20001212.2027.0351) (NNP NEWS) (NNP STORY))
+    (NP (CD 2000-12-12) (CD 20:47:00))))
+
+(ROOT
+  (NP
+    (NP (CD A7989) (NNS &Cx1f))
+    (: ;)
+    (NP
+      (NP (NNP taf-z))
+      (NP (NN u)))
+    (X
+      (X
+        (X (SYM f))
+        (NP (NN BC-CREDITCARD-HACKER-NYT) (CD 12-12)))
+      (NP (CD 0264)))))
+
+(ROOT
+  (NP (NNP BC-CREDITCARD-HACKER-NYT)))
+
+(ROOT
+  (NP (NNP STOLEN) (NNP CREDIT) (NNP DATA) (NNP PUT) (NNP ONLINE)))
+
+(ROOT
+  (NP
+    (NP (NNP &UR))
+    (: ;)
+    (NP (NNP c.2000) (NNP N.Y))
+    (. .)))
+
+(ROOT
+  (NP
+    (NP (NNP Times) (NNP News) (NNP Service) (NNP &LR))
+    (: ;)
+    (NP (CD &QC) (: ;) (CD &QL))
+    (: ;)))
+
+(ROOT
+  (S
+    (NP (DT A) (NN computer) (NN intruder))
+    (VP (VBD scooped)
+      (NP (CD 55,000) (NN credit) (NN card) (NNS numbers))
+      (NP (DT this) (NN week))
+      (PP (IN from)
+        (NP
+          (NP (NNP Creditcards.com))
+          (, ,)
+          (NP
+            (NP (DT a) (NN company))
+            (SBAR
+              (WHNP (WDT that))
+              (S
+                (VP
+                  (VP (VBZ serves)
+                    (NP
+                      (NP (NNS dozens))
+                      (PP (IN of)
+                        (NP
+                          (ADJP (JJ small)
+                            (CC and)
+                            (JJ medium-sized))
+                          (NNS merchants)))))
+                  (, ,)
+                  (CC and)
+                  (VP (VBD published)
+                    (NP (DT the) (NN information))
+                    (PP (IN on)
+                      (NP (DT the) (NN Internet)))
+                    (PP (IN after)
+                      (S
+                        (ADVP (RB unsuccessfully))
+                        (VP (VBG demanding)
+                          (NP (NN payment))
+                          (S
+                            (VP (TO to)
+                              (VP (VB keep)
+                                (NP (DT the) (NN data) (NN secret))))))))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (DT A) (NN spokesman))
+      (PP (IN for)
+        (NP
+          (NP (DT the) (NN company))
+          (, ,)
+          (NP (NNP Laurent) (NNP Jean))
+          (, ,))))
+    (VP
+      (VP (VBD said)
+        (NP (NNP Tuesday)))
+      (, ,)
+      (VP
+        (ADVP (RB ``We))
+        (VBP are)
+        (ADJP (JJ aware)
+          (PP (IN of)
+            (NP (DT the) (NNS issues)))))
+      (CC and)
+      (VP (VBP understand)
+        (NP (PRP$ their) (NN severity)))
+      (, ,)
+      (CC and)
+      (ADVP (RB also))
+      (VP (VBP are)
+        (PP (IN in)
+          (NP
+            (NP (NN contact))
+            (PP (IN with)
+              (NP (DT the) (NNP FBI) (NNP .'')))))))))
+
+(ROOT
+  (S
+    (NP (DT The) (NN bureau))
+    (VP (VBD confirmed)
+      (SBAR (IN that)
+        (S
+          (NP (PRP it))
+          (VP (VBD was)
+            (VP (VBG investigating)
+              (NP
+                (NP (DT the) (NN incident))
+                (, ,)
+                (SBAR
+                  (WHNP (WDT which))
+                  (S
+                    (VP (VBD was)
+                      (VP (VBN reported)
+                        (NP (NNP Tuesday))
+                        (PP (IN by)
+                          (NP (NNP Cnet.com)))))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (DT A) (NN person))
+    (ADVP (RB close)
+      (PP (TO to)
+        (NP (DT the) (NN investigation))))
+    (VP (VBD said)
+      (SBAR
+        (S
+          (NP (DT the) (NN intruder))
+          (VP
+            (VP (VBD contacted)
+              (NP (DT the) (NN company))
+              (PP (IN after)
+                (S
+                  (VP (VBG breaking)
+                    (PP (IN into)
+                      (NP
+                        (NP (DT the) (NN site))
+                        (PP (IN on)
+                          (NP (NNP Monday)))))))))
+            (, ,)
+            (CC and)
+            (VP (VBD published)
+              (NP (DT the) (NNS data))
+              (PP (IN on)
+                (NP (DT the) (NN Internet)))
+              (SBAR (IN after)
+                (S
+                  (NP
+                    (NP (DT a) (NN demand))
+                    (PP (IN for)
+                      (NP (NN money))))
+                  (VP (VBD was)
+                    (VP (VBN rebuffed))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (PP (VBG According)
+      (PP (TO to)
+        (NP
+          (NP (DT the) (NN company) (POS 's))
+          (NNP Web) (NN site))))
+    (, ,)
+    (NP (NNP Creditcards.com) (NNS clients))
+    (VP (VBP include)
+      (S
+        (S
+          (NP (DT the) (JJ online) (NN fitness) (NN site))
+          (NP (NNP Premier) (NNPS Solutions)))
+        (, ,)
+        (S
+          (NP (NNP Rock))
+          (NP
+            (NP (DT the) (NN Vote))
+            (, ,)
+            (NP (NNP Christian) (NNP Concert) (NNP Authority))
+            (CC and)
+            (NP (NNP Spy) (NNP Gate))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NN ``We))
+    (VP (VBP make)
+      (SBAR
+        (S
+          (NP (PRP$ your) (NN business))
+          (VP (VBP go)
+            (SBAR
+              (S
+                (NP (NNP Ka-Chingg))
+                (VP (VBD ,'')
+                  (NP (PRP$ its) (NNP Web) (NN site) (NNS promises))
+                  (, ,)
+                  (S
+                    (VP (VBG referring)
+                      (PP (TO to)
+                        (NP (PRP$ its) (JJ main) (JJ electronic) (NN commerce) (NN product))))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (DT The) (NNP Creditcards.com) (NN case))
+    (VP (VBZ is)
+      (NP
+        (NP (CD one))
+        (PP (IN of)
+          (NP (JJ several) (JJ recent) (NNS attempts)))
+        (S
+          (VP (TO to)
+            (VP (VB extort)
+              (NP (NN money))
+              (PP (IN from)
+                (NP (NNP Web) (NNS sites)))
+              (PP (IN by)
+                (S
+                  (VP (VBG threatening)
+                    (S
+                      (VP (TO to)
+                        (VP (VB reveal)
+                          (NP (PRP$ their)
+                            (ADJP (RBS most) (JJ sensitive))
+                            (NN information)))))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (DT An) (JJ online) (NN security) (NN expert))
+    (VP (VBD said)
+      (SBAR
+        (S
+          (NP (JJ such) (NNS attacks))
+          (VP (MD could)
+            (ADVP (RB largely))
+            (VP (VB be)
+              (VP (VBN avoided)
+                (SBAR (IN if)
+                  (S
+                    (NP (NNS companies))
+                    (VP (VBD kept)
+                      (NP (JJ sensitive) (NNS data))
+                      (PP (IN on)
+                        (NP
+                          (NP (NNS computers))
+                          (ADJP (JJ separate)
+                            (PP (IN from)
+                              (NP
+                                (NP (DT those))
+                                (VP (VBG running)
+                                  (NP (PRP$ their) (NNP Web) (NNS sites)))))))))))))))))
+    (. .)))
+
+(ROOT
+  (SINV
+    (S
+      (NP (NN ``Your) (NN credit) (NN card))
+      (VP (VBZ is)
+        (ADVP (RB only))
+        (ADJP (RB as) (JJ secure)
+          (PP (IN as)
+            (NP
+              (NP (DT the) (NNP Web) (NN site))
+              (SBAR
+                (S
+                  (NP (PRP it))
+                  (VP (VBZ 's)
+                    (VP (VBG going)
+                      (PP (IN on)
+                        (NP (NNP ,''))))))))))))
+    (VP (VBD said))
+    (NP
+      (NP (DT the) (NN expert))
+      (, ,)
+      (NP
+        (NP (NNP B.K.) (NNP DeLong))
+        (PP (IN of)
+          (NP
+            (NP (NNP Attrition.org))
+            (, ,)
+            (NP (DT a) (JJ nonprofit) (NN computer) (NN security) (NN site))))))
+    (. .)))
+
+(ROOT
+  (NP (NN NYT-12-12-00) (CD 2047EST)))
+

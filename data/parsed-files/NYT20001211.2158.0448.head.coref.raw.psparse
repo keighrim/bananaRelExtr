@@ -1,0 +1,261 @@
+(ROOT
+  (FRAG
+    (NP (NNP NYT20001211.2158.0448) (NNP NEWS) (NNP STORY))
+    (NP (CD 2000-12-11) (CD 22:35:00))))
+
+(ROOT
+  (NP
+    (NP (CD A7071) (NNS &Cx1f))
+    (: ;)
+    (NP
+      (NP (NNP taf-z) (NNP u) (NNP s) (NNP BC-BBA-CONE-ROYALS-NYT) (NNP &LR))
+      (: ;)
+      (NP
+        (QP (CD 12-11) (CD 0203))))))
+
+(ROOT
+  (NP (NNP BC-BBA-CONE-ROYALS-NYT)))
+
+(ROOT
+  (SINV
+    (VP (VBZ ROYALS))
+    (NP (NNP OFFER) (NNP CONE) (NNP A) (NNP ROLE) (IN AS) (NNP RELIEVER))))
+
+(ROOT
+  (NP (NNP c.2000) (NNP N.Y) (. .)))
+
+(ROOT
+  (NP
+    (NP (NNP Times) (NNP News) (NNP Service) (NNP &QC))
+    (: ;)
+    (NP (CD &LR) (: ;) (CD &QL))
+    (: ;)))
+
+(ROOT
+  (S
+    (SBAR
+      (WHADVP (WRB When))
+      (S
+        (NP (NNP David) (NNP Cone))
+        (VP (VBD heard)
+          (PP (IN about)
+            (NP
+              (NP (DT the) (NNPS Mets))
+              (VP
+                (VP (VBG filling)
+                  (PP (IN out)
+                    (NP (PRP$ their) (NN pitching) (NN rotation)))
+                  (NP (NNP Monday)))
+                (: -)
+                (CC and)
+                (VP (VBG ending)
+                  (NP (PRP$ their) (NN interest))
+                  (PP (IN in)
+                    (S
+                      (VP (VBG signing)
+                        (NP (PRP him))))))))))))
+    (: -)
+    (NP (PRP he))
+    (VP (VBD was)
+      (ADVP (RB already))
+      (VP (VBG considering)
+        (NP (DT a) (NN proposition)
+          (S
+            (VP (TO to)
+              (VP (VB work)
+                (PP (IN as)
+                  (NP
+                    (NP (DT a) (JJ late-inning) (NN reliever))
+                    (PP (IN for)
+                      (NP (DT the) (NNP Kansas) (NNP City) (NNP Royals)))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (NNP Cone))
+      (, ,)
+      (NP (DT the) (JJ former) (NNPS Yankees) (NN right-hander))
+      (, ,))
+    (VP (VBD received)
+      (NP (DT a) (NN telephone) (NN call))
+      (NP (NNP Sunday) (NN night))
+      (PP (IN from)
+        (NP
+          (NP (PRP$ his) (JJ former) (NN teammate) (NNP George) (NNP Brett))
+          (, ,)
+          (ADVP (RB currently))
+          (NP
+            (NP (NN vice) (NN president))
+            (PP (IN for)
+              (NP (NN baseball) (NNS operations))))))
+      (PP (IN with)
+        (NP (DT the) (NNPS Royals))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (PRP He))
+    (VP (VBD asked)
+      (NP (NNP Cone))
+      (SBAR (IN if)
+        (S
+          (NP (PRP he))
+          (VP (MD would)
+            (VP (VB be)
+              (ADJP (JJ interested)
+                (PP (IN in)
+                  (S
+                    (VP (VBG being)
+                      (NP
+                        (NP (DT a) (NN setup) (NN man))
+                        (CC or)
+                        (NP
+                          (NP (DT a) (JJR closer))
+                          (PP (IN for)
+                            (NP (NNP Kansas) (NNP City))))))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (NN ``It) (POS 's))
+      (JJ intriguing) (NNP ,'') (NNP Cone))
+    (VP (VBD said))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NN ``It))
+    (VP (VBD got)
+      (S
+        (NP (PRP me))
+        (VP (VBG thinking))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP have)
+      (S
+        (VP (TO to)
+          (VP (VB give)
+            (NP (PRP it))
+            (NP (DT some) (NN thought)))))
+      (, ,)
+      (SBAR (IN because)
+        (S
+          (NP (PRP I))
+          (VP (VBP 've)
+            (VP (VBN been)
+              (NP (DT a) (JJ starter) (NN .'')))))))))
+
+(ROOT
+  (S
+    (NP
+      (NP (NNP Cone))
+      (, ,)
+      (NP (DT a)
+        (ADJP (NNP Kansas) (NNP City))
+        (NN native))
+      (, ,))
+    (VP
+      (VP (VBD was)
+        (VP
+          (ADVP (RB originally))
+          (VBN signed)
+          (PP (IN by)
+            (NP (DT the) (NNPS Royals)))))
+      (CC and)
+      (VP (VBD broke)
+        (PP (IN into)
+          (NP (DT the) (NNS majors)))
+        (PP (IN with)
+          (NP (DT the) (NN team)))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (DT The) (NNPS Mets))
+    (VP (VBD had)
+      (NP
+        (NP (JJ little) (NN contact))
+        (PP (IN with)
+          (NP
+            (NP (NNP Cone) (POS 's))
+            (NN agent))))
+      (SBAR (IN before)
+        (S
+          (NP (PRP they))
+          (VP (VBD signed)
+            (NP
+              (NP (DT the) (NNS pitchers) (NNP Kevin) (NNP Appier)
+                (CC and)
+                (NNP Steve) (NNP Trachsel))
+              (PP (IN on)
+                (NP (NNP Monday))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP ``I))
+    (VP (VBP wish)
+      (SBAR
+        (S
+          (NP (PRP I))
+          (ADVP (RB would've))
+          (VP (VBD had)
+            (NP (DT a) (NN chance)
+              (S
+                (VP (TO to)
+                  (VP (VB talk)
+                    (SBAR (TO to)
+                      (S
+                        (NP (PRP them))
+                        (VP (VBP face)
+                          (S
+                            (VP (TO to)
+                              (VP (VB face)
+                                (SBAR
+                                  (S
+                                    (NP (NNP ,''))
+                                    (VP (VBD said)
+                                      (NP
+                                        (NP (NNP Cone))
+                                        (, ,)
+                                        (SBAR
+                                          (WHNP (WP who))
+                                          (S
+                                            (VP (VBZ believes)
+                                              (SBAR
+                                                (S
+                                                  (NP (PRP$ his) (NNS options))
+                                                  (VP (MD will)
+                                                    (VP (VB become)
+                                                      (ADJP (JJR clearer))
+                                                      (SBAR (IN after)
+                                                        (S
+                                                          (NP (DT the) (NN winter) (NNS meetings))
+                                                          (VP (VBP are)
+                                                            (ADJP (RP over))))))))))))))))))))))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (DT The) (NNP Boston) (NNP Red) (NNPS Sox)
+      (CC and)
+      (NNP Baltimore) (NNP Orioles))
+    (VP (VBP are)
+      (PP (IN among)
+        (NP
+          (NP (DT the) (JJ other) (NNS teams))
+          (VP (VBG expressing)
+            (NP
+              (NP (NN interest))
+              (PP (IN in)
+                (NP (NNP Cone))))))))
+    (. .)))
+
+(ROOT
+  (NP (NN NYT-12-11-00) (CD 2235EST)))
+

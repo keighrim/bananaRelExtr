@@ -1,0 +1,362 @@
+(ROOT
+  (FRAG
+    (NP (NNP APW20001218.2221.0727) (NNP NEWS) (NNP STORY))
+    (NP (CD 2000-12-18) (CD 22:42:15))))
+
+(ROOT
+  (NP (NNP Weatherpage-Weather)))
+
+(ROOT
+  (FRAG
+    (NP (NNP Snow) (NNP Spreads))
+    (PP (IN Throughout)
+      (NP (DT the) (NN Midwest)))))
+
+(ROOT
+  (S
+    (NP
+      (NP (DT The) (JJS latest))
+      (PP (IN in)
+        (NP
+          (NP (DT a) (NN series))
+          (PP (IN of)
+            (NP (NNS storms))))))
+    (VP (VBD spread)
+      (NP (JJ fresh) (NN snow))
+      (PP (IN across)
+        (NP (DT the) (JJ upper) (NN Midwest)))
+      (PP (IN on)
+        (NP (NNP Monday)))
+      (, ,)
+      (S
+        (VP
+          (VP (VBG closing)
+            (NP (NNS schools)))
+          (CC and)
+          (VP (VBG disrupting)
+            (NP (NN travel))))))
+    (. .)))
+
+(ROOT
+  (S
+    (S
+      (NP
+        (NP
+          (QP (IN Up) (TO to) (CD 8))
+          (NNS inches))
+        (PP (IN of)
+          (NP (NN snow))))
+      (VP (VBD had)
+        (VP (VBN fallen)
+          (PP (IN by)
+            (NP (NN midday)))
+          (PP (IN at)
+            (NP (NNP Rockwell) (, ,) (NNP Iowa))))))
+    (, ,)
+    (CC and)
+    (S
+      (NP
+        (QP (JJR more) (IN than) (CD 4))
+        (NNS inches))
+      (VP (VBD had)
+        (VP (VBN fallen)
+          (PP (IN on)
+            (NP (JJ southern) (NNP Minnesota))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (DT An) (NN area))
+      (PP (IN of)
+        (NP
+          (NP (JJ low) (NN pressure) (NN area))
+          (PP (IN over)
+            (NP (DT the) (NN Midwest))))))
+    (VP (VBD carried)
+      (NP (NN light))
+      (PP (TO to)
+        (NP (JJ moderate) (NN snow)))
+      (PP (IN across)
+        (NP
+          (NP
+            (NP (NNS parts))
+            (PP (IN of)
+              (NP (NNP Nebraska) (, ,) (NNP Iowa) (, ,) (NNP Minnesota) (, ,) (NNP Wisconsin) (, ,) (JJ northern) (NNP Missouri) (, ,) (NNP Illinois) (, ,) (NNP Indiana) (, ,))))
+          (CC and)
+          (NP (NNP Michigan)))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (NNP Schools))
+      (CC and)
+      (NP (DT some) (NNS businesses)))
+    (VP (VBD closed)
+      (PP (IN in)
+        (NP
+          (NP (NNS parts))
+          (PP (IN of)
+            (NP (NNP Nebraska))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNS Snowplows))
+    (VP (VBD were)
+      (VP (VBN pulled)
+        (PRT (RP off))
+        (NP
+          (NP (DT the) (NNS roads))
+          (PP (IN in)
+            (NP
+              (NP (NNP northeastern) (NNP Nebraska) (POS 's))
+              (NNP Cuming) (NNP County))))
+        (PP (IN during)
+          (NP
+            (NP (DT the) (NN morning))
+            (PP (RB because) (IN of)
+              (NP (JJ hazardous) (NN driving) (NNS conditions)
+                (CC and)
+                (NNS snowdrifts)))))))
+    (. .)))
+
+(ROOT
+  (S
+    (S
+      (NP (NNP Travel))
+      (VP (VBD was)
+        (VP (VBN discouraged)
+          (PP (IN in)
+            (NP (NNP Minnesota)))
+          (PP (IN as)
+            (S
+              (VP (VBG blowing)
+                (NP (NN snow) (NN cut) (NN visibility))
+                (PP (TO to)
+                  (NP
+                    (NP
+                      (QP (JJR less) (IN than) (PDT half)))
+                    (NP (DT a) (NN mile))))))))))
+    (CC and)
+    (S
+      (NP
+        (QP (RB about) (CD three) (NN dozen))
+        (NN school) (NNS districts))
+      (VP (VBD canceled)
+        (NP (NNS classes))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP Wisconsin))
+    (ADVP (RB also))
+    (VP (VBD had)
+      (VP (VBN scattered)
+        (NP (NN school) (NNS closings))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (DT A) (NN line))
+      (PP (IN of)
+        (NP (JJ mixed) (NN precipitation))))
+    (VP (VBD trailed)
+      (ADJP (JJ southward))
+      (PP (IN from)
+        (NP (DT the) (NN storm) (NN system)))
+      (, ,)
+      (S
+        (VP (VBG spreading)
+          (NP
+            (NP (JJ scattered) (NN show) (NNS showers))
+            (CC and)
+            (NP (JJ freezing) (NN rain)))
+          (PP (IN into)
+            (NP
+              (NP (JJ western) (NNS sections))
+              (PP (IN of)
+                (NP (NNP Kentucky)
+                  (CC and)
+                  (NNP Tennessee))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (ADVP
+      (NP (NNP Farther))
+      (RB south))
+    (, ,)
+    (NP (JJ scattered) (NN rain) (NNS showers))
+    (VP (VBD extended)
+      (PP
+        (PP (IN across)
+          (NP (NNP Arkansas) (, ,) (NNP Mississippi) (, ,)
+            (CC and)
+            (NNP Louisiana)))
+        (CC and)
+        (PP (IN into)
+          (NP (JJ eastern) (NNP Texas)))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (DT Those) (NNS showers))
+    (VP (VBD were)
+      (VP (VBN expected)
+        (S
+          (VP (TO to)
+            (VP (VB move)
+              (ADVP (RB eastward))
+              (PP (IN into)
+                (NP
+                  (NP (NNP Alabama) (, ,) (NNP Georgia) (, ,)
+                    (CC and)
+                    (NNP northwestern) (NNP Florida))
+                  (PP (IN during)
+                    (NP (DT the) (NN night))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (ADVP
+      (NP (NNP Farther))
+      (RB west))
+    (, ,)
+    (NP (JJ isolated) (NN snow) (NNS showers))
+    (VP (VBD were)
+      (VP (VBN scattered)
+        (PP (IN over)
+          (NP
+            (NP (NNS parts))
+            (PP (IN of)
+              (NP
+                (NP (NNP Wyoming) (, ,) (JJ western) (NNP South) (NNP Dakota))
+                (, ,)
+                (NP (JJ eastern) (NNP Colorado))
+                (, ,)
+                (CC and)
+                (NP
+                  (NP (JJ western) (NNS sections))
+                  (PP (IN of)
+                    (NP (NNP Nebraska)
+                      (CC and)
+                      (NNP Kansas))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (PP (IN In)
+      (NP (DT the) (NN Northeast)))
+    (, ,)
+    (NP (DT a) (JJ few) (JJ light) (NN snow) (NNS showers))
+    (VP (VBD were)
+      (VP (VBN scattered)
+        (PP (IN from)
+          (NP (NNP Pennsylvania)))
+        (PP (IN across)
+          (NP (JJ upstate) (NNP New) (NNP York)))
+        (PP (IN into)
+          (NP (JJ northern) (NNP New) (NNP England)))))
+    (. .)))
+
+(ROOT
+  (S
+    (ADVP (RB Elsewhere))
+    (, ,)
+    (S
+      (NP (NN fog))
+      (VP (VBD formed)
+        (PP (IN in)
+          (NP
+            (NP (DT some) (JJ western) (NNS parts))
+            (PP (IN of)
+              (NP (NNP Washington)))))))
+    (, ,)
+    (CC and)
+    (S
+      (NP (NNS showers))
+      (VP (VBD were)
+        (VP (VBN expected)
+          (S
+            (VP (TO to)
+              (VP (VB move)
+                (PP (IN into)
+                  (NP
+                    (NP (DT the) (NN region))
+                    (PP (IN from)
+                      (NP (DT the) (NNP Pacific)))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP
+        (NP (NNP Monday) (POS 's))
+        (NNS temperatures))
+      (PP (IN around)
+        (NP (DT the) (NNP Lower) (CD 48))))
+    (VP (VBD ranged)
+      (PP (IN from)
+        (NP
+          (NP (DT a) (NN morning) (NN low))
+          (PP (IN of)
+            (NP (CD 11)))))
+      (PP (IN below)
+        (NP (CD zero)))
+      (PP (IN at)
+        (NP (NNP Phillips) (, ,) (NNP Wis.)))
+      (, ,)
+      (PP (TO to)
+        (NP
+          (NP (NN midday) (NNS readings))
+          (PP (IN of)
+            (NP (CD 77)))))
+      (PP (IN at)
+        (NP
+          (NP (NNP Oceanside))
+          (, ,)
+          (NP (NNP Calif) (NNP .,))
+          (CC and)
+          (NP (NNP Brownsville) (, ,) (NNP Texas)))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (DT The) (JJS lowest) (NN wind) (NN chill))
+    (VP (VBD was)
+      (ADVP
+        (NP (CD 58))
+        (IN below))
+      (PP (IN at)
+        (NP (NNP Jamestown) (, ,) (NNP N.D))))
+    (. .)))
+
+(ROOT
+  (INTJ (UH -)))
+
+(ROOT
+  (PP (IN On)
+    (NP (DT the) (NN Net))
+    (: :)))
+
+(ROOT
+  (NP
+    (NP (NNP National) (NNP Weather) (NNP Service))
+    (: :)
+    (NP (NNP http:))))
+
+(ROOT
+  (NP
+    (NP (NNP Intellicast))
+    (: :)
+    (NP (NNP http:))))
+
+(ROOT
+  (NP
+    (NP (NNP Weather) (NNP Channel))
+    (: :)
+    (NP (NNP http:))))
+

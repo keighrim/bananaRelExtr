@@ -1,0 +1,79 @@
+(ROOT
+  (FRAG
+    (NP (NNP APW20001012.1742.0683) (NNP NEWS) (NNP STORY))
+    (NP (CD 2000-10-12) (CD 17:59:47))))
+
+(ROOT
+  (NP (NN US-Mideast)))
+
+(ROOT
+  (NP (NNP Clinton) (NNP Urges) (NNP Mideast) (NNP Cease-Fire)))
+
+(ROOT
+  (FRAG
+    (NP (NNP WASHINGTON) (NNP [AP) (NNP ]))
+    (: -)
+    (S
+      (NP (NNP President) (NNP Clinton))
+      (VP
+        (VP (VBD urged)
+          (S
+            (NP (NNPS Israelis)
+              (CC and)
+              (NNPS Palestinians))
+            (VP (TO to)
+              (VP (VB undertake)
+                (NP (DT an) (JJ immediate) (NN cease-fire))
+                (PP (IN after)
+                  (NP
+                    (NP (DT a) (JJ new) (NN outbreak))
+                    (PP (IN of)
+                      (NP (NN bloodshed)))))))))
+        (CC and)
+        (VP (VBD called)
+          (PP (IN on)
+            (NP (DT both) (NNS sides)))
+          (S
+            (VP (TO to)
+              (VP (VB condemn)
+                (NP
+                  (NP (DT all) (NNS acts))
+                  (PP (IN of)
+                    (NP (NN violence))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NN ``Now))
+    (VP (VBZ is)
+      (NP (DT the) (NN time)
+        (S
+          (VP
+            (VP (TO to)
+              (VP (VB stop)
+                (NP (DT the) (NN bloodshed))))
+            (, ,)
+            (VP (TO to)
+              (VP (VB restore)
+                (ADJP (JJ calm))))
+            (, ,)
+            (VP (TO to)
+              (VP (VB return)
+                (PP
+                  (PP (TO to)
+                    (NP (NN dialogue)))
+                  (CC and)
+                  (PP
+                    (ADVP (RB ultimately))
+                    (TO to)
+                    (NP
+                      (NP (DT the) (NN peace) (NN process) (NN ,''))
+                      (SBAR
+                        (S
+                          (NP (DT the) (NN president))
+                          (VP (VBD said)
+                            (NP (NNP Thursday) (NN afternoon))
+                            (PP (IN in)
+                              (NP (DT the) (NNP White) (NNP House) (NNP Rose) (NNP Garden)))))))))))))))
+    (. .)))
+

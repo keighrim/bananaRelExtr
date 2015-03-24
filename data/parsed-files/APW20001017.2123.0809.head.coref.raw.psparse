@@ -1,0 +1,422 @@
+(ROOT
+  (FRAG
+    (NP (NNP APW20001017.2123.0809) (NNP NEWS) (NNP STORY))
+    (NP (CD 2000-10-17) (CD 21:40:51))))
+
+(ROOT
+  (NP (NNP Space-Shuttle)))
+
+(ROOT
+  (NP (NNP Astronauts) (NNP Install) (NNP Power) (NNP Equipment)))
+
+(ROOT
+  (NP
+    (NP (NNP CAPE) (NNP CANAVERAL))
+    (, ,)
+    (NP (NNP Fla))
+    (. .)))
+
+(ROOT
+  (FRAG
+    (NP (NNP [AP) (NNP ]))
+    (: -)
+    (S
+      (NP (CD Two) (JJ spacewalking) (NNS astronauts))
+      (VP
+        (VP (VBD clamped)
+          (NP (NN power) (NN equipment))
+          (PP (IN onto)
+            (NP
+              (NP (DT the) (JJ international) (NN space) (NN station))
+              (PP (IN on)
+                (NP (NNP Tuesday))))))
+        (CC and)
+        (VP
+          (ADVP (RB inadvertently))
+          (VBD added)
+          (PP (TO to)
+            (NP
+              (NP (DT the) (NN collection))
+              (PP (IN of)
+                (NP (NN junk) (NN whizzing)))))
+          (PP (IN around)
+            (NP (NNP Earth))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (DT A) (NN cap))
+      (PP (IN for)
+        (NP (DT a) (NN depressurization) (NN valve))))
+    (VP (VBD floated)
+      (PRT (RP away))
+      (NP (NNS moments))
+      (SBAR (IN after)
+        (S
+          (NP (NNP Bill) (NNP McArthur))
+          (VP (VBD emerged)
+            (PP (IN from)
+              (NP (NN space) (NN shuttle) (NNP Discovery)))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (DT The) (NN aluminum) (NN cover))
+      (, ,)
+      (NP
+        (NP (RB about) (DT the) (NN size))
+        (PP (IN of)
+          (NP
+            (NP (DT a) (NN gas) (NN cap))
+            (PP (IN on)
+              (NP (DT a) (NN car))))))
+      (, ,))
+    (VP (VBD bounced)
+      (PP (IN against)
+        (NP (DT the) (NN space) (NN station)))
+      (, ,)
+      (ADVP (RB then))
+      (PP (IN against)
+        (NP (DT the) (NN shuttle) (NN robot) (NN arm))))
+    (. .)))
+
+(ROOT
+  (S (RB Then)
+    (NP (PRP it))
+    (VP (VBD was)
+      (VP (VBN gone)))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NN ``It))
+    (VP (VBD was)
+      (NP
+        (NP (DT a) (JJ nice) (JJ billiard) (NN shot))
+        (SBAR
+          (S
+            (NP (NNP ,'') (NNP McArthur))
+            (VP (VBD radioed))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NN ``It))
+    (VP (VBZ 's)
+      (VP (VBN become)
+        (NP (DT the) (JJS latest) (NN addition))
+        (PP (TO to)
+          (NP (JJ tiny) (NNS bodies)))
+        (S
+          (VP (VBG orbiting)
+            (NP (DT the) (NNP Earth) (NNP .''))))))))
+
+(ROOT
+  (S
+    (NP (NNP Mission) (NNP Control))
+    (VP (VBD said)
+      (SBAR
+        (S
+          (NP (DT the) (VBN lost) (NN cap))
+          (VP (VBD was)
+            (NP
+              (NP (DT no) (NN reason))
+              (PP (IN for)
+                (NP (NN concern))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (PRP$ Its) (NN tether))
+    (ADVP (RB either))
+    (VP
+      (VP (VBD came)
+        (ADVP (RB loose)))
+      (CC or)
+      (VP (VBD broke)))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP
+        (NP (DT The) (JJ main) (NN purpose))
+        (PP (IN of)
+          (NP
+            (NP (NNP Tuesday) (POS 's))
+            (NN spacewalk))))
+      (: -)
+      (NP
+        (NP (DT the) (JJ third))
+        (PP (IN in)
+          (NP
+            (QP (RB as) (JJ many))
+            (NNS days))))
+      (: -))
+    (VP (VBD was)
+      (S
+        (VP (TO to)
+          (VP (VB mount)
+            (NP (CD two) (NN power) (NNS converters))
+            (PP (IN on)
+              (NP
+                (NP
+                  (NP (DT the) (NN space) (NN station) (POS 's))
+                  (JJ new) (NN aluminum) (NN framework))
+                (, ,)
+                (CC or)
+                (NP (NNS truss))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP Astronaut) (NNP Leroy) (NNP Chiao))
+    (VP (VBD performed)
+      (NP (DT the) (NN job))
+      (PP (IN from)
+        (NP
+          (NP (DT the) (NN end))
+          (PP (IN of)
+            (NP
+              (NP (NNP Discovery) (POS 's))
+              (NN robot) (NN arm))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (PRP He))
+    (VP (VBD removed)
+      (NP (DT the) (JJ 175-pound) (NNS converters) (NN one))
+      (PP (IN by)
+        (NP (CD one)))
+      (PP (IN from)
+        (NP (DT the) (NN shuttle) (NN cargo) (NN bay))))
+    (. .)))
+
+(ROOT
+  (S
+    (PP (IN From)
+      (PP (IN inside)
+        (NP (DT the) (NN shuttle))))
+    (, ,)
+    (NP (NNP Michael) (NNP Lopez-Alegria))
+    (VP (VBD used)
+      (NP (DT the) (NN robot) (NN arm))
+      (S
+        (VP (TO to)
+          (VP (VB give)
+            (NP (NNP Chiao))
+            (NP (DT a) (NN lift))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (DT The) (NNS converters))
+    (VP (MD will)
+      (VP (VB be)
+        (VP (VBN used)
+          (S
+            (VP (TO to)
+              (VP (VB regulate)
+                (NP (NN power))
+                (SBAR (IN once)
+                  (S
+                    (NP
+                      (NP
+                        (NP (DT a) (NN pair))
+                        (PP (IN of)
+                          (NP (JJ solar) (NNS wings))))
+                      (PRN (: -)
+                        (VP (VBG stretching)
+                          (PP
+                            (NP (CD 240) (NNS feet))
+                            (IN from)
+                            (NP (NN tip)))
+                          (PP (TO to)
+                            (NP (NN tip))))
+                        (: -)))
+                    (VP (VBP are)
+                      (VP (VBN installed)
+                        (PP (IN during)
+                          (NP (DT the) (JJ next) (NN construction) (NN mission)))
+                        (, ,)
+                        (PP (IN in)
+                          (NP (NNP December)))))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP Chiao)
+      (CC and)
+      (NNP McArthur))
+    (ADVP (RB clearly))
+    (VP (VBD enjoyed)
+      (NP (PRP$ their) (JJ 240-mile-high) (NN construction) (NN work)))
+    (. .)))
+
+(ROOT
+  (S
+    (VP (VB ``How)
+      (FRAG
+        (S (MD would)
+          (NP (PRP you))
+          (VP (VB like)
+            (S
+              (VP (TO to)
+                (VP (VB live)
+                  (PP (IN on)
+                    (NP
+                      (NP (DT this) (NN thing))
+                      (PP (IN for)
+                        (NP (DT a) (JJ few) (NNS months) (NN ?''))))))))))))))
+
+(ROOT
+  (S
+    (NP (NNP McArthur))
+    (VP (VBD asked))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP ``I))
+    (VP (VBP think)
+      (SBAR (IN that)
+        (S
+          (VP (MD would)
+            (VP (VB be)
+              (ADJP (RB pretty) (JJ cool)
+                (SBAR
+                  (S
+                    (NP (NNP ,'') (NNP Chiao))
+                    (VP (VBD replied))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (PP (IN By)
+      (NP (DT the) (NN time)))
+    (NP (DT the) (JJ seven-hour) (NN spacewalk))
+    (VP (VBD ended)
+      (PRN (, ,)
+        (S
+          (NP (DT the) (CD two))
+          (VP (VBD had)
+            (VP (VBN completed)
+              (NP (PDT all) (PRP$ their) (NN cable) (NNS connections)))))
+        (, ,))
+      (NP
+        (NP (NN toolbox) (NN work))
+        (CC and)
+        (NP (JJ other) (NNS chores))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (CD One) (NN spacewalk))
+    (VP (VBZ remains))
+    (. .)))
+
+(ROOT
+  (S
+    (PP (IN On)
+      (NP (NNP Wednesday) (, ,) (NNP Lopez-Alegria)
+        (CC and)
+        (NNP Jeff)))
+    (NP (NNP Wisoff))
+    (VP (MD will)
+      (VP (VB go)
+        (ADVP (RB back) (RP out)
+          (S
+            (VP (TO to)
+              (VP
+                (VP (VB clean)
+                  (NP
+                    (NP (DT the) (NN top))
+                    (PP (IN of)
+                      (NP (DT the) (NNS truss))))
+                  (PP (IN for)
+                    (NP
+                      (NP (DT the) (NN arrival))
+                      (PP (IN of)
+                        (NP (DT the) (JJ solar) (NNS wings))))))
+                (, ,)
+                (VP (VB test)
+                  (NP (PRP$ their) (NN mini) (NNS jetpacks)))
+                (CC and)
+                (VP (VB practice)
+                  (S
+                    (VP (VBG carrying)
+                      (NP (DT each) (JJ other)))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP NASA))
+    (VP (VBZ wants)
+      (S
+        (VP (TO to)
+          (VP (VB see)
+            (SBAR
+              (WHADVP (WRB how) (JJ hard))
+              (S
+                (NP (PRP it))
+                (VP (MD would)
+                  (VP (VB be)
+                    (PP (IN for)
+                      (NP (DT a) (NN spacewalker)
+                        (S
+                          (VP (TO to)
+                            (VP (VB rescue)
+                              (NP (DT an) (JJ incapacitated) (NN colleague)))))))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (SBAR
+      (WHADVP (WRB When))
+      (S
+        (NP (NNP Discovery))
+        (VP (VBZ pulls)
+          (PRT (RP away))
+          (NP (NNP Friday)))))
+    (, ,)
+    (NP (PRP it))
+    (VP (MD will)
+      (VP (VB leave)
+        (PP (IN behind)
+          (NP
+            (NP (CD 10) (NNS tons))
+            (PP (IN of)
+              (NP (JJ new) (NN space) (NN station) (NNS pieces)))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (DT The) (NN station) (POS 's))
+      (JJ first) (JJ permanent) (NN crew))
+    (VP (VBZ is)
+      (VP (VBN supposed)
+        (S
+          (VP (TO to)
+            (VP (VB arrive)
+              (PP (IN in)
+                (NP (RB early) (NNP November))))))))
+    (. .)))
+
+(ROOT
+  (INTJ (UH -)))
+
+(ROOT
+  (PP (IN On)
+    (NP (DT the) (NN Net))
+    (: :)))
+
+(ROOT
+  (NP
+    (NP (NNP NASA))
+    (: :)
+    (NP (NNP http:))))
+

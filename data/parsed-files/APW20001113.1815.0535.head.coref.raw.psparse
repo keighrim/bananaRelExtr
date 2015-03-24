@@ -1,0 +1,427 @@
+(ROOT
+  (FRAG
+    (NP (NNP APW20001113.1815.0535) (NNP NEWS) (NNP STORY))
+    (NP (CD 2000-11-13) (CD 18:21:15))))
+
+(ROOT
+  (NP (NNS Denmark-US-Ballots)))
+
+(ROOT
+  (NP
+    (NP (NNP Presidential) (NNP Ballots))
+    (PP (IN in)
+      (NP (NNP Denmark)))))
+
+(ROOT
+  (NP
+    (NP (NNP COPENHAGEN) (, ,) (NNP Denmark) (NNP [AP) (NNP ]))
+    (: -)
+    (S
+      (NP (DT A) (JJ Danish) (NN couple))
+      (VP (VBD were)
+        (VP (VBN surprised)
+          (NP (DT this) (NN weekend))
+          (SBAR
+            (WHADVP (WRB when))
+            (S
+              (NP (CD two))
+              (VP (VBP absentee)
+                (NP (NNS ballots))
+                (PP (IN from)
+                  (NP (DT the) (NNP U.S)))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (JJ presidential) (NN election))
+    (VP (VBD turned)
+      (PRT (RP up))
+      (PP (IN in)
+        (NP (PRP$ their) (NN mail))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (NNP Brian) (NNP Kain))
+      (, ,)
+      (NP (DT a) (JJ 33-year-old) (NN accountant)
+        (CC and)
+        (NN sailing) (NN enthusiast))
+      (, ,))
+    (ADVP (RB eagerly))
+    (VP (VBD opened)
+      (NP (DT a) (JJ large) (NN envelope))
+      (SBAR
+        (WHADVP (WRB when))
+        (S
+          (NP (PRP it))
+          (VP (VBD arrived)
+            (NP (NNP Saturday))
+            (PP (IN with)
+              (NP (DT some) (NN information)))
+            (PP (IN about)
+              (NP (NN navigation) (NNS charts)))
+            (SBAR (IN that)
+              (S
+                (NP (PRP he))
+                (VP (VBD had)
+                  (VP (VBN ordered)
+                    (PP (IN from)
+                      (NP
+                        (NP (DT a) (NN company))
+                        (VP (VBN based)
+                          (PP (IN in)
+                            (NP
+                              (NP (DT the) (NN state))
+                              (PP (IN of)
+                                (NP (NNP Washington))))))))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (PRP He))
+    (VP
+      (VP (VBD assumed)
+        (SBAR
+          (S
+            (NP
+              (NP (CD two) (JJ extra) (JJ sealed) (JJ yellow) (NNS envelopes))
+              (PP (IN inside)
+                (NP (DT the) (NN package))))
+            (VP (VBD were)
+              (NP (NNS ads))))))
+      (CC and)
+      (VP (VBD planned)
+        (S
+          (VP (TO to)
+            (VP (VB throw)
+              (NP (PRP them))
+              (ADVP (RB away))
+              (SBAR (IN until)
+                (S
+                  (NP
+                    (NP (PRP$ his) (NN wife))
+                    (, ,)
+                    (NP (NNP Helle))
+                    (, ,))
+                  (VP (VBD opened)
+                    (NP
+                      (NP (CD one))
+                      (PP (IN of)
+                        (NP (PRP them))))
+                    (S
+                      (VP (TO to)
+                        (VP (VB discover)
+                          (NP
+                            (NP (DT the) (JJ absentee) (NN ballot))
+                            (PP (IN of)
+                              (NP
+                                (NP (NNP Steven) (NNP H.) (NNP Forrester))
+                                (PP (IN of)
+                                  (NP (NNP Bellevue) (, ,) (NNP Wash)))))))))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (S
+      (NP
+        (NP
+          (ADJP (JJ ``The) (RBS most) (JJ interesting))
+          (NN thing))
+        (PP (TO to)
+          (NP (PRP me))))
+      (VP (VBD was)
+        (NP (DT the) (JJ free) (NN chart))))
+    (CC and)
+    (S
+      (NP (DT the) (NN brochure) (NN ,''))
+      (VP (VBD said)
+        (NP (NNP Kain))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (DT The) (NNP Kains) (NN didn't))
+    (VP
+      (VP (VBP open)
+        (NP (DT the) (JJ second) (NN envelope)))
+      (CC but)
+      (VP (VBD assumed)
+        (SBAR
+          (S
+            (NP (PRP it))
+            (ADVP (RB also))
+            (VP (VBD was)
+              (NP (DT a) (NN ballot))
+              (SBAR (IN since)
+                (S
+                  (NP (DT both))
+                  (VP (VBD were)
+                    (VP (VBN marked)
+                      (PP (IN with)
+                        (NP (DT the) (NNS words) (NN ``Official) (NN ballot)))))))))))
+      (: -)
+      (VP (VBP do) (RB not)
+        (VP (VB delay)
+          (NP (NNS .'')))))))
+
+(ROOT
+  (S
+    (NP (PRP They))
+    (VP (VBD contacted)
+      (NP (DT the) (NNP U.S)))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP Embassy))
+    (VP
+      (VP
+        (PP (IN in)
+          (NP (NNP Copenhagen)))
+        (PP (IN on)
+          (NP (NNP Monday))))
+      (CC and)
+      (VP (VBD were)
+        (VP (VBN asked)
+          (S
+            (VP (TO to)
+              (VP (VB put)
+                (NP (DT the) (NNS envelopes))
+                (PP (IN in)
+                  (NP (DT the) (NN mail)))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP Embassy) (NN spokeswoman) (NNP Lela) (NNP Margiou))
+    (VP
+      (VP (VBD said)
+        (SBAR
+          (S
+            (NP (PRP they))
+            (VP (VBD were)
+              (VP (VBG waiting)
+                (S
+                  (VP (TO to)
+                    (VP (VB receive)
+                      (NP (DT the) (NNS ballots))))))))))
+      (CC and)
+      (VP (VBD had) (RB not)
+        (ADVP (RB yet))
+        (VP (VBN decided)
+          (SBAR
+            (WHNP (WP what))
+            (S
+              (VP (TO to)
+                (VP (VB do)
+                  (PP (IN with)
+                    (NP (PRP them))))))))))
+    (. .)))
+
+(ROOT
+  (SINV
+    (S
+      (NP
+        (NP
+          (NP (NN ``It) (POS 's))
+          (NN kind))
+        (PP (IN of)
+          (NP (JJ unusual) (NNP ,'') (NNP Margiou))))
+      (VP (VBD said) (, ,)
+        (S
+          (VP (VBG adding)
+            (SBAR (IN that)
+              (S
+                (NP (DT the) (NNS ballots))
+                (VP (VBP ``were)
+                  (ADJP (RB not) (JJ valid)))))))))
+    (, ,)
+    (VP (VBD were) (RB not)
+      (ADJP (JJ meaningful))
+      (SBAR (IN because)
+        (S
+          (S
+            (VP (VBG counting)
+              (PP (IN in)
+                (NP (NNP Washington) (NNP State)))))
+          (VP (VBZ has)
+            (VP (VBN been)
+              (VP (VBN completed)))))))
+    (NP (NNP .''))))
+
+(ROOT
+  (S
+    (NP (NNP Kain))
+    (VP (VBD had)
+      (VP (VBN ordered)
+        (NP
+          (NP (DT the) (NN information))
+          (PP (IN via)
+            (NP (DT the) (NN Internet))))
+        (PP (IN from)
+          (NP (NNP Tides) (NNP End) (NNP Ltd)))))
+    (. .)))
+
+(ROOT
+  (FRAG
+    (PP (IN of)
+      (NP (NNP Washington)))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (DT The) (JJ large) (NN envelope))
+      (, ,)
+      (SBAR
+        (WHNP (WDT which))
+        (S
+          (VP (VBD was)
+            (VP (VBN postmarked)
+              (PP (IN from)
+                (NP (NNP Shaw) (NNP Island)))))))
+      (, ,))
+    (VP (VBD arrived)
+      (VP (VBN unsealed)
+        (PP (IN at)
+          (NP
+            (NP
+              (NP (DT the) (NNPS Kains) (POS '))
+              (NN home))
+            (PP (IN in)
+              (NP (NNP Odense)
+                (PRN (, ,)
+                  (ADVP
+                    (NP (CD 105) (NNS miles))
+                    (RB west))
+                  (PP (IN of)
+                    (NP (DT the) (NN capital)))
+                  (, ,))
+                (NNP Copenhagen)))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (DT The) (NNP Fyens) (NNP Stiftstidende))
+      (, ,)
+      (NP (DT the) (JJ main) (JJ local) (NN newspaper))
+      (, ,))
+    (VP (VBD said)
+      (SBAR
+        (S
+          (S
+            (NP (PRP it))
+            (VP (VBD contacted)
+              (S
+                (NP (NNP Forrester))
+                (VP (TO to)
+                  (VP (VB tell)
+                    (NP (PRP him))
+                    (NP
+                      (NP (PRP$ his) (NN ballot))
+                      (SBAR
+                        (S
+                          (VP (VBD had)
+                            (VP (VBN landed)
+                              (PP (IN in)
+                                (NP (NNP Denmark)))))))))))))
+          (CC and)
+          (S
+            (NP (PRP he))
+            (VP (VBD did) (RB not)
+              (VP (VB understand)
+                (SBAR
+                  (WHADVP (WRB how))
+                  (S
+                    (NP (PRP it))
+                    (VP (MD could)
+                      (VP (VB have)
+                        (VP (VBN been)
+                          (VP (VBN postmarked)
+                            (PP (IN in)
+                              (NP (NNP Shaw) (NNP Island)))
+                            (, ,)
+                            (PP
+                              (NP (CD 50) (NNS miles))
+                              (IN from)
+                              (SBAR
+                                (WHADVP (WRB where))
+                                (S
+                                  (NP (PRP$ his) (NN wife))
+                                  (VP (VBD mailed)
+                                    (NP (PRP it))
+                                    (PP (IN in)
+                                      (NP (NNP Bellevue)))))))))))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP Forrester))
+    (VP (VBD told)
+      (NP
+        (NP (DT the) (NN newspaper))
+        (SBAR
+          (S
+            (NP (PRP he))
+            (VP (VBD had)
+              (NP
+                (NP (DT no) (NNS plans))
+                (PP (IN of)
+                  (S
+                    (VP (VBG pursuing)
+                      (NP (DT the) (NN matter)))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (JJ ``The) (NN vote))
+    (VP (VBZ is) (, ,)
+      (S
+        (NP (PRP I))
+        (VP (VB think) (, ,)
+          (PP (IN over)
+            (NP (NNP ,'')))
+          (SBAR
+            (S
+              (NP (PRP he))
+              (VP (VBD was)
+                (VP (VBN quoted)
+                  (PP (IN as)
+                    (S
+                      (VP (VBG saying)))))))))))
+    (. .)))
+
+(ROOT
+  (NP (DT The) (NN U.S) (. .)))
+
+(ROOT
+  (NP
+    (NP (JJ presidential) (NN race))
+    (PP (IN between)
+      (NP (JJ Republican) (NN nominee) (NNP Texas) (NNP Gov)))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP George) (NNP W.) (NNP Bush)
+      (CC and)
+      (NNP Democratic) (NNP Vice) (NNP President) (NNP Al) (NNP Gore))
+    (VP (VBD remained)
+      (ADJP (JJ undecided))
+      (NP (NNP Monday))
+      (PP (IN with)
+        (NP
+          (NP (DT the) (NN state))
+          (PP (IN of)
+            (NP
+              (NP (NNP Florida) (POS 's))
+              (CD 25) (JJ electoral) (NNS votes)))))
+      (PP
+        (ADVP (RB still))
+        (IN at)
+        (NP (NN stake))))
+    (. .)))
+

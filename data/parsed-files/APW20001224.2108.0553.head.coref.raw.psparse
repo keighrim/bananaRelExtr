@@ -1,0 +1,245 @@
+(ROOT
+  (FRAG
+    (NP (NNP APW20001224.2108.0553) (NNP NEWS) (NNP STORY))
+    (NP (CD 2000-12-24) (CD 22:02:08))))
+
+(ROOT
+  (NP (NNS Iran-Jews)))
+
+(ROOT
+  (NP
+    (NP (NNP Treatment))
+    (PP (IN of)
+      (NP (NNP Non-Muslims) (NNP Questioned)))))
+
+(ROOT
+  (S
+    (S
+      (NP
+        (NP (NNP TEHRAN))
+        (, ,)
+        (NP
+          (NP (NNP Iran) (NNP [AP) (NNP ]))
+          (: -)
+          (NP
+            (NP
+              (NP (NNP Iran) (POS 's))
+              (JJ only) (JJ Jewish) (NN legislator))
+            (PP (IN on)
+              (NP (NNP Sunday))))))
+      (VP (VBD criticized)
+        (NP
+          (NP (DT the) (NN treatment))
+          (PP (IN of)
+            (NP (NNS non-Muslims))))
+        (PP (IN in)
+          (NP (DT the) (NN country)))))
+    (, ,)
+    (NP (DT the) (NNP Islamic) (NNP Republic) (NNP News) (NNP Agency))
+    (VP (VBD reported))
+    (. .)))
+
+(ROOT
+  (SINV
+    (S
+      (NP (NNP ``I))
+      (VP (VBP call)
+        (PP (IN on)
+          (NP
+            (NP (DT the) (JJ Muslim) (JJ religious) (NNS leaders))
+            (CC and)
+            (NP
+              (NP (DT the) (NNS officials))
+              (PP (IN of)
+                (NP (DT the) (NN judiciary)
+                  (S
+                    (VP (TO to)
+                      (VP (VB pay)
+                        (NP (JJR more) (NN attention))
+                        (PP (TO to)
+                          (NP
+                            (NP (DT the) (NNS rights))
+                            (PP (IN of)
+                              (NP (JJ non-Muslim) (NNS families)))))
+                        (ADVP
+                          (ADVP (RB as) (RB far))
+                          (SBAR (IN as)
+                            (S
+                              (NP
+                                (NP (NNS issues))
+                                (PP (JJ such) (IN as)
+                                  (NP
+                                    (NP (NN blood) (NN money))
+                                    (CC and)
+                                    (NP
+                                      (NP (DT the) (NNS verdicts))
+                                      (PP (IN of)
+                                        (NP (DT the) (NNS courts)))))))
+                              (VP (VBP are)
+                                (VP (VBN concerned)
+                                  (S
+                                    (ADJP (JJ ,''))))))))))))))))))
+    (VP (VBD said))
+    (NP
+      (NP (NNP Maurice) (NNP Motamed))
+      (, ,)
+      (NP
+        (NP (DT the) (JJ sole) (JJ Jewish) (NN representative))
+        (PP (IN in)
+          (NP
+            (NP (NNP Iran) (POS 's))
+            (JJ 290-seat) (NN parliament)))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (NNP Iran) (POS 's))
+      (JJ criminal) (NNS laws))
+    (VP (VBD award)
+      (NP
+        (NP
+          (QP (RB twice) (RB as) (JJ much))
+          (NN blood) (NN money))
+        (: -)
+        (NP
+          (NP (JJ financial) (NN compensation))
+          (PP (TO to)
+            (NP
+              (NP (DT a) (NN murder) (NN victim) (POS 's))
+              (NN family))))
+        (: -))
+      (PP (TO to)
+        (NP (NNPS Muslims)))
+      (PP (IN than)
+        (PP (TO to)
+          (NP (NNS non-Muslims)))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (NNP Motamed))
+      (, ,)
+      (VP (VBG speaking)
+        (PP (IN during)
+          (NP
+            (NP
+              (NP (DT a) (NN session))
+              (PP (IN at)
+                (NP (DT the) (NNPS Majlis))))
+            (, ,)
+            (CC or)
+            (NP (NN parliament)))))
+      (, ,))
+    (ADVP (RB also))
+    (VP (VBD criticized)
+      (NP (NN government) (NN recruitment) (NNS policies)))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP Iran))
+    (VP (VBZ maintains)
+      (SBAR (IN that)
+        (S
+          (NP
+            (NP (DT all))
+            (PP (IN of)
+              (NP (PRP$ its) (NNS citizens))))
+          (, ,)
+          (ADVP (RB regardless)
+            (PP (IN of)
+              (NP (PRP$ their) (NN race)
+                (CC or)
+                (NN religion))))
+          (, ,)
+          (VP (VBP enjoy)
+            (NP (JJ equal) (NNS rights))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (JJ Iranian) (NNPS Jews))
+    (VP
+      (VP (VBP are)
+        (VP (VBN allowed)
+          (S
+            (VP (TO to)
+              (VP (VB practice)
+                (NP
+                  (NP (NNS aspects))
+                  (PP (IN of)
+                    (NP (PRP$ their) (NN religion)))))))))
+      (CC but)
+      (VP (VBP are)
+        (VP (VBN forbidden)
+          (S
+            (VP (TO to)
+              (VP (VB teach)
+                (NP (NNP Hebrew))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (S
+      (NP (EX There))
+      (VP (VBD were)
+        (NP
+          (NP (CD 80,000) (NNPS Jews))
+          (PP (IN in)
+            (NP (NNP Iran))))
+        (PP
+          (ADVP (RB just))
+          (IN before)
+          (NP (DT the) (CD 1979) (JJ Islamic) (NN revolution)))))
+    (, ,)
+    (CC but)
+    (S
+      (NP (DT the) (NN community))
+      (VP (VBZ has)
+        (VP (VBN dwindled)
+          (PP (TO to)
+            (NP (CD 25,000))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (PRP It))
+    (VP (VBZ remains)
+      (NP
+        (NP (DT the) (JJS largest) (JJ Jewish) (NN community))
+        (PP (IN in)
+          (NP
+            (NP (DT the) (NNP Middle) (NNP East))
+            (PP (IN outside)
+              (NP (NNP Israel)))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP Iran))
+    (VP (VBD came)
+      (PP (IN under)
+        (NP (JJ intense) (JJ international) (NN pressure)))
+      (NP (JJ last) (NN year))
+      (SBAR (IN after)
+        (S
+          (NP (PRP it))
+          (VP
+            (VP (VBN arrested)
+              (S
+                (NP (CD 13) (NNP Iranian) (NNPS Jews))))
+            (CC and)
+            (VP
+              (ADVP (RB later))
+              (VBN convicted)
+              (NP
+                (NP (CD 10))
+                (PP (IN of)
+                  (NP
+                    (NP (VBG spying))
+                    (PP (IN for)
+                      (NP (NNP Israel)))))))))))
+    (. .)))
+

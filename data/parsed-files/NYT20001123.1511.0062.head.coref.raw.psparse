@@ -1,0 +1,855 @@
+(ROOT
+  (FRAG
+    (NP (NNP NYT20001123.1511.0062) (NNP NEWS) (NNP STORY))
+    (NP (CD 2000-11-23) (CD 17:17:00))))
+
+(ROOT
+  (NP
+    (NP (CD A9034) (NNS &Cx1f))
+    (: ;)
+    (NP
+      (NP (NNP taf-z))
+      (NP (NN u)))
+    (X
+      (X
+        (X (SYM f))
+        (NP (NN BC-QUESTIONS-AD-COLUMN-N) (CD 11-23)))
+      (NP (CD 0790)))))
+
+(ROOT
+  (NP (NNP BC-QUESTIONS-AD-COLUMN-NYT)))
+
+(ROOT
+  (NP
+    (NP (NNP ADVERTISING))
+    (: :)
+    (NP
+      (NP (NNP FOLLOW) (NNP THE) (NNP QUESTIONS) (NNP INTO))
+      (NP (DT A) (NNP `CHAD) (, ,) (NNP CHAD) (, ,) (NNP CHAD) (, ,) (NNP CHAD)))))
+
+(ROOT
+  (NP
+    (NP
+      (NP (NN WORLD) (POS '))
+      (NN &LR))
+    (: ;)
+    (S
+      (S
+        (VP (VBG &QL)))
+      (: ;)
+      (S
+        (NP (NNP &UR))
+        (: ;)
+        (PP (IN By)
+          (NP (NNP STUART) (NNP ELLIOTT) (NNP &LR)))
+        (: ;)
+        (VP (VBZ &QC)))
+      (: ;)
+      (S
+        (VP (VBG &QL)))
+      (: ;)
+      (S
+        (VP (VBG &UR)))
+      (: ;)
+      (S
+        (VP (VBG c.2000)
+          (NP (NNP N.Y)))))
+    (. .)))
+
+(ROOT
+  (NP
+    (NP (NNP Times) (NNP News) (NNP Service) (NNP &LR))
+    (: ;)
+    (NP (CD &QC) (: ;) (CD &QL))
+    (: ;)))
+
+(ROOT
+  (S
+    (NP (PRP It))
+    (VP (VBZ 's)
+      (VP (NN time)
+        (ADVP (RB again))
+        (S
+          (VP (TO to)
+            (VP (VB ask)
+              (NP (CD 20) (NNS questions))
+              (PP (IN about)
+                (NP
+                  (NP (NN advertising))
+                  (, ,)
+                  (NP (NN marketing))
+                  (CC and)
+                  (NP (DT the) (NNS media)))))))))
+    (. .)))
+
+(ROOT
+  (PRN (: -)
+    (S
+      (NP (NNP Will) (NNPS Americans))
+      (ADVP (RB ever))
+      (VP (VBP refer)
+        (PP (TO to)
+          (NP (DT the) (NN day)))
+        (SBAR (IN before)
+          (S
+            (NP
+              (NP (NNP Thanksgiving))
+              (PP (IN as)
+                (S
+                  (VP (VBG ``Thanksgiving)
+                    (NP (NNP Wednesday) (CD ,''))
+                    (PP (IN as)
+                      (NP (NNP ABC)))))))
+            (VP (VBD did)
+              (ADVP (RB repeatedly))
+              (NP (DT this) (NN week))
+              (PP (IN in)
+                (NP
+                  (NP (NNS commercials))
+                  (VP (VBG promoting)
+                    (NP (PRP$ its) (NNP Wednesday) (NNS sitcoms) (NN ``The))
+                    (NP
+                      (NP (NNP Drew) (NNP Carey) (NNP Show))
+                      ('' '')
+                      (CC and)
+                      (NP (NNP ``Spin) (NNP City) (NNP ''?)))))))))))))
+
+(ROOT
+  (S (: -)
+    (SBAR (IN If)
+      (S
+        (NP (DT a) (NNP Hollywood) (NN studio))
+        (VP (VBZ makes)
+          (NP
+            (NP (DT a) (NN movie))
+            (PP (IN about)
+              (NP (DT the) (NNP Florida) (NN election) (NN standoff)))
+            (PRN (, ,)
+              (SINV (MD would)
+                (NP (DT the) (NN title))
+                (VP (VB be)
+                  (ADJP (JJ ``It)
+                    (SBAR
+                      (S
+                        (VP (VBZ 's)
+                          (NP (DT a) (NNP Chad))))))))
+              (, ,))
+            (NP
+              (NP (NNP Chad))
+              (, ,)
+              (NP (NNP Chad)))))))
+    (, ,)
+    (NP (NNP Chad) (NNP World))
+    (VP (VBZ ''?))))
+
+(ROOT
+  (SBARQ
+    (WHNP
+      (WHADJP (RB -) (WRB How) (JJ many))
+      (NP
+        (NP (NNS readers))
+        (PP (IN of)
+          (NP (DT The) (NNP Wall) (NNP Street) (NNP Journal)))))
+    (SQ
+      (VP (VBD noticed)
+        (SBAR (IN that)
+          (S
+            (NP
+              (NP (DT an) (NN article))
+              (PP (IN on)
+                (NP
+                  (NP (NNP Wednesday))
+                  (VP (VBG carrying)
+                    (NP
+                      (NP (DT the) (NN headline) (NN ``Genetically))
+                      (SBAR
+                        (S
+                          (NP (NNP Altered) (NNP Protein))
+                          (VP (VBZ Is)
+                            (VP (VBN Found)
+                              (PRT (RP in))
+                              (NP
+                                (ADJP (RB Still) (JJR More))
+                                (NN Corn))
+                              ('' ''))))))))))
+            (VP (VBD ran)
+              (ADJP (JJ adjacent)
+                (PP (TO to)
+                  (NP
+                    (NP (DT an) (NN advertisement))
+                    (PP (IN for)
+                      (NP (DT a) (NN golf) (NN tournament))))))
+              (PP (IN on)
+                (NP
+                  (NP (NNP Fox) (NNPS Sports))
+                  (VP (VBN sponsored)
+                    (PP (IN by)
+                      (NP
+                        (NP (NNP Sun) (NNPS Microsystems))
+                        (SBAR
+                          (WHNP (WDT that))
+                          (S
+                            (VP (VBD featured)
+                              (NP
+                                (NP (DT a) (JJ fanciful) (NN photograph))
+                                (PP (IN of)
+                                  (NP
+                                    (NP (DT a) (JJ gigantic) (NN ear))
+                                    (PP (IN of)
+                                      (NP (NN corn))))))
+                              (PP (IN as)
+                                (NP
+                                  (NP (JJ big))
+                                  (PP (IN as)
+                                    (NP (DT a) (NNP Buick))))))))))))))))))
+    (. ?)))
+
+(ROOT
+  (PRN (: -)
+    (NP
+      (NP (NNP Doesn't))
+      (SBAR
+        (S
+          (NP
+            (NP (DT a) (JJ new) (NN television) (NN commercial))
+            (PP (IN for)
+              (NP (NNP Fidelity) (NNPS Investments)))
+            (, ,)
+            (VP (VBN centered)
+              (PP (IN on)
+                (NP
+                  (NP (DT a) (NN telephone) (NN conversation))
+                  (PP (IN between)
+                    (NP
+                      (NP (DT a) (JJ female) (NN employee))
+                      (CC and)
+                      (NP (DT a) (JJ male) (NN customer)))))))
+            (, ,))
+          (VP (VBP resemble)
+            (NP (DT a) (NNP Citibank) (NN campaign))
+            (PP (IN from)
+              (NP
+                (NP (DT the) (JJ late) (NNS 1980s))
+                (SBAR
+                  (WHNP (WDT that))
+                  (S
+                    (VP (VBD was)
+                      (ADVP (RB so) (RB brilliantly))
+                      (VP (VBN parodied)
+                        (PP (IN as)
+                          (NP (DT the) (JJ ``First) (NNP Citiwide) (NNP Change) (NNP Bank) ('' '') (NNS commercials)))
+                        (PP (IN on)
+                          (NP (JJ ``Saturday) (NNP Night) (NNP Live) (NNP ''?)))))))))))))))
+
+(ROOT
+  (SBARQ
+    (WHNP (WP -))
+    (SQ
+      (SQ (VBD Did)
+        (NP
+          (NP (NNS shoppers))
+          (PP (IN at)
+            (NP (DT the) (NNP New) (NNP York) (NN supermarket) (NN chain) (NN Gristede's))))
+        (VP (VB rush)
+          (S
+            (VP (TO to)
+              (VP (VB take)
+                (NP
+                  (NP (NN advantage))
+                  (PP (IN of)
+                    (NP (DT a) (JJ recent) (NN sale))))
+                (PP (IN on)
+                  (NP
+                    (NP (DT the) (JJ ``BIG) (JJ 150-count) (NN box) ('' ''))
+                    (PP (IN of)
+                      (NP (NNP Scotties) (JJ facial) (NNS tissues))))))))))
+      (, ,)
+      (CC or)
+      (SQ (VBD did)
+        (NP (PRP they))
+        (VP (VB recall)
+          (SBAR (IN that)
+            (S
+              (NP (NNP Scotties))
+              (VP (VBZ has)
+                (ADVP (RB usually))
+                (VP (VBN come)
+                  (PP (IN in)
+                    (NP (DT a) (JJ 175-count) (NN box))))))))))
+    (. ?)))
+
+(ROOT
+  (S (: -)
+    (NP (NNP Can) (NNP Ocean) (NNP Spray) (NNP Cranberries))
+    (VP (VBP get)
+      (NP (DT a) (NN refund))
+      (PP (IN on)
+        (NP
+          (NP (DT a) (JJ full-page) (NN ad))
+          (SBAR
+            (WHNP (WDT that))
+            (S
+              (VP (VBD ran)
+                (PP (IN in)
+                  (NP (NNS newspapers)))
+                (PP (IN on)
+                  (NP (NNP Nov)))))))))
+    (. .)))
+
+(ROOT
+  (UCP
+    (NP (CD 8))
+    (CC and)
+    (S
+      (VP (VBD carried)
+        (SBAR
+          (S
+            (NP (DT the) (NN headline))
+            (VP (VBD ``Now)
+              (SBAR
+                (S
+                  (SBAR (IN That)
+                    (S
+                      (NP (DT the) (NN Election))
+                      (VP (VBZ Is)
+                        (ADJP (JJ Over)))))
+                  (, ,)
+                  (NP (PRP You))
+                  (VP (MD Can)
+                    (VP (VB Focus)
+                      (PP (IN on)
+                        (NP (DT Some) (NNP Real) (NNP News) (NNP ''?))))))))))))))
+
+(ROOT
+  (SBARQ
+    (WHADVP (WRB -))
+    (SQ (VBD Was)
+      (NP (PRP it))
+      (NP
+        (NP (DT a) (NN coincidence))
+        (SBAR (IN that)
+          (S
+            (NP
+              (NP (DT an) (NN ad))
+              (PP (IN for)
+                (NP
+                  (NP (DT the) (NNP Carnation) (NNP Coffee-mate) (NN line))
+                  (PP (IN of)
+                    (NP
+                      (NP (NN coffee) (NNS creamers))
+                      (PP (IN in)
+                        (NP
+                          (NP (DT the) (JJ recent) (NN issue))
+                          (PP (IN of)
+                            (S
+                              (PP (IN In)
+                                (NP (NNP Style)))
+                              (VP (VBG Entertaining)
+                                (NP (CD 2000) (NN magazine))))))))))))
+            (VP (VBD ran)
+              (PP (IN opposite)
+                (NP
+                  (NP (DT an) (NN article))
+                  (PP (IN about)
+                    (NP (JJ ``great) (NNS trends)))))
+              ('' '')
+              (PP (IN in)
+                (NP
+                  (NP (NN party-giving))
+                  (SBAR
+                    (WHNP (WDT that))
+                    (S
+                      (VP (VBD began)
+                        (PP (IN by)
+                          (S
+                            (VP (VBG describing)
+                              (NP (NNS carnations))
+                              (PP (IN as)
+                                (NP
+                                  (NP (JJ ``the) (JJ chic) (NN flower))
+                                  (PP (IN of)
+                                    (NP (DT the) (NN moment) (NN ''?))))))))))))))))))))
+
+(ROOT
+  (SBARQ
+    (WHADVP (WRB -))
+    (SQ (MD Should)
+      (NP (DT an) (JJ English) (NN teacher))
+      (VP (VB have)
+        (VP (VBN been)
+          (VP (VBN consulted)
+            (SBAR (IN before)
+              (S
+                (NP
+                  (NP (DT the) (NNP Tropicana) (NN division))
+                  (PP (IN of)
+                    (NP (NNP PepsiCo))))
+                (VP (VBD produced)
+                  (NP
+                    (NP (NNS posters))
+                    (SBAR
+                      (WHNP (WDT that))
+                      (S
+                        (VP (VBD described)
+                          (NP (PRP$ its) (NNP Pure) (NNP Premium) (NN orange) (NN juice))
+                          (PP (IN as)
+                            (S
+                              (VP (VBG being)
+                                (VP
+                                  (ADVP (RB ``as))
+                                  (VBN packed)
+                                  (PP (IN with)
+                                    (NP
+                                      (NP (NNP Vitamin) (NNP C))
+                                      (PP (IN as)
+                                        (NP
+                                          (NP (DT a) (NN bus))
+                                          (PP (IN on)
+                                            (NP (DT a) (JJ rainy) (NN day) (NN ''?))))))))))))))))))))))))
+
+(ROOT
+  (S (: -)
+    (NP
+      (NP (NNP Will) (NNP Jack) (NNP Nicholson))
+      (, ,)
+      (NP (NNP Helen) (NNP Hunt))
+      (, ,)
+      (NP (NNP Greg) (NNP Kinnear))
+      (CC and)
+      (NP (NNP James) (NNP L.) (NNP Brooks)))
+    (VP (VBP complain)
+      (PP (IN about)
+        (NP
+          (NP (DT an) (NN ad))
+          (PP (IN from)
+            (NP (NNP Campbell) (NNP Soup) (NNP Co))))))
+    (. .)))
+
+(ROOT
+  (S
+    (PP (IN for)
+      (NP
+        (NP
+          (NP (NNP Campbell) (POS 's))
+          (NN Cream))
+        (PP (IN of)
+          (NP (NNP Mushroom) (NN soup)))))
+    (NP (DT that))
+    (VP (VBD carried)
+      (SBAR
+        (S
+          (NP (DT the) (NN slogan))
+          (VP (VBZ ``As)
+            (NP (NN m'm))))))
+    (. !)))
+
+(ROOT
+  (NP (NN m'm) (. !)))
+
+(ROOT
+  (FRAG
+    (ADJP (JJ good))
+    (. !)))
+
+(ROOT
+  (SBAR (IN as)
+    (S
+      (NP (PRP it))
+      (VP (VBZ gets)
+        (ADJP (JJ ''?))))))
+
+(ROOT
+  (SQ
+    (S
+      (VP (VBG -)
+        (ADVP (RB Now))
+        (SBAR (IN that)
+          (S
+            (NP (DT the) (NNP Roundabout) (NNP Theater) (NNP Company))
+            (VP (VBZ is)
+              (VP (VBG calling)
+                (NP (PRP$ its) (JJ new) (NN facility))
+                (PP (IN in)
+                  (NP
+                    (NP (NNP Times) (NNP Square))
+                    (NP (DT the) (NNP American) (NNPS Airlines) (NNP Theater))))))))))
+    (, ,) (MD will)
+    (NP (DT the) (NN ushers))
+    (VP (VB give)
+      (PRT (RP out))
+      (NP
+        (NP (NNS peanuts))
+        (PP (RB instead) (IN of)
+          (NP (NNP Playbills)))))
+    (. ?)))
+
+(ROOT
+  (SBARQ
+    (WHADVP (RB -) (WRB Why))
+    (SQ (VBD did)
+      (NP (DT the) (NNP Reader's) (NNP Digest) (NNP Association))
+      (VP
+        (VP (VB go)
+          (PP (TO to)
+            (NP
+              (NP (DT the) (NN trouble))
+              (PP (IN of)
+                (S
+                  (VP (VBG airbrushing)
+                    (NP (DT the) (JJ identifying) (NN information))
+                    (PP (IN from)
+                      (NP
+                        (NP (DT a) (NN label))
+                        (PP (IN on)
+                          (NP
+                            (NP (DT a) (NN pair))
+                            (PP (IN of)
+                              (NP
+                                (NP (NNS jeans))
+                                (VP (VBN worn)
+                                  (PP (IN by)
+                                    (NP
+                                      (NP (DT a) (NN man))
+                                      (PP (IN in)
+                                        (NP
+                                          (NP (DT a) (NN photograph))
+                                          (VP (VBN featured)
+                                            (PP (IN in)
+                                              (NP
+                                                (NP (DT an) (NN ad))
+                                                (PP (IN for)
+                                                  (NP (NNP Reader's) (NNP Digest) (NN magazine)))))))))))))))))))))))
+        (, ,)
+        (CC but)
+        (VP (VB leave)
+          (NP (DT the) (JJ red) (NN tab))
+          (PP (IN on)
+            (NP
+              (NP (DT the) (JJ back) (NN pocket))
+              (SBAR
+                (WHNP (WDT that))
+                (S
+                  (VP (VBZ tells)
+                    (NP
+                      (NP (NN everyone))
+                      (SBAR
+                        (S
+                          (NP (DT the) (NNS pants))
+                          (VP (VBP are)
+                            (NP (NNP Levi) (POS 's))))))))))))))
+    (. ?)))
+
+(ROOT
+  (SBARQ
+    (WHADVP (WRB -))
+    (SQ (VBP Do)
+      (NP
+        (NP (NN television) (NNS commercials))
+        (PP (IN for)
+          (NP (NN prescription) (NNS drugs))))
+      (VP (VB disclose)
+        (SBAR (IN that)
+          (S
+            (NP
+              (NP (NN side) (NNS effects))
+              (PP (IN in)
+                (NP (NNS tests))))
+            (VP (VBD were)
+              (VP
+                (ADVP (DT no) (RBR worse))
+                (VBN ``than)
+                (NP (DT a) (NN sugar) (NN pill))
+                ('' '')
+                (SBAR (IN because)
+                  (S
+                    (NP (NN research))
+                    (VP (VBD found)
+                      (SBAR (IN that)
+                        (S
+                          (NP (NNS consumers))
+                          (VP (VBP weren't)
+                            (ADJP (JJ familiar))
+                            (PP (IN with)
+                              (NP (DT the) (NN word) (NN ``placebo) (NN ''?)))))))))))))))))
+
+(ROOT
+  (UCP (: -)
+    (S
+      (NP (WP What))
+      (VP (VBD was)
+        (PP (IN in)
+          (NP
+            (NP (DT the) (NN zeitgeist))
+            (SBAR
+              (WHNP (WDT that))
+              (S
+                (VP (VBD led)
+                  (S
+                    (NP
+                      (NP (CD two) (JJ disparate) (NNS advertisers))
+                      (: -)
+                      (NP
+                        (NP (NNP Empire) (NNP Blue) (NNP Cross) (NNP Blue) (NNP Shield))
+                        (CC and)
+                        (NP
+                          (NP (DT the) (NNP MSN) (NN network))
+                          (PP (IN of)
+                            (NP (NNP Microsoft)))))
+                      (: -))
+                    (VP (TO to)
+                      (VP (VB introduce)
+                        (PP (IN about)
+                          (NP
+                            (NP (DT the) (JJ same) (NN time) (NNS campaigns))
+                            (VP (VBN centered)
+                              (PP (IN on)
+                                (NP (NNS butterflies))))))))))))))))
+    (. ?)))
+
+(ROOT
+  (UCP (: -)
+    (S (CC And)
+      (NP (WDT what))
+      (VP (VBD was)
+        (PP (IN in)
+          (NP
+            (NP (DT the) (NN zeitgeist))
+            (SBAR
+              (WHNP (WDT that))
+              (S
+                (VP (VBD led)
+                  (S
+                    (NP
+                      (NP (CD two) (JJ automotive) (NNS marketers))
+                      (: -)
+                      (NP
+                        (NP (NNP Land) (NNP Rover))
+                        (CC and)
+                        (NP (NNP Volvo)))
+                      (: -))
+                    (VP (TO to)
+                      (VP (VB introduce)
+                        (PP (IN about)
+                          (NP
+                            (NP (DT the) (JJ same) (NN time) (NNS commercials))
+                            (VP (VBN centered)
+                              (PP (IN on)
+                                (NP
+                                  (NP (NNS drivers))
+                                  (VP (VBG rescuing)
+                                    (NP (NNS animals))
+                                    (PP (IN on)
+                                      (NP (JJ rainy) (NNS roads)))))))))))))))))))
+    (. ?)))
+
+(ROOT
+  (SBARQ
+    (WHNP (WP -))
+    (SQ (VBP Are)
+      (NP
+        (NP (NNS folks))
+        (ADJP (JJ old) (RB enough)
+          (S
+            (VP (TO to)
+              (VP (VB remember)
+                (NP
+                  (NP (DT the) (NN heyday))
+                  (PP (IN of)
+                    (NP
+                      (NP (DT the) (NN radio))
+                      (CC and)
+                      (NP (NN television) (NN personality) (NNP Arthur) (NNP Godfrey))))))))))
+      (VP (VBN reminded)
+        (PP (IN of)
+          (NP (PRP$ his) (JJ longtime) (NN greeting)))
+        (, ,)
+        (S
+          (ADJP (JJ ``How))
+          (SBAR
+            (SINV (VBP are)
+              (NP (PRP ya))
+              (VP (VBN ?,'')
+                (NP
+                  (NP (DT every) (NN time))
+                  (SBAR
+                    (S
+                      (NP (PRP they))
+                      (VP (VBP hear)
+                        (NP
+                          (NP (DT the) (NN name))
+                          (PP (IN of)
+                            (NP
+                              (NP (DT the) (JJ new) (NNP Lucent) (NNP Technologies) (NN spinoff) (NN company))
+                              (, ,)
+                              (NP (NNP Avaya) (NNP Communication)))))))))))))))
+    (. ?)))
+
+(ROOT
+  (SBARQ
+    (WHADJP (RB -) (WRB How) (JJ appealing))
+    (SQ (VBD was)
+      (NP (DT a) (JJ recent) (NN offer))
+      (VP (VBN made)
+        (PP (IN by)
+          (NP (NNP Sprint) (NNPS Communications) (NNP Co)))))
+    (. .)))
+
+(ROOT
+  (FRAG
+    (S
+      (VP (TO to)
+        (VP (VB give)
+          (NP
+            (NP (NNS buyers))
+            (PP (IN of)
+              (NP
+                (NP (DT a) (NNP Sprint) (NNP PCS) (NN telephone))
+                (CC and)
+                (NP (DT a) (NN calling) (NN plan)))))
+          (NP (DT a) (JJ free) (JJ ``pre-owned) (NN phone) (NN ''?)))))))
+
+(ROOT
+  (SBARQ
+    (WHNP (WP -))
+    (SQ (VBD Was)
+      (NP (PRP it))
+      (NP
+        (NP (DT an) (JJ inside) (NN joke))
+        (SBAR (IN that)
+          (S
+            (NP
+              (NP (DT the) (NN name))
+              (PP (IN of)
+                (NP
+                  (NP (DT the) (NN character))
+                  (VP (VBN played)
+                    (PP (IN by)
+                      (NP
+                        (NP (NNP John) (NNP Corbett))
+                        (PP (IN on)
+                          (NP
+                            (NP (NN ``Sex))
+                            (CC and)
+                            (NP (DT the) (NNP City) (NNP ,'') (NNP Aidan) (NNP Shaw))))))))))
+            (, ,)
+            (VP (VBD was)
+              (ADJP (RB almost) (JJ identical)
+                (PP (TO to)
+                  (NP
+                    (NP (DT the) (NN name))
+                    (PP (IN of)
+                      (NP
+                        (NP (DT a) (JJ longtime) (NN star))
+                        (PP (IN of)
+                          (NP
+                            (NP (JJ gay) (NN sex) (NNS films))
+                            (, ,)
+                            (NP (NNP Aiden) (NNP Shaw))))))))))))))
+    (. ?)))
+
+(ROOT
+  (SBARQ
+    (WHNP
+      (WHADJP (RB -) (WRB How) (JJ many))
+      (NNS tickets))
+    (SQ (VBD did)
+      (NP (DT the) (NNP Houston) (NNP Grand) (NNP Opera))
+      (VP (VB sell)
+        (PP (IN after)
+          (S
+            (VP (VBG mailing)
+              (PRT (RP out))
+              (NP (DT a) (JJ promotional) (NN brochure))
+              (S
+                (VP (VBG featuring)
+                  (NP
+                    (NP (NNS photographs))
+                    (PP (IN of)
+                      (NP (NNS cattle))))
+                  (PP (IN with)
+                    (NP
+                      (NP (NNS headlines))
+                      (PP (IN like)
+                        (NP
+                          (NP (NN ``It) (POS 's))
+                          (ADJP (RB udderly) (JJ fantastic))
+                          (NN entertainment) (NN !''))))))))))))))
+
+(ROOT
+  (S (CC and)
+    (VP (VB ``Great)
+      (NP (NN opera)))
+    (. .)))
+
+(ROOT
+  (NP (DT No) (NN bull) (NN .''?)))
+
+(ROOT
+  (SQ
+    (SBAR (RB -) (IN If)
+      (S
+        (NP (NNP CBS))
+        (VP (VBZ shows)
+          (NP
+            (NP (DT the) (JJ first) (NN episode))
+            (PP (IN of)
+              (NP
+                (NP (NNP ``Survivor) (NNP II))
+                ('' '')
+                (PP (IN after)
+                  (NP
+                    (NP (PRP$ its) (NN broadcast))
+                    (PP (IN of)
+                      (NP (NNP Super) (NNP Bowl) (NNP XXXV)))))))))))
+    (, ,) (MD will)
+    (NP (DT the) (NN network))
+    (ADVP (RB someday))
+    (VP (VB show)
+      (NP
+        (NP (DT the) (JJ first) (NN episode))
+        (PP (IN of)
+          (NP (NN ``Survivor) (NNS XXXV))))
+      ('' '')
+      (PP (IN after)
+        (NP
+          (NP (PRP$ its) (NN broadcast))
+          (PP (IN of)
+            (NP (NNP Super) (NNP Bowl) (NNP LXVIII))))))
+    (. ?)))
+
+(ROOT
+  (X
+    (X (SYM -))
+    (NP
+      (SQ (MD Will)
+        (NP
+          (NP (JJ cheerful) (NN chorus) (NNS members))
+          (VP (VBN dressed)
+            (PP (IN in)
+              (NP (NNP V-neck) (NNS sweaters)))))
+        (VP (VB interrupt)
+          (NP (PRP$ their) (NNS serenades))
+          (PP (TO to)
+            (NP (JJ online) (NN shopping)))
+          (ADVP (RB long) (RB enough)
+            (S
+              (VP (TO to)
+                (VP (VB tell)
+                  (NP (DT an) (NN advertising) (NN columnist))
+                  (, ,)
+                  (S
+                    (ADJP (JJ ``You)))))))))
+      (VP (VB ask)
+        (NP
+          (NP (DT a) (NN lot))
+          (PP (IN of)
+            (NP
+              (NP (NNS questions))
+              (PP (IN for)
+                (NP (NN someone))))))
+        (PP (IN from)
+          (NP (NNP Brooklyn) (NNP ''?)))))))
+
+(ROOT
+  (NP (NN NYT-11-23-00) (CD 1717EST)))
+

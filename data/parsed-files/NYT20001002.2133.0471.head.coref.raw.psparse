@@ -1,0 +1,970 @@
+(ROOT
+  (FRAG
+    (NP (NNP NYT20001002.2133.0471) (NNP NEWS) (NNP STORY))
+    (NP (CD 2000-10-02) (CD 21:50:00))))
+
+(ROOT
+  (FRAG
+    (NP (CD A0241) (CD &Cx1f))
+    (: ;)
+    (S
+      (NP (NNP taf-z) (NNP u))
+      (VP (VBZ s)
+        (VP (VBG BC-BBN-ANDERSON-COLUMN-N)
+          (NP (CD 10-02) (CD 0741)))))))
+
+(ROOT
+  (NP (NNP BC-BBN-ANDERSON-COLUMN-NYT)))
+
+(ROOT
+  (NP
+    (NP (NNP SPORTS) (NNP COMMENTARY))
+    (: :)
+    (NP
+      (NP (NNP BARRY) (NNP BONDS) (POS '))
+      (NNP DESPERATE) (NNP OCTOBER))))
+
+(ROOT
+  (NP
+    (NP (NNP &UR))
+    (: ;)
+    (S
+      (S
+        (PP (IN By)
+          (NP
+            (NP (NNP DAVE) (NNP ANDERSON))
+            (VP (VBN &QC)))))
+      (: ;)
+      (S
+        (VP (VBG &LR)))
+      (: ;)
+      (S
+        (VP (VBG &QL)))
+      (: ;)
+      (S
+        (VP (VBG &UR)))
+      (: ;)
+      (S
+        (VP (VBG c.2000)
+          (NP (NNP N.Y)))))
+    (. .)))
+
+(ROOT
+  (NP
+    (NP (NNP Times) (NNP News) (NNP Service) (NNP &QC))
+    (: ;)
+    (NP (CD &LR) (: ;) (CD &QL))
+    (: ;)))
+
+(ROOT
+  (S
+    (SBAR (IN If)
+      (S
+        (NP (NNP Barry) (NNPS Bonds))
+        (VP (VBZ is)
+          (VP (VBN voted)
+            (NP (DT the) (JJS Most)
+              (NP
+                (NP (NNP Valuable) (NNP Player))
+                (PP (IN in)
+                  (NP
+                    (NP (DT the) (NNP National) (NNP League))
+                    (NP (DT this) (NN year))))))))))
+    (, ,)
+    (NP (PRP he))
+    (VP (MD will)
+      (VP (VB be)
+        (NP (DT the) (JJ first) (JJ major) (NN leaguer)
+          (S
+            (VP (TO to)
+              (VP (VB win)
+                (NP (PRP it))
+                (NP (CD four) (NNS times))))))))
+    (. .)))
+
+(ROOT
+  (S (CC And)
+    (PP (IN with)
+      (NP
+        (NP (NN career) (NNS totals))
+        (PP (IN of)
+          (NP
+            (NP (CD 494) (NNS homers))
+            (CC and)
+            (NP (CD 471) (VBN stolen) (NNS bases))))))
+    (, ,)
+    (NP
+      (NP (NNS Bonds))
+      (, ,)
+      (NP
+        (NP (DT the) (NNP San) (NNP Francisco) (NNPS Giants) (POS '))
+        (JJ left) (NN fielder))
+      (, ,))
+    (VP (VBZ is)
+      (NP
+        (NP (DT the) (JJ only) (NN player))
+        (PP (IN in)
+          (NP
+            (NP (NN baseball) (NN history))
+            (PP (IN with)
+              (NP
+                (NP
+                  (QP (JJR more) (IN than) (CD 400)))
+                (PP (IN in)
+                  (NP (DT each) (NN category)))))))))
+    (. .)))
+
+(ROOT
+  (FRAG (CC But)
+    (SBAR (IN if)
+      (S
+        (NP (NNP Reggie) (NNP Jackson))
+        (VP (VBD was)
+          (NP (NNP Mr)))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NAC (NNP October)
+        (PP (IN for)
+          (NP (PRP$ his) (NN postseason) (NNS performances))))
+      (, ,) (NNP Barry) (NNP Bonds))
+    (VP (VBZ is)
+      (NP (NNP Mr)))
+    (. .)))
+
+(ROOT
+  (NP
+    (NP (CD 0))
+    (PP (IN for)
+      (NP (NNP October)))
+    (. .)))
+
+(ROOT
+  (S
+    (SBAR
+      (WHADVP (WRB When))
+      (S
+        (NP (DT the) (NNPS Giants))
+        (VP (VBP open)
+          (NP (PRP$ their) (NN division) (NN series))
+          (PP (IN against)
+            (NP
+              (NP (DT the) (NNPS Mets))
+              (PP (IN in)
+                (NP (NNP San) (NNP Francisco) (NNP Wednesday))))))))
+    (, ,)
+    (NP (NNS Bonds))
+    (VP (MD will)
+      (VP (VB be)
+        (ADJP (JJ desperate)
+          (S
+            (VP (TO to)
+              (VP (VB do)
+                (SBAR
+                  (WHNP (WP what))
+                  (S
+                    (NP (PRP he))
+                    (VP (VBZ has)
+                      (ADVP (RB never))
+                      (VP
+                        (VP (VBN done)
+                          (PP (IN in)
+                            (NP (PRP$ his) (JJ various) (NN postseason) (NNS appearances))))
+                        (: :)
+                        (VP (VBN hit)
+                          (PP (IN for)
+                            (NP (NN average))))
+                        (, ,)
+                        (VP (VBN hit)
+                          (PP (IN for)
+                            (NP (NN power))))
+                        (CC and)
+                        (VP (NN help)
+                          (NP (PRP$ his) (NN team) (NN win)))))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (ADVP (RBR More)
+      (PP (IN than)
+        (NP (NN anyone) (RB else))))
+    (, ,)
+    (NP (PRP he))
+    (VP (VBZ knows)
+      (SBAR
+        (S
+          (NP (PRP he))
+          (VP (VBZ has)
+            (S
+              (VP (TO to)
+                (VP (VB disprove)
+                  (NP (DT the) (NN rap))
+                  (SBAR (IN that)
+                    (S
+                      (NP (PRP he))
+                      (VP (VBP can't)
+                        (VP (VBN hit)
+                          (PP (IN in)
+                            (NP (DT the) (JJ big) (NN one))))))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (PRP He))
+    (VP (VBZ 's)
+      (VP (VBN tried)
+        (S
+          (VP (TO to)
+            (VP (VB laugh)
+              (NP (PRP it))
+              (PRT (RP off)))))))
+    (. .)))
+
+(ROOT
+  (S
+    (VP (VB ``Call)
+      (NP (PRP me))
+      (SBAR
+        (S
+          (NP (NNP Mr.) (NNP July))
+          (VP (VBD ,'')
+            (SBAR
+              (S
+                (NP (PRP he))
+                (ADVP (RB once))
+                (VP (VBD said))))))))
+    (. .)))
+
+(ROOT
+  (S (CC Or)
+    (VP (VB feel)
+      (ADJP (JJ free)
+        (S
+          (VP (TO to)
+            (VP (VB call)
+              (S
+                (NP (PRP him))
+                (NP (NNP Mr))))))))
+    (. .)))
+
+(ROOT
+  (NP (NNP August)
+    (CC or)
+    (NNP Mr) (. .)))
+
+(ROOT
+  (FRAG
+    (NP (NNP September))
+    (. .)))
+
+(ROOT
+  (S
+    (SBAR
+      (WHADVP (WRB When))
+      (S
+        (NP (DT the) (NN season))
+        (VP (VBD ended)
+          (NP (NNP Sunday)))))
+    (, ,)
+    (NP (NNS Bonds))
+    (VP (VBD had)
+      (VP
+        (VP (VBN batted)
+          (NP (CD .306)))
+        (, ,)
+        (VP (VBD crashed)
+          (NP (DT a) (JJ career-high) (CD 49) (NN home) (NNS runs)))
+        (CC and)
+        (VP (VBN driven)
+          (PP (IN in)
+            (NP (CD 106) (NNS runs))))))
+    (. .)))
+
+(ROOT
+  (S (CC But)
+    (PP (IN over)
+      (NP
+        (NP (CD 23) (NN postseason) (NNS games))
+        (PP (IN in)
+          (NP (PRP$ his) (NN career)))))
+    (PRN (: -)
+      (S
+        (NP
+          (NP (CD 20))
+          (PP (IN with)
+            (NP
+              (NP (DT the) (NNPS Pirates))
+              (PP
+                (ADVP
+                  (NP (RB nearly) (DT a) (NN decade))
+                  (RB ago))
+                (IN in)
+                (NP (CD three))))))
+        (VP (VBG losing)
+          (NP
+            (NP (NNP National) (NNP League) (NNP Championship) (NNP Series))
+            (CC and)
+            (NP (CD three)))
+          (PP (IN with)
+            (NP
+              (NP (DT the) (NNPS Giants))
+              (PP (IN in)
+                (NP (DT a) (CD 1997) (NN division) (NN series) (NN sweep)))))
+          (PP (IN by)
+            (NP (DT the) (NNP Florida) (NNPS Marlins)))))
+      (: -))
+    (NP (NNS Bonds))
+    (VP (VBZ has)
+      (VP (VBN batted)
+        (NP
+          (QP (RB only) (CD .200) (CD [16)))
+        (PP (IN for)
+          (NP
+            (NP
+              (NP (CD 80) (NNS ]))
+              (PP (IN with)
+                (NP
+                  (QP (RB only) (CD one))
+                  (NN home) (NN run))))
+            (, ,)
+            (NP
+              (QP (RB only) (CD four))
+              (NNS doubles))
+            (, ,) (RB only)
+            (NP
+              (NP (CD five) (NNS runs))
+              (VP (VBN batted)
+                (PP (IN in)
+                  (NP
+                    (QP (CC and)
+                      (CD 16))
+                    (NNS strikeouts)))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (PP (IN In)
+      (NP (DT those) (CD three) (NNP NL) (NNP Championship) (NNP Series)))
+    (, ,)
+    (NP
+      (NP (CD two))
+      (PP (IN against)
+        (NP (DT the) (NNP Atlanta) (NNPS Braves) (NN [in)))
+      (SBAR
+        (WHNP (WDT which))
+        (S
+          (NP (PRP he))
+          (VP (VBD batted)
+            (NP (CD .148))
+            (PP (IN in)
+              (NP (CD 1991)
+                (CC and)
+                (CD .261)))
+            (PP (IN in)
+              (NP
+                (NP (CD '92) (NNS ]))
+                (CC and)
+                (NP (CD one))))
+            (PP (IN against)
+              (NP
+                (NP (DT the) (NNP Cincinnati) (NNP Reds) (CD [.167))
+                (PP (IN in)
+                  (NP
+                    (QP (CD '90) (CD ],))
+                    (PRP$ his) (JJ overall) (NN average)))))))))
+    (VP (VBD was)
+      (NP (CD .191)))
+    (. .)))
+
+(ROOT
+  (S
+    (PP (RB Even)
+      (PP (IN with)
+        (NP (PRP$ his) (JJ overall) (CD .200) (NN postseason) (NN average))))
+    (, ,)
+    (NP (NNS Bonds))
+    (VP (VBZ has) (RB not)
+      (ADVP (RB even))
+      (VP (VBN hit)
+        (NP
+          (NP (PRP$ his) (NN weight))
+          (, ,)
+          (NP (CD 210)))))
+    (. .)))
+
+(ROOT
+  (S (CC And)
+    (NP (PRP$ his) (NN team))
+    (, ,)
+    (SBAR (IN whether)
+      (S
+        (NP
+          (NP (DT the) (NNPS Pirates))
+          (CC or)
+          (NP (DT the) (NNPS Giants)))))
+    (, ,)
+    (VP (VBZ has)
+      (VP (VBN lost)
+        (NP
+          (NP (CD 15))
+          (PP (IN of)
+            (NP (DT those) (CD 23) (NN postseason) (NNS games))))))
+    (. .)))
+
+(ROOT
+  (S
+    (PP (IN Over)
+      (NP (DT a) (JJ short) (NN postseason) (NN series)))
+    (, ,)
+    (NP (RB even) (DT the) (JJS best) (NNS hitters))
+    (ADVP (RB sometimes))
+    (VP (VBD wallow)
+      (PP (IN through)
+        (NP (DT a) (NN slump)))
+      (SBAR (IN as)
+        (S
+          (NP (PRP$ their) (NN team))
+          (VP (VBZ loses)))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP Babe) (NNP Ruth))
+    (VP (VBD batted)
+      (NP
+        (NP (CD .118) (NN [two))
+        (PP (IN for)
+          (NP
+            (NP (CD 17) (NNS ]))
+            (PP (IN in)
+              (NP (DT the) (JJ five-game) (NNP 1922) (NNP World) (NNP Series))))))
+      (SBAR (IN that)
+        (S
+          (NP (DT the) (NNPS Yankees))
+          (VP (VBD lost)
+            (PP (TO to)
+              (NP (DT the) (NNP New) (NNP York) (NNPS Giants)))))))
+    (. .)))
+
+(ROOT
+  (S (CC But)
+    (PP (IN over)
+      (NP (CD 23) (NN postseason) (NNS games)))
+    (, ,)
+    (NP (DT the) (NN cream))
+    (VP (VBZ is)
+      (VP (VBN supposed)
+        (S
+          (VP (TO to)
+            (VP (VB rise)
+              (PP (TO to)
+                (NP (DT the) (NN top))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (NNS Bonds) (POS '))
+      (NN cream))
+    (VP (VBZ has)
+      (ADVP (RB only))
+      (VP (VBN curdled)))
+    (. .)))
+
+(ROOT
+  (FRAG
+    (PP (TO To)
+      (NP (PRP$ his) (NN dismay)))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP ``I))
+    (VP (VBP want)
+      (S
+        (NP (NNS people))
+        (VP (TO to)
+          (VP (VB say)
+            (NP
+              (NP (NNP ,''))
+              (SBAR
+                (S
+                  (NP (PRP he))
+                  (VP (VBZ has)
+                    (ADVP (RB often))
+                    (VP (VBD proclaimed)))))))))
+      (, ,)
+      (S
+        (ADJP (JJ ``that))
+        (SBAR
+          (S
+            (NP (NNP Barry) (NNPS Bonds))
+            (VP (VBZ is)
+              (NP
+                (NP (DT the) (JJS best) (NN baseball) (NN player))
+                (SBAR
+                  (S
+                    (NP (EX there))
+                    (VP (VBZ is)
+                      (ADJP (JJ .'')))))))))))))
+
+(ROOT
+  (S
+    (SBAR (IN If)
+      (S
+        (NP (PRP you))
+        (ADVP (RB just))
+        (VP (VB assess)
+          (NP (PRP$ his) (NN career) (JJ regular-season) (NNS stats)))))
+    (, ,)
+    (NP (PRP you))
+    (VP (MD can)
+      (VP (VB argue)
+        (SBAR (IN that)
+          (S
+            (NP (PRP he))
+            (VP (VBZ is)
+              (NP
+                (NP (DT the) (JJS best) (NN baseball) (NN player))
+                (SBAR
+                  (S
+                    (NP (EX there))
+                    (VP (VBZ is))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (PRP He))
+    (VP (VBD was)
+      (VP (VBN named)
+        (NP
+          (NP (DT The) (NNP Sporting) (NNP News) (NN player))
+          (PP (IN of)
+            (NP
+              (NP (DT the) (NN decade))
+              (PP (IN for)
+                (NP (DT the) (NNS 1990s))))))
+        (PP (IN over)
+          (NP (NNP Ken) (NNP Griffey) (NNP Jr)))))
+    (. .)))
+
+(ROOT
+  (S (CC and)
+    (NP (NNP Mark) (NNP McGwire))
+    (, ,)
+    (S
+      (VP (VBG joining)
+        (S
+          (NP
+            (NP (JJ such) (JJ prestigious) (NNS names))
+            (PP (IN as)
+              (NP (NNP Stan) (NNP Musial) (NNPS ['40s) (NNP ],) (NNP Ted) (NNP Williams) (NNPS ['50s) (NNP ],) (NNP Willie) (NNP Mays) (NNPS ['60s) (NNP ],) (NNP Pete) (NNP Rose) (NNP ['70s) (NNP ])
+                (CC and)
+                (NNP Mike) (NNP Schmidt) (NNS ['80s))))
+          (ADJP (JJ ].))
+          (PP (IN In)
+            (NP
+              (NP (CD 10) (NNS years))
+              (PP (IN of)
+                (NP (NNP MVP) (NN voting)))))
+          (PP (IN in)
+            (NP (DT the) (NNS '90s))))))
+    (, ,)
+    (NP (PRP he))
+    (VP (VBD received)
+      (NP
+        (NP (DT the) (JJS most) (NNS points))
+        (: -)
+        (NP
+          (NP (CD 1,895))
+          (, ,)
+          (NP
+            (QP (RB nearly) (CD 500))
+            (JJR more))))
+      (PP (IN than)
+        (NP
+          (NP (DT the) (JJ next) (JJS highest) (NN vote-getter))
+          (, ,)
+          (NP
+            (NP (NNP Frank) (NNP Thomas))
+            (PP (IN of)
+              (NP (DT the) (NNP Chicago) (NNP White) (NNPS Sox)))))))
+    (. .)))
+
+(ROOT
+  (S
+    (PP (IN By)
+      (NP (NN rule)))
+    (, ,)
+    (NP (DT the) (NNP MVP) (NNS votes))
+    (VP (MD must)
+      (VP (VB be)
+        (VP (VBN cast)
+          (PP (IN in)
+            (NP
+              (NP (DT the) (JJ brief) (NN interlude))
+              (PP (IN between)
+                (NP
+                  (NP
+                    (NP (DT the) (NN end))
+                    (PP (IN of)
+                      (NP (DT the) (JJ regular) (NN season))))
+                  (CC and)
+                  (NP
+                    (NP (DT the) (NN start))
+                    (PP (IN of)
+                      (NP (DT the) (NNS playoffs)))))))))))
+    (. .)))
+
+(ROOT
+  (S (RB So)
+    (NP
+      (NP (NNS Bonds) (POS '))
+      (NN postseason) (NNS flops))
+    (ADVP (RB never))
+    (VP (VBD counted)
+      (PP (IN against)
+        (NP (PRP$ his) (NNP MVP) (NNS credentials))))
+    (. .)))
+
+(ROOT
+  (S
+    (S
+      (NP (DT Those) (NNP MVP) (NNS votes))
+      (VP (VBD were)
+        (NP
+          (NP (DT a) (NN tribute))
+          (PP (TO to)
+            (NP
+              (NP (DT the) (NN integrity))
+              (PP (IN of)
+                (NP (NN baseball) (NNS writers)))))
+          (SBAR
+            (WHNP (WP who))
+            (S
+              (VP (VBD cast)
+                (NP (DT those) (NNS votes))))))))
+    (: ;)
+    (S
+      (NP
+        (NP (JJ few))
+        (PRN (, ,) (IN if) (DT any) (, ,)))
+      (VP (VBP find)
+        (S
+          (NP (NNS Bonds))
+          (VP (TO to)
+            (VP (VB be)
+              (ADJP (JJ endearing)
+                (CC or)
+                (JJ charming)))))))
+    (. .)))
+
+(ROOT
+  (S
+    (PP (IN For)
+      (NP (DT that) (NN matter)))
+    (, ,)
+    (NP
+      (NP (JJ few))
+      (PP (IN of)
+        (NP (PRP$ his) (NNS teammates))))
+    (VP (VBP have)
+      (VP (VBN enjoyed)
+        (NP (PRP$ his)
+          (ADJP (JJ arrogant) (, ,) (JJ haughty))
+          (NN personality))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP ``I))
+    (VP (MD 'd) (RB rather)
+      (VP (VB lose)
+        (PP (IN without)
+          (S
+            (NP (PRP him))
+            (VP (VBG ,'')
+              (S
+                (S
+                  (NP
+                    (NP (CD one))
+                    (PP (IN of)
+                      (NP (PRP$ his) (NNP Pirate) (NNS teammates))))
+                  (VP (VBD said) (, ,)
+                    (S
+                      (VP (VBG requesting)
+                        (NP (NN anonymity))))))
+                (, ,)
+                (S
+                  (NP (NN ``than))
+                  (VP (VBP win)
+                    (SBAR (IN with)
+                      (S
+                        (NP (PRP him))
+                        (VP (VBZ .''))))))))))))))
+
+(ROOT
+  (S
+    (NP (NNP Bonds) (NNP hasn't))
+    (VP (VBD changed))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (JJ Many))
+      (PP (IN of)
+        (NP (PRP$ his) (JJ Giant) (NNS teammates))))
+    (ADVP (RB hardly))
+    (VP (VBP talk)
+      (PP (TO to)
+        (NP (PRP him))))
+    (. .)))
+
+(ROOT
+  (FRAG (CC Or)
+    (VP (VB want)
+      (PP (TO to)))
+    (. .)))
+
+(ROOT
+  (S
+    (PP (IN In)
+      (NP
+        (NP
+          (NP (DT the) (NNPS Giants) (POS '))
+          (JJ spacious) (NN clubhouse))
+        (PP (IN at)
+          (NP
+            (NP (PRP$ their) (JJ new) (NNP Pacific) (NNP Bell) (NNP Park))
+            (PP (IN in)
+              (NP (NNP San) (NNP Francisco)))))))
+    (, ,)
+    (NP (PRP he))
+    (VP (VBZ prefers)
+      (S
+        (VP (TO to)
+          (VP (VB be)
+            (ADJP (RB alone))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (PRP He))
+    (VP (VBZ spreads)
+      (PRT (RP out))
+      (PP (IN across)
+        (NP (CD four) (NNS lockers))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (PRP He))
+    (VP
+      (VP (VBZ sprawls)
+        (PP (IN in)
+          (NP (DT a) (NN recliner))))
+      (CC and)
+      (VP (VBZ watches)
+        (SBAR
+          (S
+            (NP (PRP$ his) (JJ own) (NN television))
+            (VP
+              (VP (VBD set))
+              (CC or)
+              (VP (VBZ listens)
+                (PP (TO to)
+                  (NP (PRP$ his) (NN stereo)))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (JJ ``Some) (NNS people))
+    (VP (VBP accuse)
+      (NP (PRP me))
+      (PP (IN of)
+        (S
+          (VP (VBG having)
+            (S
+              (NP
+                (NP (DT a) (NN chip))
+                (PP (IN on)
+                  (NP (PRP$ my) (NN shoulder))))
+              (VP (VBG ,'')
+                (SBAR
+                  (S
+                    (NP (PRP he))
+                    (ADVP (RB once))
+                    (VP (VBD said)))))))))
+      (, ,)
+      (ADJP (JJ ``but)
+        (SBAR
+          (WHNP (WDT that))
+          (S
+            (VP (VBZ 's)
+              (NP
+                (NP (NN part))
+                (PP (IN of)
+                  (SBAR
+                    (WHNP (WP what))
+                    (S
+                      (VP (VBZ makes)
+                        (S
+                          (NP (PRP me))
+                          (VP (VB tick)
+                            (NP (NNS .''))))))))))))))))
+
+(ROOT
+  (S (CC But)
+    (ADVP (RBR more)
+      (PP (IN than)
+        (NP (NN anyone) (RB else))))
+    (, ,)
+    (NP (NNS Bonds))
+    (VP (VBZ knows)
+      (SBAR
+        (S
+          (NP (PRP he))
+          (VP (VBZ has) (RB not)
+            (VP (VBN ticked)
+              (PP (IN in)
+                (NP (DT the) (NN postseason))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (S
+      (NP (PRP He))
+      (VP (VBZ 's)
+        (ADJP (JJ due)
+          (S
+            (VP (TO to)
+              (VP (VB break)
+                (PRT (RP out))
+                (PP (IN with)
+                  (NP
+                    (NP (DT a) (NN barrage))
+                    (PP (IN against)
+                      (NP (DT the) (NNPS Mets)))))))))))
+    (: ;) (RB then)
+    (S
+      (ADVP (RB again))
+      (, ,)
+      (NP
+        (NP (DT the) (NNPS Mets) (POS '))
+        (NNS pitchers))
+      (VP (VBP know)
+        (SBAR (IN that)
+          (S (, ,)
+            (PP (IN in)
+              (NP (PRP$ his) (NN desperation)
+                (S
+                  (VP (TO to)
+                    (VP (VB show)
+                      (SBAR (IN that)
+                        (S
+                          (NP (PRP he))
+                          (ADVP (RB really))
+                          (VP (VBZ is)
+                            (NP
+                              (NP (DT the) (JJ ``best) (NN player))
+                              (SBAR
+                                (S
+                                  (NP (EX there))
+                                  (VP (VBZ is)
+                                    (ADJP (JJ ,'')
+                                      (SBAR
+                                        (S
+                                          (NP (PRP he))
+                                          (VP (MD might)
+                                            (VP (VB be)
+                                              (ADJP (JJ willing)
+                                                (S
+                                                  (VP (TO to)
+                                                    (VP (VB swing)
+                                                      (PP (IN at)
+                                                        (NP (NNS pitches))))))))))))))))))))))))
+            (NP (PRP he))
+            (VP (MD might)
+              (VP (VB ignore)
+                (PP (IN during)
+                  (NP (DT the) (JJ regular) (NN season)))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (SBAR (IN If)
+      (S
+        (NP (PRP he))
+        (VP (VBZ does)
+          (NP (NN swing))
+          (PP (IN at)
+            (NP (DT those) (NNS pitches))))))
+    (, ,)
+    (NP (DT that))
+    (VP (MD should)
+      (VP (VB be)
+        (PP (TO to)
+          (NP
+            (NP
+              (NP (DT the) (NNPS Mets) (POS '))
+              (NN advantage))
+            (, ,) (RB not)
+            (NP (PRP$ his))))))
+    (. .)))
+
+(ROOT
+  (S
+    (VP (VB ``If)
+      (SBAR
+        (S
+          (NP (PRP you))
+          (VP (VBP know)
+            (SBAR
+              (S
+                (NP (PRP me))
+                (VP (VBD ,'')
+                  (SBAR
+                    (S
+                      (NP (NNP Barry) (NNPS Bonds))
+                      (ADVP (RB once))
+                      (VP (VBD said) (, ,)
+                        (S
+                          (NP (NNP ``I))
+                          (ADVP (RB always))
+                          (VP (VB find)
+                            (NP (NN something))
+                            (SBAR (IN that)
+                              (S
+                                (NP (PRP I))
+                                (VP (VBP have)
+                                  (S
+                                    (VP (TO to)
+                                      (VP (VB prove)
+                                        (NP (NNS .''))))))))))))))))))))))
+
+(ROOT
+  (S
+    (PP (IN In)
+      (NP (DT this) (NN postseason)))
+    (, ,)
+    (NP (PRP he))
+    (VP (VBZ has)
+      (S
+        (VP (TO to)
+          (VP (VB prove)
+            (SBAR (IN that)
+              (S
+                (NP (PRP he))
+                (VP (VBZ 's)
+                  (ADJP
+                    (ADJP (RB much) (JJR more))
+                    (PP (IN than)
+                      (NP (DT a) (CD .200) (NN hitter)))))))))))
+    (. .)))
+
+(ROOT
+  (NP (NN NYT-10-02-00) (CD 2150EDT)))
+

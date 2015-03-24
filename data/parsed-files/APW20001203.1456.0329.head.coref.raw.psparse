@@ -1,0 +1,367 @@
+(ROOT
+  (FRAG
+    (NP (NNP APW20001203.1456.0329) (NNP NEWS) (NNP STORY))
+    (NP (CD 2000-12-03) (CD 15:42:20))))
+
+(ROOT
+  (NP (NNP Watts-Gridiron)))
+
+(ROOT
+  (NP (NNP Watts) (NNP Jokes) (NNP About) (NNP Election) (NNP Impasse)))
+
+(ROOT
+  (NP
+    (NP (NNP WHITE) (NNP SULPHUR) (NNP SPRINGS))
+    (, ,)
+    (NP (NNP W.Va))
+    (. .)))
+
+(ROOT
+  (NP
+    (NP (NNP [AP) (NNP ]))
+    (: -)
+    (NP (NNP Republican) (NNP Rep))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP J.C.) (NNP Watts))
+    (VP (VBD joked)
+      (NP (NNP Saturday) (NN night))
+      (SBAR (IN that)
+        (S
+          (NP (PRP he))
+          (VP (VBD had)
+            (NP
+              (NP
+                (NP (VBN revised) (NNS returns))
+                (PP (IN on)
+                  (NP (DT the) (JJ presidential) (NN election))))
+              (: :)
+              (NP
+                (NP (NNP ``Al) (NNP Gore))
+                (, ,)
+                (NP (CD 9,834) (NNS lawsuits))))))))
+    (. .)))
+
+(ROOT
+  (NP
+    (NP (NNP George) (NNP W.) (NNP Bush))
+    (, ,)
+    (NP (CD 7,652) (NNS .''))))
+
+(ROOT
+  (S
+    (NP
+      (NP (NNP Watts))
+      (, ,)
+      (NP
+        (NP (NN chairman))
+        (PP (IN of)
+          (NP (DT the) (NNP House) (NNP Republican) (NNP Conference))))
+      (, ,))
+    (VP (VBD bantered)
+      (PP (IN about)
+        (NP (DT the) (NNP Florida) (NN election) (NN dispute)))
+      (PP (IN in)
+        (NP
+          (NP (DT a) (NN speech))
+          (VP (VBN prepared)
+            (PP (IN for)
+              (NP
+                (NP (DT a) (NN dinner))
+                (PP (IN of)
+                  (NP (DT The) (NNP Gridiron) (NNP Club)))))
+            (PP (IN at)
+              (NP (DT the) (NNP Greenbrier) (NNP Hotel)))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP ``I))
+    (VP (VBD knew)
+      (SBAR
+        (S
+          (NP (NNS things))
+          (VP (VBD had)
+            (ADVP (RB really))
+            (VP (VBN deteriorated)
+              (SBAR
+                (WHADVP (WRB when))
+                (S
+                  (NP (NNP Yasser) (NNP Arafat))
+                  (VP (VBD offered)
+                    (PP (TO to)
+                      (NP (NN broker)))
+                    (NP
+                      (NP (DT a) (NN peace))
+                      (PP (IN between)
+                        (NP (NNP Bush)
+                          (CC and)
+                          (NNP Gore)))
+                      (SBAR
+                        (S
+                          (NP (NNP ,'') (NNP Watts))
+                          (VP (VBD said)))))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (DT The) (NNP Gridiron) (NNP Club))
+    (VP (VBZ is)
+      (NP
+        (NP (DT an) (NN organization))
+        (PP (IN of)
+          (NP (CD 60) (NNP Washington) (NNS journalists)))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (PRP$ Its) (NNS dinners))
+    (VP
+      (VP (VBP feature)
+        (NP
+          (NP (NNS parodies))
+          (PP (IN of)
+            (NP (NNS politics)
+              (CC and)
+              (NN government)))))
+      (, ,)
+      (CC and)
+      (VP (VBZ humorous)
+        (NP (NNS speeches))
+        (PP (IN by)
+          (NP (JJ political) (NNS figures)))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP Watts))
+    (VP (VBD noted)
+      (SBAR (IN that)
+        (S
+          (NP
+            (NP (DT the) (JJ presidential) (NN election))
+            (PP (IN of)
+              (NP (CD 1876))))
+          (VP (VBD was)
+            (ADJP
+              (ADJP (RB so) (VBN disputed))
+              (SBAR (IN that)
+                (S
+                  (NP (DT a) (JJ congressional) (NN commission))
+                  (VP (VBD was)
+                    (VP (VBN created)
+                      (S
+                        (VP (TO to)
+                          (VP (VB settle)
+                            (NP (PRP it))))))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (JJ ``I) (NN didn't))
+    (VP (VBP know)
+      (NP (DT this))
+      (SBAR (IN until)
+        (S
+          (NP (NNP Strom) (NNP Thurmond))
+          (VP (VBD told)
+            (NP (PRP me))
+            (SBAR
+              (S
+                (NP (PRP he))
+                (VP (VBD cast)
+                  (NP (DT the) (JJ deciding) (NN vote)))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (S
+      (NP (NN ``Strom))
+      (VP (MD will)
+        (VP (VB be)
+          (NP (CD 98))
+          (NP (JJ next) (NNP Tuesday)))))
+    (NP (NNP ,'') (NNP Watts))
+    (VP (VBD said))
+    (. .)))
+
+(ROOT
+  (S
+    (S
+      (VP (VB ``Of)
+        (NP (NN course))))
+    (, ,)
+    (NP (PRP he))
+    (VP (VBD was)
+      (NP
+        (NP
+          (QP (RB only) (CD 67)))
+        (SBAR
+          (WHADVP (WRB when))
+          (S
+            (NP
+              (NP (DT the) (NN recount))
+              (PP (IN of)
+                (NP (NNP Florida) (NNS ballots))))
+            (VP (VBD began)
+              (NP (NNS .'')))))))))
+
+(ROOT
+  (S
+    (NP (NNP Watts))
+    (VP (VBD said)
+      (SBAR
+        (S
+          (NP (PRP he))
+          (VP (VBD had)
+            (VP (VBN fond)
+              (NP
+                (NP (NNS memories))
+                (PP (IN of)
+                  (NP (NNP Florida))))
+              (SBAR (IN because)
+                (S
+                  (NP (PRP he))
+                  (VP (VBD was)
+                    (NP
+                      (NP (DT the) (NN quarterback))
+                      (SBAR
+                        (WHADVP (WRB when))
+                        (S
+                          (NP
+                            (NP (DT the) (NNP University))
+                            (PP (IN of)
+                              (NP (NNP Oklahoma))))
+                          (VP (VBD won)
+                            (NP (DT the) (NNP Orange) (NNP Bowl))
+                            (ADVP (RB there))
+                            (PP (IN in)
+                              (NP (CD 1980)
+                                (CC and)
+                                (CD 1981)))))))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (S
+      (NP
+        (NP (NN ``But) (PRP$ our) (NN victory))
+        (PP (IN in)
+          (NP (CD '81))))
+      (VP (VBD was)
+        (PP (IN by)
+          (NP (DT a) (JJ single) (NN point)))))
+    (CC and)
+    (S
+      (NP (PRP it))
+      (VP (VBD was)
+        (NP (NNS weeks))
+        (SBAR (IN before)
+          (S
+            (NP (PRP it))
+            (VP (VBD was)
+              (VP (VBN confirmed)
+                (S
+                  (VP (VBG ,'')
+                    (SBAR
+                      (S
+                        (NP (PRP he))
+                        (VP (VBD said))))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (S
+      (ADVP (RB ``By))
+      (NP (DT the) (NN way)))
+    (, ,)
+    (NP (PRP I))
+    (ADVP (RB recently))
+    (VP
+      (VP (VBD learned)
+        (SBAR
+          (S
+            (NP (NNP Al) (NNP Gore))
+            (VP (VBD was)
+              (VP (VBG pulling)
+                (PP (IN for)
+                  (NP (NNP Florida) (NNP State))))))))
+      (CC and)
+      (VP (VBD demanded)
+        (NP (DT a) (JJ recount) (NN .''))))))
+
+(ROOT
+  (S
+    (SBAR (IN As)
+      (S
+        (VP (VBZ is)
+          (ADJP (JJ traditional)
+            (PP (IN in)
+              (NP (JJ Gridiron) (NNS speeches)))))))
+    (, ,)
+    (NP (NNP Watts))
+    (VP (VBD concluded)
+      (PP (IN on)
+        (NP (DT a) (JJ serious) (NN note))))
+    (. .)))
+
+(ROOT
+  (S
+    (S
+      (NP (JJ ``Once-in-a-century) (NNS oddities))
+      (VP (MD may)
+        (VP (VB leave)
+          (NP (DT an) (NN election) (NN result))
+          (PRT (RP up))
+          (PP (IN in)
+            (NP
+              (NP (DT the) (NN air))
+              (PP (IN for)
+                (NP (DT a) (NN time))))))))
+    (, ,)
+    (CC but)
+    (S
+      (NP
+        (NP (DT the) (JJ fundamental) (NN strength))
+        (PP (IN of)
+          (NP (PRP$ our) (NN democracy))))
+      (VP (VBZ is)
+        (ADVP (RB never))
+        (PP (IN in)
+          (NP (NN doubt) (NNS ,'')))
+        (SBAR
+          (S
+            (NP (PRP he))
+            (VP (VBD said))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP
+        (NP (NN ``Better))
+        (NP (DT a) (NN process)))
+      (VP (VBN driven)
+        (PP (IN by)
+          (NP
+            (NP (DT an) (NN army))
+            (PP (IN of)
+              (NP (NNS lawyers)))))
+        (PP (IN than)
+          (NP
+            (NP (DT an) (NN outrage))
+            (VP (VBN led)
+              (PP (IN by)
+                (NP
+                  (NP (DT an) (NN army))
+                  (PP (IN with)
+                    (NP (NNS guns))))))))))
+    (VP (VBD ,'')
+      (SBAR
+        (S
+          (NP (PRP he))
+          (VP (VBD said)))))
+    (. .)))
+

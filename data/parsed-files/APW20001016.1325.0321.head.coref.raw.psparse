@@ -1,0 +1,633 @@
+(ROOT
+  (FRAG
+    (NP (NNP APW20001016.1325.0321) (NNP NEWS) (NNP STORY))
+    (NP (CD 2000-10-16) (CD 13:30:59))))
+
+(ROOT
+  (NP (NNS College-Costs)))
+
+(ROOT
+  (NP (NNP Survey) (NNP Finds) (NNP College) (NNP Costs) (NNP Rising)))
+
+(ROOT
+  (FRAG
+    (NP (JJ NEW) (NNP YORK) (NNP [AP) (NNP ]))
+    (: -)
+    (S
+      (NP
+        (NP (DT The) (NN price))
+        (PP (IN of)
+          (NP (DT a) (NN college) (NN degree))))
+      (VP (VBZ continues)
+        (S
+          (VP (TO to)
+            (VP (VB rise)
+              (ADJP
+                (ADJP (JJR faster)
+                  (PP
+                    (PP (IN than)
+                      (NP (NN inflation)))
+                    (, ,)
+                    (PP (IN with)
+                      (NP (NN tuition)
+                        (CC and)
+                        (NNS fees)))))
+                (PP (IN at)
+                  (NP
+                    (NP (JJ public) (JJ four-year) (NNS colleges))
+                    (PP (IN up)
+                      (NP (DT an) (JJ average) (CD 4.4) (NN percent)))
+                    (NP (DT this) (NN fall))))
+                (, ,)
+                (ADJP (RB even) (JJR more)
+                  (PP (IN at)
+                    (NP (JJ private) (NNS schools))))
+                (, ,)
+                (SBAR
+                  (S
+                    (NP (DT a) (JJ new) (NN survey))
+                    (VP (VBZ has)
+                      (VP (VBN found)))))))))))
+    (. .)))
+
+(ROOT
+  (S (CC And)
+    (NP (NNS loans))
+    (VP (VBP provide)
+      (SBAR
+        (S
+          (NP
+            (NP (DT a) (VBG growing) (NN chunk))
+            (PP (IN of)
+              (NP (DT the) (JJ extra) (NN money) (NNS students))))
+          (VP (VBP need)
+            (S
+              (VP (TO to)
+                (VP (VB pay)
+                  (PP (IN for)
+                    (NP (DT those) (NNS degrees))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (JJ Average) (JJ in-state) (NN tuition))
+      (CC and)
+      (NP
+        (NP (NNS fees))
+        (PP (IN at)
+          (NP (JJ public) (, ,) (JJ four-year) (NNS schools)))))
+    (VP (VBZ is)
+      (NP
+        (NP
+          (NP (CD $3,510))
+          (PP (IN per)
+            (NP (NN semester))))
+        (: -)
+        (NP
+          (NP
+            (QP (CD $148) (JJR more)))
+          (PP (IN than)
+            (NP (JJ last) (NN year)))))
+      (, ,)
+      (PP (VBG according)
+        (PP (TO to)
+          (NP
+            (NP (NNS figures))
+            (VP (VBN released)
+              (NP (NNP Monday))
+              (PP (IN by)
+                (NP (DT the) (NNP College) (NNP Board))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (JJ On-campus) (NN room))
+      (CC and)
+      (NP (NN board)))
+    (ADVP (RB now))
+    (VP (VBD averages)
+      (NP (CD $4,960))
+      (, ,)
+      (ADVP (RB up)
+        (NP (CD 5.1) (NN percent))))
+    (. .)))
+
+(ROOT
+  (S
+    (PP (IN At)
+      (NP (JJ private) (JJ four-year) (NNS colleges)))
+    (, ,)
+    (NP (NN tuition)
+      (CC and)
+      (NNS fees))
+    (VP (VBP average)
+      (NP (CD $16,332))
+      (, ,)
+      (ADVP (RB up)
+        (NP (CD 5.2) (NN percent))
+        (PP (IN from)
+          (NP (JJ last) (NN year)))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (NN Room)
+        (CC and)
+        (NN board))
+      (PP (IN on)
+        (NP (NN campus))))
+    (VP (VBZ is)
+      (ADVP (RB now))
+      (NP
+        (NP (CD $6,209))
+        (, ,)
+        (NP (DT a) (CD 4.2) (NN percent) (NN increase))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (RB Only) (JJ public) (JJ two-year) (NNS schools))
+      (, ,)
+      (NP (JJ chiefly) (NN community) (NNS colleges))
+      (, ,))
+    (VP (VBN stayed)
+      (PP (IN below)
+        (NP (DT the) (JJ current) (NN inflation) (NN rate)))
+      (PRN (, -)
+        (CC but)
+        (ADVP (RB barely))))
+    (. .)))
+
+(ROOT
+  (S
+    (S
+      (NP (NNP Tuition))
+      (VP (VBD rose)
+        (NP (DT this) (NN year))
+        (PP (TO to)
+          (NP (CD $1,705)))
+        (, ,)
+        (ADVP (RB up)
+          (NP (CD 3.4) (NN percent)))))
+    (, ,)
+    (NP (DT the) (NN survey))
+    (VP (VBD found))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (JJ Private) (JJ two-year) (NNS schools))
+    (VP (VBD boosted)
+      (NP (NN tuition)
+        (CC and)
+        (NNS fees))
+      (PP (TO to)
+        (NP
+          (NP (CD $7,458))
+          (, ,)
+          (NP (DT a) (CD 7) (NN percent) (NN rise)))))
+    (. .)))
+
+(ROOT
+  (S
+    (S
+      (NP (DT This) (NN pattern))
+      (VP (VBZ follows)
+        (NP (DT an)
+          (ADJP (JJ old) (, ,) (JJ familiar))
+          (NN trend))))
+    (PRN (, ,)
+      (SINV
+        (VP (VBD said))
+        (NP
+          (NP (NNP Joni) (NNP Finney))
+          (, ,)
+          (NP
+            (NP (DT a) (NN policy) (NN analyst))
+            (PP (IN at)
+              (NP
+                (NP (DT the) (NNP National) (NNP Center))
+                (PP (IN for)
+                  (NP (NNP Public) (NNP Policy)))))))))
+    (CC and)
+    (S
+      (NP
+        (NP (NNP Higher) (NNP Education))
+        (PP (IN in)
+          (NP (NNP San) (NNP Jose) (, ,) (NNP Calif.) (NNS ``Colleges)
+            (CC and)
+            (NNS universities))))
+      (VP (VBP have)
+        (NP
+          (NP (DT a)
+            (ADJP (RB very) (JJ difficult))
+            (NN time))
+          (VP (VBG controlling)
+            (NP (PRP$ their) (NNS costs))
+            (S
+              (VP (VBG ,'')
+                (SBAR
+                  (S
+                    (NP (PRP she))
+                    (VP (VBD said))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (S
+      (NP (JJ ``These) (NNS institutions))
+      (VP (VBD were)
+        (VP (VBN underfunded)
+          (PP (IN in)
+            (NP
+              (NP (DT the) (JJ early) (NN part))
+              (PP (IN of)
+                (NP (DT the) (NNS '90s))))))))
+    (NP (NNP ,'') (NNP Finney))
+    (VP (VBD said))
+    (. .)))
+
+(ROOT
+  (S
+    (VP (VB ''...)
+      (FRAG
+        (S (CC But)
+          (NP (PRP they))
+          (VP (VBP 've)
+            (ADVP (RBR more) (IN than))
+            (VP (VBN made)
+              (PRT (RP up))
+              (PP (IN for)
+                (NP (VBN lost) (NN ground) (NNS .''))))))))))
+
+(ROOT
+  (S (CC But)
+    (PRN
+      (S
+        (NP
+          (NP (NNP Stanley) (NNP Eikenberry))
+          (, ,)
+          (NP
+            (NP (NN president))
+            (PP (IN of)
+              (NP
+                (NP (DT the) (NNP American) (NNP Council))
+                (PP (IN on)
+                  (NP
+                    (NP (NNP Education))
+                    (, ,)
+                    (NP
+                      (NP (DT an) (NN umbrella) (NN group))
+                      (PP (IN for)
+                        (NP (JJR higher) (NN education)))))))))
+          (, ,))
+        (VP (VBD said)
+          (PP (IN in)
+            (NP
+              (NP (DT a) (NN statement))
+              (, ,)
+              (VP (VBN ``Given)
+                (NP
+                  (NP (DT the) (JJ large) (, ,) (JJ fixed) (NNS costs))
+                  (PP (IN of)
+                    (NP (JJS most) (NNS campuses)))))))))
+      (, ,))
+    (PP (IN in)
+      (NP (NNS personnel)
+        (CC and)
+        (NNS facilities)))
+    (ADVP (RB especially))
+    (, ,)
+    (NP (DT these) (NNS numbers))
+    (VP (VBP show)
+      (SBAR
+        (S
+          (NP (NNS institutions))
+          (VP (VBP are)
+            (VP (VBG working)
+              (ADVP (RB hard))
+              (S
+                (VP (TO to)
+                  (VP (VB hold)
+                    (NP (DT the) (NN line))
+                    (PP (IN on)
+                      (NP (NNS increases) (NNS .'')))))))))))))
+
+(ROOT
+  (S
+    (NP (DT The) (JJ recent) (NNS increases))
+    (VP (VBP push)
+      (NP (JJ past) (NN inflation)))
+    (. .)))
+
+(ROOT
+  (S
+    (S
+      (NP (DT The) (NNP Consumer) (NNP Price) (NNP Index))
+      (VP (VBD rose)
+        (NP
+          (NP (CD 2.7) (NN percent))
+          (PP (IN in)
+            (NP (CD 1999))))))
+    (: ;)
+    (S
+      (NP
+        (NP (DT the) (JJ first) (CD eight) (NNS months))
+        (PP (IN of)
+          (NP
+            (NP (DT this) (NN year))
+            (, ,)
+            (NP (NN consumer) (NNS prices)))))
+      (VP (VBD rose)
+        (PP (IN at)
+          (NP
+            (NP (DT an) (JJ annual) (NN rate))
+            (PP (IN of)
+              (NP (CD 3.5) (NN percent)))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (JJ Last) (NN year))
+    (, ,)
+    (NP
+      (NP (NN college) (NN tuition))
+      (CC and)
+      (NP (NNS fees)))
+    (VP (VBD rose)
+      (NP
+        (QP (JJR less) (IN than) (CD 5))
+        (NN percent)))
+    (. .)))
+
+(ROOT
+  (SINV
+    (S
+      (PP (IN Despite)
+        (NP (DT the) (NNS increases)))
+      (, ,)
+      (NP (NN college))
+      (VP (VBZ remains)
+        (NP
+          (NP (JJ affordable))
+          (CC and)
+          (NP (DT a) (JJ good) (NN investment)))))
+    (, ,)
+    (VP (VBD said))
+    (NP
+      (NP (NNP College) (NNP Board) (NNP President) (NNP Gaston) (NNP Caperton))
+      (PP (IN in)
+        (NP
+          (NP (DT a) (NN statement))
+          (PP (IN with)
+            (NP (DT the) (NNS surveys))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (NN ``In)
+        (UCP
+          (NP (DT both) (VBG earning) (NN potential))
+          (CC and)
+          (S
+            (S
+              (VP (VBG learning)
+                (NP (NN potential))))
+            (, ,)
+            (NP (PRP you))
+            (VP (VBP cannot)
+              (VP (VB beat)
+                (NP
+                  (NP (DT the) (NN value))
+                  (PP (IN of)
+                    (NP (DT a) (NN college))))))))
+        (NN education))
+      (VP (VBG ,'')
+        (NP (DT the) (JJ former) (NNP West) (NNP Virginia) (NN governor))))
+    (VP (VBD said))
+    (. .)))
+
+(ROOT
+  (NP
+    (NP
+      (NP (DT The) (NNP College) (NNP Board) (POS 's))
+      (NNS figures) (NN concern))
+    (NP
+      (NP (DT the) (NNS costs))
+      (PP (IN for)
+        (NP
+          (NP
+            (QP (CD 6.4) (CD million))
+            (JJ full-time) (NNS undergraduates))
+          (: -)
+          (NP
+            (NP (CD 54) (NN percent))
+            (VP (VBG attending)
+              (NP
+                (NP
+                  (NP (JJ four-year) (JJ public) (NNS institutions))
+                  (, ,)
+                  (NP
+                    (NP (CD 27) (NN percent))
+                    (PP (IN at)
+                      (NP (JJ four-year) (JJ private) (NNS schools)))))
+                (, ,)
+                (NP
+                  (NP (CD 17) (NN percent))
+                  (PP (IN at)
+                    (NP (JJ two-year) (NN community) (NNS colleges))))
+                (CC and)
+                (NP
+                  (NP (CD 1) (NN percent))
+                  (PP (IN at)
+                    (NP (JJ private) (JJ two-year) (NNS schools))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (S
+      (NP
+        (NP (DT A) (NN majority))
+        (PP (IN of)
+          (NP (NNS students))))
+      (VP (VBP need)
+        (NP
+          (NP (NNS grants)
+            (CC or)
+            (NNS loans))
+          (: -)
+          (CC or)
+          (NP (DT both)))
+        (: -)
+        (CC but)
+        (FRAG
+          (S
+            (NP (PRP$ their) (JJ exact) (NNS numbers))
+            (VP (VBP are)
+              (ADJP (JJ unknown)))))))
+    (, ,)
+    (NP (DT a) (NNP College) (NNP Board) (NN spokesman))
+    (VP (VBD said))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (JJ Last) (NN school) (NN year))
+    (, ,)
+    (NP (NNS loans))
+    (VP (VBD made)
+      (PRT (RP up))
+      (NP
+        (NP (CD 59) (NN percent))
+        (PP (IN of)
+          (NP (DT a) (NN record)
+            (QP (CD $68) (CD billion)))))
+      (PP (IN in)
+        (NP (JJ financial) (NN aid))))
+    (. .)))
+
+(ROOT
+  (S
+    (ADVP
+      (NP (DT A) (NN decade))
+      (RB ago))
+    (, ,)
+    (NP (NNS loans))
+    (VP (VBD made)
+      (PRT (RP up))
+      (ADVP (RB just))
+      (PP (IN over)
+        (NP
+          (NP (CD 41) (NN percent))
+          (PP (IN of)
+            (NP (NN student) (JJ financial) (NN help))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (DT The) (NN pool))
+      (PP (IN of)
+        (NP
+          (NP (NN money))
+          (PP (IN from)
+            (NP (JJ federal) (, ,) (NN state)
+              (CC and)
+              (NN school) (NNS sources))))))
+    (NP (JJ last) (NN year))
+    (VP (VBD was)
+      (ADJP
+        (ADJP
+          (ADJP
+            (NP (CD 4) (NN percent))
+            (JJR greater))
+          (PP (IN than)
+            (ADVP
+              (NP (DT a) (NN year))
+              (RBR earlier))))
+        (, ,)
+        (CC but)
+        (ADJP
+          (NP (CD 88) (NN percent))
+          (RBR more)))
+      (PP (IN than)
+        (ADVP
+          (NP (DT a) (NN decade))
+          (IN before)))
+      (, ,)
+      (S
+        (VP (VBG taking)
+          (NP (NN inflation))
+          (PP (IN into)
+            (NP (NN account))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (DT The) (NNP New) (NNP York))
+    (VP (VBD -based)
+      (SBAR
+        (S
+          (NP (NNP College) (NNP Board))
+          (VP (VBZ is)
+            (NP
+              (NP (DT a) (JJ nonprofit) (NN organization))
+              (SBAR
+                (WHNP (WDT that))
+                (S
+                  (VP
+                    (VP (VBZ administers)
+                      (NP (DT the) (NNPS SATs)))
+                    (CC and)
+                    (VP (VBZ promotes)
+                      (NP (JJR higher) (NN education)))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (PRP It))
+    (VP (VBD surveyed)
+      (NP
+        (QP (JJR more) (IN than) (CD 3,000))
+        (NNS schools))
+      (S
+        (VP (TO to)
+          (VP (VB find)
+            (PRT (RP out))
+            (NP
+              (NP (JJ undergraduate) (NNS charges))
+              (PP (IN for)
+                (NP (CD 2000-2001))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (DT The) (NN companion) (NN survey))
+      (PP (IN on)
+        (NP (JJ financial) (NN aid))))
+    (, ,)
+    (VP (VBD was)
+      (VP (VBN based)
+        (PP (IN on)
+          (NP (JJ federal) (, ,) (NN state)
+            (CC and)
+            (NN school) (NNS statistics)))
+        (PP (IN from)
+          (NP (CD 1999-2000)))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (JJ Current) (NN grant)
+      (CC and)
+      (NN loan) (NNS figures))
+    (VP (VBP are) (RB not)
+      (ADJP (JJ available))
+      (SBAR (IN until)
+        (S
+          (NP (DT the) (NN school) (NN year))
+          (VP (VBZ ends)))))
+    (. .)))
+
+(ROOT
+  (INTJ (UH -)))
+
+(ROOT
+  (FRAG
+    (PP (IN On)
+      (NP (DT the) (NN Net)))
+    (: :)
+    (ADVP (RB http:))))
+
+(ROOT
+  (NP
+    (NP (NNP American) (NNP Council) (IN on) (NNP Education))
+    (: :)
+    (NP (NNP http:))))
+

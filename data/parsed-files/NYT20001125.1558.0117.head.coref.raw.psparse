@@ -1,0 +1,833 @@
+(ROOT
+  (FRAG
+    (NP (NNP NYT20001125.1558.0117) (NNP NEWS) (NNP STORY))
+    (NP (CD 2000-11-25) (CD 15:58:00))))
+
+(ROOT
+  (NP
+    (NP (CD A0481) (NNS &Cx1f))
+    (: ;)
+    (NP
+      (NP (JJ taf-z) (NN u))
+      (NP (DT a) (JJ BC-MICH-HUNTING-ACCIDENT)
+        (QP (CD 11-25) (CD 0651))))))
+
+(ROOT
+  (NP (NNP BC-MICH-HUNTING-ACCIDENTS-NYT)))
+
+(ROOT
+  (S
+    (NP (NNP SAFETY) (NNP WORRIES) (NNP INCREASE) (NNP AS) (NNP MICHIGAN) (NNP HUNTERS) (NNP TAKE))
+    (VP (VBZ GUNS)
+      (PRT (RP UP))
+      (NP (NNS TREES)))))
+
+(ROOT
+  (NP
+    (NP (NNP &UR))
+    (: ;)
+    (NP (NNP c.2000) (NNP N.Y))
+    (. .)))
+
+(ROOT
+  (NP
+    (NP (NNP Times) (NNP News) (NNP Service) (NNP &LR))
+    (: ;)
+    (NP (CD &QC) (: ;) (CD &QL))
+    (: ;)))
+
+(ROOT
+  (NP
+    (NP (NNP GROSSE) (NNP POINTE) (NNP PARK) (, ,) (NNP Mich.))
+    (: -)
+    (S
+      (S
+        (NP (PRP It))
+        (VP (VBZ is)
+          (NP
+            (NP (JJ deer) (NN hunting) (NN season))
+            (PP (IN in)
+              (NP (NNP Michigan))))))
+      (, ,)
+      (CC and)
+      (S
+        (NP
+          (NP (NNS hunters))
+          (SBAR
+            (WHNP (WP who))
+            (S
+              (VP (VB climb)
+                (NP (NNS trees))
+                (PP (IN with)
+                  (NP (JJ loaded) (NNS shotguns)))))))
+        (VP (VBP have)
+          (NP
+            (NP (NN state) (NNS officials))
+            (VP (VBG redoubling)
+              (NP (NN safety) (NN education) (NNS efforts)))))))
+    (. .)))
+
+(ROOT
+  (S
+    (S
+      (NP (CD Two) (NNS men))
+      (VP (VBP have)
+        (VP (VBN been)
+          (VP (VBN killed)))))
+    (, ,)
+    (CC and)
+    (S
+      (NP (DT a) (JJ third))
+      (VP (VBZ has)
+        (VP (VBN been)
+          (VP (VBN injured)
+            (PP (IN since)
+              (NP
+                (NP (DT the) (NN hunting) (NN season))
+                (VP (VBN opened)
+                  (PP (IN on)
+                    (NP (NNP Nov))))))))))
+    (. .)))
+
+(ROOT
+  (FRAG
+    (NP (CD 15))
+    (. .)))
+
+(ROOT
+  (S
+    (S
+      (NP (DT All) (CD three) (NNS accidents))
+      (VP (VBD involved)
+        (S
+          (NP
+            (NP (NNS shotguns))
+            (, ,)
+            (NP (JJ elevated) (NNS platforms))
+            (CC and)
+            (NP (DT a) (NN practice)))
+          (ADJP (RB relatively) (JJ new)
+            (PP (TO to)
+              (NP (NNP Michigan) (NNS hunters)))))))
+    (: -)
+    (S
+      (VP (VBG shooting)
+        (PP (IN at)
+          (NP
+            (NP (NNS deer))
+            (PP (IN from)
+              (NP (NNS trees)))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (DT The) (NNP Michigan) (NN season))
+      (, ,)
+      (NP
+        (NP (CD one))
+        (PP (IN of)
+          (NP (DT the) (JJS busiest))))
+      (, ,))
+    (VP (VBZ continues)
+      (PP (IN through)
+        (NP (NNP Nov))))
+    (. .)))
+
+(ROOT
+  (FRAG
+    (NP (CD 30))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (JJ Firearm) (NN hunting))
+      (PP (IN from)
+        (NP (JJ elevated) (NNS platforms))))
+    (VP (VBZ has)
+      (ADVP (RB long))
+      (VP (VBN been)
+        (ADJP (JJ legal)
+          (PP (IN in)
+            (NP (JJ other) (NNS states))))
+        (PP (IN with)
+          (NP (JJ heavy) (NN hunting)))
+        (, ,)
+        (PP (IN like)
+          (NP (NNP New) (NNP York)
+            (CC and)
+            (NNP Pennsylvania)))))
+    (. .)))
+
+(ROOT
+  (S (CC But)
+    (S
+      (NP (DT the) (NN practice))
+      (VP (VBZ is)
+        (ADVP (RB only))
+        (PP (IN in)
+          (NP
+            (NP (PRP$ its) (JJ third) (NN season))
+            (PP (IN in)
+              (NP (NNP Michigan)))))))
+    (, ,)
+    (CC and)
+    (S
+      (NP (NNS officials))
+      (VP (VBP say)
+        (SBAR
+          (S
+            (NP (PRP it))
+            (VP (VBZ appears)
+              (SBAR (IN that)
+                (S
+                  (NP (NNS hunters))
+                  (ADVP (RB still))
+                  (VP (VBP have)
+                    (NP (DT a) (NN lot)
+                      (S
+                        (VP (TO to)
+                          (VP (VB learn)
+                            (PP (IN about)
+                              (NP (NN safety)))))))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (NNP Lt.) (NNP Suzanne) (NNP Koppelo))
+      (, ,)
+      (NP
+        (NP (NN hunter) (NN safety) (NN administrator))
+        (PP (IN of)
+          (NP
+            (NP (DT the) (NN law) (NN enforcement) (NN division))
+            (PP (IN of)
+              (NP (DT the) (NNP Michigan) (NNP Department)))
+            (PP (IN of)
+              (NP (NNP Natural) (NNPS Resources) (NNP &UR)))
+            (: ;))))
+      (, ,)
+      (NP (VBG &LR))
+      (: ;))
+    (VP (VBD said)
+      (SBAR (IN that)
+        (S
+          (SBAR (IN since)
+            (S
+              (NP (NN firearm) (NN platform) (NN hunting))
+              (VP (VBD began)
+                (PP (IN in)
+                  (NP (NNP Michigan))))))
+          (NP (EX there))
+          (VP (VBD had)
+            (VP (VBN been)
+              (NP
+                (NP (CD seven) (JJ shooting) (NNS accidents))
+                (VP (VBN linked)
+                  (PP (TO to)
+                    (NP (DT the) (NN practice))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP Three))
+    (VP (VBD were)
+      (ADJP (JJ fatal)))
+    (. .)))
+
+(ROOT
+  (S
+    (S
+      (NP (CD Two) (NNS hunters))
+      (VP (VBD shot)
+        (NP (PRP themselves))
+        (PP (IN on)
+          (NP (NNS platforms)))))
+    (CC and)
+    (S
+      (NP (DT another))
+      (VP (VBD was)
+        (VP (VBN killed)
+          (PP (IN on)
+            (NP (DT the) (NN ground)))
+          (PP (IN by)
+            (NP
+              (NP (DT a) (NN hunter))
+              (VP (VBG shooting)
+                (PP (IN from)
+                  (NP (DT a) (NN platform)))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (S
+      (NP (NN ``If) (NNS hunters))
+      (VP (VBD exercised)
+        (SBAR
+          (S
+            (NP
+              (NP (DT the) (NN kind))
+              (PP (IN of)
+                (NP (NN caution) (CD one))))
+            (VP (MD would)
+              (VP (VB expect)
+                (PP (IN at)
+                  (NP
+                    (NP (NNS heights))
+                    (PP (IN of)
+                      (NP (JJ 20-some) (NNS feet)))))))))))
+    (, ,)
+    (NP (PRP it))
+    (VP (MD would)
+      (VP (VB be)
+        (NP
+          (NP (RB almost) (DT a) (JJ nonissue) (NN ,''))
+          (SBAR
+            (S
+              (VP (VBD said)
+                (NP (NNP Koppelo))))))))
+    (. .)))
+
+(ROOT
+  (FRAG
+    (NP (NN ``But))
+    (PP (VBN given)
+      (NP
+        (NP (JJ human) (NN nature))
+        (, ,)
+        (SBAR
+          (WHNP (WDT that))
+          (S
+            (VP (VBZ 's) (RB not)
+              (NP (DT the) (NN case) (NN .'')))))))))
+
+(ROOT
+  (S
+    (NP
+      (QP (JJR More) (IN than) (CD 750,000))
+      (JJ licensed) (NNS hunters))
+    (VP (VBP are)
+      (VP (VBG taking)
+        (PP (TO to)
+          (NP (DT the) (NNP Michigan) (NNS woods)))
+        (NP (DT this) (NN year))
+        (, ,)
+        (SBAR
+          (WHADVP (WRB where))
+          (S
+            (NP (PRP they))
+            (VP (VBP are)
+              (VP (VBN expected)
+                (S
+                  (VP (TO to)
+                    (VP (VB kill)
+                      (NP
+                        (NP
+                          (QP (RB about) (CD 500,000)))
+                        (PP (IN of)
+                          (NP
+                            (NP (DT the) (NN state) (POS 's))
+                            (QP (CD 1.9) (CD million))
+                            (NNS deer)))))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (S
+      (NP (DT The) (NNS numbers))
+      (VP (VBP reinforce)
+        (S
+          (NP (DT the) (NN need))
+          (VP (TO to)
+            (VP (VB improve)
+              (NP
+                (NP (NN education))
+                (PP (IN about)
+                  (NP (NN platform) (NN hunting))))
+              (PP (IN with)
+                (NP (NNS firearms))))))))
+    (, ,)
+    (NP (NNP Koppelo))
+    (VP (VBD said))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (DT The) (NN practice))
+    (VP (VBZ is)
+      (ADVP (RBR more) (RB commonly))
+      (VP (VBN associated)
+        (PP (IN with)
+          (NP
+            (NP (NNS hunters))
+            (VP (VBG using)
+              (NP (NNS bows)
+                (CC and)
+                (NNS arrows)))))))
+    (. .)))
+
+(ROOT
+  (S
+    (PP (RB Instead) (IN of)
+      (S
+        (VP
+          (VP (VBG hiding)
+            (PP (IN on)
+              (NP (DT the) (NN ground))))
+          (CC or)
+          (VP (VBG walking)
+            (PP (IN through)
+              (NP (DT the) (NNS woods)))))))
+    (, ,)
+    (NP (PRP they))
+    (VP
+      (VP (VB wait)
+        (ADVP (RB quietly))
+        (, ,)
+        (PP
+          (ADVP (RB typically))
+          (IN at)
+          (NP
+            (NP (DT a) (NN height))
+            (PP (IN of)
+              (NP
+                (QP (CD 15) (TO to) (CD 20))
+                (NNS feet))))))
+      (, ,)
+      (CC and)
+      (VP (VB fire)
+        (PRT (RP down))
+        (PP (IN at)
+          (NP
+            (NP (NNS deer))
+            (SBAR
+              (WHNP (WDT that))
+              (S
+                (VP (VBP wander)
+                  (ADVP (RB below)))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (PP (IN Despite)
+      (NP
+        (NP (DT the) (NN hunter))
+        (VP (VBN killed)
+          (PP (IN from)
+            (NP (DT the) (NN platform))))))
+    (, ,)
+    (NP
+      (NP (NNP Sgt.) (NNP Larry) (NNP D.) (NNP Sargent))
+      (, ,)
+      (NP
+        (NP (NN hunter) (NN education) (NN field) (NN coordinator))
+        (PP (IN for)
+          (NP (DT the) (NN law) (NN enforcement) (NN division))))
+      (, ,))
+    (VP (VBZ says)
+      (SBAR
+        (S
+          (NP (DT the) (NN practice))
+          (VP (VBZ does)
+            (NP
+              (NP (NN offer) (CD one) (NN safety) (NN advantage))
+              (: :)
+              (S
+                (NP (NN errant) (NNS shots))
+                (VP
+                  (VP
+                    (ADVP (RB typically))
+                    (VBG thump)
+                    (ADVP (RB harmlessly))
+                    (PP (TO to)
+                      (NP (DT the) (NN ground))))
+                  (, ,)
+                  (CONJP (RB rather) (IN than))
+                  (VP (VBG whistling)
+                    (PP (IN through)
+                      (NP (DT the) (NNS woods))))
+                  (CC and)
+                  (VP (VBG striking)
+                    (NP (JJ other) (NNS people))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (DT The) (NNS problems))
+    (ADVP (RB primarily))
+    (VP (VBP arise)
+      (SBAR
+        (WHADVP (WRB when))
+        (S
+          (NP (NNS hunters))
+          (VP (VBP get)
+            (PRT (RP in)
+              (CC and)
+              (RP out))
+            (PP (IN of)
+              (NP (NN position)))))))
+    (. .)))
+
+(ROOT
+  (NP
+    (NP
+      (NP (NN ``It) (POS 's))
+      (NN kind))
+    (PP (IN of)
+      (S
+        (VP
+          (ADVP (RB hard))
+          (VBG climbing)
+          (NP (DT a) (NN tree))
+          (PP (IN with)
+            (NP
+              (NP (DT a) (NN gun))
+              (SBAR
+                (S
+                  (NP (NNP ,'') (NNP Rob) (NNP Williams))
+                  (VP (VBD said)))))))))
+    (, ,)
+    (PP (IN as)
+      (NP
+        (NP (PRP he))
+        (CC and)
+        (NP (DT a) (NN hunting) (NN partner))))
+    (, ,)
+    (NP (NNP Art) (NNP Bush))
+    (, ,)
+    (VP (VBN waited)
+      (PP (IN on)
+        (NP
+          (NP (DT a) (JJ recent) (NN morning))
+          (PP (IN in)
+            (NP
+              (NP (DT a)
+                (ADJP (JJ conventional) (JJ earthbound))
+                (NN hunting))
+              (ADJP (JJ blind)
+                (PP (IN about)
+                  (ADVP
+                    (NP (CD 20) (NNS miles))
+                    (RB west)))))))))
+    (PP (IN of)
+      (NP (NNP Detroit)))
+    (. .)))
+
+(ROOT
+  (FRAG
+    (PP (IN For)
+      (NP (NNP Williams)))
+    (, ,)
+    (INTJ (UH Rule) (UH No))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (CD 1))
+    (VP (VBZ is) (RB not)
+      (S
+        (VP (TO to)
+          (VP (VB climb)
+            (NP (DT a) (NN tree))
+            (PP (IN with)
+              (NP (DT a) (JJ loaded) (NN gun)))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (PRP He))
+    (VP (VBZ says)
+      (SBAR (IN that)
+        (S
+          (SBAR
+            (WHADVP (WRB when))
+            (S
+              (NP (PRP he))
+              (VP (VBZ hunts)
+                (PP (IN from)
+                  (NP (DT a) (NN platform))))))
+          (NP (PRP he))
+          (VP (VBZ climbs)
+            (PRT (RP up))
+            (PP (IN with)
+              (NP
+                (NP (DT a) (NN rope))
+                (VP (VBG dangling)
+                  (PP (IN from)
+                    (NP (PRP$ his) (NN belt)))
+                  (PP (TO to)
+                    (NP
+                      (NP (PRP$ his) (NN gun))
+                      (, ,)
+                      (SBAR
+                        (WHNP (WDT which))
+                        (S
+                          (NP (PRP he))
+                          (VP (VBZ leaves)
+                            (VP (JJ unloaded)
+                              (PP (IN on)
+                                (NP (DT the) (NN ground))))))))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (SBAR
+      (WHADVP (WRB When))
+      (S
+        (NP (PRP he))
+        (VP (VBZ is)
+          (ADJP (JJ secure)
+            (PP (IN in)
+              (NP (PRP$ his) (NN stand)))))))
+    (, ,)
+    (NP (PRP he))
+    (VP
+      (VP (VBZ pulls)
+        (NP (PRP$ his) (NN gun))
+        (PRT (RP up))
+        (PP (IN after)
+          (NP (PRP him))))
+      (CC and)
+      (VP (VBZ loads)
+        (NP (PRP it))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP Sargent))
+    (VP (VBZ says)
+      (SBAR
+        (S
+          (NP (DT this))
+          (VP (VBZ is)
+            (NP (JJ proper) (NN procedure))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (CD One) (NN accident))
+      (NP (DT this) (NN year)))
+    (, ,)
+    (ADVP (RB however))
+    (, ,)
+    (VP (VBZ illustrates)
+      (NP
+        (NP (DT the) (NN importance))
+        (PP (IN of)
+          (S
+            (VP (VBG following)
+              (NP
+                (NP (DT each) (NN step))
+                (PP (IN of)
+                  (NP (DT the) (NN safety) (NNS procedures)))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (S
+      (S
+        (NP (DT A) (JJ 16-year-old) (NN hunter))
+        (VP (VBD used)
+          (NP (DT a) (NN haul) (NN line))))
+      (, ,)
+      (CC but)
+      (S
+        (NP (PRP it))
+        (VP (VBD was)
+          (VP (VBN tied)
+            (PP (TO to)
+              (NP (DT the) (NN trigger) (NN guard))))))
+      (CC and)
+      (S
+        (NP (PRP he))
+        (VP (VBD left)
+          (SBAR
+            (S
+              (NP (DT the) (NN gun))
+              (VP (VBD loaded)))))))
+    (, ,)
+    (NP (NNP Koppelo))
+    (VP (VBD said))
+    (. .)))
+
+(ROOT
+  (S
+    (S
+      (NP
+        (NP (DT The) (NN teen-ager) (POS 's))
+        (NN gun))
+      (VP (VBD went)
+        (PRT (RP off))))
+    (CC and)
+    (S
+      (NP (PRP he))
+      (VP (VBD was)
+        (VP (VBN shot)
+          (PP (IN in)
+            (NP (DT the) (NN foot))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNS Others))
+    (VP (VBP are)
+      (VP (VBN hurt)
+        (S
+          (VP (VBG falling)
+            (PRT (RP out))
+            (PP (IN of)
+              (NP (NNS trees)))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP Koppelo))
+    (VP (VBD said)
+      (SBAR
+        (SBAR (IN that)
+          (S
+            (NP (NN state) (NNS officials))
+            (VP (VBD were)
+              (VP (VBG trying)
+                (S
+                  (VP (TO to)
+                    (VP (VB keep)
+                      (NP
+                        (NP (NN count))
+                        (PP (IN of)
+                          (NP (DT these) (NNS injuries)))))))))))
+        (CC but)
+        (SBAR (IN that)
+          (S
+            (NP (PRP it))
+            (VP (VBD was)
+              (ADJP (JJ difficult))
+              (, ,)
+              (SBAR (IN since)
+                (S
+                  (NP (PRP they))
+                  (VP (VBD relied)
+                    (PP (IN on)
+                      (NP
+                        (NP (NNS hunters))
+                        (VP (VBG reporting)
+                          (NP (JJ minor) (NNS accidents)))))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (JJ ``A) (NN lot))
+      (PP (IN of)
+        (NP (NNS guys))))
+    (VP (VBP are)
+      (ADJP (JJ embarrassed)
+        (SBAR
+          (S
+            (NP (NNP ,'') (NNP Sargent))
+            (VP (VBD said))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NN ``They))
+    (VP (MD 'll)
+      (VP (VB say)
+        (SBAR
+          (S
+            (NP (PRP they))
+            (VP (VBD fell)
+              (S
+                (VP (VBG working)
+                  (PP (IN in)
+                    (NP (DT the) (NN yard)
+                      (CC or)
+                      (NN something) (NN .''))))))))))))
+
+(ROOT
+  (S
+    (NP (NNS Others))
+    (PRN (, ,)
+      (NP (NNP Koppelo))
+      (VP (VBZ says))
+      (, ,))
+    (VP (VBP do) (RB not)
+      (VP (VB want)
+        (S
+          (VP (TO to)
+            (VP (VB report)
+              (NP
+                (NP (NNS accidents))
+                (PP (IN for)
+                  (NP (NN fear)))
+                (SBAR
+                  (S
+                    (NP (DT the) (NN law))
+                    (VP (MD will)
+                      (VP (VB be)
+                        (VP (VBN changed))))))))))))
+    (. .)))
+
+(ROOT
+  (S (CC And)
+    (NP (PRP she))
+    (VP (VBZ adds)
+      (SBAR (IN that)
+        (S
+          (SBAR (IN though)
+            (S
+              (NP (JJ anecdotal) (NNS reports))
+              (VP (VBP show)
+                (NP
+                  (NP (NNP Michigan) (POS 's))
+                  (JJ large) (NN hunting) (NN population))
+                (S
+                  (VP (TO to)
+                    (VP (VB be)
+                      (VP (VBG taking)
+                        (ADVP (RB slowly))
+                        (S
+                          (VP (TO to)
+                            (VP (VB firearm)
+                              (NP (JJ deer) (NN hunting))
+                              (PP (IN from)
+                                (NP (NNS platforms)))))))))))))
+          (, ,)
+          (NP (JJS most))
+          (VP (VBP expect)
+            (S
+              (NP (DT the) (NN practice))
+              (VP (TO to)
+                (VP (VB catch)
+                  (PRT (RP on))
+                  (SBAR (IN as)
+                    (S
+                      (NP (PRP it))
+                      (VP (VBZ has)
+                        (VP
+                          (PP (IN in)
+                            (NP (JJ other) (NNS states))))))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (SBAR (IN As)
+      (S
+        (NP
+          (NP (NNP Peter) (NNP Thompson))
+          (, ,)
+          (NP (DT a) (JJ 16-year-old) (NN hunter))
+          (, ,))
+        (VP (VBD said))))
+    (, ,)
+    (NP (JJ ``Usually) (DT the) (JJ deer) (NN don't))
+    (VP (VBP look)
+      (PRT (RP up))
+      (NP (NNS .'')))))
+
+(ROOT
+  (NP (NN NYT-11-25-00) (CD 1558EST)))
+

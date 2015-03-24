@@ -1,0 +1,713 @@
+(ROOT
+  (FRAG
+    (NP (NNP APW20001024.1749.0568) (NNP NEWS) (NNP STORY))
+    (NP (CD 2000-10-24) (CD 18:29:28))))
+
+(ROOT
+  (NP (NNP Texas-State-Senate)))
+
+(ROOT
+  (NP (NNP One) (NNP Race) (NNP May) (NNP Determine) (NNP Texas) (NNP Senate)))
+
+(ROOT
+  (S
+    (S
+      (ADVP (RB PALESTINE))
+      (, ,)
+      (NP (NNP Texas) (NNP [AP))
+      (VP (VBZ ])))
+    (: -)
+    (S
+      (PP (IN With)
+        (S
+          (NP (DT the) (NNPS Republicans))
+          (VP (VBG clinging)
+            (PP (TO to)
+              (NP
+                (NP (DT a) (JJ one-vote) (NN majority))
+                (PP (IN in)
+                  (NP (DT the) (NN state) (NNP Senate))))))))
+      (, ,)
+      (NP
+        (NP (NN control))
+        (PP (IN of)
+          (NP (DT the) (NN chamber))))
+      (VP (MD could)
+        (VP (VB hinge)
+          (PP (IN on)
+            (NP
+              (NP (DT a) (JJ single) (NN race))
+              (PP (IN in)
+                (NP (NNP East) (NNP Texas))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (NNP Republican) (NNP Todd) (NNP Staples))
+      (, ,)
+      (NP (DT a) (JJ three-term) (NN state) (NN representative))
+      (, ,))
+    (VP (VBZ faces)
+      (NP (JJ Democratic) (NN lawyer) (NNP David) (NNP Fisher))
+      (PP (IN in)
+        (NP (DT the) (NNP Nov))))
+    (. .)))
+
+(ROOT
+  (NP
+    (NP (CD 7))
+    (NP (NN election))
+    (. .)))
+
+(ROOT
+  (S
+    (SBAR (IN Although)
+      (S
+        (NP (CD 14) (NNP Senate) (NNS seats))
+        (VP (VBP are)
+          (ADVP (RB up)
+            (PP (IN for)
+              (NP (NN election))))
+          (NP (DT this) (NN year)))))
+    (, ,)
+    (NP (DT this))
+    (VP (VBZ is)
+      (NP
+        (NP (DT the) (JJ only) (NN race))
+        (PP (IN without)
+          (NP (DT an) (JJ incumbent)))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (DT The) (NN question))
+      (WHPP (IN of)
+        (WHNP (WDT which) (NN party))))
+    (VP
+      (VP (VBZ controls)
+        (SBAR
+          (S
+            (NP (DT the) (NNP Texas) (NNP Senate))
+            (VP (VBZ is)
+              (ADJP (RB especially) (JJ important))
+              (SBAR
+                (NP (DT this) (NN year))
+                (IN because)
+                (S
+                  (NP (DT the) (NNP Senate))
+                  (VP (MD will)
+                    (VP (VB redraw)
+                      (NP (JJ congressional)
+                        (CC and)
+                        (JJ legislative) (NNS districts))))))))))
+      (CC and)
+      (VP (MD could)
+        (VP (VB elect)
+          (NP (DT the) (JJ next) (NN lieutenant) (NN governor))
+          (PP (IN if)
+            (NP (NNP Gov))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP George) (NNP W.) (NNP Bush))
+    (VP
+      (VP (VBZ is)
+        (VP (VBN elected)
+          (NP (NN president))))
+      (CC and)
+      (VP (VBZ is)
+        (VP (VBN succeeded)
+          (PP (IN by)
+            (NP (NNP Lt))))))
+    (. .)))
+
+(ROOT
+  (S
+    (VP (VB Gov))
+    (. .)))
+
+(ROOT
+  (NP (NNP Rick) (NNP Perry) (. .)))
+
+(ROOT
+  (SINV
+    (S
+      (S
+        (VP (VB ``From)
+          (NP (DT a) (JJ small) (NN election))
+          (PP (IN in)
+            (NP (CD one) (NN state)))))
+      (NP (NNP Senate) (NN race))
+      (VP (VBZ comes)
+        (NP (DT a) (NN lot) (NN ,''))))
+    (VP (VBD said))
+    (NP
+      (NP (NNP Bob) (NNP Stein))
+      (, ,)
+      (NP
+        (NP (NN professor))
+        (PP (IN of)
+          (NP
+            (NP (JJ political) (NN science))
+            (PP (IN at)
+              (NP
+                (NP (NNP Rice) (NNP University))
+                (PP (IN in)
+                  (NP (NNP Houston)))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NN ``It))
+    (VP (MD will)
+      (VP (VB determine)
+        (NP
+          (NP
+            (NP (DT the) (NN fate))
+            (PP (IN of)
+              (NP (DT the) (JJ Democratic) (NN Party))))
+          (CC and)
+          (PRN (, ,)
+            (ADVP (RB largely))
+            (, ,))
+          (NP (DT the) (NNP Republican) (NNP Party)))
+        (PP (IN in)
+          (NP
+            (NP (DT the) (NN state))
+            (PP (IN of)
+              (NP (NNP Texas) (NNP .'')))))))))
+
+(ROOT
+  (S
+    (NP (DT The) (NNP GOP))
+    (VP (VBD captured)
+      (NP
+        (NP (NN control))
+        (PP (IN of)
+          (NP (DT the) (NNP Senate))))
+      (PP (IN in)
+        (NP (CD 1996)))
+      (, ,)
+      (S
+        (VP (VBG giving)
+          (NP (NNS Republicans))
+          (NP
+            (NP (PRP$ their) (JJ first) (NN majority))
+            (PP (IN in)
+              (NP
+                (NP (DT either) (JJ legislative) (NN chamber))
+                (PP (IN in)
+                  (NP (CD 120) (NNS years)))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (PRP They))
+    (ADVP (RB now))
+    (VP (VBP hold)
+      (NP
+        (NP (DT the) (JJ slimmest) (NN majority))
+        (ADJP (JJ possible)))
+      (: -)
+      (NP (CD 16-15)))
+    (. .)))
+
+(ROOT
+  (S
+    (PP (IN Around)
+      (NP (DT the) (NN state)))
+    (, ,)
+    (NP
+      (NP
+        (QP (RB only) (CD one))
+        (JJ incumbent))
+      (, ,)
+      (NP (DT a) (NNP Democrat))
+      (, ,))
+    (VP (VBZ is)
+      (VP (VBN considered)
+        (S
+          (ADJP (JJ vulnerable)))))
+    (. .)))
+
+(ROOT
+  (S
+    (SBAR (IN While)
+      (S
+        (NP (NNPS Democrats))
+        (VP (VBP have)
+          (VP (VBN controlled)
+            (NP
+              (NP (DT the) (NNP Texas) (NNP House))
+              (PP (IN since)
+                (NP (DT the) (CD 1870s))))))))
+    (, ,)
+    (NP (PRP$ their) (NN majority))
+    (VP (VBZ has)
+      (VP (VBN been)
+        (VP (VBG diminishing)
+          (PP (IN since)
+            (NP (DT the) (NNS 1980s))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (PRP They))
+    (ADVP (RB now))
+    (VP (VBP hold)
+      (NP (DT a) (JJ 78-72) (NN advantage)))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP
+        (QP (RB Only) (CD five)))
+      (PP (IN of)
+        (NP
+          (NP (CD eight) (NNS seats))
+          (PP (IN without)
+            (NP (DT an) (JJ incumbent))))))
+    (VP (VBP are)
+      (ADJP (VBN contested)))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (DT The)
+      (ADJP (RB heavily) (JJ wooded))
+      (NNP Senate) (NN district))
+    (VP (VBZ stretches)
+      (PP (IN from)
+        (NP (NNP Tyler)))
+      (PP (TO to)
+        (NP
+          (NP (NN north))
+          (PP (IN of)
+            (NP (NNP Houston)))))
+      (, ,)
+      (PP (IN with)
+        (NP
+          (NP (VBG logging))
+          (, ,)
+          (NP (NN oil)
+            (CC and)
+            (NN gas) (NN exploration))
+          (CC and)
+          (NP
+            (NP (JJ outdoor) (NN recreation))
+            (PP (IN among)
+              (NP (DT the) (JJ main) (NNS industries)))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (DT The) (NN district))
+    (ADVP (RB also))
+    (VP (VBZ is)
+      (ADVP (RB home))
+      (PP (TO to)
+        (NP (NNP Jasper)))
+      (, ,)
+      (SBAR
+        (WHADVP (WRB where))
+        (S
+          (NP (DT a) (JJ black) (NN man))
+          (VP (VBD was)
+            (VP (VBN dragged)
+              (PP (TO to)
+                (NP (PRP$ his) (NN death)))
+              (PP (IN from)
+                (NP (DT a) (NN pickup) (NN truck)))
+              (PP (IN by)
+                (NP
+                  (NP (CD three) (JJ white) (NNS men))
+                  (PP (IN in)
+                    (NP (CD 1998))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (DT The) (NNP Senate) (NN seat))
+      (PP (IN in)
+        (NP (DT the) (RB traditionally) (JJ Democratic) (NN region))))
+    (VP (VBZ is)
+      (VP (VBG being)
+        (VP (VBN vacated)
+          (PP (IN by)
+            (NP (NNP Republican) (NNP Sen))))))
+    (. .)))
+
+(ROOT
+  (FRAG
+    (NP (NNP Drew) (NNP Nixon))
+    (, ,)
+    (SBAR
+      (WHNP (WP who))
+      (S
+        (VP (VBD decided) (, ,)
+          (PP (IN with)
+            (NP
+              (NP (DT the) (NN encouragement))
+              (PP (IN of)
+                (NP (DT the) (NNP GOP)))))
+          (, ,)
+          (S (RB not)
+            (VP (TO to)
+              (VP (VB seek)
+                (NP (DT another) (NN term))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (PP (IN In)
+      (NP (CD 1997)))
+    (, ,)
+    (NP (NNP Nixon))
+    (VP (VBD was)
+      (VP (VBN sentenced)
+        (PP (TO to)
+          (NP
+            (NP (CD six) (NNS months))
+            (PP (IN in)
+              (NP (NN jail)))))
+        (PP (IN for)
+          (S
+            (VP (VBG propositioning)
+              (NP
+                (NP (DT a) (NN policewoman))
+                (VP (VBG posing)
+                  (PP (IN as)
+                    (NP (DT a) (NN prostitute))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (PRP He))
+    (VP (VBD did)
+      (NP (PRP$ his) (NN time))
+      (PP (IN on)
+        (NP (NNS weekends)))
+      (SBAR (IN while)
+        (S
+          (NP (VBG continuing))
+          (VP (TO to)
+            (VP (VB serve)
+              (PP (IN as)
+                (NP (DT a) (NN lawmaker))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (DT The) (JJ high-stakes) (NN race)
+      (S
+        (VP (TO to)
+          (VP (VB replace)
+            (NP (NNP Nixon))))))
+    (VP (VBZ has)
+      (VP (VBN become)
+        (NP
+          (NP (CD one))
+          (PP (IN of)
+            (NP (DT the)
+              (ADJP (RBS most) (JJ expensive))
+              (JJ legislative) (NNS contests))))
+        (ADVP (RB ever))))
+    (. .)))
+
+(ROOT
+  (S
+    (S
+      (NP (NNP State) (NNP Senate) (NNS candidates))
+      (ADVP (RB typically))
+      (VP (VBP spend)
+        (NP
+          (QP (JJR less) (IN than) (CD $35,000)))))
+    (, ,)
+    (NP (NNP Stein))
+    (VP (VBD said))
+    (. .)))
+
+(ROOT
+  (S (CC But)
+    (NP (NNP Staples))
+    (VP (VBD said)
+      (SBAR
+        (S
+          (NP (PRP he))
+          (VP (VBZ has)
+            (VP (VBN raised)
+              (NP
+                (QP (RB nearly) (CD $1.9) (CD million))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (PP (IN Of)
+      (NP (CD 1,944) (NNS donors)))
+    (, ,)
+    (NP (CD 19))
+    (VP (VBP are)
+      (PP (IN from)
+        (NP (JJ outside) (NNP Texas))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (QP (JJR More) (IN than) (CD 835)))
+    (VP (VBP are)
+      (PP (IN from)
+        (PP (IN outside)
+          (NP (DT the) (NN district)))))
+    (. .)))
+
+(ROOT
+  (S (CC And)
+    (NP (NNP Fisher))
+    (VP (VBD said)
+      (SBAR
+        (S
+          (NP (PRP he))
+          (VP (VBZ has)
+            (VP (VBN raised)
+              (PP (IN about)
+                (NP
+                  (QP (CD $1.4) (CD million)))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (S
+      (S
+        (PP (IN Of)
+          (NP
+            (NP (CD 1,400) (NNS contributors))
+            (PP (TO to)
+              (NP (PRP$ his) (NN campaign)))))
+        (, ,)
+        (NP
+          (QP (JJR fewer) (IN than) (CD 20)))
+        (VP (VBP are)
+          (PP (IN from)
+            (NP
+              (NP (NN out))
+              (PP (IN of)
+                (NP (NNP Texas)))))))
+      (, ,)
+      (CC and)
+      (S
+        (NP (PRP they))
+        (VP (VBD contributed)
+          (SBAR
+            (S
+              (NP
+                (NP
+                  (QP (RB about) (CD 2))
+                  (NN percent))
+                (PP (IN of)
+                  (NP (DT the) (JJ total) (NN amount))))
+              (VP (VBD raised)))))))
+    (, ,)
+    (NP (PRP he))
+    (VP (VBD said))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP
+        (QP (RB About) (CD 40))
+        (NN percent))
+      (PP (IN of)
+        (NP (DT the) (NNS contributors))))
+    (VP (VBP live)
+      (PP (IN in)
+        (NP (DT the) (NN district))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (DT Both) (NNS candidates) (NN support) (NN pay))
+    (VP (VBZ raises)
+      (PP (IN for)
+        (NP
+          (NP (NN prison) (NNS employees))
+          (CC and)
+          (NP
+            (NP (JJR more) (JJ affordable) (NN health) (NN insurance))
+            (PP (IN for)
+              (NP (NNS teachers)
+                (CC and)
+                (NN vow))))))
+      (S
+        (VP (TO to)
+          (VP (VB oppose)
+            (NP (DT any) (NN plan)
+              (S
+                (VP (TO to)
+                  (VP (VB transfer)
+                    (NP (NN water))
+                    (PRT (RP out))
+                    (PP (IN of)
+                      (NP (NNP East) (NNP Texas)))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (NNP Fisher))
+      (, ,)
+      (SBAR
+        (WHNP (WP who))
+        (S
+          (VP
+            (VP (VBZ is)
+              (NP (CD 37)))
+            (CC and)
+            (VP (VBZ is)
+              (VP (VBG making)
+                (NP (PRP$ his) (JJ first) (NN try))
+                (PP (IN for)
+                  (NP (NN office))))))))
+      (, ,))
+    (VP (VBZ opposes)
+      (NP (NN school) (NNS vouchers)))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (NNP Staples))
+      (, ,)
+      (SBAR
+        (WHNP (WP who))
+        (S
+          (VP (VBZ is)
+            (ADVP (RB also))
+            (NP (CD 37)))))
+      (, ,))
+    (VP (VBD said)
+      (SBAR
+        (S
+          (NP (PRP he))
+          (VP (VBZ supports)
+            (NP (NNS vouchers))
+            (SBAR (IN if)
+              (S
+                (VP (VBN approved)
+                  (PP (IN by)
+                    (NP (JJ local) (NNS votes))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (DT The) (NNS votes))
+      (PP (IN of)
+        (NP
+          (NP
+            (QP (RB about) (CD 9,000))
+            (NNS residents))
+          (PP (IN of)
+            (NP (DT a) (JJ recreational) (NN vehicle) (NN park))))))
+    (VP (MD could)
+      (VP (VB be)
+        (ADJP (JJ pivotal))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (PRP$ Their) (NN eligibility)
+      (S
+        (VP (TO to)
+          (VP (VB vote)))))
+    (VP (VBD was)
+      (VP (VBN challenged)
+        (PP (IN by)
+          (NP
+            (NP (JJ other) (NNS residents))
+            (PP (IN of)
+              (NP (DT the) (NN district)))))
+        (SBAR (IN because)
+          (S
+            (NP
+              (NP (JJ many))
+              (PP (IN of)
+                (NP (PRP them))))
+            (VP (VBP spend)
+              (NP
+                (NP (JJS most))
+                (PP (IN of)
+                  (NP
+                    (NP (DT the) (NN year))
+                    (VP (VBG traveling))))))))))
+    (. .)))
+
+(ROOT
+  (S (CC But)
+    (NP (DT a) (JJ federal) (NN judge))
+    (ADVP (RB recently))
+    (VP (VBD cleared)
+      (NP (DT the) (NN way))
+      (PP (IN for)
+        (NP (DT the) (NN RV) (NNS owners)))
+      (S
+        (VP (TO to)
+          (VP (VB vote)))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP Staples))
+    (VP (VBZ has)
+      (VP (VBN accused)
+        (NP
+          (NP (NNP Fisher))
+          (PP (IN of)
+            (S
+              (VP (VBG masterminding)
+                (NP (DT the) (NN challenge))
+                (SBAR (IN because)
+                  (S
+                    (NP (DT the) (NN RV) (NNS owners))
+                    (ADVP (RB largely))
+                    (VP (VB vote)
+                      (NP (NNP Republican)))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP Fisher))
+    (VP (VBD denied)
+      (NP (PRP it)))
+    (. .)))
+
+(ROOT
+  (INTJ (UH -)))
+
+(ROOT
+  (PP (IN On)
+    (NP (DT the) (NN Net))
+    (: :)))
+
+(ROOT
+  (NP
+    (NP
+      (NP (NNP Staples) (POS '))
+      (NN campaign))
+    (: :)
+    (NP (NN www.toddstaples.com))))
+
+(ROOT
+  (NP
+    (NP
+      (NP (NNP Fisher) (POS 's))
+      (NN campaign))
+    (: :)
+    (NP (NNS www.fisher2000.com))))
+

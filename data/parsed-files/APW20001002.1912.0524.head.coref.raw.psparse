@@ -1,0 +1,383 @@
+(ROOT
+  (FRAG
+    (NP (NNP APW20001002.1912.0524) (NNP NEWS) (NNP STORY))
+    (NP (CD 2000-10-02) (CD 19:35:23))))
+
+(ROOT
+  (NP (NN Georgia-School-Shooting)))
+
+(ROOT
+  (NP (FW Ga) (. .)))
+
+(ROOT
+  (NP
+    (NP (NNP Teen) (NNPS Pleads) (NNP Guilty))
+    (PP (IN in)
+      (NP (NN Shooting)))))
+
+(ROOT
+  (NP
+    (NP (NNS CONYERS))
+    (, ,)
+    (NP (NNP Ga))
+    (. .)))
+
+(ROOT
+  (FRAG
+    (NP (NNP [AP) (NNP ]))
+    (: -)
+    (S
+      (NP (DT A) (NN teen-ager))
+      (VP (VBD entered)
+        (NP
+          (NP (JJ dual) (NNS pleas))
+          (PP (IN of)
+            (NP
+              (ADJP
+                (ADJP (JJ guilty)
+                  (CC and)
+                  (JJ guilty))
+                (CC but)
+                (ADJP (RB mentally) (JJ ill)))
+              (NNP Monday))))
+        (PP (IN in)
+          (NP
+            (NP (DT a) (CD 1999) (NN school) (NN shooting))
+            (SBAR
+              (WHNP (WDT that))
+              (S
+                (VP (VBD left)
+                  (NP
+                    (NP (CD six) (JJ fellow) (NNS students))
+                    (VP (VBN wounded))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (DT A) (NN judge))
+    (VP (MD will)
+      (VP (VB consider)
+        (NP
+          (NP (DT the) (NNS results))
+          (PP (IN of)
+            (NP
+              (NP (JJ mental) (NNS evaluations))
+              (PP (IN on)
+                (NP (JJ 17-year-old) (NNP T.J.) (NNP Solomon))))))
+        (PP (IN before)
+          (S
+            (VP (VBG deciding)
+              (SBAR
+                (WHNP (WDT which))
+                (PP (IN of)
+                  (NP (DT the) (CD two) (NNS pleas)))
+                (S
+                  (VP (TO to)
+                    (VP (VB accept))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (SBAR (IN If)
+      (S
+        (NP (DT the) (NN judge))
+        (VP (VBZ accepts)
+          (NP
+            (NP (DT the) (JJ guilty) (NNS pleas))
+            (PP (TO to)
+              (NP (DT all) (CD 29) (NNS charges)))
+            (, ,)
+            (PP (VBG including)
+              (NP
+                (NP (JJ aggravated) (NN assault))
+                (, ,)
+                (NP
+                  (ADJP (JJ cruelty)
+                    (PP (TO to)
+                      (NP (NNS children)
+                        (CC and)
+                        (NNS weapons))))
+                  (NNS violations))))))))
+    (, ,)
+    (NP (NNP Solomon))
+    (VP (MD could)
+      (VP (VB be)
+        (VP (VBN sentenced)
+          (S
+            (VP (TO to)
+              (VP
+                (ADVP (RB up)
+                  (PP (TO to)
+                    (NP (CD 211) (NNS years))))
+                (PP (IN in)
+                  (NP (NN prison)))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (SBAR (IN If)
+      (S
+        (NP (DT the) (NN judge))
+        (VP (VBZ accepts)
+          (NP (DT the) (JJ guilty-but-mentally-ill) (NN plea)))))
+    (, ,)
+    (NP (NNP Solomon))
+    (VP
+      (VP (MD would)
+        (ADVP (RB still))
+        (VP (VB go)
+          (PP (TO to)
+            (NP (NN prison)))))
+      (CC but)
+      (VP (MD would)
+        (VP (VB receive)
+          (NP (JJ psychiatric) (NN treatment))
+          (PP (IN under)
+            (NP
+              (NP (DT the) (NN care))
+              (PP (IN of)
+                (NP (NN prison) (NNS doctors))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (NNP Solomon))
+      (, ,)
+      (NP (RB then) (CD 15))
+      (, ,))
+    (VP (VBD opened)
+      (NP (NN fire))
+      (PP (IN with)
+        (NP
+          (NP (DT a) (JJ sawed-off) (NN rifle))
+          (PP (IN on)
+            (NP
+              (NP (NNS hundreds))
+              (PP (IN of)
+                (NP
+                  (NP (NNS students))
+                  (PP (IN in)
+                    (NP
+                      (NP (DT a) (JJ common) (NN area))
+                      (PP (IN at)
+                        (NP
+                          (NP (NNP Heritage) (NNP High) (NNP School))
+                          (PP (IN in)
+                            (NP
+                              (NP (NNP Conyers))
+                              (, ,)
+                              (ADVP
+                                (NP
+                                  (QP (RB about) (CD 25))
+                                  (NNS miles))
+                                (RB east)
+                                (PP (IN of)
+                                  (NP (NNP Atlanta))))
+                              (, ,)))
+                          (NP (CD one) (NN month))))))))))))
+      (PP (IN after)
+        (NP
+          (NP (DT the) (NNP Columbine) (NNP High) (NN massacre))
+          (PP (IN in)
+            (NP (NNP Colorado))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNS Witnesses))
+    (VP (VBD said)
+      (SBAR
+        (S
+          (NP (PRP he))
+          (VP (VBD appeared)
+            (S
+              (VP (TO to)
+                (VP (VB be)
+                  (VP (VBG aiming)
+                    (PP (IN below)
+                      (NP (JJ waist) (NN level)))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (PRP He))
+    (VP
+      (VP
+        (ADVP (RB then))
+        (VBD dropped)
+        (PP (TO to)
+          (NP (PRP$ his) (NNS knees))))
+      (CC and)
+      (VP (VBD pointed)
+        (S
+          (UCP
+            (NP (DT a) (JJ .357-caliber) (NNP Magnum) (NN revolver))
+            (, ,)
+            (X
+              (PP (RB first)
+                (PP (IN at)
+                  (NP (PRP$ his) (NN mouth)))
+                (CC and)
+                (PP
+                  (ADVP (RB then))
+                  (IN at)
+                  (NP (DT an) (JJ assistant) (NN principal)))))
+            (, ,)
+            (CC but)
+            (VP
+              (ADVP (RB then))
+              (VBN surrendered)
+              (NP (PRP it))
+              (PP (TO to)
+                (NP (DT the) (NN man)))
+              (PP (IN with)
+                (NP
+                  (NP (DT a) (NN tearful))
+                  (: :)
+                  (NP
+                    (NP (NN ``Oh))
+                    (, ,)
+                    (NP (PRP$ my) (NN God)))))))
+          (, ,)
+          (NP (PRP I))
+          (VP (VBP 'm)
+            (NP
+              (ADJP (RB so) (VBN scared))
+              (NNS !''))))))))
+
+(ROOT
+  (S
+    (S
+      (NP
+        (NP (NNP Solomon) (POS 's))
+        (NNS lawyers))
+      (VP (VBD had)
+        (VP (VBN argued)
+          (SBAR (IN that)
+            (S
+              (NP (DT the) (NN teen-ager))
+              (VP (MD should)
+                (VP (VB be)
+                  (VP (VBN hospitalized)
+                    (PP (IN for)
+                      (NP (JJ mental) (NN illness)))))))))))
+    (, ,)
+    (CC but)
+    (S
+      (NP (DT a) (NNP Georgia) (NNS appeals) (NN court))
+      (VP (VBD ruled)
+        (SBAR (IN that)
+          (S
+            (NP (PRP he))
+            (VP (VBD was) (RB not)
+              (ADJP (IN out)
+                (PP (IN of)
+                  (NP (NN touch))))
+              (PP (IN with)
+                (NP (NN reality)))
+              (PP (IN at)
+                (NP
+                  (NP (DT the) (NN time))
+                  (PP (IN of)
+                    (NP (DT the) (NNS shootings))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (S
+      (NP (NNS Friends))
+      (VP (VBP have)
+        (VP (VBD said)
+          (SBAR
+            (S
+              (NP (NNP Solomon))
+              (VP (VBD was)
+                (VP (VBN upset)
+                  (PP (IN over)
+                    (NP (DT a) (VBN failed) (NN romance))))))))))
+    (, ,)
+    (CC but)
+    (S
+      (NP (PRP he))
+      (VP (VBD was)
+        (ADJP (JJ vague)
+          (PP (IN about)
+            (NP (PRP$ his) (NNS motives))))
+        (PP (IN in)
+          (NP
+            (NP (DT a) (NN letter))
+            (PP (IN of)
+              (NP (NN apology)))))
+        (NP (RBR earlier) (DT this) (NN year))))
+    (. .)))
+
+(ROOT
+  (S
+    (S
+      (NP (NN ``It))
+      (VP (VBZ is)
+        (ADJP (JJ hard)
+          (S
+            (VP (TO to)
+              (VP (VB describe)
+                (SBAR
+                  (WHADVP (WRB how)
+                    (ADJP (JJ dark)
+                      (CC and)
+                      (JJ isolated)))
+                  (S
+                    (NP (PRP I))
+                    (VP (VBD felt)
+                      (S
+                        (VP (VBG leading)
+                          (PRT (RP up))
+                          (PP (TO to)
+                            (NP
+                              (NP (DT the) (NN date))
+                              (PP (IN of)
+                                (NP (PRP$ my) (NN mistake))))))))))))))))
+    (NP (NNP ,'') (NNP Solomon))
+    (VP (VBD wrote))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NN ``It) (RB almost))
+    (VP (VBD made)
+      (NP (NN everything))
+      (PP (IN in)
+        (NP (PRP$ my) (NN life)))
+      (PP (RB not) (IN worth)
+        (S
+          (VP (VBG waiting)
+            (PP (IN for)
+              (NP (NNP .'')))))))))
+
+(ROOT
+  (S
+    (NP
+      (NP (NNP Cecil) (NNP Brinkley))
+      (, ,)
+      (NP (DT the) (JJ assistant) (NN principal))
+      (, ,))
+    (VP (VBD was)
+      (ADJP (JJ honored))
+      (NP (JJ last) (NN week))
+      (PP (IN by)
+        (NP (DT the) (NNP Pittsburgh) (JJ -based) (NNP Carnegie) (NNP Hero) (NNP Fund) (NNP Commission)))
+      (, ,)
+      (VP (VBN established)
+        (PP (IN in)
+          (NP (CD 1904)))
+        (PP (IN by)
+          (NP (NNP Andrew) (NNP Carnegie)))
+        (S
+          (VP (TO to)
+            (VP (VB recognize)
+              (NP
+                (NP (NNS acts))
+                (PP (IN of)
+                  (NP (NN heroism)))))))))
+    (. .)))
+

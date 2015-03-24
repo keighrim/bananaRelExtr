@@ -1,0 +1,199 @@
+(ROOT
+  (FRAG
+    (NP (NNP APW20001118.1953.0594) (NNP NEWS) (NNP STORY))
+    (NP (CD 2000-11-18) (CD 20:15:29))))
+
+(ROOT
+  (NP (NNP Jesse-Ventura)))
+
+(ROOT
+  (NP (NNP Callers) (NNP Admonish) (NNP Ventura)))
+
+(ROOT
+  (FRAG
+    (NP (NNP ST.) (NNP PAUL) (NNP [AP) (NNP ]))
+    (: -)
+    (S
+      (NP
+        (NP (NNP Gov.) (NNP Jesse) (NNP Ventura) (POS 's))
+        (JJ weekly) (NN radio) (NN show))
+      (VP (VBZ has)
+        (VP (VBN been)
+          (VP (VBN flooded)
+            (PP (IN with)
+              (NP
+                (NP (NNS calls))
+                (PP (IN about)
+                  (NP (PRP$ his) (JJ new) (JJ part-time) (NN job)))))
+            (PP (IN as)
+              (NP (DT a) (NN football) (NN commentator)))))))
+    (. .)))
+
+(ROOT
+  (SINV
+    (ADJP (JJ ``You))
+    (VP (VBP belong)
+      (PP (TO to)
+        (NP
+          (NP (DT the) (NNS people))
+          (, ,)
+          (NP (CD 100) (NN percent))
+          (, ,))))
+    (NP
+      (NP (JJ 24-hours-a-day))
+      (, ,)
+      (NP
+        (NP (CD seven) (NNS days))
+        (NP (DT a) (NN week))
+        (VP (VBG ,'')
+          (NP (CD one) (NN caller))
+          (NP (JJ admonished) (NNP Friday)))))
+    (. .)))
+
+(ROOT
+  (S
+    (S
+      (NP (NNS Others))
+      (VP (VBD said)
+        (NP (PRP$ his) (NN association))
+        (PP (IN with)
+          (NP (DT the) (NNP XFL)))))
+    (: -)
+    (S
+      (NP (DT a) (JJ rough-and-tumble) (NN league))
+      (VP (VBN organized)
+        (PP (IN by)
+          (NP
+            (NP
+              (NP (NNP NBC))
+              (CC and)
+              (NP (DT the) (NNP World) (NNP Wrestling) (NNP Federation)))
+            (: -) (JJ degraded)
+            (NP (PRP$ his) (NN office))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP Ventura))
+    (VP (VBD brushed)
+      (PRT (RP aside))
+      (NP (DT the) (NN criticism))
+      (, ,)
+      (S
+        (VP (VBG saying)
+          (S
+            (S
+              (NP (PRP he))
+              (VP (MD would)
+                (VP (VB stop)
+                  (SBAR (IN if)
+                    (S
+                      (NP (DT the) (NNP XFL))
+                      (VP (VBZ becomes)
+                        (ADJP (RB too) (JJ raunchy))))))))
+            (CC or)
+            (S
+              (NP (PRP he))
+              (VP (VBZ deems)
+                (NP (PRP it))
+                (PP (IN in)
+                  (NP
+                    (NP (JJ ``any) (NN way))
+                    (ADJP (JJ unacceptable)
+                      (PP (TO to)
+                        (NP
+                          (NP (PRP$ my) (NN position))
+                          (PP (IN as)
+                            (NP (NN governor) (NNS .''))))))))))))))))
+
+(ROOT
+  (S
+    (ADVP (RB Meanwhile))
+    (, ,)
+    (NP (JJ Democratic) (NN state) (NNP Sen.) (NNP Ellen) (NNP Anderson))
+    (VP (VBD said)
+      (SBAR
+        (S
+          (NP (PRP she))
+          (VP (MD would)
+            (VP (VB introduce)
+              (NP (DT a) (NN bill)
+                (S
+                  (VP (TO to)
+                    (VP (VB make)
+                      (NP
+                        (NP (DT the) (NN job))
+                        (PP (IN of)
+                          (NP (NN governor))))
+                      (NP (DT a) (JJ part-time) (NN position))
+                      (, ,)
+                      (S
+                        (ADJP (JJ similar)
+                          (PP (TO to)
+                            (NP (NN state) (NN lawmaker) (NNS positions))))))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (S
+      (NP (NN ``It))
+      (VP (MD would)
+        (VP (VB fit)
+          (PP (IN in)
+            (NP
+              (NP (NNP [Ventura) (POS 's))
+              (JJ ]) (JJ political) (NN philosophy))))))
+    (CC and)
+    (S
+      (NP (PRP it))
+      (VP (MD would)
+        (VP (VB take)
+          (PRT (RP away))
+          (NP
+            (NP (DT the) (NN criticism))
+            (PP (IN of)
+              (S
+                (NP (PRP him))
+                (VP (VBG taking)
+                  (SBAR
+                    (S
+                      (NP (JJ outside) (NNS jobs))
+                      (VP (VBD ,'')
+                        (SBAR
+                          (S
+                            (NP (PRP she))
+                            (VP (VBD said))))))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (PP (IN In)
+      (NP
+        (NP (DT a) (NN contract))
+        (VP (VBN announced)
+          (NP (NNP Thursday)))))
+    (, ,)
+    (NP (DT the) (JJ former) (NN wrestler))
+    (VP (VBD agreed)
+      (S
+        (VP (TO to)
+          (VP (VB work)
+            (NP (CD 10) (NNP Saturday) (NN night) (NNS games))
+            (PP (VBG starting)
+              (PP (IN in)
+                (NP (NNP February))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (PRP He))
+    (VP (MD can)
+      (VP (VB miss)
+        (NP (PRP them))
+        (SBAR (IN if)
+          (S
+            (NP (NN state) (NN business))
+            (VP (VBZ demands)
+              (NP (PRP it)))))))
+    (. .)))
+

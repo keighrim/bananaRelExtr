@@ -1,0 +1,395 @@
+(ROOT
+  (FRAG
+    (NP (NNP APW20001126.1818.0460) (NNP NEWS) (NNP STORY))
+    (NP (CD 2000-11-26) (CD 19:05:38))))
+
+(ROOT
+  (NP (NN SKorea-Workers-Protest)))
+
+(ROOT
+  (NP (NNP S.Korea) (NNP Workers) (NNP Decry) (NNP Restructuring)))
+
+(ROOT
+  (NP
+    (NP (NNP SEOUL) (, ,) (NNP South) (NNP Korea) (NNP [AP) (NNP ]))
+    (: -)
+    (S
+      (NP (CD Two) (JJ major) (NNP South) (JJ Korean) (NN labor) (NNS groups))
+      (VP (VBD rallied)
+        (NP
+          (NP
+            (QP (RB about) (CD 15,000))
+            (NNS workers))
+          (PP (IN in)
+            (NP (JJ central) (NNP Seoul))))
+        (PP (IN on)
+          (NP (NNP Sunday)))
+        (S
+          (VP (TO to)
+            (VP (VB protest)
+              (NP
+                (NP (NN government) (JJ -led) (JJ corporate) (NN restructuring))
+                (SBAR
+                  (S
+                    (NP (PRP they))
+                    (VP (VBP fear)
+                      (SBAR
+                        (S
+                          (VP (MD will)
+                            (VP (VB lead)
+                              (PP (TO to)
+                                (NP (JJ mass) (NNS layoffs))))))))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (PRP It))
+    (VP (VBD was)
+      (NP
+        (NP (DT the) (JJ first) (JJ such) (JJ joint) (NN rally))
+        (PP (IN in)
+          (NP
+            (NP (CD three) (NNS years))
+            (PP (IN for)
+              (NP
+                (NP
+                  (NP (DT the) (NNP Federation))
+                  (PP (IN of)
+                    (NP (JJ Korean) (NNP Trade) (NNS Unions))))
+                (CC and)
+                (NP
+                  (NP (DT the) (JJ militant) (NNP Korean) (NNP Confederation))
+                  (PP (IN of)
+                    (NP (NNP Trade) (NNS Unions))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (DT The) (CD two))
+    (VP (VBP have)
+      (NP
+        (NP (DT a) (VBN combined) (NN membership))
+        (PP (IN of)
+          (NP
+            (QP (CD 1.8) (CD million))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (DT The) (NNS protesters))
+      (, ,)
+      (SBAR
+        (WHNP (DT many))
+        (S
+          (VP
+            (VP (VBG carrying)
+              (NP (NNS signs)))
+            (CC or)
+            (VP (VBG wearing)
+              (NP (JJ red) (NNS headbands)
+                (CC and)
+                (NNS vests))
+              (PP (IN with)
+                (NP
+                  (NP
+                    (NP (NNS slogans))
+                    (PP (JJ such) (IN as)
+                      (NP (NN ``Fight))))
+                  ('' '')
+                  (CC and)
+                  (NP
+                    (NP (NN ``Solidarity) ('' ''))
+                    (VP (VBN printed)
+                      (PP (IN on)
+                        (NP (PRP them)))))))))))
+      (, ,))
+    (VP
+      (VP (VBD chanted))
+      (CC and)
+      (VP (VBD pumped)
+        (NP (PRP$ their) (NNS fists))
+        (PP (IN in)
+          (NP (DT the) (NN air)))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NN ``If))
+    (PRN
+      (S
+        (NP (PRP we))
+        (VP (MD will)
+          (VP (VB be)
+            (VP (VBN driven)
+              (PRT (RP out))
+              (PP (TO to)
+                (NP (DT the) (NNS streets)))
+              (PP (RB just) (IN for)
+                (S
+                  (VP (VBG working)
+                    (ADVP (RB hard)))))))))
+      (, ,))
+    (VP (VBZ let's) (RB not)
+      (VP (VB work)))
+    (. .)))
+
+(ROOT
+  (NP (JJ Let's) (NN strike) (NNS !'')))
+
+(ROOT
+  (S
+    (VP (VBD said)
+      (NP
+        (NP (NNP Kim) (NNP Yon-hwan))
+        (, ,)
+        (NP
+          (NP (NN head))
+          (PP (IN of)
+            (NP (DT an) (NN umbrella) (NN group)))))
+      (PP (IN for)
+        (NP (NN state) (NN utility) (NN labor) (NNS unions))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (DT The) (NNS workers))
+    (VP (VBD marched)
+      (PP (IN from)
+        (NP (NNP Seoul) (NN train) (NN station)))
+      (PP (TO to)
+        (NP
+          (NP (DT a) (NN cathedral))
+          (ADVP
+            (NP (DT a) (JJ few) (NNS miles))
+            (RB away))))
+      (, ,)
+      (S
+        (VP (VBG clogging)
+          (PRT (RP up))
+          (NP (NN traffic)))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (PRP They))
+    (VP (VBD dispersed)
+      (ADVP (RB peacefully))
+      (PP (IN after)
+        (NP (DT the)
+          (ADJP
+            (QP (CD 2) (CD 1)))
+          (NN rally))))
+    (. .)))
+
+(ROOT
+  (S
+    (S
+      (NP
+        (NP
+          (NP (NNS Thousands))
+          (PP (IN of)
+            (NP (JJ uniformed) (NN police) (NNS officers))))
+        (, ,)
+        (NP
+          (NP (DT some))
+          (PP (IN with)
+            (NP (NNS shields))))
+        (, ,))
+      (VP (VBD stood)
+        (PP (IN around)
+          (NP (DT the) (NNS protesters)))
+        (S
+          (VP (TO to)
+            (VP (VB guard)
+              (PP (IN against)
+                (NP (JJ possible) (NN violence))))))))
+    (, ,)
+    (CC but)
+    (S
+      (NP (EX there))
+      (VP (VBD was)
+        (NP
+          (NP (DT no) (NN report))
+          (PP (IN of)
+            (NP (NNS clashes))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (DT The) (NN protest))
+    (VP (VBD was)
+      (ADVP (RB partly))
+      (PP (IN in)
+        (NP
+          (NP (NN support))
+          (PP (IN of)
+            (NP (NNS workers)))))
+      (PP (IN at)
+        (NP
+          (NP (NNP Korea) (NNP Electric) (NNP Power) (NNP Corp.))
+          (, ,)
+          (NP
+            (NP (DT a) (NN state) (NN -run) (NN power) (NN company))
+            (SBAR
+              (WHNP (WDT which))
+              (S
+                (NP (DT the) (NN government))
+                (VP (VBZ plans)
+                  (S
+                    (VP (TO to)
+                      (VP
+                        (VP (VB break)
+                          (PP (IN into)
+                            (NP (JJ several) (NNS units))))
+                        (CC and)
+                        (VP (VB sell))))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (DT A) (JJ 950-megawatt) (JJ electric) (NN power) (NN plant))
+      (VP (VBG belonging)
+        (PP (TO to)
+          (NP (DT the) (NN firm)))))
+    (VP (VBZ has)
+      (ADVP (RB already))
+      (VP (VBN been)
+        (VP (VBN sold)
+          (PP (TO to)
+            (NP
+              (NP (DT a) (NN consortium))
+              (PP (IN of)
+                (NP
+                  (UCP (JJ local)
+                    (CC and)
+                    (JJ foreign))
+                  (NNS firms))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNS Experts))
+    (VP (VBP say)
+      (SBAR
+        (S
+          (NP
+            (NP (DT the) (NN nation) (POS 's))
+            (NN economy))
+          (VP (MD might)
+            (VP (VB face)
+              (NP (NN recession))
+              (SBAR (IN if)
+                (S
+                  (NP (DT the) (NN government))
+                  (VP (VBZ does) (RB not)
+                    (VP (VB speed)
+                      (PRT (RP up))
+                      (S
+                        (VP (VBG restructuring)
+                          (NP
+                            (ADJP (RB heavily) (JJ indebted))
+                            (NNS businesses)
+                            (CC and)
+                            (NNS banks)))))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (PP (IN In)
+      (NP (DT a) (JJ drastic) (NN measure)))
+    (NP (RBR earlier) (DT this) (NN month))
+    (, ,)
+    (NP (NN government) (JJ -controlled) (NN creditor) (NNS banks))
+    (VP (VBD named)
+      (NP
+        (NP (CD 52)
+          (ADJP (RB financially) (JJ weak))
+          (NNS companies))
+        (SBAR
+          (WHNP (WDT that))
+          (S
+            (VP (MD should)
+              (VP (VB be)
+                (VP
+                  (VP (VBN shut)
+                    (PRT (RP down)))
+                  (CC or)
+                  (VP (VBN merged)
+                    (PP (IN for)
+                      (NP (NN sale)))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (DT The) (NN move))
+    (VP (VBD shocked)
+      (NP
+        (NP
+          (QP (NNS tens) (IN of) (NNS thousands)))
+        (PP (IN of)
+          (NP
+            (NP (NNS workers))
+            (SBAR
+              (WHNP (WP who))
+              (S
+                (VP (VBP work)
+                  (PP (IN for)
+                    (NP
+                      (NP (DT those))
+                      (CC and)
+                      (NP
+                        (NP (JJ other)
+                          (ADJP (RB financially) (JJ shaky))
+                          (NNS companies))
+                        (, ,)
+                        (SBAR
+                          (WHNP (WDT which))
+                          (S
+                            (VP (VBP have)
+                              (VP (VBN been)
+                                (VP (VBG surviving)
+                                  (PP (IN on)
+                                    (NP (NN emergency) (NN bank) (NNS loans))))))))))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP South) (NNP Korea))
+    (VP (VBD was)
+      (VP (VBN forced)
+        (S
+          (VP (TO to)
+            (VP (VB accept)
+              (NP (DT a)
+                (ADJP
+                  (QP (CD $58) (CD billion)))
+                (NN bailout) (NN fund))
+              (PP (IN from)
+                (NP
+                  (NP (DT the) (NNP International) (NNP Monetary) (NNP Fund))
+                  (PP (IN in)
+                    (NP (JJ late) (CD 1997)))))
+              (S
+                (VP (TO to)
+                  (VP (VB save)
+                    (NP (PRP$ its) (NN economy))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (PP (IN In)
+      (NP (NN return)))
+    (, ,)
+    (NP (PRP it))
+    (VP (VBD promised)
+      (S
+        (VP (TO to)
+          (VP (VB restructure)
+            (NP
+              (NP (PRP$ its) (JJ bloated) (NNS businesses))
+              (CC and)
+              (NP (JJ inefficient) (JJ financial) (NN sector)))))))
+    (. .)))
+

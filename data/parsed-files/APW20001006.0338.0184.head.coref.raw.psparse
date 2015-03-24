@@ -1,0 +1,507 @@
+(ROOT
+  (FRAG
+    (NP (NNP APW20001006.0338.0184) (NNP NEWS) (NNP STORY))
+    (NP (CD 2000-10-06) (CD 04:05:46))))
+
+(ROOT
+  (NP (NNP Debate-Veeps-TV)))
+
+(ROOT
+  (FRAG
+    (NP (NNP TV) (NNPS Pundits))
+    (VP (VB Give)
+      (NP (NN Debate))
+      (NP (NNP High) (NNP Marks)))))
+
+(ROOT
+  (FRAG
+    (NP (NNP LOS) (NNP ANGELES) (NNP [AP) (NNP ]))
+    (: -)
+    (S
+      (NP (DT The) (NNP Dick) (NNP Cheney) (NNP -Joe) (NNP Lieberman) (NN debate))
+      (VP (VBD was)
+        (VP
+          (VP (VBN praised)
+            (PP (IN by)
+              (NP (DT some) (NN TV) (NNS commentators)))
+            (PP (IN as)
+              (NP
+                (NP (DT an) (NN exercise))
+                (PP (IN in)
+                  (NP (JJ good) (NNS manners))))))
+          (CC and)
+          (VP (VBN condemned)
+            (PP (IN by)
+              (NP
+                (NP (NNS others))
+                (PP (IN as)
+                  (NP (JJ bad) (NNS politics)))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (JJ ``Highly) (NNS civilized))
+    (, ,)
+    (PP (IN in)
+      (NP (JJ many) (NNS ways)))
+    (NP (PRP they))
+    (VP (VBD articulated)
+      (NP
+        (NP (DT the) (NNS positions))
+        (PP (IN of)
+          (NP (PRP$ their) (NNS campaigns))))
+      (ADVP
+        (ADVP (RBR more) (RB effectively))
+        (SBAR (IN than)
+          (S
+            (NP
+              (NP (DT the) (NN top))
+              (PP (IN of)
+                (NP
+                  (NP (PRP$ their) (NN ticket))
+                  (SBAR
+                    (WHADVP (WRB when))
+                    (S
+                      (NP (PRP they))
+                      (VP (VBD met)
+                        (PP (IN in)
+                          (NP (NNP Boston) (NNP ,'') (NNP Tom) (NNP Brokaw)))))))))
+            (VP (VBD said))))))
+    (. .)))
+
+(ROOT
+  (S
+    (VP (VB ``Give)
+      (NP (PRP it))
+      (SBAR
+        (S
+          (NP (DT a) (NNP rave) (NNP ,''))
+          (VP (VBD said)
+            (NP (NNP CBS) (NNP anchor) (NNP Dan))
+            (ADVP (RB Rather))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (DT This))
+    (VP (MD will)
+      (VP (VB go)
+        (PRT (RP down))
+        (PP (IN as)
+          (NP (DT the) (JJS best) (NN vice)))
+        (NP
+          (NP (JJ presidential) (JJ joint) (NN appearance))
+          (PP (IN on)
+            (NP (NN television)))
+          (SBAR (IN since)
+            (S
+              (NP
+                (NP (DT the) (NN television) (NN era))
+                (PP (IN in)
+                  (NP (JJ presidential)
+                    (CC and)
+                    (JJ vice) (JJ presidential) (NNS campaigns))))
+              (VP (VBD began)
+                (NP (NNS .''))))))))))
+
+(ROOT
+  (S
+    (NP
+      (NP (PRP$ His) (NN colleague))
+      (, ,)
+      (NP (NNP Bob) (NNP Schieffer))
+      (, ,))
+    (VP (VBD wondered)
+      (SBAR (IN whether)
+        (S
+          (NP (PRP$ their) (NNS ``bosses))
+          (VP (VBD ,'')
+            (SBAR
+              (S
+                (NP
+                  (NP (NNP George) (NNP W.) (NNP Bush))
+                  (CC and)
+                  (NP (NNP Al) (NNP Gore))
+                  (, ,))
+                (VP (VBD were)
+                  (VP (VBG watching)))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (JJ Instant) (NNS polls))
+      (CC and)
+      (NP (JJ in-studio) (NNS audiences)))
+    (ADVP (RB also))
+    (VP (VBD gave)
+      (NP (DT the) (NN vice))
+      (NP
+        (NP (JJ presidential) (NNS candidates))
+        (NP (JJ high) (NNS marks))))
+    (. .)))
+
+(ROOT
+  (S (CC But)
+    (NP (DT some) (NNS observers))
+    (VP (VBD pronounced)
+      (SBAR
+        (S
+          (NP (PRP themselves))
+          (VP (VBN frustrated)
+            (PP (IN by)
+              (NP (DT the) (NN debate)))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (NNP Fox) (NNP News) (NNP Channel) (POS 's))
+      (NNP Mort) (NNP Kondracke))
+    (VP (VBD called)
+      (SBAR
+        (S
+          (NP (PRP it))
+          (VP (VBP ``an)
+            (NP
+              (NP (NN opportunity))
+              (VP (VBN wasted)
+                (PP (IN by)
+                  (NP (NNP Cheney)))
+                (S
+                  (VP (TO to)
+                    (VP (VB go)
+                      (PP (IN after)
+                        (NP (NNP Gore) (NNP .''))))))))))))))
+
+(ROOT
+  (SINV
+    (S
+      (NP (JJ ``Maybe) (NN somebody))
+      (VP (MD could)
+        (VP
+          (VP (VB have)
+            (VP (VBN given)
+              (NP (DT the) (NNS candidates))
+              (NP (DT a) (JJ hot) (NN foot))))
+          (CC or)
+          (VP (VB put)
+            (NP (DT a) (NN joy) (NN buzzer))
+            (PP (IN on)
+              (NP (PRP$ their) (NN seat) (NN ,'')))))))
+    (VP (VBD said))
+    (NP
+      (NP (PRP$ his) (NN colleague))
+      (, ,)
+      (NP (NNP Fred) (NNP Barnes)))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (JJ Conservative) (NN commentator) (NNP Bill) (NNP Kristol))
+      (, ,)
+      (RRC
+        (ADVP (RB also))
+        (PP (IN on)
+          (NP (NNP FNC))))
+      (, ,))
+    (VP (VBD said)
+      (SBAR
+        (S
+          (NP (JJ ``the) (NNP Bush) (NN campaign))
+          (VP (VBD failed)
+            (S
+              (VP (TO to)
+                (VP (VB do)
+                  (SBAR
+                    (WHNP (WP what))
+                    (S
+                      (NP (PRP it))
+                      (VP (VBD had)
+                        (S
+                          (VP (TO to)
+                            (VP (VB do))))))))))))))
+    (: ...)))
+
+(ROOT
+  (FRAG
+    (WHNP (WDT which))
+    (S
+      (VP (TO to)
+        (VP (VB assault)
+          (NP
+            (NP
+              (NP (NNP al) (NNP Gore) (POS 's))
+              (NNS policies))
+            (CC and)
+            (NP (PRP$ his) (NN credibility) (NN .''))))))))
+
+(ROOT
+  (S
+    (NP
+      (NP (NNP ABC) (POS 's))
+      (NNP Sam) (NNP Donaldson))
+    (VP (VBD asked)
+      (ADVP (RB plaintively)
+        (SBAR
+          (WHADVP (WRB when))
+          (S
+            (NP (PRP it))
+            (VP (VBD was)
+              (VP (VBN decreed)
+                (SBAR (IN that)
+                  (S
+                    (NP (NNS campaigners))
+                    (VP (VBD had)
+                      (S
+                        (VP (TO to)
+                          (VP (VB act)
+                            (PP (IN like)
+                              (NP (NN ``gentlemen)
+                                (CC and)
+                                (NNS ladies) (NNS .'')))))))))))))))))
+
+(ROOT
+  (S
+    (NP (NNP ``I))
+    (VP (VBP think)
+      (SBAR (IN that)
+        (S
+          (VP (VBZ 's)
+            (NP
+              (NP (NN nonsense))
+              (SBAR
+                (S
+                  (NP (NNP ,'') (NNP Donaldson))
+                  (VP (VBD said)))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (DT The) (NN night))
+    (VP (VBD was)
+      (VP (VBN put)
+        (PP (IN in)
+          (NP (NN perspective)))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (NNP ABC) (NNP anchorman) (NNP Peter) (NNP Jennings))
+      (, ,)
+      (SBAR
+        (WHNP (WP who))
+        (S
+          (VP (VBD noted)
+            (NP
+              (NP (DT that) (NN ``bottom))
+              (PP (IN of)
+                (NP (DT the) (NN ticket) ('' '') (NN doesn't))))))))
+    (ADVP (RB necessarily))
+    (VP (VBP have)
+      (NP
+        (NP (DT that) (JJ much) (NN affect))
+        (PP (IN on)
+          (NP (NN voter) (NNS decisions)))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP
+        (NP (NNP NBC) (POS 's))
+        (NNP Tim) (NNP Russert))
+      (PP (IN of)))
+    (VP (VBD predicted)
+      (SBAR
+        (S
+          (NP
+            (NP
+              (NP (DT the) (NN veep) (NN debate) (POS 's))
+              (NN ``effect))
+            (PP (IN on)
+              (NP (DT the) (NN election))))
+          (VP (MD will)
+            (ADVP (RB practically))
+            (VP (VB be)
+              (ADJP (JJ nonexistent))
+              (ADVP (RB .'')))))))))
+
+(ROOT
+  (S
+    (S
+      (NP
+        (NP (DT A) (NN group))
+        (PP (IN of)
+          (NP (JJ undecided) (NNS voters))))
+      (VP (VBD recruited)
+        (PP (IN by)
+          (NP (NNP NBC)))
+        (PP (IN in)
+          (NP (NNP Tampa)))))
+    (, ,)
+    (NP (NNP Fla) (NNP .,))
+    (VP (VBD were)
+      (VP
+        (VP (VBN impressed)
+          (PP (IN with)
+            (NP (DT both) (NNS candidates))))
+        (: -)
+        (CC and)
+        (, ,)
+        (PP (IN with)
+          (NP
+            (NP (DT a) (NN non-show))
+            (PP (IN of)
+              (NP
+                (NP (NNS hands))
+                (, ,)
+                (SBAR
+                  (WHNP (DT all))
+                  (S
+                    (VP (VBD indicated)
+                      (SBAR
+                        (S
+                          (NP (PRP they))
+                          (VP (VBD remained)
+                            (PP (IN on)
+                              (NP (DT the) (NN fence)))))))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (PP (IN On)
+      (NP (NNP Tuesday)))
+    (, ,)
+    (NP (DT an) (VBN estimated)
+      (QP (CD 46.5) (CD million))
+      (NNS people))
+    (VP (VBD watched)
+      (NP
+        (NP (DT the) (JJ first) (JJ presidential) (NN debate))
+        (PP (IN between)
+          (NP (NNP Gore)
+            (CC and)
+            (NNP Bush)))
+        (, ,)
+        (SBAR
+          (WHNP (WDT which))
+          (S
+            (NP (DT some) (NNS commentators))
+            (VP (VBD deemed)
+              (NP (JJ rancorous)))))))
+    (. .)))
+
+(ROOT
+  (S
+    (S
+      (NP (NNP Lieberman)
+        (CC and)
+        (NNP Cheney))
+      (VP (VBD were)
+        (ADVP (RB probably))
+        (PP (IN on)
+          (NP (PRP$ their) (JJS best) (NN behavior)))
+        (SBAR (IN because)
+          (S
+            (NP (NN focus) (NNS groups))
+            (VP (VBD told)
+              (NP (DT the) (NNS campaigns))
+              (SBAR (IN that)
+                (S
+                  (NP (NN conflict) (NN doesn't))
+                  (VP (VBP pay)))))))))
+    (, ,)
+    (NP (NNS commentators))
+    (VP (VBD mused))
+    (. .)))
+
+(ROOT
+  (S
+    (S
+      (NP (DT That) (NNP Gore) (JJ -Bush) (NN audience))
+      (VP (VBD was)
+        (ADJP (JJ comparable)
+          (PP (TO to)
+            (NP
+              (NP (DT the)
+                (QP (CD 46.1) (CD million))
+                (NNS people))
+              (SBAR
+                (WHNP (WP who))
+                (S
+                  (VP
+                    (VP (VBD watched)
+                      (NP (DT the) (JJ first) (NN duel))
+                      (PP (IN between)
+                        (NP
+                          (NP (NNP President) (NNP Clinton))
+                          (CC and)
+                          (NP (NNP Bob) (NNP Dole)))
+                        (ADVP
+                          (NP (CD four) (NNS years))
+                          (RB ago))))
+                    (, ,)
+                    (CC but)
+                    (VP (VBD fell)
+                      (NP
+                        (NP (JJ short))
+                        (PP (IN of)
+                          (NP (DT the) (JJ all-time) (NN record)))))))))))))
+    (: :)
+    (S
+      (NP
+        (QP (CD 80) (CD million))
+        (NNS people))
+      (VP (VBD watched)
+        (S
+          (NP (NNP President) (NNP Carter)
+            (CC and)
+            (NNP Ronald) (NNP Reagan))
+          (VP (VB square)
+            (PRT (RP off))
+            (PP (IN in)
+              (NP (CD 1980)))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP Cheney)
+      (CC and)
+      (NNP Lieberman))
+    (, ,)
+    (PP (IN with)
+      (NP (NN moderator) (NNP Bernie) (NNP Shaw)))
+    (, ,)
+    (VP (VBD met)
+      (PP (IN at)
+        (NP
+          (NP (NNP Centre) (NNP College))
+          (PP (IN in)
+            (NP (NNP Danville) (, ,) (NNP Ky) (NNP .,)))))
+      (PP (IN for)
+        (NP (PRP$ their) (JJ only) (NN debate))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP Bush)
+      (CC and)
+      (NNP Gore))
+    (VP (VBP have)
+      (NP
+        (NP (CD two) (JJR more) (NNS debates))
+        (VP (VBN scheduled) (, ,)
+          (PP (IN on)
+            (NP (NNP Oct))))))
+    (. .)))
+
+(ROOT
+  (NP
+    (NP (CD 11))
+    (QP (CC and)
+      (CD 17))
+    (. .)))
+

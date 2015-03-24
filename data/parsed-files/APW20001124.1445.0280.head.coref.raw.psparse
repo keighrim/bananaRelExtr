@@ -1,0 +1,94 @@
+(ROOT
+  (FRAG
+    (NP (NNP APW20001124.1445.0280) (NNP NEWS) (NNP STORY))
+    (NP (CD 2000-11-24) (CD 15:13:11))))
+
+(ROOT
+  (NP (NNP Cheney-Hospitalized)))
+
+(ROOT
+  (FRAG
+    (NP (NNP Cheney))
+    (S
+      (VP (TO To)
+        (VP (VB Be)
+          (VP (VBN Released)
+            (PP (IN From)
+              (NP (NNP Hospital)))))))))
+
+(ROOT
+  (NP
+    (NP (NNP WASHINGTON) (NNP [AP) (NNP ]))
+    (: -)
+    (NP
+      (NP (JJ Republican) (NN vice))
+      (SBAR
+        (S
+          (NP
+            (NP (JJ presidential) (NN candidate) (NNP Dick) (NNP Cheney))
+            (, ,)
+            (VP (VBN said)
+              (PP (IN by)
+                (NP (PRP$ his) (NN doctor)
+                  (S
+                    (VP (TO to)
+                      (VP (VB be)
+                        (VP (VBG recovering)
+                          (ADVP (RB well))
+                          (PP (IN from)
+                            (NP (DT a) (JJ mild) (NN heart) (NN attack))))))))))
+            (, ,))
+          (VP (VBD was)
+            (VP (VBG being)
+              (VP (VBN released)
+                (PP (IN from)
+                  (NP (DT the) (NN hospital)))
+                (NP (NNP Friday))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (NN ``He) (POS 's))
+      (VBG going) (NN home))
+    (ADVP (RB ,''))
+    (VP (VBD said)
+      (NP
+        (NP (NNP Cheney) (NN chief))
+        (PP (IN of)
+          (NP (NN staff) (NNP Kathleen) (NNP Shanahan)))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (DT The) (NNP 59-year-old) (NNP Cheney) (POS 's))
+      (JJ examining) (NN physician))
+    (VP (VBD said)
+      (NP (NNP Thursday))
+      (SBAR
+        (SBAR
+          (S
+            (NP (DT the) (NN patient))
+            (VP (VBD was)
+              (PP (IN in)
+                (NP (JJ good) (NN condition))))))
+        (CC and)
+        (SBAR (IN that)
+          (S
+            (NP (PRP he))
+            (VP (VBD looked)
+              (ADJP (JJ great))
+              (SBAR (IN while)
+                (S
+                  (S
+                    (VP (VBG resting)
+                      (PRT (RP up))))
+                  (CC and)
+                  (S
+                    (VP (VBG enjoying)
+                      (NP (NNP Thanksgiving))
+                      (PP (IN at)
+                        (NP (NNP George) (NNP Washington) (NNP University) (NNP Hospital))))))))))))
+    (. .)))
+

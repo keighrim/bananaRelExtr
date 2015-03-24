@@ -1,0 +1,267 @@
+(ROOT
+  (FRAG
+    (NP (NNP NYT20001006.2228.0370) (NNP NEWS) (NNP STORY))
+    (NP (CD 2000-10-06) (CD 22:45:00))))
+
+(ROOT
+  (NP
+    (NP (CD A6290) (NNS &Cx1f))
+    (: ;)
+    (NP
+      (NP (JJ taf-z) (NN u) (NN p) (NNS BC-TV-DEBATE-RATINGS-NYT))
+      (NP (CD 10-06) (CD 0230)))))
+
+(ROOT
+  (NP (NNP BC-TV-DEBATE-RATINGS-NYT)))
+
+(ROOT
+  (NP
+    (NP (NNP CHENEY-LIEBERMAN) (NNP DEBATE))
+    (NP
+      (NP (NNP FARES) (NNP POORLY))
+      (PP (IN IN)
+        (NP (NNP RATINGS))))))
+
+(ROOT
+  (NP
+    (NP (NNP &UR))
+    (: ;)
+    (NP (NNP c.2000) (NNP N.Y))
+    (. .)))
+
+(ROOT
+  (NP
+    (NP (NNP Times) (NNP News) (NNP Service) (NNP &QC))
+    (: ;)
+    (NP (CD &LR) (: ;) (CD &QL))
+    (: ;)))
+
+(ROOT
+  (NP
+    (NP (DT The) (JJ vice-presidential) (NN debate))
+    (PP (IN on)
+      (NP (NNP Thursday)))
+    (PP (IN between)
+      (NP (NNP Sen)))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP Joseph) (NNP Lieberman)
+      (CC and)
+      (NNP Dick) (NNP Cheney))
+    (VP (VBD was)
+      (VP (VBN watched)
+        (PP (IN by)
+          (NP
+            (NP
+              (QP (IN at) (JJS least) (CD 28.5) (CD million))
+              (NNS people))
+            (, ,)
+            (NP
+              (NP (DT the) (JJ second-smallest) (NN audience))
+              (PP (IN on)
+                (NP (NN record))))))
+        (PP (IN for)
+          (NP (DT a) (JJ vice-presidential) (NN debate)))
+        (, ,)
+        (PP (VBG according)
+          (PP (TO to)
+            (NP (NNP Nielsen) (NNP Media) (NNP Research) (NNS data))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (DT The) (JJ lowest-rated) (JJ vice-presidential) (NN debate))
+      (PP (IN on)
+        (NP (NN record))))
+    (VP (VBD was)
+      (NP
+        (NP (DT the) (NN confrontation))
+        (PP (IN between)
+          (NP (NNP Vice) (NNP President) (NNP Al) (NNP Gore)
+            (CC and)
+            (NNP Jack) (NNP Kemp))))
+      (, ,)
+      (PP (IN on)
+        (NP (NNP Oct))))
+    (. .)))
+
+(ROOT
+  (NP
+    (NP (CD 9))
+    (, ,)
+    (NP (CD 1996))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (PRP It))
+    (VP (VBD was)
+      (VP (VBN watched)
+        (PP (IN by)
+          (NP
+            (QP (CD 26.6) (CD million))
+            (NNS people)))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (DT The) (JJ highest-rated) (JJ vice-presidential) (NN debate))
+    (VP (VBD was)
+      (NP
+        (NP (DT the) (NN matchup))
+        (PP (IN between)
+          (NP (NNP Rep)))))
+    (. .)))
+
+(ROOT
+  (FRAG
+    (NP
+      (NP (NNP Geraldine) (NNP Ferraro))
+      (CC and)
+      (NP (NNP Vice) (NNP President) (NNP George) (NNP Bush)))
+    (, ,)
+    (PP (IN on)
+      (NP (NNP Oct)))
+    (. .)))
+
+(ROOT
+  (NP
+    (NP (CD 11))
+    (, ,)
+    (NP (CD 1984))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (PRP It))
+    (VP (VBD was)
+      (VP (VBN watched)
+        (PP (IN by)
+          (NP
+            (QP (CD 56.7) (CD million))
+            (NNS people)))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP Nielsen) (NNS executives))
+    (VP (VBD said)
+      (SBAR
+        (S
+          (NP (PRP it))
+          (VP (VBD was)
+            (ADJP (JJ possible))
+            (SBAR (IN that)
+              (S
+                (NP
+                  (NP (DT the) (JJ final) (NN audience) (NN tally))
+                  (PP (IN for)
+                    (NP
+                      (NP (NNP Thursday) (POS 's))
+                      (NN confrontation))))
+                (VP (MD could)
+                  (VP (VB be)
+                    (ADJP
+                      (ADJP (RB slightly) (JJR larger))
+                      (PP (IN than)
+                        (NP
+                          (NP (DT the) (NN one))
+                          (VP (VBN released)
+                            (NP (NNP Friday))))))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (DT The) (NNS ratings) (NN gathering) (NN process))
+    (VP (VBD was)
+      (VP (VBN complicated)
+        (PP (IN by)
+          (NP
+            (NP (NNP Fox) (POS 's))
+            (NN decision)
+            (S
+              (VP (TO to)
+                (VP (VB show)
+                  (NP
+                    (NP (DT a) (NN baseball) (NN playoff) (NN game))
+                    (PP (RB instead) (IN of)
+                      (NP (DT the) (NN debate)))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (S
+      (NP
+        (NP (DT Some))
+        (PP (IN of)
+          (NP (PRP$ its) (JJ affiliated) (NNS stations))))
+      (VP (VBD showed)
+        (ADVP
+          (NP (DT the) (NN debate))
+          (RB later))
+        (PP (IN in)
+          (NP (DT the) (NN evening)))))
+    (, ,)
+    (CC and)
+    (S
+      (NP (NNP Nielsen))
+      (VP (VBD said)
+        (SBAR
+          (S
+            (NP (PRP it))
+            (VP (MD would) (RB not)
+              (VP (VB be)
+                (ADJP (JJ able)
+                  (S
+                    (VP (TO to)
+                      (VP (VB count)
+                        (NP
+                          (NP (DT the) (NN number))
+                          (PP (IN of)
+                            (NP
+                              (NP (NNS people))
+                              (SBAR
+                                (WHNP (WP who))
+                                (S
+                                  (VP (VBD watched)
+                                    (NP (DT those) (NNS showings))
+                                    (PP (IN until)
+                                      (NP (JJ early) (JJ next) (NN week)))))))))))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (DT The) (NN difference))
+    (VP (VBD was) (RB not)
+      (VP (VBN expected)
+        (S
+          (VP (TO to)
+            (VP (VB be)
+              (ADJP (RB very) (JJ significant)))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (NNP Thursday) (POS 's))
+      (VBN estimated) (NN audience))
+    (VP (VBD included)
+      (NP
+        (NP (NNS viewers))
+        (SBAR
+          (WHNP (WP who))
+          (S
+            (VP (VBN watched)
+              (PP (IN on)
+                (NP
+                  (NP (NNP ABC) (, ,) (NNP CBS) (, ,) (NNP NBC) (, ,) (NNP MSNBC) (, ,) (NNP CNN))
+                  (CC and)
+                  (NP (DT the) (NNP Fox) (NNP News) (NNP Channel)))))))))
+    (. .)))
+
+(ROOT
+  (NP (NN NYT-10-06-00) (CD 2245EDT)))
+

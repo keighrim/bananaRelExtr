@@ -1,0 +1,1180 @@
+(ROOT
+  (FRAG
+    (NP (NNP NYT20001111.1033.0046) (NNP NEWS) (NNP STORY))
+    (NP (CD 2000-11-11) (CD 10:36:00))))
+
+(ROOT
+  (NP
+    (NP (CD A5480) (NNS &Cx1f))
+    (: ;)
+    (NP
+      (NP (JJ var-z) (NN u))
+      (NP (DT a) (JJ BC-ELN-VOTERS-REVIEW-ART)
+        (QP (CD 11-11) (CD 0938))))))
+
+(ROOT
+  (NP (NNP BC-ELN-VOTERS-REVIEW-ART-NYT)))
+
+(ROOT
+  (SBARQ
+    (WHNP (WP WHO))
+    (SQ
+      (VP (VBD VOTED))
+      (: :)
+      (NP
+        (NP (DT A) (NN PORTRAIT))
+        (PP (IN OF)
+          (NP (NNP AMERICAN) (CD POLITICS) (, ,) (CD 1976-2000)))))))
+
+(ROOT
+  (NP
+    (NP (NNP &UR))
+    (: ;)
+    (NP
+      (NP (JJ [The) (NN Week))
+      (PP (IN in)
+        (NP (NNP Review) (NNP ]) (NNP &LR)))
+      (: ;)
+      (NP (NNP &QL))
+      (: ;)
+      (NP (NNP &UR))
+      (: ;)
+      (NP (NNP [NOTE) (NNP TO) (NNP INTERNATIONAL) (NNP CLIENTS))
+      (: :)
+      (PP (IN For)
+        (NP
+          (NP
+            (NP (JJ international) (NNS clients) (POS '))
+            (NN use))
+          (PP (IN by)
+            (NP
+              (NP (JJ special) (NN arrangement))
+              (ADVP (RB only)))))))
+    (. .)))
+
+(ROOT
+  (NP
+    (NP
+      (ADJP (NNP Asian)
+        (CC and)
+        (NNP European))
+      (NNS points))
+    (: :)
+    (NP
+      (NP (NN contact))
+      (SBAR
+        (S
+          (NP
+            (NP (NNP Karl) (NNP Horwitz))
+            (PP (IN in)
+              (NP
+                (NP (NNP Paris))
+                (PP (IN for)
+                  (NP (NNS details)
+                    (CC and)
+                    (NNS prices) (NN [Phone)))
+                (: :)
+                (NP
+                  (NP
+                    (QP (CD 47) (CD 42)))
+                  (NP (CD 17) (CD 11)))
+                (: ;)
+                (NP (NNP FAX))
+                (: :)
+                (NP (CD 47-42-80-44) (JJ ].) (NNP Latin) (NNP American) (NNS points))
+                (: :)
+                (NP
+                  (NP (NN contact))
+                  (NP (DT the) (NNP Los) (NNP Angeles) (NN office) (NN [Phone)))
+                (: :)
+                (NP (CD 310-996-0075))
+                (: ;)
+                (NP (NNP FAX))
+                (: :)
+                (NP (CD 310-996-0089) (JJ ]) (NNS &QL))
+                (: ;)
+                (NP (NNP [ART) (NNP ADV))
+                (: :)
+                (NP (NNP Graphic)))))
+          (VP (VBZ is)
+            (VP (VBG being)
+              (VP (VBN sent)
+                (S
+                  (VP (TO to)
+                    (VP (VB NYT)
+                      (NP (JJ graphic) (NNS clients)))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNS Nonsubscribers))
+    (VP (MD can)
+      (VP (VB purchase)
+        (NP (JJ one-time) (NNS rights))
+        (PP (IN by)
+          (S
+            (VP (VBG calling)
+              (NP (CD 888-603-1036)
+                (CC or)
+                (CD 888-346-9867))
+              (NP
+                (NP (NNP .]) (NNP &LR))
+                (: ;)
+                (S
+                  (S
+                    (VP (VBG &QL)))
+                  (: ;)
+                  (S
+                    (NP (NNP &UR))
+                    (: ;)
+                    (PP (IN By)
+                      (NP (NNP MARJORIE) (NNP CONNELLY) (NNP &LR)))
+                    (: ;)
+                    (VP (VBZ &QC)))
+                  (: ;)
+                  (S
+                    (VP (VBG &QL)))
+                  (: ;)
+                  (S
+                    (VP (VBG &UR)))
+                  (: ;)
+                  (S
+                    (VP (VBG c.2000)
+                      (NP (NNP N.Y)))))))))))
+    (. .)))
+
+(ROOT
+  (NP
+    (NP (NNP Times) (NNP News) (NNP Service) (NNP &LR))
+    (: ;)
+    (NP (CD &QC) (: ;) (CD &QL))
+    (: ;)))
+
+(ROOT
+  (S
+    (NP
+      (NP (DT A) (NN majority))
+      (PP (IN of)
+        (NP
+          (NP (NNS women))
+          (, ,)
+          (NP (JJR older) (NNS voters))
+          (, ,)
+          (NP (NNS Democrats))
+          (, ,)
+          (NP (NNS liberals))
+          (CC and)
+          (NP
+            (ADJP (JJ black) (, ,) (JJ Hispanic)
+              (CC and)
+              (JJ Asian))
+            (NNS voters)))))
+    (VP (VBD cast)
+      (NP (PRP$ their) (NNS ballots))
+      (PP (IN for)
+        (NP (NNP Al) (NNP Gore))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP George) (NNP W.) (NNP Bush))
+    (VP (VBD captured)
+      (NP
+        (NP (DT the) (NNS votes))
+        (PP (IN of)
+          (NP
+            (ADJP (RBS most) (JJ men,))
+            (NNS whites,))))
+      (NP
+        (NP (NNP conservatives,) (NNP Republicans,) (NNPS Southerners))
+        (CC and)
+        (NP (JJ white) (NNPS Protestants))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (NNP Ralph) (NNP Nader))
+      (, ,)
+      (SBAR
+        (WHNP (WP who))
+        (S
+          (VP (VBD received)
+            (NP
+              (NP (CD 2) (NN percent))
+              (PP (IN of)
+                (NP (DT the) (NN vote)))))))
+      (, ,))
+    (VP (VBD did)
+      (ADVP (RBS best))
+      (PP
+        (PP (IN among)
+          (NP
+            (NP (NNS independents))
+            (, ,)
+            (NP
+              (ADJP (RB particularly) (JJ liberal))
+              (NNS ones))
+            (, ,)))
+        (CC and)
+        (PP (IN among)
+          (NP (JJ young) (NNS men)))))
+    (. .)))
+
+(ROOT
+  (S (CC But)
+    (NP (DT the) (JJ national) (NN election))
+    (VP (VBD was)
+      (ADJP (RB so) (JJ close))
+      (SBAR (IN because)
+        (S
+          (NP
+            (NP (JJ several) (JJ large) (NNS groups))
+            (PRN (: -)
+              (NP
+                (NP
+                  (NP (NNS voters))
+                  (PP (IN under)
+                    (NP (CD 65))))
+                (, ,)
+                (NP
+                  (NP (NNS independents))
+                  (, ,)
+                  (NP
+                    (NP (NNS voters))
+                    (PP (IN from)
+                      (NP (DT the) (NN Midwest)))))
+                (CC and)
+                (NP
+                  (NP (DT the) (NN West))
+                  (CC and)
+                  (NP (NNS suburbanites))))
+              (: -)))
+          (VP (VBD divided)
+            (NP (PRP$ their) (NNS votes))
+            (ADVP (RB almost) (RB evenly))
+            (PP (IN between)
+              (NP (DT the) (CD two) (JJ major) (NNS candidates)))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (DT The) (VBG accompanying) (NN table))
+      (, ,)
+      (VP (VBN drawn)
+        (PP (IN from)
+          (NP
+            (NP (NNS surveys))
+            (PP (IN of)
+              (NP
+                (NP (NNS voters))
+                (VP (VBG leaving)
+                  (NP (DT the) (NNS polls))
+                  (S
+                    (VP (VBG [including)
+                      (NP
+                        (NP (DT those))
+                        (PP (IN in)
+                          (NP (NNP Florida) (NNP ],)))))))))))))
+    (VP (VBZ shows)
+      (SBAR
+        (WHADVP (WRB how))
+        (S
+          (NP (JJ different) (NNS groups))
+          (VP (VBP have)
+            (VP (VBN voted)
+              (PP (IN for)
+                (NP (NN president)))
+              (PP (IN since)
+                (NP (CD 1976))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (SBAR (IN Because)
+      (S
+        (NP
+          (NP (JJ large) (NNS numbers))
+          (PP (IN of)
+            (NP (NNS people))))
+        (VP (VBP are)
+          (VP (VBN surveyed)))))
+    (, ,)
+    (NP (NN exit) (NNS polls))
+    (VP (MD can)
+      (VP (VB help) (VB measure)
+        (NP
+          (NP (DT the) (NNS preferences))
+          (PP (IN of)
+            (NP (NNS groups))))
+        (PP (IN like)
+          (NP
+            (NP
+              (ADJP (NNP Jewish)
+                (CC or)
+                (NNP Asian))
+              (NNS voters))
+            (CC or)
+            (NP
+              (NP (JJ young) (NNS blacks))
+              (CC or)
+              (NP (JJ liberal) (NNS Republicans)))
+            (SBAR
+              (WHNP
+                (NP (WP$ whose) (NN portion))
+                (PP (IN of)
+                  (NP (DT the) (NN voting) (NN population))))
+              (S
+                (VP (VBZ is)
+                  (ADVP (RB often))
+                  (ADJP (RB too) (JJ small))
+                  (S
+                    (VP (TO to)
+                      (VP (VB examine)
+                        (PP (IN in)
+                          (NP (JJ typical) (NN telephone) (NNS surveys)))))))))))))
+    (. .)))
+
+(ROOT
+  (NP (DT The) (NNP Gender) (NNP Gap)))
+
+(ROOT
+  (S
+    (S
+      (NP (NNP Bush))
+      (VP (VBD received)
+        (NP
+          (NP (DT a) (NN majority))
+          (PP (IN of)
+            (NP (NNS votes))))
+        (PP (IN from)
+          (NP (NNS men)))))
+    (CC and)
+    (S
+      (NP (NNP Gore))
+      (VP (VBD was)
+        (VP (VBN backed)
+          (PP (IN by)
+            (NP
+              (NP (DT a) (NN majority))
+              (PP (IN of)
+                (NP (NNS women))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (S
+      (NP (DT That))
+      (VP (VBZ 's)
+        (VP (VBN been)
+          (NP
+            (NP (DT a) (NN trend))
+            (PP (IN for)
+              (NP
+                (QP (IN at) (JJS least) (CD 20))
+                (NNS years)))))))
+    (: :)
+    (S
+      (NP (JJR more) (NNS women))
+      (VP (VBP vote)
+        (PP (IN for)
+          (NP (NNPS Democrats)))))
+    (: ;)
+    (S
+      (NP (JJR more) (NNS men))
+      (VP (VBP prefer)
+        (NP (NNS Republicans))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (DT This) (NN year))
+    (, ,)
+    (NP (DT the) (NN gap))
+    (VP (VBD was)
+      (ADJP (RB especially) (JJ large)))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP Gore))
+    (VP (VBD got)
+      (NP (JJR more) (NNS votes))
+      (PP (IN from)
+        (NP (NNS women)))
+      (PP (IN than) (IN from)
+        (NP
+          (NP (NNS men))
+          (: :)
+          (NP
+            (NP (CD 12) (NN percentage) (NNS points))
+            (NP (JJR more))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (DT The) (NN gender) (NN gap))
+    (VP (VBD cut)
+      (PP (IN across)
+        (NP (DT all) (NN age) (NNS groups)
+          (CC and)
+          (NN education) (NNS levels)))
+      (, ,)
+      (PP (RB even) (IN among)
+        (NP
+          (NP (JJ black) (NNS voters))
+          (, ,)
+          (SBAR
+            (WHNP (WP who))
+            (S
+              (ADVP (RB strongly))
+              (VP (VBD supported)
+                (NP (NNP Gore))
+                (ADVP (RB overall))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (DT The) (NN gender) (NN gap))
+    (VP (VBD was)
+      (ADJP
+        (ADJP (JJS widest))
+        (PP (IN among)
+          (NP
+            (NP (NN college) (NNS graduates))
+            (CC and)
+            (NP (JJ unmarried) (NNS voters))))))
+    (. .)))
+
+(ROOT
+  (NP (NNP Party) (NNP Identification)))
+
+(ROOT
+  (S
+    (NP (JJ Few) (NNS voters))
+    (VP (VBD crossed)
+      (NP (NN party) (NNS lines)))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (JJ Large) (NNS majorities))
+      (PP (IN of)
+        (NP (NNPS Republicans))))
+    (VP (VBD supported)
+      (NP (NNP Bush)))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP Gore))
+    (VP (VBD won)
+      (NP
+        (NP (DT the) (NNS votes))
+        (PP (IN of)
+          (NP (JJS most) (NNS Democrats)))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (NNS Voters))
+      (SBAR
+        (WHNP (WP who))
+        (S
+          (VP (VBN identified)
+            (S
+              (NP (PRP themselves))
+              (ADJP (RB as) (JJ independent)))))))
+    (VP (VBD split)
+      (ADVP (RB almost) (RB evenly)))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (JJS Most) (NNS independents))
+      (SBAR
+        (WHNP (WP who))
+        (S
+          (VP (VBD described)
+            (NP (PRP$ their) (JJ political) (NN ideology))
+            (PP (IN as)
+              (ADJP (JJ liberal)))))))
+    (VP (VBD supported)
+      (NP (NNP Gore)))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP Bush))
+    (VP (VBD was)
+      (VP (VBN backed)
+        (PP (IN by)
+          (NP
+            (NP (NNS independents))
+            (SBAR
+              (WHNP (WP who))
+              (S
+                (VP (VBD characterized)
+                  (S
+                    (NP (PRP themselves))
+                    (ADJP (RB as) (JJ conservative))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (JJ Moderate) (NNS independents))
+    (VP (VBD were)
+      (ADJP (RB very) (RB closely) (VBN divided)))
+    (. .)))
+
+(ROOT
+  (SBARQ
+    (WHADVP (WRB Where))
+    (SQ
+      (NP (PRP They))
+      (VP (VB Live)))))
+
+(ROOT
+  (S
+    (PP (IN As)
+      (PP (IN in)
+        (NP (CD 1996))))
+    (, ,)
+    (NP (JJS most) (NNS Easterners))
+    (VP (VBD supported)
+      (NP (DT the) (NNP Democrat)))
+    (. .)))
+
+(ROOT
+  (S (CC But)
+    (SBAR (IN while)
+      (S
+        (ADVP
+          (NP (CD four) (NNS years))
+          (RB ago))
+        (, ,)
+        (NP (NNPS Southerners))
+        (VP (VBD were)
+          (ADVP (RB evenly))
+          (VP (VBN divided)
+            (PP (IN between)
+              (NP
+                (NP (NNP Bill) (NNP Clinton))
+                (CC and)
+                (NP (NNP Bob) (NNP Dole))))))))
+    (, ,)
+    (NP (DT this) (NN year))
+    (NP (NNP Bush))
+    (VP (VBD carried)
+      (S
+        (NP (DT the) (DT the))
+        (ADJP (JJ South))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (DT The) (NN Midwest))
+      (CC and)
+      (NP (DT the) (NN West)))
+    (VP (VBD were)
+      (ADVP (RB almost) (RB evenly))
+      (VP (VBN divided)
+        (PP (IN between)
+          (NP (DT the) (CD two) (NNS candidates)))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP Gore))
+    (VP (VBD did)
+      (NP
+        (NP (JJS best))
+        (PP (IN among)
+          (NP (NNS urbanites)))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP Bush))
+    (VP (VBD ran)
+      (ADJP (JJR stronger))
+      (PP
+        (PP (IN in)
+          (NP (JJR smaller) (NNS towns)))
+        (CC and)
+        (PP (IN in)
+          (NP (JJ rural) (NNS areas)))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (JJ Suburban) (NNS voters))
+    (VP (VBD split)
+      (ADVP (RB about) (RB evenly)))
+    (. .)))
+
+(ROOT
+  (S
+    (VP (VB Pocketbook)
+      (NP (NNS Concerns)))))
+
+(ROOT
+  (S
+    (NP
+      (NP (NNS Voters))
+      (SBAR
+        (WHNP (WP who))
+        (S
+          (VP (VBP say)
+            (SBAR
+              (S
+                (NP (PRP$ their) (NNS finances))
+                (VP (VBP have)
+                  (VP (VBN improved)
+                    (PP (IN during)
+                      (NP
+                        (NP (DT a) (NN president) (POS 's))
+                        (NN tenure)))))))))))
+    (ADVP (RB usually))
+    (VP (VBP favor)
+      (NP (DT the) (JJ incumbent))
+      (, ,)
+      (SBAR (IN while)
+        (S
+          (NP (DT the) (NN challenger))
+          (VP (VBZ is)
+            (VP (VBN preferred)
+              (PP (IN by)
+                (NP
+                  (NP (DT those))
+                  (SBAR
+                    (WHNP (WP who))
+                    (S
+                      (VP (VBP say)
+                        (SBAR
+                          (S
+                            (NP (PRP$ their) (JJ financial) (NN situation))
+                            (VP (VBZ has)
+                              (VP (VBN deteriorated)))))))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (DT That))
+    (VP (VBD held)
+      (ADJP (JJ true))
+      (NP (DT this) (NN year)))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP Gore))
+    (VP (VBD was)
+      (ADVP (RB strongly))
+      (VP (VBN backed)
+        (PP (IN by)
+          (NP
+            (NP (NNS voters))
+            (SBAR
+              (WHNP (WP who))
+              (S
+                (VP (VBD said)
+                  (SBAR
+                    (S
+                      (NP
+                        (NP (PRP$ their) (NN family) (POS 's))
+                        (NNS finances))
+                      (VP (VBD were)
+                        (ADVP
+                          (NP
+                            (QP (JJR better) (IN than) (CD four))
+                            (NNS years))
+                          (RB ago))))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP Bush))
+    (VP (VBD won)
+      (NP
+        (NP (DT the) (NN support))
+        (PP (IN of)
+          (NP
+            (NP (DT those))
+            (SBAR
+              (WHNP (WP who))
+              (S
+                (VP (VBD said)
+                  (SBAR
+                    (S
+                      (NP (PRP$ their) (JJ financial) (NN situation))
+                      (VP (VBD had)
+                        (VP (VBN deteriorated))))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (PP (IN In)
+      (NP (CD 1996)))
+    (, ,)
+    (NP
+      (NP (CD one))
+      (PP (IN in)
+        (NP (CD three) (NNS voters))))
+    (VP (VBD said)
+      (SBAR
+        (S
+          (NP (PRP$ their) (JJ economic) (NN situation))
+          (VP (VBD had)
+            (VP (VBN improved)
+              (PP (IN over)
+                (NP (DT the) (JJ previous) (CD four) (NNS years))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (DT This) (NN year))
+    (, ,)
+    (NP (DT half))
+    (VP (VBD did))
+    (. .)))
+
+(ROOT
+  (S
+    (ADVP (RB Generally))
+    (, ,)
+    (NP
+      (NP (DT those))
+      (SBAR
+        (WHNP (WP who))
+        (S
+          (VP (VBP say)
+            (SBAR
+              (S
+                (NP (PRP$ their) (JJ economic) (NNS conditions))
+                (VP (VBP have) (RB not)
+                  (VP (VBN changed)))))))))
+    (VP (VBP divide)
+      (NP
+        (NP (PRP$ their) (NN support))
+        (PP (IN between)
+          (NP (DT the) (CD two) (JJ major) (NNS candidates))))
+      (ADVP (RB pretty) (RB evenly)))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (DT This) (NN year))
+    (, ,)
+    (ADVP (RB though))
+    (, ,)
+    (NP
+      (NP (CD two))
+      (PP (IN in)
+        (NP (CD three))))
+    (VP (VBD voted)
+      (PP (IN for)
+        (NP (NNP Bush))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (NNP Data))
+      (PP (IN for)
+        (NP (CD 2000))))
+    (VP (VBD were)
+      (VP (VBN collected)
+        (PP (IN by)
+          (NP
+            (NP (NNP Voter) (NNP News) (NNP Service))
+            (VP (VBN based)
+              (PP (IN on)
+                (NP
+                  (NP (NNS questionnaires))
+                  (VP (VBN completed)
+                    (PP (IN by)
+                      (NP
+                        (NP (CD 13,279) (NNS voters))
+                        (VP (VBG leaving)
+                          (NP (CD 300) (NN polling) (NNS places))
+                          (PP (IN around)
+                            (NP
+                              (NP (DT the) (NN nation))
+                              (PP (IN on)
+                                (NP (NNP Election) (NNP Day))))))))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (NNP Data))
+      (PP (IN for)
+        (NP (CD 1996))))
+    (VP (VBD were)
+      (VP (VBN based)
+        (PP (IN on)
+          (NP
+            (NP (DT a) (NN survey))
+            (VP (VBN conducted)
+              (PP (IN by)
+                (NP
+                  (NP (NNP Voter) (NNP News) (NNP Service))
+                  (VP (VBN based)
+                    (PP (IN on)
+                      (NP
+                        (NP (NNS questionnaires))
+                        (PP (IN with)
+                          (NP (CD 16,627) (NNS voters)))))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (NNP Data))
+      (PP (IN for)
+        (NP (CD 1992))))
+    (VP (VBD were)
+      (VP (VBN based)
+        (PP (IN on)
+          (NP
+            (NP (DT a) (NN survey))
+            (VP (VBN conducted)
+              (PP (IN by)
+                (NP
+                  (NP (NNP Voter) (NNP Research))
+                  (CC and)
+                  (NP (NNS Surveys))))
+              (PP (IN with)
+                (NP (CD 15,490) (NNS voters))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (NNP Data))
+      (PP (IN for)
+        (NP
+          (NP (CD 1976))
+          (PP (IN through)
+            (NP (CD 1988))))))
+    (VP (VBD were)
+      (VP (VBN based)
+        (PP (IN on)
+          (NP
+            (NP (NNS surveys))
+            (VP (VBN conducted)
+              (PP (IN by)
+                (NP
+                  (NP
+                    (NP
+                      (NP (DT The) (NNP New) (NNP York) (NNP Times))
+                      (CC and)
+                      (NP (NNP CBS) (NNP News)))
+                    (: :)
+                    (NP
+                      (NP (CD 11,645))
+                      (PP (IN in)
+                        (NP (CD 1988))))
+                    (: ;)
+                    (NP
+                      (NP (CD 9,174))
+                      (PP (IN in)
+                        (NP (CD 1984))))
+                    (: ;)
+                    (NP
+                      (NP (CD 15,201))
+                      (PP (IN in)
+                        (NP (CD 1980)))))
+                  (CC and)
+                  (NP
+                    (NP (CD 15,300))
+                    (PP (IN in)
+                      (NP (CD 1976)))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (S
+      (NP (NNP Family) (NN income) (NNS categories))
+      (PP (IN in)
+        (NP (CD 1976))))
+    (: :)
+    (S
+      (PP (IN Under)
+        (NP (CD $8,000)))
+      (, ,)
+      (NP
+        (NP (CD $8,000-$12,000))
+        (, ,)
+        (NP (CD $12,001-$20,000))
+        (, ,)
+        (CC and)
+        (ADVP (RB over))
+        (NP (CD $20,000))))
+    (. .)))
+
+(ROOT
+  (FRAG
+    (FRAG
+      (PP (IN In))
+      (NP (CD 1980)))
+    (: :)
+    (FRAG
+      (PP (IN Under)
+        (NP (CD $10,000)))
+      (, ,)
+      (NP
+        (NP (CD $10,000-$24,999))
+        (, ,)
+        (NP (CD $25,000-$50,000))
+        (CC and)
+        (NP (RB over) (CD $50,000)))
+      (. .))))
+
+(ROOT
+  (FRAG
+    (FRAG
+      (PP (IN In))
+      (NP (CD 1984)))
+    (: :)
+    (FRAG
+      (PP (IN Under)
+        (NP (CD $12,500)))
+      (, ,)
+      (NP
+        (NP (CD $12,500-$24,999))
+        (, ,)
+        (NP (CD $25,000-$50,000))
+        (CC and)
+        (NP (RB over) (CD $50,000)))
+      (. .))))
+
+(ROOT
+  (FRAG
+    (PP (IN In)
+      (NP (CD 1988)))
+    (: :)
+    (S
+      (PP (IN Under)
+        (NP (CD $12,500)))
+      (, ,)
+      (NP
+        (NP
+          (NP (CD $12,500-$24,999))
+          (, ,)
+          (NP (CD $25,000-$50,000))
+          (, ,))
+        (PP (IN over)
+          (NP (CD $50,000)
+            (CC and)
+            (IN over))))
+      (VP (VBZ $100,000)))
+    (. .)))
+
+(ROOT
+  (FRAG
+    (FRAG
+      (PP (IN In))
+      (NP (CD 1992)))
+    (: :)
+    (FRAG
+      (PP (IN Under)
+        (NP (CD $15,000)))
+      (, ,)
+      (NP
+        (NP (CD $15,000-$29,999))
+        (, ,)
+        (NP (CD $30,000-$49,999))
+        (, ,)
+        (NP
+          (NP
+            (QP (CD $50,000)
+              (CC and)
+              (RB over)))
+          (, ,)
+          (CC and)
+          (NP
+            (NP (CD $100,000))
+            (CC and)
+            (NP (IN over)))))
+      (. .))))
+
+(ROOT
+  (S
+    (NP
+      (NP (DT The) (NN category))
+      (PP (IN of)
+        (NP (NNS independents))))
+    (VP (VBZ includes)
+      (NP
+        (NP (NNS respondents))
+        (SBAR
+          (WHNP (WP who))
+          (S
+            (VP (VBD indicated)
+              (SBAR
+                (S
+                  (NP (PRP they))
+                  (VP (VBD considered)
+                    (S
+                      (NP (PRP themselves))
+                      (VP (VBG ``something)
+                        (NP
+                          (NP (RB else))
+                          ('' '')
+                          (PP (IN in)
+                            (NP (CD 1972)))
+                          (, ,))
+                        (NP (CD 1992) (, ,) (CD 1996)
+                          (CC and)
+                          (CD 2000))))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (S
+      (VP (VBG ``Something)
+        (ADVP (RB else) ('' ''))))
+    (VP (VBD was) (RB not)
+      (NP
+        (NP (DT an) (NN option))
+        (NP (DT the) (JJ other) (NNS years))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NN Male)
+      (CC and)
+      (JJ female) (NN college) (NNS graduates))
+    (VP (VBP include)
+      (NP
+        (NP (DT those))
+        (PP (IN with)
+          (NP (JJ postgraduate) (NN education)))))
+    (. .)))
+
+(ROOT
+  (S
+    (PP (IN In)
+      (NP (CD 1984)))
+    (, ,)
+    (NP (JJ first-time) (NN voter))
+    (VP (VBZ refers)
+      (PP (TO to)
+        (NP
+          (NP (NNS voters))
+          (VP
+            (ADVP (RB first))
+            (VBN registered)
+            (S
+              (VP (TO to)
+                (VP (VB vote)
+                  (PP (IN in)
+                    (NP (DT that) (NN year))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (PP (IN In)
+      (NP (CD 1976)
+        (CC and)
+        (CD 1980)))
+    (NP (DT the) (JJ Congressional) (NN vote))
+    (VP (VBZ does) (RB not)
+      (VP (VB include)
+        (NP (NNP New) (NNP York)
+          (CC and)
+          (NNP California))))
+    (. .)))
+
+(ROOT
+  (S
+    (S
+      (NP (NNP Family) (JJ financial) (NN situation))
+      (VP (VBZ is)
+        (VP (VBN compared)
+          (PP
+            (PP (TO to)
+              (NP
+                (NP (CD one) (NN year))
+                (ADVP (RB ago)
+                  (PP (IN in)
+                    (NP (CD 1976)
+                      (CC and)
+                      (CD 1980))))))
+            (CC and)
+            (ADVP
+              (NP (CD four) (NNS years))
+              (RB ago))
+            (PP (IN in)
+              (NP (CD 1984)))
+            (, ,))
+          (NP (CD 1992) (, ,) (CD 1996)
+            (CC and)
+            (CD 2000)))))
+    (: ;)
+    (S
+      (NP
+        (NP (CD 1976))
+        (CC and)
+        (NP (CD 1984) (NNS data)))
+      (VP (VBP are)
+        (PP (IN from)
+          (NP (NNP NBC) (NNP News)))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (DT Those))
+      (SBAR
+        (WHNP (WP who))
+        (S
+          (VP (VBD gave)
+            (NP (DT no) (NN answer))))))
+    (VP (VBP are) (RB not)
+      (VP (VBN shown)))
+    (. .)))
+
+(ROOT
+  (S
+    (S
+      (NP (NNS Dashes))
+      (VP (VBP indicate)
+        (SBAR (IN that)
+          (S
+            (NP (DT a) (NN question))
+            (VP (VBD was) (RB not)
+              (VP (VBN asked)))))))
+    (CC or)
+    (S
+      (NP (DT a) (NN category))
+      (VP (VBD was) (RB not)
+        (VP (VBN provided)
+          (PP (IN in)
+            (NP (DT a) (JJ particular) (NN year))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNS Asterisks))
+    (VP (VBP indicate)
+      (SBAR (IN that)
+        (S
+          (NP (EX there))
+          (VP (VBD was)
+            (NP
+              (NP (DT an) (JJ insufficient) (NN number))
+              (PP (IN of)
+                (NP (NNS respondents))))))))
+    (. .)))
+
+(ROOT
+  (NP (NN NYT-11-11-00) (CD 1036EST)))
+

@@ -1,0 +1,457 @@
+(ROOT
+  (FRAG
+    (NP (NNP APW20001118.1953.0586) (NNP NEWS) (NNP STORY))
+    (NP (CD 2000-11-18) (CD 20:02:05))))
+
+(ROOT
+  (NP (NN Egypt-Women's-Summit)))
+
+(ROOT
+  (NP (NNP Arab) (NNP Women) (NNP Leaders) (NNP Meet)))
+
+(ROOT
+  (NP
+    (NP (NNP CAIRO) (, ,) (NNP Egypt) (NNP [AP) (NNP ]))
+    (: -)
+    (S
+      (NP
+        (NP (CD Ten))
+        (PP (IN of)
+          (NP
+            (NP (DT the) (JJ Arab) (NN world) (POS 's))
+            (JJ first) (NNS ladies))))
+      (VP (VBD joined)
+        (NP
+          (NP (NNS activists))
+          (PP (IN in)
+            (NP (DT an) (JJ unusual) (NN gathering))))
+        (NP (NNP Saturday))
+        (S
+          (VP (TO to)
+            (VP (VB push)
+              (PP (IN for)
+                (NP
+                  (NP (DT the) (VBN improved) (NN status))
+                  (PP (IN of)
+                    (NP
+                      (NP (NNS women))
+                      (PP (IN in)
+                        (NP (PRP$ their) (JJ male-dominated) (NNS societies))))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (NNP Queen) (NNP Rania))
+      (PP (IN of)
+        (NP
+          (NP (NNP Jordan))
+          (, ,)
+          (NP
+            (NP
+              (NP (NNP Egypt) (POS 's))
+              (NNP Suzanne) (NNP Mubarak))
+            (CC and)
+            (NP (NNS others))))))
+    (VP (VBD were)
+      (VP (VBG using)
+        (NP (PRP$ their) (NN charisma)
+          (CC and)
+          (NN influence))
+        (PP (TO to)
+          (NP
+            (NP (NN campaign))
+            (PP (IN on)
+              (NP
+                (NP (NN behalf))
+                (PP (IN of)
+                  (NP
+                    (NP (NNS women))
+                    (PP (IN in)
+                      (NP
+                        (NP
+                          (NP (DT this) (JJ three-day) (NN meeting))
+                          (PP (IN of)
+                            (NP (NNS women) (NNS leaders))))
+                        (CC and)
+                        (NP
+                          (NP (NNS campaigners))
+                          (PP (IN for)
+                            (NP
+                              (NP (NN equality))
+                              (PP (IN of)
+                                (NP (DT the) (NNS sexes))))))))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NN ``Development))
+    (VP (MD will) (RB not)
+      (VP (VB achieve)
+        (NP (PRP$ its) (NNS goals))
+        (SBAR (IN unless)
+          (S
+            (NP (NNS women))
+            (VP (VB participate)
+              (PP (IN in)
+                (NP (PRP it)))
+              (SBAR (IN as)
+                (S
+                  (NP
+                    (NP
+                      (ADJP (JJ complete)
+                        (CC and)
+                        (JJ effective))
+                      (NNS partners))
+                    (PP (IN in)
+                      (NP (DT all) (NNS fields))))
+                  (VP (VBD ,'')
+                    (SBAR
+                      (S
+                        (NP (NNP Queen) (NNP Rania))
+                        (VP (VBD told)
+                          (NP
+                            (NP (DT an) (NN audience))
+                            (PP (IN of)
+                              (NP
+                                (QP (JJR more) (IN than) (CD 2,000)))))
+                          (PP (IN from)
+                            (NP (CD 19) (NNS countries))))))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (PRP She))
+    (VP (VBN called)
+      (PP (IN for)
+        (NP
+          (NP (JJ ``legal)
+            (CC and)
+            (JJ legislative) (NNS reforms))
+          (SBAR
+            (WHNP (WDT that))
+            (S
+              (VP (VBP achieve)
+                (NP
+                  (NP (NN equality)
+                    (CC and)
+                    (NN justice))
+                  (PP (IN for)
+                    (NP (NNS women) (NNS .''))))))))))))
+
+(ROOT
+  (S
+    (NP
+      (NP (NNP Mubarak))
+      (, ,)
+      (NP
+        (NP (NN wife))
+        (PP (IN of)
+          (NP
+            (NP (NNP Egyptian) (NNP President) (NNP Hosni) (NNP Mubarak))
+            (CC and)
+            (NP
+              (NP (CD one))
+              (PP (IN of)
+                (NP (DT the) (NN conference) (NNS organizers)))))))
+      (, ,))
+    (VP (VBD said)
+      (SBAR
+        (S
+          (NP (PRP they))
+          (VP (MD must)
+            (VP (VB find)
+              (S
+                (NP (NNS ways))
+                (VP (TO to)
+                  (VP (VB respect)
+                    (NP
+                      (NP (DT the) (JJ social) (NNS differences))
+                      (SBAR
+                        (WHNP (WDT that))
+                        (S
+                          (VP (VB distinguish)
+                            (NP (JJ Arab) (NNS countries))
+                            (SBAR (IN while)
+                              (S
+                                (ADVP (RB still))
+                                (VP
+                                  (VP (VBG cooperating)
+                                    (S
+                                      (VP (TO to)
+                                        (VP (VB attain)
+                                          (NP
+                                            (NP (DT the) (NN summit) (POS 's))
+                                            (JJ main) (NN goal))))))
+                                  (: :)
+                                  (VP (VBG creating)
+                                    (NP
+                                      (NP (DT a) (JJR better) (NN life))
+                                      (PP (IN for)
+                                        (NP (JJ Arab) (NNS women))))))))))))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (DT The) (NN status))
+      (PP (IN of)
+        (NP (NNS women))))
+    (VP (VBZ varies)
+      (PP (IN among)
+        (NP
+          (NP (NNS countries))
+          (PP (IN in)
+            (NP (DT the) (JJ Arab) (NN world))))))
+    (. .)))
+
+(ROOT
+  (S
+    (SBAR (IN Although)
+      (S
+        (NP
+          (NP (NNS women))
+          (PP (IN in)
+            (NP
+              (NP (DT some) (NNS parts))
+              (PP (IN of)
+                (NP (DT the) (NNP Persian) (NNP Gulf)))))
+          (, ,)
+          (PP (JJ such) (IN as)
+            (NP (JJ conservative) (NNP Saudi) (NNP Arabia)))
+          (, ,))
+        (VP
+          (VP (VBP are)
+            (VP (VBN required)
+              (S
+                (VP (TO to)
+                  (VP (VB be)
+                    (VP (VBN covered)
+                      (PP (IN from)
+                        (NP (NN head-to-toe)))))))))
+          (CC and)
+          (VP (VBP are) (RB not)
+            (VP (VBN allowed)
+              (S
+                (VP (TO to)
+                  (VP (VB drive)))))))))
+    (, ,)
+    (NP
+      (NP (PRP$ their) (NNS counterparts))
+      (PP (IN in)
+        (NP
+          (ADJP (RBR more) (JJ liberal))
+          (NNS countries)))
+      (, ,)
+      (PP (VBG including)
+        (NP (NNP Jordan) (, ,) (NNP Egypt)
+          (CC and)
+          (NNP Lebanon)))
+      (, ,))
+    (VP (VBP enjoy)
+      (NP
+        (NP (JJR more) (NN freedom))
+        (CC and)
+        (NP (JJR richer) (JJ public) (NNS lives))))
+    (. .)))
+
+(ROOT
+  (S
+    (ADVP (RB However))
+    (, ,)
+    (NP
+      (NP (NN illiteracy))
+      (, ,)
+      (NP (JJ marginalized) (JJ decision-making) (NNS roles))
+      (CC and)
+      (NP
+        (NP (NN under-representation))
+        (PP (IN in)
+          (NP (NNS politics)))))
+    (VP (VBP are)
+      (NP
+        (NP (NNS problems))
+        (NP
+          (NP (JJ Arab) (NNS women))
+          (NP (NN share)))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (JJ Many) (NNS women))
+    (, ,)
+    (ADVP (RB though))
+    (, ,)
+    (VP (VBP are)
+      (VP (VBG struggling)
+        (S
+          (VP (TO to)
+            (VP
+              (VP (VB change)
+                (NP (DT the) (NN status) (NN quo)))
+              (CC and)
+              (VP (VB have)
+                (VP (VBN achieved)
+                  (NP (DT some) (NNS gains)))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (DT This) (NN year))
+      (PP (IN in)
+        (NP (NNP Egypt))))
+    (, ,)
+    (PP (IN for)
+      (NP (NN example)))
+    (, ,)
+    (NP (JJ avid) (NN campaigning))
+    (VP (VBD helped)
+      (S
+        (NP (NNS women))
+        (VP (VB reverse)
+          (NP
+            (NP (NNS laws))
+            (SBAR
+              (WHNP (WDT that))
+              (S
+                (VP (VBD prevented)
+                  (NP (PRP them))
+                  (PP (IN from)
+                    (S
+                      (VP
+                        (VP (VBG obtaining)
+                          (NP (NN divorce)))
+                        (CC and)
+                        (VP (VBG traveling)
+                          (ADVP (RB abroad))
+                          (PP (IN without)
+                            (NP
+                              (NP (PRP$ their) (NNS husbands) (POS '))
+                              (NN permission))))))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (JJ Many))
+      (PP (IN of)
+        (NP (DT the) (NNS speakers))))
+    (VP (VBD underlined)
+      (NP
+        (NP (DT the) (NN importance))
+        (PP (IN of)
+          (S
+            (VP (VBG meeting)
+              (NP
+                (NP (DT the) (NNS demands))
+                (PP (IN of)
+                  (NP
+                    (NP (DT the) (JJ modern) (NN society))
+                    (SBAR (IN while)
+                      (S
+                        (ADVP (RB still))
+                        (VP (VBG preserving)
+                          (NP (JJ Arab) (NN identity) (, ,) (NNS traditions)
+                            (CC and)
+                            (NNS beliefs)))))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNS Others))
+    (VP (VBD talked)
+      (PP (IN of)
+        (NP
+          (NP (DT the) (NN challenge))
+          (PP (IN of)
+            (S
+              (VP (VBG presenting)
+                (NP
+                  (NP (DT a)
+                    (ADJP (RBR more) (JJ positive))
+                    (, ,) (JJ well-rounded) (NN image))
+                  (PP (IN of)
+                    (NP (JJ Arab) (NNS women))))
+                (PP (IN in)
+                  (NP
+                    (NP (DT the) (NN face))
+                    (PP (IN of)
+                      (NP (JJ negative) (NNS stereotypes)))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (DT Some) (NNS attendees))
+    (, ,)
+    (ADVP (RB however))
+    (, ,)
+    (VP (VBD were)
+      (ADJP (JJ skeptical)
+        (SBAR
+          (S
+            (NP (DT the) (NN gathering))
+            (VP (MD would)
+              (VP (VB reach)
+                (NP (DT any) (JJ strong) (NNS proposals))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (NNP Haifa) (NNP Ezzi))
+      (, ,)
+      (NP
+        (NP (DT a) (JJ Saudi) (NN researcher))
+        (VP (VBN interested)
+          (PP (IN in)
+            (NP
+              (NP (NNS women) (POS 's))
+              (NNS issues)))))
+      (, ,))
+    (VP (VBD said)
+      (NP
+        (NP (DT some))
+        (PP (IN of)
+          (NP
+            (NP (DT the) (NNS speeches) (NN ``were))
+            (PP (JJ full) (IN of)
+              (NP (JJ unrealistic) (NN rhetoric) (NNS .'')))))))))
+
+(ROOT
+  (S
+    (NP (NNP Saudi) (NNP Arabia) (, ,) (NNP Qatar)
+      (CC and)
+      (NNP Algeria))
+    (VP (VBD were)
+      (NP
+        (NP (DT the) (JJ only) (JJ Arab) (NNP League) (NNS countries))
+        (SBAR
+          (WHNP (WDT that))
+          (S
+            (VP (VBD did) (RB not)
+              (VP (VB send)
+                (NP (NNS delegates))
+                (PP (TO to)
+                  (NP (DT the) (NN summit)))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (DT The) (NN meeting))
+    (VP (VBD was)
+      (VP (VBN attended)
+        (PP (IN by)
+          (NP
+            (NP (DT the) (JJ first) (NNS ladies))
+            (PP (IN of)
+              (NP
+                (NP (NNP Bahrain) (, ,) (NNP Comoros) (, ,) (NNP Egypt) (, ,) (NNP Jordan) (, ,) (NNP Kuwait) (, ,) (NNP Lebanon) (, ,) (NNP Morocco))
+                (, ,)
+                (NP (DT the) (JJ Palestinian) (NNS territories))
+                (, ,)
+                (NP (NNP Sudan))
+                (CC and)
+                (NP (NNP Tunisia))))))))
+    (. .)))
+

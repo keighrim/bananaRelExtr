@@ -1,0 +1,776 @@
+(ROOT
+  (FRAG
+    (NP (NNP NYT20001002.1754.0290) (NNP NEWS) (NNP STORY))
+    (NP (CD 2000-10-02) (CD 18:00:00))))
+
+(ROOT
+  (NP
+    (NP (CD A9953) (NNS &Cx1f))
+    (: ;)
+    (NP
+      (NP (JJ sci-z) (NN u))
+      (NP (DT a) (JJ BC-SCI-JELLYFISH-GULF-AR)
+        (QP (CD 10-02) (CD 0724))))))
+
+(ROOT
+  (NP (NNP BC-SCI-JELLYFISH-GULF-ART-NYT)))
+
+(ROOT
+  (S
+    (NP
+      (NP (NNP JELLYFISH) (NNP DAMAGE))
+      (PP (IN IN)
+        (NP (NNP GULF))))
+    (VP (VBZ IS)
+      (NP
+        (NP (NNP RAISING) (NNP CONCERN))
+        (PP (IN FOR)
+          (NP (NNP AQUATIC) (NNP LIFE)))))))
+
+(ROOT
+  (NP
+    (NP (NNP [ART) (NNP ADV))
+    (: :)
+    (S
+      (NP (NNP Photo) (NNP NYT1))
+      (VP (VBZ is)
+        (VP (VBG being)
+          (VP (VBN sent)
+            (PP (TO to)
+              (NP (NNP NYT) (NN photo) (NNS clients)))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNS Nonsubscribers))
+    (VP (MD can)
+      (VP (VB purchase)
+        (NP (JJ one-time) (NNS rights))
+        (PP (IN by)
+          (S
+            (VP (VBG calling)
+              (S
+                (NP (CD 888-603-1036)
+                  (CC or)
+                  (CD 888-346-9867))
+                (NP
+                  (NP (NNP .]) (NNP &QL))
+                  (: ;)
+                  (NP (NNP &UR))
+                  (: ;))
+                (PP (IN By)
+                  (NP
+                    (NP (NNP BEN) (NNP RAINES) (NNP &QC))
+                    (: ;)
+                    (NP (NNP &LR))
+                    (: ;)
+                    (NP (NNP &QL))
+                    (: ;)
+                    (NP (NNP &UR))
+                    (: ;)
+                    (NP (NNP c.2000) (NNP N.Y))))))))))
+    (. .)))
+
+(ROOT
+  (NP
+    (NP (NNP Times) (NNP News) (NNP Service) (NNP &QC))
+    (: ;)
+    (NP (CD &LR) (: ;) (CD &QL))
+    (: ;)))
+
+(ROOT
+  (S
+    (NP
+      (NP (NNS Swarms))
+      (PP (IN of)
+        (NP (NN jellyfish))))
+    (VP (VBD consumed)
+      (NP
+        (NP
+          (ADJP (RB so) (JJ many))
+          (NN fish) (NNS eggs))
+        (CC and)
+        (NP
+          (NP (NN larvae))
+          (PP (IN in)
+            (NP
+              (NP (DT the) (NNP Gulf))
+              (PP (IN of)
+                (NP (NNP Mexico)))))))
+      (NP (DT this) (NN summer))
+      (SBAR (IN that)
+        (S
+          (NP (DT some) (NNS scientists))
+          (VP (VBP are)
+            (VP (VBG talking)
+              (PP (IN about)
+                (NP
+                  (NP (DT the) (NN potential))
+                  (PP (IN for)
+                    (NP (JJ serious) (JJ future) (NNS threats)))))
+              (PP (TO to)
+                (NP
+                  (NP (JJ commercial)
+                    (CC and)
+                    (JJ recreational) (NNS fisheries))
+                  (PP (IN in)
+                    (NP (DT the) (JJ northern) (NNP Gulf))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (DT The) (NN jellyfish))
+      (, ,)
+      (NP
+        (NP (DT a) (JJ native) (NN species))
+        (CC and)
+        (NP (DT an) (JJ invading) (NN one)))
+      (, ,))
+    (VP (VBD appeared)
+      (PP (IN in)
+        (NP (JJ prime) (NN spawning) (NNS areas)))
+      (SBAR (RB just) (IN as)
+        (S
+          (NP
+            (NP (VBG breeding) (NN season))
+            (PP (IN for)
+              (NP
+                (NP (JJ many))
+                (PP (IN of)
+                  (NP
+                    (NP (DT the) (NNP Gulf) (POS 's))
+                    (ADJP (RBS most) (JJ important))
+                    (NNS species))))))
+          (VP (VBD kicked)
+            (PP (IN into)
+              (NP (JJ high) (NN gear)))))))
+    (. .)))
+
+(ROOT
+  (S
+    (PP (VBG According)
+      (PP (TO to)
+        (NP (DT the) (NNP National) (NNP Marine) (NNPS Fisheries) (NNP Service))))
+    (, ,)
+    (NP
+      (NP (DT the) (NN number))
+      (PP (IN of)
+        (NP
+          (NP (NN jellyfish))
+          (PP (IN in)
+            (NP (DT the) (NNP Gulf))))))
+    (VP (VBZ has)
+      (VP (VBN been)
+        (VP (VBG rising)
+          (PP (IN for)
+            (NP
+              (QP (IN at) (JJS least) (CD 13))
+              (NNS years))))))
+    (. .)))
+
+(ROOT
+  (S
+    (S
+      (NP (NNS Scientists))
+      (VP (VBP say)
+        (SBAR
+          (S
+            (NP (DT the) (NN jellyfish))
+            (VP (VBP are)
+              (VP (VBG exploiting)
+                (NP
+                  (NP (CD three) (JJ major) (JJ human) (JJ -induced) (NNS changes))
+                  (PP (IN in)
+                    (NP (DT the) (NN environment))))))))))
+    (: :)
+    (S
+      (NP
+        (NP (NNS thousands))
+        (PP (IN of)
+          (NP
+            (NP (NN oil) (NNS rigs))
+            (CC and)
+            (NP
+              (NP (JJ artificial) (NNS reefs))
+              (VP (VBN established)
+                (S
+                  (VP (TO to)
+                    (VP (VB attract)
+                      (NP (NN game) (NN fish))))))))))
+      (VP (VBP have)
+        (ADVP (RB greatly))
+        (VP (VBN increased)
+          (NP
+            (NP (DT the) (VBG breeding) (NN habitat))
+            (PP (IN for)
+              (NP
+                (NP (NN jellyfish))
+                (, ,)
+                (SBAR
+                  (WHNP (WDT which))
+                  (S
+                    (VP (VBP need)
+                      (NP
+                        (NP (DT a) (JJ hard) (NN surface))
+                        (PP (IN for)
+                          (NP (NN spawning)))))))))))))
+    (: ;)
+    (S
+      (NP
+        (NP (NN nitrogen) (NN pollution))
+        (PP (IN from)
+          (NP
+            (NP (NN farm) (NN runoff))
+            (CC and)
+            (NP (JJ industrial) (NNS sources)))))
+      (VP (VBZ feeds)
+        (NP (NN plankton) (NNS blooms))
+        (, ,)
+        (S
+          (VP (VBG providing)
+            (NP (JJ extra) (NN food))
+            (PP (IN for)
+              (NP (NN jellyfish)))))))
+    (: ;)
+    (CC and)
+    (S
+      (NP (JJ commercial) (NNS fishermen))
+      (VP (VBP take)
+        (NP
+          (NP (JJ great) (NNS numbers))
+          (PP (IN of)
+            (NP
+              (NP (NN menhaden))
+              (, ,)
+              (NP
+                (NP (DT a) (JJ soft-finned) (, ,) (JJ bony) (NN fish))
+                (SBAR
+                  (WHNP (WDT that))
+                  (S
+                    (VP (VBZ competes)
+                      (PP (IN with)
+                        (NP
+                          (NP (NN jellyfish))
+                          (PP (IN for)
+                            (NP (DT the) (NN plankton))))))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (NNP Dr.) (NNP Monty) (NNP Graham))
+      (, ,)
+      (NP
+        (NP (DT a) (NN researcher))
+        (PP (IN at)
+          (NP (DT the) (NNP Dauphin) (NNP Island) (NNP Sea) (NNP Lab)))
+        (PP (IN in)
+          (NP (NNP Alabama))))
+      (, ,))
+    (VP (VBZ worries)
+      (SBAR (IN that) (IN with)
+        (S
+          (NP (PDT all) (DT these) (NNS advantages))
+          (VP
+            (VP (VB jellyfish)
+              (NP (JJ cannot) (NN help)))
+            (CC but)
+            (VP (VB multiply)
+              (PP (IN at)
+                (NP (DT an) (JJ astonishing) (NN rate))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (S
+      (VP (VBG Making)
+        (S
+          (NP (NNS matters))
+          (ADJP (RB much) (JJR worse)))))
+    (, ,)
+    (NP (PRP he))
+    (VP (VBD said) (, ,)
+      (SQ (VBZ is)
+        (NP
+          (NP (DT the) (NN advent))
+          (PP (IN of)
+            (NP
+              (NP (NNP Phyllorhiza) (NNP punctata))
+              (, ,)
+              (CC or)
+              (NP (JJ Australian) (JJ spotted) (NN jellyfish)))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (DT The) (JJ giant) (NN species))
+      (, ,)
+      (NP
+        (NP (RB previously) (JJ unreported))
+        (PP (IN in)
+          (NP (DT the) (NNP Gulf))))
+      (, ,))
+    (VP (VBZ is)
+      (NP
+        (NP (DT a) (JJ 25-pound) (NN bruiser))
+        (PP (IN of)
+          (NP
+            (NP (DT a) (JJ jellyfish) (NN native))
+            (PP (TO to)
+              (NP (DT the) (NNP Pacific)))))))
+    (. .)))
+
+(ROOT
+  (S
+    (ADVP
+      (NP (DT Some) (NN time))
+      (RB ago))
+    (NP (DT the) (JJ basketball-size) (NN jellyfish))
+    (VP (VBD established)
+      (NP (PRP themselves))
+      (PP (IN in)
+        (NP (DT the) (NNP Caribbean))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (DT This) (NN summer))
+    (, ,)
+    (PP (IN after)
+      (S
+        (ADVP (RB apparently))
+        (VP (VBG riding)
+          (S
+            (NP (NN ocean) (NNS currents))
+            (ADJP (JJ north))))))
+    (, ,)
+    (NP (PRP they))
+    (VP (VBD concentrated)
+      (NP (PRP themselves))
+      (PP (IN in)
+        (NP
+          (NP (DT the) (NNS passes))
+          (PP (IN between)
+            (NP
+              (NP (DT the) (NN barrier) (NNS islands))
+              (SBAR
+                (WHNP (WDT that))
+                (S
+                  (VP (VBP separate)
+                    (NP (DT the) (NNP Mississippi) (NNP Sound))
+                    (PP (IN from)
+                      (NP
+                        (NP (DT the) (NNP Gulf))
+                        (PP (IN of)
+                          (NP (NNP Mexico)))))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (DT The) (JJ Australian) (NN jellyfish))
+    (VP (VBP have)
+      (ADVP (RB now))
+      (VP
+        (ADVP (RB mostly))
+        (VBN died)
+        (PRT (RP off))
+        (PP (IN in)
+          (NP (DT the) (NNP Gulf)))))
+    (. .)))
+
+(ROOT
+  (S (CC But)
+    (NP (NN fishery) (NNS scientists))
+    (VP (VBP worry)
+      (SBAR (IN that)
+        (S
+          (NP (PRP they))
+          (VP (MD may)
+            (ADVP (RB already))
+            (VP (VB have)
+              (VP (VBN affected)
+                (NP
+                  (NP (JJ next) (NN year) (POS 's))
+                  (NN fish) (NNS populations))))))))
+    (. .)))
+
+(ROOT
+  (S (CC And)
+    (NP (NNS scientists))
+    (VP (VBP say)
+      (SBAR
+        (S
+          (NP (DT the) (NNS animals))
+          (VP (VBD were)
+            (VP
+              (VP (VBG spawning)
+                (ADVP (RB prodigiously)))
+              (, ,)
+              (VP (VBG broadcasting)
+                (NP
+                  (NP (NNS millions))
+                  (PP (IN of)
+                    (NP (PRP$ their) (JJ own) (NNS eggs)))))
+              (SBAR (IN as)
+                (S
+                  (NP (PRP they))
+                  (VP (VBD ate)
+                    (NP
+                      (NP (DT the) (NNS eggs)
+                        (CC and)
+                        (NN larvae))
+                      (PP (IN of)
+                        (NP (JJ native) (NNS species))))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (NNP Popular) (NN sport) (NN fish))
+      (, ,)
+      (PP (VBG including)
+        (NP
+          (NP
+            (NP (NN redfish))
+            (, ,)
+            (NP (JJ speckled) (NNS trout))
+            (, ,)
+            (NP (JJ white) (NNS trout))
+            (CC and)
+            (NP (JJ Spanish) (NN mackerel)))
+          (, ,)
+          (CONJP (RB as) (RB well) (IN as))
+          (NP
+            (NP
+              (ADJP (RB commercially) (JJ important))
+              (NNS species))
+            (PP (IN like)
+              (NP (NNS crabs)
+                (CC and)
+                (NN menhaden))))))
+      (, ,))
+    (VP (VB spawn)
+      (ADVP (RB just))
+      (PP (IN outside)
+        (NP (DT the) (NN barrier) (NNS islands))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (DT This) (NN year))
+    (, ,)
+    (NP
+      (NP (PRP$ their) (NNS eggs))
+      (CC and)
+      (NP (NN larvae)))
+    (VP (VBD had)
+      (S
+        (VP (TO to)
+          (VP (VB drift)
+            (PP (IN with)
+              (NP (JJ tidal) (NNS currents)))
+            (PP (IN through)
+              (NP (DT the) (JJ jellyfish-choked) (NNS passes))))))
+      (S
+        (VP (TO to)
+          (VP (VB reach)
+            (NP
+              (NP (DT the) (NNS estuaries))
+              (SBAR
+                (WHNP (WDT that))
+                (S
+                  (VP (VBP serve)
+                    (PP (IN as)
+                      (NP
+                        (NP (NNS nurseries))
+                        (PP (IN for)
+                          (NP (DT the) (NN baby) (NN fish)))))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (JJ ``These) (NNS things))
+    (VP (VBP are)
+      (ADJP (RB incredibly) (JJ efficient)
+        (PP (IN at)
+          (S
+            (VP
+              (VP (VBG turning)
+                (NP (DT the) (NN water))
+                (PRT (RP over)))
+              (, ,)
+              (VP (VBG cleaning)
+                (NP (PRP it))
+                (PP (IN of)
+                  (NP
+                    (NP (NN everything))
+                    (SBAR
+                      (WHPP (IN in)
+                        (WHNP (PRP it)))
+                      (S
+                        (NP (NNP ,'') (NNP Graham))
+                        (VP (VBD said))))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NN ``We))
+    (VP (VBP 're)
+      (VP (VBG finding)
+        (NP (PRP them))
+        (PP (IN with)
+          (NP
+            (NP (CD 200) (NN fish) (NNS eggs))
+            (PP (IN in)
+              (NP (PRP$ their) (NNS guts) (NN .'')))))))))
+
+(ROOT
+  (S
+    (NP (DT The) (NNS newcomers))
+    (VP (VBD had)
+      (NP
+        (NP (DT a)
+          (ADJP (RB frighteningly) (JJ effective))
+          (NN feeding) (NN pattern))
+        (SBAR
+          (WHNP (WDT that))
+          (S
+            (VP (VBD involved)
+              (S
+                (S
+                  (VP (VBG swimming)
+                    (PP (TO to)
+                      (NP (DT the) (NN surface)))))
+                (, ,) (RB then)
+                (S
+                  (VP (VBN diving)
+                    (PRT (RP down))
+                    (PP (TO to)
+                      (NP (DT the) (NN bottom)))
+                    (, ,)
+                    (S
+                      (VP (VBG scouring)
+                        (NP
+                          (NP (DT the) (NN water))
+                          (PP (IN of)
+                            (ADJP
+                              (NP (RB virtually) (DT every) (JJ living) (NN thing))
+                              (JJR smaller))))
+                        (PP (IN than)
+                          (NP (DT a) (NNP BB) (NN pellet)))))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (S
+      (PP (IN After)
+        (S
+          (VP (VBG flowing)
+            (PP (IN through)
+              (NP (DT the) (JJ jellyfish) (NN gantlet))))))
+      (, ,)
+      (NP (NNS scientists))
+      (VP (VBD said)))
+    (, ,)
+    (NP (DT the) (NN water))
+    (VP (VBD was)
+      (ADJP (RB almost) (JJ devoid))
+      (PP (IN of)
+        (NP (VBG living) (NNS things))))
+    (. .)))
+
+(ROOT
+  (SINV
+    (S
+      (NP (NNP ``You))
+      (ADVP (RB really))
+      (VP (VBP have)
+        (NP
+          (NP (CD two) (NNS problems))
+          (PP (IN in)
+            (NP
+              (NP (NNS terms))
+              (PP (IN of)
+                (NP
+                  (ADJP (RB commercially) (JJ important))
+                  (NN fish) (NNS ,''))))))))
+    (VP (VBD said))
+    (NP
+      (NP (NNP Harriet) (NNP M.) (NNP Perry))
+      (, ,)
+      (NP
+        (NP (NN director))
+        (PP (IN of)
+          (NP
+            (NP (DT the) (JJ fisheries) (NN section))
+            (PP (IN of)
+              (NP (DT the) (NNP Gulf) (NNP Coast) (NNP Research) (NNP Laboratory)))))
+        (PP (IN in)
+          (NP (NNP Mississippi)))))
+    (. .)))
+
+(ROOT
+  (S
+    (VP (VB ``First)
+      (SBAR
+        (S
+          (S
+            (NP (DT the) (NNS jellies))
+            (VP (VBP are)
+              (VP (VBG ingesting)
+                (NP
+                  (NP (DT the) (NN larvae)
+                    (CC and)
+                    (NNS eggs))
+                  (PP (IN of)
+                    (NP (DT these)
+                      (ADJP (RB commercially) (JJ important))
+                      (NN species)))))))
+          (, ,)
+          (CC and)
+          (S
+            (ADVP (RB then))
+            (NP (DT the) (NN fish) (NN larvae))
+            (VP (MD must)
+              (VP (VB compete)
+                (PP (IN with)
+                  (NP
+                    (NP (DT these)
+                      (ADJP (RB incredibly) (JJ efficient))
+                      (NNS jellies))
+                    (PP (IN for)
+                      (NP (DT the) (JJ same) (NN food) (NN source) (NN .'')))))))))))))
+
+(ROOT
+  (S
+    (NP (NNP Perry))
+    (VP (VBD said)
+      (SBAR
+        (S
+          (NP (PRP she))
+          (VP (VBD worried)
+            (SBAR (IN that)
+              (S
+                (NP (DT the) (NNP Phyllorhiza))
+                (VP (MD might)
+                  (VP (VB become)
+                    (NP (JJ permanent) (NNS residents))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP Graham))
+    (VP (VBD said)
+      (SBAR
+        (S
+          (NP (PRP he))
+          (VP (VBD feared)
+            (SBAR (IN that)
+              (S
+                (NP (PRP$ their) (NN offspring))
+                (VP (MD might)
+                  (VP (VB appear)
+                    (PP (IN in)
+                      (NP (JJR larger) (NNS numbers)))
+                    (NP (JJ next) (NN spring))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (PRP He))
+    (VP (VBD noted) (, ,)
+      (ADVP (RB though))
+      (, ,)
+      (SBAR (IN that)
+        (S
+          (NP (DT the) (NNS newcomers))
+          (VP (VBD represented)
+            (NP (DT a) (JJ small) (NN threat))
+            (PP (VBN compared)
+              (PP (IN with)
+                (S
+                  (NP
+                    (NP (DT the) (JJ monstrous) (NNS herds))
+                    (PP (IN of)
+                      (NP (JJ native) (NN moon) (NN jellyfish))))
+                  (ADVP (RB still))
+                  (VP (VBG swarming)
+                    (ADVP (RB offshore))
+                    (PP (IN below)
+                      (NP (NNP Alabama) (, ,) (NNP Mississippi)
+                        (CC and)
+                        (NNP Louisiana)))
+                    (PP (IN in)
+                      (NP
+                        (NP (DT a) (JJ huge) (NN swath))
+                        (ADJP
+                          (ADJP
+                            (NP
+                              (QP (RB roughly) (CD 100))
+                              (NNS miles))
+                            (JJ long))
+                          (CC and)
+                          (ADJP
+                            (NP (CD 30) (NNS miles))
+                            (JJ wide)))))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (PRP It))
+    (VP (VBZ is)
+      (NP
+        (NP (DT these) (NN jellyfish))
+        (SBAR
+          (WHNP (WDT that))
+          (S
+            (VP (VBP worry)
+              (NP
+                (NP (NNP Dr.) (NNP Joanne) (NNP Lyczkowski-Shultz))
+                (, ,)
+                (NP
+                  (NP (DT a) (JJ larval) (NN specialist))
+                  (PP (IN with)
+                    (NP (DT the) (NNP National) (NNP Marine) (NNPS Fisheries) (NNP Service))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP Lyczkowski-Shultz))
+    (VP (VBD said)
+      (SBAR
+        (S
+          (NP (DT the) (JJ long-term) (NN picture))
+          (VP (MD might)
+            (VP (VB be)
+              (ADJP (JJ bleak))
+              (SBAR (IN if)
+                (S
+                  (NP (DT the) (JJ jellyfish) (NNS populations))
+                  (VP (VBD continued)
+                    (S
+                      (VP (TO to)
+                        (VP (VB grow)
+                          (PP (IN at)
+                            (NP (PRP$ their) (JJ current) (NN pace))))))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NN ``It))
+    (VP (MD could)
+      (VP (VB be)
+        (ADJP (RB totally) (JJ devastating))
+        (S
+          (VP (VBG ,'')
+            (SBAR
+              (S
+                (NP (PRP she))
+                (VP (VBD said))))))))
+    (. .)))
+
+(ROOT
+  (NP (NN NYT-10-02-00) (CD 1800EDT)))
+

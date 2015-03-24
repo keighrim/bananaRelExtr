@@ -1,0 +1,546 @@
+(ROOT
+  (FRAG
+    (NP (NNP NYT20001026.2219.0407) (NNP NEWS) (NNP STORY))
+    (NP (CD 2000-10-26) (CD 22:39:10))))
+
+(ROOT
+  (NP
+    (NP (CD A7597) (NNS &Cx1f))
+    (: ;)
+    (NP
+      (NP (NNP taf-z))
+      (NP (NN u)))
+    (X
+      (X
+        (X (SYM e))
+        (NP (NN BC-SCULPTRESS-FILM-REVIE) (CD 10-26)))
+      (NP (CD 0431)))))
+
+(ROOT
+  (NP (NNP BC-SCULPTRESS-FILM-REVIEW-NYT)))
+
+(ROOT
+  (S
+    (NP (NNP `THE) (NNP SCULPTRESS) (NNP ':) (NNP THE) (NNP REAL) (NNP MYSTERY))
+    (VP (VBZ IS)
+      (ADJP (JJ WHY)))
+    (. ?)))
+
+(ROOT
+  (FRAG
+    (NP
+      (NP (NNP &UR))
+      (: ;)
+      (NP (NNS [Editors)))
+    (: :)
+    (S
+      (NP (NN Production) (NNS notes))
+      (VP (VBP appear)
+        (PP (IN at)
+          (NP
+            (NP
+              (NP (NN end))
+              (PP (IN of)
+                (NP (NN review) (NNP .]) (NNP &LR))))
+            (: ;)
+            (ADJP (JJ &QL))
+            (: ;)
+            (NP (NNP &UR))
+            (: ;)
+            (PP (NNP By)
+              (NP (NNP A.O)))))))
+    (. .)))
+
+(ROOT
+  (NP
+    (NP (NNP SCOTT) (NNP &LR))
+    (: ;)
+    (S
+      (S
+        (VP (VBG &QC)))
+      (: ;)
+      (S
+        (VP (VBG &QL)))
+      (: ;)
+      (S
+        (VP (VBG &UR)))
+      (: ;)
+      (S
+        (VP (VBG c.2000)
+          (NP (NNP N.Y)))))
+    (. .)))
+
+(ROOT
+  (NP
+    (NP (NNP Times) (NNP News) (NNP Service) (NNP &LR))
+    (: ;)
+    (NP (CD &QC) (: ;) (CD &QL))
+    (: ;)))
+
+(ROOT
+  (S
+    (ADVP (RB Back)
+      (PP (IN in)
+        (NP
+          (NP (DT the) (JJ pre-cable) (NN heyday))
+          (PP (IN of)
+            (NP (NNP UHF))))))
+    (NP (PRP you))
+    (VP (MD could)
+      (ADVP (RB occasionally))
+      (VP (VB find) (, ,)
+        (PP (IN in)
+          (NP
+            (NP (DT the) (NN wee) (NNS hours))
+            (PP (IN of)
+              (NP
+                (NP (DT the) (NN morning))
+                (, ,)
+                (NP (DT a) (JJ bafflingly) (JJ obscure) (, ,)
+                  (ADJP
+                    (ADJP (RB strangely) (JJ arty))
+                    (PRN
+                      (PP
+                        (ADVP (NN kind))
+                        (PP (IN of)
+                          (NP
+                            (NP (NN horror) (NN film))
+                            (, ,)
+                            (SBAR
+                              (WHNP (WDT which))
+                              (S
+                                (VP (VBD starred)
+                                  (NP (NN nobody))
+                                  (SBAR
+                                    (SBAR
+                                      (S
+                                        (NP (PRP you))
+                                        (VP (VBD recognized))))
+                                    (CC and)
+                                    (SBAR
+                                      (WHNP (WDT which))
+                                      (S
+                                        (VP (VBD made))))))))))
+                        (, ,)
+                        (ADVP (RB even))
+                        (PP (IN through)
+                          (NP
+                            (NP (DT the) (NN haze))
+                            (PP (IN of)
+                              (NP (NN insomnia)))))))
+                    (, ,)
+                    (ADJP (RB very) (JJ little)))
+                  (NN sense))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (DT This)
+      (ADJP (JJ murky))
+      (NN genre))
+    (VP (VBZ survives)
+      (ADVP (RB mostly))
+      (PP
+        (PP (IN on)
+          (NP (DT the) (NNP USA) (NN cable) (NN network)))
+        (CC and)
+        (PP (IN in)
+          (NP (DT the) (JJ straight-to-video) (NN market))))
+      (, ,)
+      (PP (CC but)
+        (PP (IN with)
+          (NP
+            (NP (JJ ``The) (NNS Sculptress))
+            ('' '')
+            (SBAR
+              (S
+                (NP (PRP it))
+                (VP (VBZ surfaces)
+                  (ADVP (: -)
+                    (ADVP (RB briefly))
+                    (, ,)
+                    (S
+                      (NP (PRP one))
+                      (VP (VBZ assumes)))))))))
+        (: -)
+        (PP (IN in)
+          (NP (JJ theatrical) (NN release)))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (DT The) (NN movie) (POS 's))
+      (JJ relative) (NN restraint))
+    (SBAR
+      (WHADVP (WRB when))
+      (S
+        (NP (PRP it))
+        (VP (VBZ comes)
+          (S
+            (VP (TO to)
+              (VP (VB gore)))))))
+    (, ,)
+    (NP
+      (ADJP (JJ nudity)
+        (CC and)
+        (JJ bad))
+      (NN language))
+    (VP (VBZ makes)
+      (NP (JJ late-night) (NN broadcast) (NN television))
+      (NP
+        (NP (PRP$ its) (JJ ideal) (NN venue))
+        (, ,)
+        (SBAR (IN as)
+          (S
+            (VP (VBZ does)
+              (NP
+                (NP (PRP$ its) (NN air))
+                (PP (IN of)
+                  (NP (NN solemn) (NN boredom)))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP Katie) (NNP Wright))
+    (VP (VBZ plays)
+      (NP
+        (NP (NNP Sarah))
+        (, ,)
+        (NP
+          (NP (DT a) (JJ British) (NN art) (NN student))
+          (VP (VBG studying)
+            (PP (IN in)
+              (NP
+                (NP (NNP San) (NNP Francisco))
+                (, ,)
+                (SBAR
+                  (WHADVP (WRB where))
+                  (S
+                    (NP (PRP she))
+                    (VP (VBZ happens)
+                      (S
+                        (VP (TO to)
+                          (VP (VB live)
+                            (NP
+                              (ADVP (JJ next) (NN door)
+                                (PP (TO to)
+                                  (NP (DT a) (JJ serial) (NN killer) (NN [Jeff))))
+                              (NP (NNP Fahey) (NNP ]))
+                              (SBAR
+                                (WHNP (WP who))
+                                (S
+                                  (VP (VBZ dons)
+                                    (S
+                                      (NP (JJ outlandish) (NNS costumes))
+                                      (VP (TO to)
+                                        (VP (VB stalk)
+                                          (NP (PRP$ his) (NNS victims)))))))))))))))))))))
+    (. .)))
+
+(ROOT
+  (FRAG
+    (S
+      (VP (TO To)
+        (VP (VB make)
+          (S
+            (NP (NNS matters))
+            (ADJP (RBR worse))))))
+    (: -)
+    (FRAG (RB not)
+      (PP
+        (ADVP (RB so) (JJ much)
+          (PP (IN for)
+            (NP (NNP Sarah))))
+        (IN as) (IN for)
+        (NP
+          (NP (DT the) (NN audience))
+          (: -)
+          (NP
+            (NP
+              (NP (DT this) (JJ troubled) (NN fellow))
+              (SBAR
+                (S
+                  (VP (VBZ is) (RB not)
+                    (ADVP (RB just))
+                    (NP (PRP$ your) (JJ run-of-the-mill)
+                      (ADJP
+                        (ADVP (RB sexually))
+                        (JJ frustrated))
+                      (, ,) (JJ split-personality) (NN slasher))))))
+            (CC but)
+            (NP
+              (NP (DT some) (NN kind))
+              (PP (IN of)
+                (NP (JJ evil) (NN spirit)))
+              (SBAR
+                (WHNP (WP who))
+                (S
+                  (VP (VBZ has) (, ,)
+                    (PP (RB perhaps)
+                      (ADJP (JJ unwittingly)))
+                    (, ,)
+                    (VP (VBN infiltrated)
+                      (NP
+                        (NP (PRP$ his) (NN neighbor) (POS 's))
+                        (NN mind)))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (S
+      (NP (PRP It))
+      (VP (VBZ takes)
+        (S
+          (NP
+            (NP (DT a) (JJ panicky) (NN fortune) (NN teller))
+            (CC and)
+            (NP (DT a)
+              (ADJP
+                (ADVP (RB kindly))
+                (NP (CD [if) (NNS vaguely))
+                (JJ lecherous))
+              (JJ ]) (NN sculpture) (NN professor)))
+          (VP (TO to)
+            (VP (VB figure)
+              (NP (DT this))
+              (PRT (RP out)))))))
+    (: -)
+    (S
+      (NP (DT the) (NN professor))
+      (VP (VBZ draws)
+        (NP
+          (NP (DT a) (JJ helpful) (NN diagram))
+          (VP (VBG featuring)
+            (NP
+              (NP (NNS words))
+              (PP (IN like)
+                (NP (NNS ``incubus)))
+              ('' '')
+              (CC and)
+              (NP (JJ ``demon) (NN child) ('' '')))))))
+    (: -)
+    (CC but)
+    (S
+      (NP (PRP they))
+      (VP (VBP can't)
+        (S
+          (VP (VB do)
+            (ADJP (JJ much)
+              (S
+                (VP (TO to)
+                  (VP (VB help)
+                    (NP
+                      (NP (NNP poor) (NNP Sarah))
+                      (, ,)
+                      (SBAR
+                        (WHNP (WP who))
+                        (S
+                          (VP (MD must)
+                            (ADVP (RB also))
+                            (VP (VB fend)
+                              (PRT (RP off))
+                              (NP
+                                (NP (DT the) (NNS advances))
+                                (PP (IN of)
+                                  (NP
+                                    (NP (DT an) (JJ aggressive) (NN classmate))
+                                    (, ,)
+                                    (NP
+                                      (NP (NN struggle))
+                                      (PP (IN with)
+                                        (NP
+                                          (NP (DT the) (NNS demands))
+                                          (PP (IN of)
+                                            (NP (PRP$ her) (NN art))))))
+                                    (CC and)
+                                    (PRN (, ,)
+                                      (PP (IN in)
+                                        (NP
+                                          (NP (PRP$ her) (JJ modest) (NN contribution))
+                                          (PP (TO to)
+                                            (NP (DT the) (JJ film's) (NN doomy) (NN atmosphere)))))
+                                      (, ,))
+                                    (NP (JJ light) (NNS candles)))))
+                              (PP (IN in)
+                                (NP
+                                  (NP (DT a) (NN dim))
+                                  (, ,)
+                                  (NP (JJ spooky) (NN church)))))))))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (ADVP (RB Meanwhile))
+    (, ,)
+    (NP
+      (NP (PRP$ her) (NN neighbor))
+      (, ,)
+      (SBAR
+        (WHADVP (WRB when))
+        (S
+          (NP (PRP he))
+          (VP (VBZ 's) (RB not)
+            (VP (VBG reciting)
+              (NP
+                (NP (NN ``Hamlet))
+                ('' '')
+                (PP (IN in)
+                  (NP (PRP$ his) (NN apartment))))))))
+      (, ,))
+    (VP (VBZ dresses)
+      (PRT (RP up))
+      (SBAR (IN as)
+        (S
+          (NP
+            (NP (DT some) (NN kind))
+            (PP (IN of)
+              (NP
+                (NP (JJ 19th-century) (JJ German) (NN baron))
+                (, ,)
+                (UCP
+                  (ADJP (JJ complete)
+                    (PP (IN with)
+                      (NP (JJ fake) (NN beard) (, ,) (NN walking) (NN stick)
+                        (CC and)
+                        (NN kid) (NNS gloves))))
+                  (: -)
+                  (NP
+                    (NP (DT the) (NN kind))
+                    (PP (IN of)
+                      (NP (JJ get-up) (NNS women)))))
+                (PP (IN in)
+                  (NP (NNP San) (NNP Francisco))))))
+          (ADVP (RB apparently))
+          (VP (VB find)
+            (NP (JJ irresistible))))))
+    (. .)))
+
+(ROOT
+  (S
+    (VP (VB ``The)
+      (NP
+        (NP (NNP Sculptress))
+        ('' '')
+        (SBAR
+          (S
+            (VP (VBZ is)
+              (UCP
+                (ADJP (RB so) (RB poorly) (VBN written))
+                (, ,)
+                (ADJP (RB badly) (JJ acted))
+                (CC and)
+                (ADVP (RB ineptly))
+                (VP (VBN directed)
+                  (SBAR (IN that)
+                    (S
+                      (NP (PRP it))
+                      (VP (VBZ denies)
+                        (S
+                          (NP (PRP you))
+                          (NP
+                            (NP (RB even) (DT the) (JJ modest) (NN pleasure))
+                            (PP (IN of)
+                              (S
+                                (VP (VBG making)
+                                  (NP
+                                    (NP (NN fun))
+                                    (PP (IN of)
+                                      (NP (PRP it)))))))))))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (SBAR (IN Since)
+      (S
+        (NP (PRP you))
+        (VP (VBP know)
+          (NP
+            (NP (DT the) (NN identity))
+            (PP (IN of)
+              (NP (DT the) (NN killer)))
+            (UCP (RB well)
+              (PP (IN in)
+                (NP (NN advance)))
+              (, ,)
+              (CC and)
+              (SBAR (IN since)
+                (S
+                  (NP
+                    (NP (NNP Wright) (POS 's))
+                    (JJ dull) (NN pouting)
+                    (CC and)
+                    (NN slack) (NN line-reading))
+                  (VP (VBP make)
+                    (S
+                      (NP (PRP it))
+                      (ADJP (JJ impossible)
+                        (PP (TO to)
+                          (NP
+                            (NP (NN care))
+                            (SBAR
+                              (WHNP (WP what))
+                              (S
+                                (VP (VBZ happens)
+                                  (PP (TO to)
+                                    (NP (PRP$ her) (NN character))))))))))))))))))
+    (, ,)
+    (NP (DT the) (JJ only) (JJ real) (NN mystery))
+    (VP (VBZ is)
+      (SBAR
+        (WHADVP (WRB why))
+        (S
+          (NP (DT this) (NN film))
+          (VP (VBD was)
+            (VP
+              (ADVP (RB ever))
+              (VBN made))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (JJ ``The) (NNS Sculptress) ('' ''))
+      (SBAR
+        (S
+          (VP (VBZ is)
+            (VP (VBN rated)
+              (NP (NN R) (NN [Under) (CD 17)))))))
+    (VP (VBZ requires)
+      (NP
+        (NP (JJ accompanying) (NN parent)
+          (CC or)
+          (JJ adult) (NN guardian) (NNS ].))
+        (SBAR
+          (S
+            (NP (PRP It))
+            (VP (VBZ contains)
+              (NP
+                (NP (JJ brief) (JJ sexual) (NNS scenes))
+                (CC and)
+                (NP (DT some) (NN gore))))))))
+    (. .)))
+
+(ROOT
+  (NP (NNP PRODUCTION) (NNS NOTES) (: :)))
+
+(ROOT
+  (S
+    (VP (VBG `THE)
+      (NP (NNP SCULPTRESS) (POS ')))))
+
+(ROOT
+  (FRAG
+    (NP (NNP Directed))
+    (PP (IN by)
+      (NP (NNP Ian) (NNP Merrick)))))
+
+(ROOT
+  (NP
+    (NP (NNP Rated) (NNP R))
+    (: ;)
+    (NP (CD 96) (NNS minutes))))
+
+(ROOT
+  (NP (NN NYT-10-26-00) (CD 2239EDT)))
+

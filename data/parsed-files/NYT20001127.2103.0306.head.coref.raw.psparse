@@ -1,0 +1,1069 @@
+(ROOT
+  (FRAG
+    (NP (NNP NYT20001127.2103.0306) (NNP NEWS) (NNP STORY))
+    (NP (CD 2000-11-27) (CD 21:10:00))))
+
+(ROOT
+  (NP
+    (NP (CD A2399) (NNS &Cx1f))
+    (: ;)
+    (NP
+      (NP (NNP taf-z) (NN u) (NN p) (NNP BC-ELN-BUSH-CARD-NYT) (NNP &LR))
+      (: ;)
+      (NP
+        (QP (CD 11-27) (CD 0909))))))
+
+(ROOT
+  (NP (NNP BC-ELN-BUSH-CARD-NYT)))
+
+(ROOT
+  (S
+    (NP (NNP WASHINGTON) (NNP INSIDER)
+      (CC AND)
+      (NNP FAMILY) (NNP LOYALIST))
+    (VP (VBD POISED)
+      (S
+        (VP (TO TO)
+          (VP (VB BE)
+            (ADJP (JJ BUSH))))))))
+
+(ROOT
+  (NP
+    (NP (NNP CHIEF-OF-STAFF) (NNP &LR))
+    (: ;)
+    (S
+      (S
+        (VP (VBG &QL)))
+      (: ;)
+      (S
+        (NP (NNP &UR))
+        (: ;)
+        (PP (IN By)
+          (NP (NNP ELAINE) (NNP SCIOLINO) (NNP &LR)))
+        (: ;)
+        (VP (VBZ &QC)))
+      (: ;)
+      (S
+        (VP (VBG &UR)))
+      (: ;)
+      (S
+        (VP (VBG &QL)))
+      (: ;)
+      (S
+        (VP (VBG c.2000)
+          (NP (NNP N.Y)))))
+    (. .)))
+
+(ROOT
+  (NP
+    (NP
+      (NP (NNP Times) (NNP News) (NNP Service) (NNP &QC))
+      (: ;)
+      (NP (NNP &QL)))
+    (: ;)
+    (NP
+      (NP (NNP &LR))
+      (: ;)
+      (NP (NNP WASHINGTON)))
+    (: -)
+    (NP
+      (NP (DT The) (NN way))
+      (NP (NNP Andrew) (NNP H.) (NNP Card) (NNP Jr)))
+    (. .)))
+
+(ROOT
+  (FRAG
+    (S
+      (VP (VBZ tells)
+        (NP (PRP it))))
+    (, ,)
+    (NP
+      (NP (DT the) (JJ first) (NN time))
+      (SBAR
+        (S
+          (NP (PRP he))
+          (ADVP (RB ever))
+          (VP (VBD set)
+            (NP (NNS eyes))
+            (PP (IN on)
+              (NP
+                (NP (NNP George) (NNP W.) (NNP Bush))
+                (PP (IN in)
+                  (NP (NNP Kennebunkport) (, ,) (NNP Maine) (, ,)))))
+            (PP (IN in)
+              (NP
+                (NP (CD 1979))
+                (, ,)
+                (NP
+                  (NP (DT the) (JJR younger) (NNP Bush) (NN cut))
+                  (NP (DT a)
+                    (ADJP (RBS most) (JJ unimpressive))
+                    (NN profile)))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (ADVP (RB &HT))
+    (: ;)
+    (NP (NNP Bush))
+    (VP (VBD was)
+      (NP
+        (NP (DT a) (JJ defeated) (NN politician))
+        (SBAR
+          (WHNP (WP who))
+          (S
+            (VP (VBD had)
+              (VP (VBN failed)
+                (PP (IN in)
+                  (NP (PRP$ his) (NN bid)))
+                (NP (DT the) (NN year))
+                (SBAR (IN before)
+                  (S
+                    (VP (TO to)
+                      (VP (VB become)
+                        (NP (DT a) (NN congressman))
+                        (PP (IN from)
+                          (NP (NNP Texas)))))))))))))
+    (. .)))
+
+(ROOT
+  (S (CC And)
+    (NP
+      (NP (NNP Card))
+      (, ,)
+      (NP
+        (NP (DT a) (JJ Republican) (NN state) (NN legislator))
+        (PP (IN from)
+          (NP
+            (NP (NNP Massachusetts))
+            (VP (VBG helping)
+              (S
+                (NP (DT the) (NNP elder) (NNP George) (NNP Bush))
+                (VP (VB seek)
+                  (NP (DT the) (JJ Republican) (NN nomination))
+                  (PP (IN for)
+                    (NP (NN president)))))))))
+      (, ,))
+    (VP (VBD was)
+      (VP (VBN taken)
+        (ADVP (RB aback))
+        (PP (IN by)
+          (NP
+            (NP (DT the) (NN difference))
+            (PP (IN between)
+              (SBAR
+                (WHNP (WP what))
+                (S
+                  (NP (PRP he))
+                  (VP (VBD saw)
+                    (PP (IN as)
+                      (NP (DT the) (NN patrician) (NN father)
+                        (CC and)
+                        (NN plebeian) (NN son)))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (NNP ``I))
+      (VP (VBN expected)
+        (S
+          (VP (TO to)
+            (VP (VB see)
+              (NP
+                (NP (DT a) (NN Yalie))
+                (CC and)
+                (SBAR
+                  (WHNP (WP what))
+                  (S
+                    (NP (PRP I))
+                    (VP (VBD saw))))))))))
+    (VP (VBD was)
+      (ADJP (JJ West)
+        (SBAR
+          (S
+            (NP (NNP Texas) (NNP ,'') (NNP Card))
+            (VP (VBD said)
+              (PP (IN in)
+                (NP
+                  (NP (DT a) (NN telephone) (NN interview))
+                  (PP (IN of)
+                    (NP (DT that) (JJ first) (NN encounter)))))
+              (PP (IN with)
+                (NP (DT the) (JJR younger) (NNP George))))))))
+    (. .)))
+
+(ROOT
+  (NP
+    (S
+      (S
+        (NP (NN ``He))
+        (VP
+          (VP (VBD was)
+            (VP (VBG wearing)
+              (NP
+                (NP (NN cowboy) (NNS boots))
+                (CC and)
+                (NP (JJ dirty) (NNS jeans)))))
+          (CC and)
+          (VP (VBD was)
+            (VP (VBG chewing)
+              (NP (NN tobacco))))))
+      (CC and)
+      (S
+        (NP (PRP it))
+        (VP (VBD was)
+          (VP (VBG drooling)
+            (PRT (RP out))
+            (PP (IN of)
+              (NP (PRP$ his) (NN mouth) (NN .'')))))))))
+
+(ROOT
+  (S
+    (S (CC But)
+      (ADVP (RB then))
+      (, ,)
+      (NP (NNP Card))
+      (VP (VBD spun)
+        (ADJP (JJ positive))
+        (, ,)
+        (S
+          (VP (VBG adding)))))
+    (: :)
+    (S
+      (NP (NN ``He))
+      (VP (VBD was)
+        (UCP
+          (ADJP (JJ sincere))
+          (, ,)
+          (ADJP (JJ warm))
+          (CC and)
+          (VP (VBG inviting)))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBD liked)
+      (NP (PRP him))
+      (ADVP (RB right)
+        (PP (IN off)
+          (NP (DT the) (NN bat))))
+      (SBAR (IN because)
+        (S
+          (NP (PRP he))
+          (VP (VBD was)
+            (NP (DT a) (JJ regular) (, ,) (JJ real) (NN person) (NN .''))))))))
+
+(ROOT
+  (S
+    (ADVP (RB Now))
+    (NP
+      (NP (NNP Card))
+      (, ,)
+      (NP (CD 53))
+      (, ,))
+    (VP (VBZ is)
+      (NP
+        (NP (DT the)
+          (NP (JJR younger) (NNP Bush) (POS 's))
+          (NN chief-of-staff-in-waiting))
+        (, ,)
+        (VP (VBN poised)
+          (S
+            (VP (TO to)
+              (VP (VB move)
+                (PP (IN into)
+                  (NP
+                    (NP (DT a) (JJ crucial) (NN office))
+                    (PP (IN in)
+                      (NP (DT the) (NNP West) (NNP Wing)))))
+                (SBAR (MD should)
+                  (S
+                    (NP (NNP Bush))
+                    (VP (VB be)
+                      (VP (VBN validated)
+                        (PP (IN as)
+                          (NP (NN president)))))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (NNS People))
+      (SBAR
+        (WHNP (WP who))
+        (S
+          (VP (VBP have)
+            (VP (VBN worked)
+              (PP (IN with)
+                (NP (NNP Card)))
+              (PP (IN over)
+                (NP (DT the) (NNS years))))))))
+    (VP (VBP say)
+      (SBAR (IN that)
+        (S
+          (NP (PRP he))
+          (VP (MD would)
+            (VP (VB bring)
+              (PP (TO to)
+                (NP (DT the) (NN job) (NN total) (NN loyalty)))
+              (PP (TO to)
+                (NP
+                  (NP (DT the) (NNPS Bushes))
+                  (, ,)
+                  (NP
+                    (NP (DT a) (JJ voracious) (NN appetite))
+                    (PP (IN for)
+                      (NP (JJ hard) (NN work))))
+                  (, ,)
+                  (NP
+                    (NP (DT a) (NN willingness))
+                    (PP (TO to)
+                      (NP
+                        (NP (JJ obey) (NNS orders))
+                        (CC and)
+                        (NP (DT a) (JJ manageable) (NN ego))))))))))))
+    (. .)))
+
+(ROOT
+  (SINV
+    (S
+      (NP (NN ``He))
+      (VP (VBZ 's) (RB not)
+        (NP (DT a) (JJ sparkling) (NN personality) (NN ,''))))
+    (VP (VBD said))
+    (NP
+      (NP (NNP Brent) (NNP Scowcroft))
+      (, ,)
+      (NP
+        (NP (DT the) (JJ national) (NN security) (NN adviser))
+        (PP (IN in)
+          (NP (DT the) (NNP Bush) (NN administration)))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NN ``He))
+    (VP (VBZ 's)
+      (NP (DT a)
+        (ADJP (RB very) (JJ quiet) (, ,) (JJ down-to-earth))
+        (NN person)))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (PRP He))
+    (VP (VBZ 's)
+      (NP
+        (NP
+          (NP (DT a) (NN workhorse))
+          (, ,)
+          (NP (RB not) (DT a) (NN show) (NN dog))
+          (, ,))
+        (ADJP (RB absolutely) (JJ .''))))))
+
+(ROOT
+  (S
+    (SBAR (IN Although)
+      (S
+        (NP (NNP Bush))
+        (VP (VBN campaigned)
+          (PP (IN as)
+            (NP
+              (NP (DT a) (NNP Washington) (NN outsider) (NN independent))
+              (PP (IN of)
+                (NP
+                  (NP (PRP$ his) (NN father) (POS 's))
+                  (NNS strings))))))))
+    (, ,)
+    (NP (NNP Card))
+    (VP (VBZ is)
+      (NP
+        (NP (DT a) (NNP Washington) (NN insider))
+        (, ,)
+        (NP
+          (NP (DT a) (JJ corporate) (NN lobbyist))
+          (PP (IN for)
+            (NP (DT the) (NN automobile) (NN industry))))
+        (CC and)
+        (NP
+          (NP (NNP General) (NNPS Motors))
+          (SBAR
+            (WHNP (WP who))
+            (S
+              (VP
+                (VP (VBD served)
+                  (PP (IN in)
+                    (NP (PDT both) (DT the) (NNP Reagan)
+                      (CC and)
+                      (NNP Bush) (NNS administrations))))
+                (CC and)
+                (VP (VBZ enjoys)
+                  (NP
+                    (NP (DT the) (JJ ultimate) (NN trust))
+                    (UCP
+                      (CONJP (RB not) (JJ only))
+                      (PP (IN of)
+                        (NP (NNP Bush)))
+                      (CC but)
+                      (ADVP (RB also))))
+                  (PP (IN of)
+                    (NP (PRP$ his) (NN father)
+                      (CC and)
+                      (NN mother))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (S
+      (NP (NNP ``I))
+      (VP (MD would)
+        (VP (VB do)
+          (NP (NN anything))
+          (S
+            (VP (TO to)
+              (VP (VB help)
+                (NP (PRP$ his) (NNS parents))))))))
+    (NP (NNP ,'') (NNP Card))
+    (VP (VBD said)
+      (PP (IN in)
+        (NP (DT the) (NN interview))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NN ``They))
+    (VP (VBD were)
+      (ADJP (JJ wonderful)
+        (PP (TO to)
+          (NP (PRP me)))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP have)
+      (NP
+        (NP (DT an) (JJ infinite) (NN amount))
+        (PP (IN of)
+          (NP
+            (NP (NN love))
+            (PP (IN for)
+              (NP (PRP them)))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (PRP They))
+    (VP (VBD took)
+      (NP (DT an) (NN interest))
+      (PP (IN in)
+        (NP (PRP$ my) (NN wife)))
+      (, ,)
+      (NP
+        (NP (DT the) (NNS challenges))
+        (SBAR
+          (S
+            (NP (PRP I))
+            (VP (VBD went)
+              (PP (IN through)
+                (S
+                  (VP (VBG bringing)
+                    (PRT (RP up))
+                    (NP (PRP$ my) (NNS kids))))))))))
+    (. .)))
+
+(ROOT
+  (S (CC But)
+    (NP (PRP$ my))
+    (VP (VBZ respect)
+      (SBAR (IN for)
+        (S
+          (NP (NNP Governor) (NNP Bush))
+          (VP (VBZ is)
+            (ADJP (JJ independent)
+              (PP (IN of)
+                (NP
+                  (NP (PRP$ my) (NN love))
+                  (PP (IN for)
+                    (NP (PRP$ his) (NNS parents) (NN .''))))))))))))
+
+(ROOT
+  (S
+    (S
+      (VP (VBN Born)
+        (PP (IN in)
+          (NP (NNP Holbrook) (, ,) (NNP Mass.) (, ,)))
+        (PP (IN on)
+          (NP (NNP May) (CD 10) (, ,) (CD 1947)))))
+    (, ,)
+    (NP (NNP Card))
+    (VP (VBD graduated)
+      (PP (IN from)
+        (NP
+          (NP (DT the) (NNP University))
+          (PP (IN of)
+            (NP (NNP South) (NNP Carolina)))))
+      (PP (IN with)
+        (NP
+          (NP (DT a) (NN degree))
+          (PP (IN in)
+            (NP (NN engineering))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (PRP$ His) (NN wife))
+      (PP (IN of)
+        (NP
+          (NP (CD 33) (NNS years))
+          (, ,)
+          (NP (DT the) (JJ former) (NNP Kathleene) (NNP Bryan))))
+      (, ,)
+      (SBAR
+        (WHNP (WP whom))
+        (S
+          (NP (PRP he))
+          (VP (VBD met)
+            (PP (IN in)
+              (NP (DT the) (JJ fifth) (NN grade))))))
+      (, ,))
+    (VP (VBD was)
+      (VP (VBN ordained)
+        (PP (IN as)
+          (NP (DT a) (NNP Methodist) (NN minister))
+          (ADVP
+            (NP (CD two) (NNS years))
+            (RB ago)))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (PRP They))
+    (VP (VBP have)
+      (NP
+        (NP (CD three) (JJ grown) (NNS children))
+        (CC and)
+        (NP (CD four) (NNS grandchildren))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP
+        (NP (NNP Card) (POS 's))
+        (NN interest))
+      (PP (IN in)
+        (NP (NNS politics))))
+    (VP (VBD began)
+      (SBAR
+        (WHADVP (WRB when))
+        (S
+          (NP (PRP he))
+          (VP (VBD became)
+            (NP
+              (NP (NN president))
+              (PP (IN of)
+                (NP
+                  (NP (DT the) (NN class))
+                  (PP (IN of)
+                    (NP (CD 1965))))))
+            (PP (IN at)
+              (NP (NNP Holbrook) (NNP High) (NNP School)))))))
+    (. .)))
+
+(ROOT
+  (S
+    (PP (IN After)
+      (NP
+        (NP (CD four) (NNS terms))
+        (PP (IN in)
+          (NP (DT the) (NN state) (NN legislature)))))
+    (, ,)
+    (NP (PRP he))
+    (VP (VBD ran)
+      (ADVP (RB unsuccessfully))
+      (PP (IN for)
+        (NP
+          (NP (NN governor))
+          (PP (IN in)
+            (NP (CD 1982))))))
+    (. .)))
+
+(ROOT
+  (S (RB Then)
+    (NP (NNP Vice) (NNP President) (NNP George) (NNP Bush))
+    (VP (VBD helped)
+      (S
+        (VP (VB land)
+          (S
+            (NP (PRP him))
+            (NP
+              (NP (DT an)
+                (ADJP (JJ unglamorous)
+                  (CC but)
+                  (JJ respectable))
+                (NN job))
+              (PP (IN in)
+                (NP
+                  (NP (DT the) (NNP Reagan) (NNP White) (NNP House))
+                  (PP (IN in)
+                    (NP (CD 1983)))))))
+          (SBAR (IN as)
+            (S
+              (NP
+                (NP (NN liaison))
+                (PP (IN with)
+                  (NP
+                    (NP (JJ elected) (NN state) (NNS officials))
+                    (, ,)
+                    (NP (JJ former) (NNP Reagan))
+                    (CC and)
+                    (NP (NNP Bush) (NN administration) (NNS officials)))))
+              (VP (VBD said)))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (PRP He))
+    (VP (VBD stayed)
+      (PP (IN for)
+        (NP
+          (NP (DT the) (NN rest))
+          (PP (IN of)
+            (NP (DT the) (NN administration))))))
+    (. .)))
+
+(ROOT
+  (SINV
+    (S
+      (S
+        (NP (NN ``Vice) (NNP President) (NNP Bush))
+        (ADVP (RB rarely))
+        (VP (VBD got)
+          (VP (VBN involved)
+            (PP (IN in)
+              (NP (JJ personnel) (NNS matters))))))
+      (, ,)
+      (CC but)
+      (S
+        (NP (PRP he))
+        (ADVP (RB really))
+        (VP (VBD went)
+          (PP (TO to)
+            (NP (NN bat)))
+          (PP (IN for)
+            (NP (NNP Andy) (NNP Card) (NNP ,''))))))
+    (VP (VBD recalled))
+    (NP
+      (NP (NNP Chase) (NNP Untermeyer))
+      (, ,)
+      (NP
+        (NP (JJ personnel) (NN director))
+        (PP (IN in)
+          (NP (DT the) (NNP Bush) (NNP White) (NNP House)))))
+    (. .)))
+
+(ROOT
+  (S
+    (PP (IN After)
+      (S
+        (VP (VBG serving)
+          (PP (IN as)
+            (NP
+              (NP
+                (NP (DT the) (NNP elder) (NNP Bush) (POS 's))
+                (NN campaign) (NN manager))
+              (PP (IN for)
+                (NP
+                  (NP (DT the) (JJ crucial) (NNP New) (NNP Hampshire) (NN primary))
+                  (PP (IN in)
+                    (NP (CD 1988))))))))))
+    (, ,)
+    (NP (NNP Card))
+    (VP (VBD was)
+      (VP
+        (VP (VBN rewarded)
+          (PP (IN with)
+            (NP
+              (NP (DT the) (NN job))
+              (PP (IN of)
+                (NP
+                  (NP (JJ deputy) (NN chief-of-staff))
+                  (PP (IN in)
+                    (NP (DT the) (NNP Bush) (NN administration))))))))
+        (, ,)
+        (CC and)
+        (ADVP (RB then))
+        (VP (VBN served)
+          (PP (IN as)
+            (NP
+              (NP (NN secretary))
+              (PP (IN of)
+                (NP (NN transportation)))))
+          (PP (IN in)
+            (NP (PRP$ its) (JJ final) (NN year))))))
+    (. .)))
+
+(ROOT
+  (S
+    (SBAR
+      (WHADVP (WRB When))
+      (S
+        (NP (DT a) (NN hurricane))
+        (VP (VBD struck)
+          (NP (NNP Florida))
+          (NP (DT that) (NN year)))))
+    (, ,)
+    (NP (NNP Card))
+    (VP (VBD was)
+      (VP
+        (VP (VBN made)
+          (NP
+            (NP
+              (NP (NNP President) (NNP Bush) (POS 's))
+              (JJ personal) (NN emissary))
+            (PP (IN for)
+              (NP (NN disaster) (NN relief)))))
+        (CC and)
+        (VP (VBN dispatched)
+          (S
+            (NP (EX there))
+            (VP (TO to)
+              (VP (VB dispel)
+                (NP (DT the)
+                  (ADJP (RB widely) (VBN held))
+                  (NN belief))
+                (SBAR (IN that)
+                  (S
+                    (NP (DT the) (NN administration))
+                    (VP (VBD had)
+                      (VP (VBN done)
+                        (ADJP (RB too) (JJ little))
+                        (ADVP (RB too) (RB late))))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (PRP He))
+    (VP (VBD was)
+      (NP
+        (NP (CD one))
+        (PP (IN of)
+          (NP (DT the) (JJ last) (NNS people)))
+        (S
+          (VP (TO to)
+            (VP (VB leave)
+              (NP (DT the) (NNP Bush) (NN administration))
+              (, ,)
+              (S
+                (VP (VBG staying)
+                  (PRT (RP on))
+                  (PP (IN until)
+                    (NP (CD two) (NNS months)))
+                  (PP (IN into)
+                    (NP
+                      (NP (DT the) (NNP Clinton) (NN administration))
+                      (PP (IN in)
+                        (SBAR
+                          (WHNP (WP what))
+                          (S
+                            (VP (VBD was)
+                              (VP (VBN referred)
+                                (PP (TO to)
+                                  (NP (RB as) (DT the) (JJ ``out-transition) (NN office) ('' '')
+                                    (S
+                                      (VP (TO to)
+                                        (VP (VB make)
+                                          (ADJP (JJ sure)
+                                            (SBAR
+                                              (S
+                                                (NP (PDT all) (DT the) (NNP Bush) (NN paperwork))
+                                                (VP (VBD had)
+                                                  (VP (VBN been)
+                                                    (VP (VBN completed))))))))))))))))))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (PP (IN In)
+      (NP
+        (NP (NNP ``Barbara) (NNP Bush))
+        (: :)
+        (NP (DT A) (NNP Memoir) (NNP ,''))))
+    (NP (DT the) (JJ former) (JJ first) (NN lady))
+    (VP (VBD referred)
+      (PP (TO to)
+        (NP (NNP Card)))
+      (PP (IN as)
+        (NP
+          (NP (DT a) (NN man))
+          (SBAR
+            (WHNP (WP who))
+            (S
+              (ADVP (RB repeatedly))
+              (VP (VBD ``had)
+                (VP (VBN come)
+                  (PP (TO to)
+                    (NP (PRP$ our) (NN rescue) (NN .''))))))))))))
+
+(ROOT
+  (S
+    (NP (NNP Card))
+    (VP (VBD stayed)
+      (PRT (RP on))
+      (PP (IN in)
+        (NP (NNP Washington)))
+      (, ,)
+      (S
+        (VP (VBG turning)
+          (NP (PRP himself))
+          (PP (IN into)
+            (NP
+              (NP (DT the) (JJ top) (NN lobbyist))
+              (PP (IN for)
+                (NP (DT the) (JJ automotive) (NN industry))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (PP (IN In)
+      (NP (CD 1993)))
+    (, ,)
+    (NP (PRP he))
+    (VP (VBD became)
+      (NP
+        (NP (NN president)
+          (CC and)
+          (NN chief) (NN executive))
+        (PP (IN of)
+          (NP (DT the) (NNP American) (NNP Automobile) (NNPS Manufacturers) (NNP Association))))
+      (, ,)
+      (SBAR
+        (WHADVP (WRB where))
+        (S
+          (NP (PRP he))
+          (VP (VBD oversaw)
+            (NP
+              (NP (DT the) (NN lobbying))
+              (PP (IN against)
+                (NP (JJR tighter) (NN fuel-economy)
+                  (CC and)
+                  (NN air) (NN pollution) (NNS regulations))))
+            (PP
+              (PP (IN for)
+                (NP (NNS automobiles)))
+              (CC and)
+              (PP (IN in)
+                (S
+                  (VP (VBG coming)
+                    (PRT (RP up))
+                    (PP (IN with)
+                      (NP
+                        (NP (JJ technical) (NNS arguments))
+                        (PP (IN for)
+                          (SBAR
+                            (WHADVP (WRB why))
+                            (S
+                              (NP (VBG industrializing) (NNS nations))
+                              (VP (MD should)
+                                (VP (VB proceed)
+                                  (ADVP (RB slowly))
+                                  (PP (IN in)
+                                    (S
+                                      (VP (VBG addressing)
+                                        (NP (JJ global) (NN warming))))))))))))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (SBAR
+      (WHADVP (WRB When))
+      (S
+        (NP (DT that) (NN organization))
+        (VP (VBD was)
+          (VP (VBN dissolved)
+            (PP (IN in)
+              (NP (CD 1998)))))))
+    (, ,)
+    (NP (PRP he))
+    (VP (VBD became)
+      (NP
+        (NP (NNP GM) (POS 's))
+        (NN vice) (NN president))
+      (PP (IN for)
+        (NP (NN government) (NNS relations)))
+      (PP (IN in)
+        (NP (NNP Washington))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP Card))
+    (VP (VBZ prides)
+      (NP (PRP himself))
+      (PP (IN on)
+        (NP (PRP$ his) (NN humility))))
+    (. .)))
+
+(ROOT
+  (S
+    (SBAR
+      (WHADVP (WRB When))
+      (S
+        (NP (PRP he))
+        (VP (VBD was)
+          (VP (VBN offered)
+            (NP
+              (NP (DT the) (NN job))
+              (PP (IN of)
+                (S
+                  (VP (VBG running)
+                    (NP
+                      (NP (DT the) (NNP Republican) (NNP National) (NNP Convention))
+                      (PP (IN in)
+                        (NP (NNP Philadelphia))))
+                    (PP (IN in)
+                      (NP (NNP July)))))))))))
+    (, ,)
+    (NP (PRP he))
+    (VP (VBD demurred))
+    (. .)))
+
+(ROOT
+  (S
+    (S
+      (NP (NNP ``I))
+      (VP (VBD told)
+        (NP (PRP them))
+        (SBAR
+          (S
+            (NP (PRP they))
+            (VP
+              (VP (VBD had)
+                (NP (DT the) (NN right)
+                  (S
+                    (VP (TO to)
+                      (VP (VB change)
+                        (NP (PRP$ their) (NN mind)))))))
+              (CC and)
+              (VP (VBD asked)
+                (S
+                  (NP (PRP them))
+                  (VP (TO to)
+                    (VP
+                      (VP (VB stop))
+                      (CC and)
+                      (VP (VB reflect)
+                        (PRT (RP on))
+                        (NP (PRP it))
+                        ('' '')
+                        (PP (IN in)
+                          (NP
+                            (NP (NN case))
+                            (SBAR
+                              (S
+                                (NP (EX there))
+                                (VP (VBD were)
+                                  (NP (JJR better) (NNS choices)))))))))))))))))
+    (, ,)
+    (NP (PRP he))
+    (VP (VBD told)
+      (NP (DT an) (NN interviewer))
+      (PP (IN from)
+        (NP (DT The) (NNP Patriot) (NNP Ledger) (NN newspaper)))
+      (PP (IN in)
+        (NP
+          (NP (NNP Quincy) (, ,) (NNP Mass.))
+          (SBAR
+            (S
+              (NP (PRP He))
+              (VP (VBD said)
+                (SBAR
+                  (S
+                    (NP (PRP he))
+                    (VP (VBD did) (RB not)
+                      (VP (VB accept)
+                        (NP (DT the) (NN assignment))
+                        (SBAR (IN until)
+                          (S
+                            (NP (PRP he))
+                            (VP (VBN consulted)
+                              (PP (IN with)
+                                (NP
+                                  (NP
+                                    (NP (CD two) (JJ other) (NNS lieutenants))
+                                    (PP (IN from)
+                                      (NP (DT the) (NNP Bush) (NN presidency))))
+                                  (, ,)
+                                  (NP (JJ former) (NNP Defense) (NNP Secretary) (NNP Dick) (NNP Cheney))
+                                  (CC and)
+                                  (NP
+                                    (NAC (JJ former) (NNP Secretary)
+                                      (PP (IN of)
+                                        (NP (NNP State) (NNP James) (NNP A.))))
+                                    (NNP Baker) (NNP III)))))))))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (SBAR (IN As)
+      (S
+        (PP (IN for)
+          (S
+            (VP (VBG being)
+              (VP (VBN offered)
+                (NP
+                  (NP (DT the) (NN job))
+                  (PP (IN of)
+                    (NP (NN chief-of-staff-in-waiting))))))))
+        (, ,)
+        (NP (PRP he))
+        (VP (VBD said)
+          (PP (IN in)
+            (NP (DT the) (NN telephone) (NN interview))))))
+    (, ,)
+    (NP (NNP ``I))
+    (VP (VBP 'm)
+      (VP (VBN thrilled) (, ,)
+        (ADJP
+          (ADJP (JJ honored))
+          (, ,)
+          (ADJP (JJ appropriate)
+            (PP (IN in)
+              (NP (PRP$ my) (NN humility)))))
+        (, ,)
+        (SBAR (IN because)
+          (S
+            (NP (PRP I))
+            (VP (VBP have)
+              (S
+                (VP (TO to)
+                  (VP (VB stretch)
+                    (S
+                      (VP (TO to)
+                        (VP (VB do)
+                          (NP (DT the) (NN job)))))))))))))
+    (. .)))
+
+(ROOT
+  (S (CC But)
+    (NP (PRP I))
+    (VP (MD 'd)
+      (VP (RB rather)
+        (VP (VB stretch))
+        (IN than)
+        (VP (VB bend)
+          (PRT (RP over))
+          (S
+            (VP (TO to)
+              (VP (VB do)
+                (S
+                  (NP (PRP it))
+                  (ADJP (JJ .'')))))))))))
+
+(ROOT
+  (NP (NN NYT-11-27-00) (CD 2110EST)))
+

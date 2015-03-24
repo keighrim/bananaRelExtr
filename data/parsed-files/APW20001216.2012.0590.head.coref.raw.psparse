@@ -1,0 +1,250 @@
+(ROOT
+  (FRAG
+    (NP (NNP APW20001216.2012.0590) (NNP NEWS) (NNP STORY))
+    (NP (CD 2000-12-16) (CD 21:08:48))))
+
+(ROOT
+  (NP (NNS Alabama-Tornadoes)))
+
+(ROOT
+  (NP (NNP Alabama) (NNP Tornadoes) (NNP Wreak) (NNP Havoc)))
+
+(ROOT
+  (NP
+    (NP (NNP TUSCALOOSA))
+    (, ,)
+    (NP (NNP Ala))
+    (. .)))
+
+(ROOT
+  (NP
+    (NP (NNP [AP) (NNP ]))
+    (: -)
+    (S
+      (S
+        (NP (NNP Tornadoes))
+        (VP
+          (VP (VBD destroyed)
+            (NP (NNS homes)))
+          (CC and)
+          (VP (VBD overturned)
+            (NP (NNS cars))
+            (PP (IN in)
+              (NP
+                (NP (JJ several) (NNS areas))
+                (PP (IN of)
+                  (NP (NNP Alabama)))))
+            (PP (IN on)
+              (NP (NNP Saturday))))))
+      (CC and)
+      (S
+        (NP
+          (QP (JJR more) (IN than) (CD two) (NN dozen))
+          (NNS people))
+        (VP (VBD were)
+          (VP (VBN reported)
+            (S
+              (VP (VBN injured)))))))
+    (. .)))
+
+(ROOT
+  (SINV
+    (S
+      (ADVP (IN At) (JJS least))
+      (NP (CD one) (NN person))
+      (VP (VBD was)
+        (VP (VBN killed)
+          (PP (IN in)
+            (NP (NNP Tuscaloosa))))))
+    (, ,)
+    (VP (VBD said))
+    (NP
+      (NP (NNP Debbie) (NNP Watson))
+      (, ,)
+      (NP
+        (NP (NN spokeswoman))
+        (PP (IN for)
+          (NP (DT the) (NNP Tuscaloosa) (NNP County) (NNP Emergency) (NNP Management) (NNP Agency)))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNS Twisters))
+    (VP (VBD struck)
+      (SBAR (RB just) (IN before)
+        (S
+          (NP
+            (NP (NN noon))
+            (PP (IN in)
+              (NP
+                (NP
+                  (NP (DT the) (NN state) (POS 's))
+                  (JJ rural) (JJ southeastern) (NN corner))
+                (, ,)
+                (ADVP (RB then)))))
+          (VP (VBD hit)
+            (NP
+              (NP (NNP Tuscaloosa))
+              (CC and)
+              (NP
+                (NP (DT the) (JJ northern) (NN part))
+                (PP (IN of)
+                  (NP (DT the) (NN state)))))
+            (PP (IN as)
+              (NP
+                (NP (NNS lines))
+                (PP (IN of)
+                  (NP
+                    (NP (NNS thunderstorms))
+                    (VP (VBN swept)
+                      (PP (IN across)
+                        (NP (DT the) (NNP South))))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (S
+      (NP (DT The) (NNP Tuscaloosa) (NN twister))
+      (VP (VBD struck)
+        (NP (DT a) (NN subdivision))))
+    (, ,)
+    (NP (NNP Watson))
+    (VP (VBD said))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (DT The) (NNP National) (NNP Weather) (NNP Service))
+    (VP (VBD said)
+      (SBAR
+        (S
+          (NP (EX there))
+          (VP (VBD was)
+            (NP (JJ extensive) (NN damage))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (CD Twenty-one) (NNS people))
+    (VP (VBD were)
+      (VP (VBN injured) (, ,)
+        (PP (VBG according)
+          (PP (TO to)
+            (NP (NN broadcast) (NNS reports))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (DT Another) (NN tornado))
+    (VP (VBD hit)
+      (SBAR
+        (S
+          (NP
+            (NP (NNP Geneva))
+            (, ,)
+            (PP (IN near)
+              (NP (DT the) (NNP Alabama) (JJ -Florida) (NN line)))
+            (, ,))
+          (VP (VBD said)
+            (NP (NNP Mayor) (NNP Warren) (NNP Beck))))))
+    (. .)))
+
+(ROOT
+  (S
+    (S
+      (NP (PRP He))
+      (VP (VBD said)
+        (SBAR
+          (S
+            (NP (NNS vehicles))
+            (VP (VBD were)
+              (VP (VBN overturned)))))))
+    (CC and)
+    (S
+      (NP (NNS homes))
+      (VP (VBD were)
+        (VP (VBN destroyed))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP Geneva) (NNP County) (NNP Emergency) (NNP Management) (NNP Agency) (NN director) (NNP Margaret) (NNP Mixon))
+    (VP (VBD said)
+      (SBAR
+        (S
+          (NP (CD eight) (NNS people))
+          (VP (VBD were)
+            (VP (VBN injured) (, ,)
+              (ADVP
+                (NP
+                  (NP (CD two))
+                  (PP (IN of)
+                    (NP (PRP them))))
+                (RB severely)))))))
+    (. .)))
+
+(ROOT
+  (S
+    (S
+      (NP (DT That) (NN tornado))
+      (ADVP (RB also))
+      (VP (VBD damaged)
+        (PP (IN about)
+          (NP (DT a) (JJ half-dozen) (NNS homes)))
+        (PP (IN in)
+          (NP (NNP Dale) (NNP County)))
+        (, ,)
+        (S
+          (VP
+            (VP (VBG destroying)
+              (NP (DT a) (NN peanut) (NN mill))
+              (PP (IN at)
+                (NP (NNP Abbeville))))
+            (CC and)
+            (VP (VBG damaging)
+              (NP (DT a) (JJ textile) (NN mill)))))))
+    (, ,)
+    (NP (NNS authorities))
+    (VP (VBD said))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP Dale) (NNP County) (NNP Commissioner) (NNP Buddy) (NNP Stapleton))
+    (VP (VBD said)
+      (SBAR
+        (S
+          (NP (PRP he))
+          (VP (VBN counted)
+            (PP (IN about)
+              (NP
+                (NP (DT a) (JJ half-dozen) (NNS homes))
+                (VP (VBN hit)
+                  (PP (IN near)
+                    (NP (NNP Newton))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (PP (IN In)
+      (NP (JJ northern) (NNP Alabama)))
+    (, ,)
+    (S
+      (NP
+        (QP (RB about) (CD eight))
+        (NNS homes))
+      (VP (VBD were)
+        (VP (VBN reported)
+          (S
+            (VP (VBN destroyed))))))
+    (CC and)
+    (S
+      (NP (NNS trees)
+        (CC and)
+        (NN power) (NNS lines))
+      (VP (VBD were)
+        (VP (VBN toppled)
+          (PP (IN in)
+            (NP (NNP Limestone) (NNP County))))))
+    (. .)))
+

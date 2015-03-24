@@ -1,0 +1,894 @@
+(ROOT
+  (FRAG
+    (NP (NNP NYT20001114.0210.0200) (NNP NEWS) (NNP STORY))
+    (NP (CD 2000-11-14) (CD 15:53:00))))
+
+(ROOT
+  (NP
+    (NP (CD A8685) (NNS &Cx1f))
+    (: ;)
+    (NP
+      (NP (NNP taf-z) (NNP u) (NNP d) (NNP BC-SIMPLE-COOKING-NYT) (NNP &LR))
+      (: ;)
+      (NP
+        (QP (CD 11-14) (CD 0619))))))
+
+(ROOT
+  (NP (NNP BC-SIMPLE-COOKING-NYT)))
+
+(ROOT
+  (NP
+    (NP (NNP PUDDING))
+    (, ,)
+    (NP (NNP SWEET)
+      (CC AND)
+      (NNP NOT))))
+
+(ROOT
+  (NP
+    (NP (NNP &UR))
+    (: ;)
+    (S
+      (S
+        (PP (IN By)
+          (NP
+            (NP (NNP MARK) (NNP HULBERT))
+            (VP (VBN &LR)))))
+      (: ;)
+      (S
+        (VP (VBG &QC)))
+      (: ;)
+      (S
+        (VP (VBG &QL)))
+      (: ;)
+      (S
+        (VP (VBG &UR)))
+      (: ;)
+      (S
+        (VP (VBG c.2000)
+          (NP (NNP N.Y)))))
+    (. .)))
+
+(ROOT
+  (NP
+    (NP (NNP Times) (NNP News) (NNP Service) (NNP &LR))
+    (: ;)
+    (NP (CD &QC) (: ;) (CD &QL))
+    (: ;)))
+
+(ROOT
+  (NP
+    (NP (NNP NEW) (NNP YORK))
+    (: -)
+    (S
+      (S
+        (NP (NNP Bread) (NNP pudding))
+        (VP (VBZ is)
+          (NP
+            (NP (CD one))
+            (PP (IN of)
+              (NP (DT the)
+                (ADJP (RBS most) (JJ traditional))
+                (JJ American) (NNS dishes))))))
+      (: ;)
+      (S
+        (NP
+          (NP (NNS cookbooks))
+          (PP (IN from)
+            (NP (DT the) (JJ 18th) (NN century))))
+        (VP (VBP have)
+          (NP
+            (NP (NNS recipes))
+            (PP (IN for)
+              (NP (PRP it)))
+            (SBAR
+              (WHNP (WDT that))
+              (S
+                (VP (VBP are)
+                  (ADJP
+                    (ADJP
+                      (ADJP (JJR more)
+                        (CC or)
+                        (JJR less))
+                      (NP (DT the) (JJ same)))
+                    (PP (IN as)
+                      (SBAR
+                        (WHNP (WP what))
+                        (S
+                          (NP (PRP we))
+                          (VP (VBP make)
+                            (NP (NN today))))))))))))))
+    (. .)))
+
+(ROOT
+  (S (CC But)
+    (NP (NN bread) (NN pudding))
+    (VP (VBZ is)
+      (ADVP (RB also))
+      (NP
+        (NP
+          (NP (DT a) (JJ minimalist) (NN sort))
+          (PP (IN of)
+            (NP (NN dish))))
+        (, ,)
+        (NP
+          (NP (DT no)
+            (ADJP (RBR more) (IN than) (JJ dry))
+            (NN bread))
+          (VP (VBN mixed)
+            (PRT (RP together))
+            (UCP
+              (PP (IN with)
+                (NP (NN milk)
+                  (CC and)
+                  (NNS eggs)))
+              (CC and)
+              (SBAR
+                (WHNP (WDT whatever))
+                (S
+                  (NP (NN flavor))
+                  (VP (VBZ strikes)
+                    (NP (DT the) (NN cook))))))))
+        (, ,)
+        (CC and)
+        (NP
+          (NP (RB then) (JJ baked))
+          (SBAR (IN until)
+            (S
+              (NP (PRP it))
+              (VP (VBZ is)
+                (ADJP (JJ rich)
+                  (CC and)
+                  (JJ custardy))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (S
+      (NP (PRP It))
+      (VP (MD can)
+        (VP (VB be)
+          (ADJP (JJ savory)
+            (CC or)
+            (JJ sweet)))))
+    (, ,)
+    (CC and)
+    (S
+      (NP (DT either))
+      (VP (VBZ makes)
+        (NP
+          (NP (DT a)
+            (ADJP (JJ simple) (, ,) (JJ interesting))
+            (NN substitute))
+          (PP (IN for)
+            (NP
+              (NP (DT a) (JJ standard) (NN part))
+              (PP (IN of)
+                (NP (DT the) (NNP Thanksgiving) (NN meal))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (JJ Savory) (NN bread) (NN pudding))
+    (VP (VBZ is)
+      (NP
+        (NP (DT a) (JJ luxurious) (NN side) (NN dish))
+        (SBAR
+          (WHNP (WDT that))
+          (S
+            (VP (MD can)
+              (VP (VB be)
+                (VP (VBN served)
+                  (PP (IN in)
+                    (NP
+                      (NP (NN place))
+                      (PP (IN of)
+                        (NP (NN stuffing))))))))))))
+    (. .)))
+
+(ROOT
+  (S (CC Or)
+    (NP (PRP it))
+    (VP (MD can)
+      (VP (VB be)
+        (NP (DT the) (JJ extra) (NN stuffing))
+        (SBAR (IN that)
+          (S
+            (NP (NN everyone))
+            (ADVP (RB always))
+            (VP (VBZ wants)
+              (S
+                (VP (VB [but) (RB not)
+                  (VP (VB dry)
+                    (SBAR (IN like)
+                      (S
+                        (NP
+                          (NP (DT the) (JJ usual) (NN kind) (NN baked))
+                          (PP (IN outside)
+                            (NP (DT a) (NN turkey))))
+                        (VP (MD can)
+                          (VP (VB be)
+                            (ADJP (JJ ].))))))))))))))))
+
+(ROOT
+  (S
+    (NP (PRP$ My) (JJ basic) (NN recipe))
+    (VP (VBZ combines)
+      (NP
+        (NP (DT the) (JJ cubed) (NN bread))
+        (, ,)
+        (NP (NNS eggs))
+        (CC and)
+        (NP (NN milk)))
+      (PP (IN with)
+        (NP
+          (NP (DT a) (NN couple))
+          (PP (IN of)
+            (NP (NNS cheeses))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (NN [If))
+      (SBAR
+        (S
+          (NP (PRP you))
+          (VP (VBP 're)
+            (ADJP (JJ desperate)
+              (PP (IN for)
+                (NP (NN oven) (NN space))))))))
+    (, ,)
+    (VP
+      (VP (VB bake)
+        (NP (PRP it)))
+      (CC and)
+      (VP
+        (ADVP (RB then))
+        (VB heat)
+        (NP (PRP it))
+        (ADVP (RB just))
+        (PP (IN before)
+          (S
+            (VP (VBG serving)))))
+      (, ,)
+      (CC or)
+      (VP (VB serve)
+        (NP (PRP it))
+        (PP (IN at)
+          (NP
+            (NP (NN room) (NN temperature) (NNS .]))
+            (SBAR
+              (S
+                (NP (PRP You))
+                (VP (MD can)
+                  (VP (VB make)
+                    (NP (PRP it))
+                    (PP (IN without)
+                      (NP (DT the) (NNS mushrooms)))))))))
+        (, ,)
+        (ADVP (RB too))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (DT The) (NN pudding))
+    (VP (MD can)
+      (ADVP (RB also))
+      (VP (VB be)
+        (ADJP (VBN varied)
+          (PP (IN by)
+            (S
+              (VP (VBG adding)
+                (NP
+                  (NP
+                    (NP (DT a) (NN pinch))
+                    (PP (IN of)
+                      (NP (NN thyme)
+                        (CC or)
+                        (NN sage))))
+                  (, ,)
+                  (NP
+                    (NP (JJ chopped) (NNS nuts))
+                    (CC or)
+                    (NP (JJ cooked) (NNS chestnuts)))
+                  (, ,)
+                  (CC or)
+                  (NP
+                    (NP (RB about) (DT a) (NN cup))
+                    (PP (IN of)
+                      (NP (JJ grated) (JJ sweet) (NN potato)
+                        (CC or)
+                        (NN chopped) (NNS scallions)))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (SBAR (IN If)
+      (S
+        (NP (PRP you))
+        (VP (VBP want)
+          (NP
+            (NP (DT a) (NN pudding))
+            (SBAR
+              (WHNP (WDT that))
+              (S
+                (VP (VBZ tastes)
+                  (NP (JJR more))
+                  (PP (IN like)
+                    (S
+                      (VP (VBG stuffing)))))))))))
+    (, ,)
+    (ADVP (RB just))
+    (VP (VB add)
+      (NP (JJ chopped) (NN celery) (, ,) (NNS onions) (, ,) (NNS carrots)
+        (CC and)
+        (NNS herbs)))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (JJ Sweet) (NN bread) (NN pudding))
+    (VP (VBZ is)
+      (VP
+        (VP (VBN made)
+          (NP (DT the) (JJ same) (NN way)))
+        (, ,)
+        (CC but)
+        (VP
+          (PP (IN with)
+            (NP (JJR fewer) (NNS ingredients))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP use)
+      (NP
+        (NP (JJ maple) (NN syrup))
+        (PP (RB instead) (IN of)
+          (NP
+            (NP (NN sugar))
+            (PP (IN for)
+              (NP (DT the) (JJ extra) (NN flavor)
+                (CC and)
+                (NN moisture)))))))
+    (. .)))
+
+(ROOT
+  (SINV
+    (S
+      (NP (PRP You))
+      (VP (MD can)
+        (VP (VB add)
+          (NP (JJR more) (NNS spices)))))
+    (, ,)
+    (PP (VBG including)
+      (NP
+        (NP (DT a) (JJ small) (NN grating))
+        (PP (IN of)
+          (NP (NN nutmeg)))))
+    (, ,)
+    (VP (VBD chopped))
+    (NP
+      (NP (JJ crystallized) (NN ginger))
+      (, ,)
+      (NP
+        (NP (NNS raisins)
+          (CC or)
+          (NNS prunes))
+        (VP (VBN soaked)
+          (PP (IN in)
+            (NP (NNP Armagnac))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (DT The) (NN kind))
+      (PP (IN of)
+        (NP
+          (NP (NN bread))
+          (SBAR
+            (S
+              (NP (PRP you))
+              (VP (VBP choose)))))))
+    (VP (VBZ makes)
+      (NP (DT a) (NN difference)))
+    (. .)))
+
+(ROOT
+  (S
+    (S
+      (NP
+        (ADJP (RB Fluffy) (VBN packaged))
+        (JJ white) (NN bread))
+      (VP (VBZ disappears)))
+    (: ;)
+    (S
+      (NP
+        (NP (DT the) (NNS crusts))
+        (PP (IN of)
+          (NP (JJ crisp) (NNS baguettes)
+            (CC and)
+            (NN peasant) (NNS breads))))
+      (ADVP (RB never))
+      (VP (VBP become)
+        (NP (NN tender))))
+    (. .)))
+
+(ROOT
+  (S
+    (S
+      (PP (IN For)
+        (NP (JJ savory) (NN pudding)))
+      (, ,)
+      (S
+        (VP (VB stick)
+          (PP (TO to)
+            (NP (JJ long) (, ,) (JJ wide) (JJ inexpensive) (NNS loaves)))))
+      (, ,)
+      (VP
+        (ADVP (RB usually))
+        (VBD called)
+        (NP (JJ Italian) (NN bread))))
+    (: ;)
+    (S
+      (PP (IN for)
+        (NP (JJ sweet) (NN pudding)))
+      (, ,)
+      (NP (JJ stale) (NN hallah))
+      (VP (VBZ is)
+        (ADJP (JJS best))))
+    (. .)))
+
+(ROOT
+  (S (CC And)
+    (S
+      (VP (VB make)
+        (ADJP
+          (ADJP
+            (ADJP (JJ sure)
+              (SBAR
+                (S
+                  (NP (DT the) (NN bread))
+                  (VP (VBZ is)
+                    (ADVP (RB thoroughly))))))
+            (CC and)
+            (ADJP (RB evenly) (JJ soaked)))
+          (SBAR (IN before)
+            (S
+              (NP (PRP it))
+              (VP (VBZ 's)
+                (ADJP (JJ baked))))))))
+    (: ;)
+    (S
+      (NP (PRP I))
+      (VP (VBP like)
+        (S
+          (VP (TO to)
+            (VP (VB submerge)
+              (NP
+                (NP (DT the) (NN bread))
+                (PP (IN with)
+                  (NP (DT a) (JJ weighted) (NN plate))))
+              (PP (IN before)
+                (NP (VBG baking))))))))
+    (. .)))
+
+(ROOT
+  (S (RB Then)
+    (NP (PRP you))
+    (VP (VBP don't) (RB even)
+      (VP (VB have)
+        (S
+          (VP (TO to)
+            (VP (VB stir))))))
+    (. .)))
+
+(ROOT
+  (NP
+    (NP (NNP &UR))
+    (: ;)
+    (NP (NNP SWEET) (NNP BREAD) (NNP PUDDING) (NNP &LR))
+    (: ;)))
+
+(ROOT
+  (NP
+    (NP (NNP &UR))
+    (PRN (: ;)
+      (NP
+        (NP (NNP Time))
+        (: :)
+        (NP (CD 1) (NN hour)))
+      (, ,)
+      (ADJP (RB largely) (RB unattended) (JJ &LR)))
+    (: ;)))
+
+(ROOT
+  (NP
+    (NP (CD 4) (NNS tablespoons))
+    (NP (NN butter))))
+
+(ROOT
+  (FRAG
+    (NP
+      (NP (CD 6) (JJ cups) (JJ white) (NN bread))
+      (, ,)
+      (VP (VBN cut)
+        (CC or)
+        (VBN torn)
+        (PP (IN into)
+          (NP (JJ 1-inch) (NNS chunks)))))))
+
+(ROOT
+  (ADJP
+    (NP (CD 2) (NNS cups))
+    (JJ half-and-half)))
+
+(ROOT
+  (X
+    (NP (CD 4) (NNS eggs))))
+
+(ROOT
+  (NP
+    (NP (JJ }) (NN cup))
+    (NP
+      (NP (JJ maple) (NN syrup))
+      (CC or)
+      (NP (NN sugar)))))
+
+(ROOT
+  (NP (NNP {) (NNP teaspoon) (NNP cinnamon)))
+
+(ROOT
+  (S
+    (VP (VB Pinch)
+      (NP (NN salt)))
+    (. .)))
+
+(ROOT
+  (FRAG
+    (NP (CD 1))
+    (. .)))
+
+(ROOT
+  (S
+    (VP
+      (VP (VB Butter)
+        (NP
+          (NP (DT an) (JJ 8-inch) (NN souffle))
+          (CC or)
+          (NP (VBG baking) (NN dish))))
+      (, ,)
+      (CC and)
+      (VP (VB add)
+        (NP (NN bread))))
+    (. .)))
+
+(ROOT
+  (S
+    (S
+      (NP (NNP Cut))
+      (VP (VBG remaining)
+        (NP (NN butter))
+        (PP (IN into)
+          (NP (NNS bits)))))
+    (, ,)
+    (CC and)
+    (S
+      (S
+        (VP (VB combine)
+          (PP (IN with)
+            (NP (DT all) (JJ other) (NNS ingredients))))
+        (: ;))
+      (VP (VBP pour)
+        (PP (IN over)
+          (NP (NN bread)))))
+    (. .)))
+
+(ROOT
+  (S
+    (VP
+      (VP (VB Submerge)
+        (NP (NN bread))
+        (PP (IN with)
+          (NP (JJ weighted) (NN plate))))
+      (, ,)
+      (CC and)
+      (VP (VB turn)
+        (NP (NN oven))
+        (PP (TO to)
+          (NP (CD 350) (NNS degrees)))))
+    (. .)))
+
+(ROOT
+  (FRAG
+    (NP (CD 2))
+    (. .)))
+
+(ROOT
+  (S
+    (SBAR
+      (WHADVP (WRB When))
+      (S
+        (NP (NN oven))
+        (VP (VBZ is)
+          (ADJP (JJ hot)))))
+    (, ,)
+    (VP
+      (VP
+        (VP (VB remove)
+          (NP (DT the) (NN plate)))
+        (CC and)
+        (VP (VB bake)
+          (SBAR (IN until)
+            (S
+              (NP (NN pudding))
+              (VP (VBZ is)
+                (ADVP (RB just))
+                (VP (VBN set)))))))
+      (, ,)
+      (NP
+        (QP (CD 35) (TO to) (CD 45))
+        (NNS minutes)))
+    (. .)))
+
+(ROOT
+  (S
+    (VP (VB Serve)
+      (PP (IN with)
+        (CC or)
+        (IN without)
+        (NP (JJ whipped) (NN cream))))
+    (. .)))
+
+(ROOT
+  (NP
+    (NP (NN Yield))
+    (: :)
+    (NP
+      (QP (CD 6)
+        (CC or)
+        (JJR more))
+      (NNS servings))
+    (. .)))
+
+(ROOT
+  (NP
+    (NP (NNP Variation))
+    (: :)
+    (S
+      (VP (TO To)
+        (VP
+          (VP (VB make)
+            (NP (NN chocolate) (NN bread) (NN pudding)))
+          (, ,)
+          (VP (VB melt)
+            (NP
+              (ADJP
+                (NP (CD 2) (NNS ounces))
+                (JJ chopped))
+              (NN bittersweet) (NN chocolate))
+            (PP (IN in)
+              (NP (DT the) (NN milk))))
+          (, ,)
+          (VP (VB let)
+            (ADJP (JJ cool) (RB slightly)))
+          (CC and)
+          (VP (VB add)
+            (PP (TO to)
+              (NP (NN mixture)))))))
+    (. .)))
+
+(ROOT
+  (NP
+    (NP (NNP &UR))
+    (: ;)
+    (NP (NNP SAVORY) (NNP BREAD) (NNP PUDDING) (NNP &LR))
+    (: ;)))
+
+(ROOT
+  (NP
+    (NP (NNP &UR))
+    (PRN (: ;)
+      (NP
+        (NP (NNP Time))
+        (: :)
+        (NP (CD 1) (NN hour)))
+      (, ,)
+      (ADJP (RB largely) (RB unattended) (JJ &LR)))
+    (: ;)))
+
+(ROOT
+  (S
+    (NP (CD 2))
+    (VP (VBZ tablespoons)
+      (NP (NN butter)
+        (CC or)
+        (NN olive) (NN oil))
+      (PRN (, ,)
+        (CC plus)
+        (ADVP (RBR more)))
+      (PP (IN for)
+        (S
+          (VP (VBG greasing)
+            (NP (DT the) (NN pan))))))))
+
+(ROOT
+  (FRAG
+    (ADVP
+      (NP (CD 6) (NNS cups))
+      (RB dense))
+    (NP
+      (NP (JJ white) (NN bread))
+      (, ,)
+      (VP (VBN cut)
+        (CC or)
+        (VBN torn)
+        (PP (IN into)
+          (NP (JJ 1-inch) (NNS chunks)))))))
+
+(ROOT
+  (NP
+    (NP (CD 2) (NNS cups))
+    (NP (NN milk))))
+
+(ROOT
+  (X
+    (NP (CD 4) (NNS eggs))))
+
+(ROOT
+  (NP
+    (NP (NNP Salt))
+    (CC and)
+    (NP (JJ fresh) (JJ black) (NN pepper))))
+
+(ROOT
+  (NP
+    (ADJP
+      (NP (CD 2) (NNS ounces))
+      (JJ grated))
+    (NNPS Parmesan)))
+
+(ROOT
+  (NP
+    (NP (CD 4) (NNS ounces))
+    (NP
+      (NP (RB freshly) (JJ grated) (JJ semisoft) (NN cheese))
+      (, ,)
+      (PP (IN like)
+        (NP (NNP Emmenthal))))))
+
+(ROOT
+  (S
+    (NP (CD 1) (NN cup))
+    (VP (VBD sliced)
+      (NP (JJ shiitake) (NN mushroom) (NNS caps)))
+    (. .)))
+
+(ROOT
+  (FRAG
+    (NP (CD 1))
+    (. .)))
+
+(ROOT
+  (NP
+    (NP (NN Butter)
+      (CC or)
+      (NN oil))
+    (NP
+      (NP
+        (NP (DT an) (JJ 8-inch) (NN souffle))
+        (CC or)
+        (NP (JJ baking) (NN dish)))
+      (, ,)
+      (CC and)
+      (NP
+        (NP (NN put) (NN bread))
+        (PP (IN in)
+          (NP (PRP it)))))
+    (. .)))
+
+(ROOT
+  (S
+    (VP
+      (VP
+        (VP (VB Combine)
+          (NP (NN everything)))
+        (CC but)
+        (VP (VBZ shiitakes)))
+      (, ,)
+      (CC and)
+      (VP (VB pour)
+        (PP (IN over)
+          (NP (NN bread)))))
+    (. .)))
+
+(ROOT
+  (S
+    (VP
+      (VP (VB Submerge)
+        (NP (NN bread))
+        (PP (IN with)
+          (NP (DT a) (JJ weighted) (NN plate))))
+      (, ,)
+      (CC and)
+      (VP (VB turn)
+        (NP (NN oven))
+        (PP (TO to)
+          (NP (CD 350) (NNS degrees)))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP Heat) (CD 2))
+    (VP (VBZ tablespoons)
+      (S
+        (NP
+          (NP (NN butter)
+            (CC or)
+            (NN oil))
+          (PP (IN in)
+            (NP (DT a) (NN saute))))
+        (VP
+          (VP (VB pan))
+          (, ,)
+          (VP (VB add)
+            (NP (NNS shiitakes)))
+          (CC and)
+          (VP (VB saute)
+            (PP (IN until)
+              (NP
+                (NP (NN tender))
+                (, ,)
+                (NP
+                  (QP (RB about) (CD 10))
+                  (NNS minutes))))))))
+    (. .)))
+
+(ROOT
+  (FRAG
+    (NP (CD 2))
+    (. .)))
+
+(ROOT
+  (S
+    (VP
+      (VP (VB Remove)
+        (NP (NN plate)))
+      (, ,)
+      (CC and)
+      (VP (VB stir)
+        (PP (IN in)
+          (NP (NNS mushrooms)))))
+    (. .)))
+
+(ROOT
+  (S
+    (VP
+      (VP (VB Bake)
+        (SBAR (IN until)
+          (S
+            (NP (NN pudding))
+            (VP (VBZ is)
+              (ADVP (RB just))
+              (VP (VBN set))))))
+      (, ,)
+      (NP
+        (QP (CD 35) (TO to) (CD 45))
+        (NNS minutes)))
+    (. .)))
+
+(ROOT
+  (NP
+    (NP (NN Yield))
+    (: :)
+    (NP
+      (QP (IN At) (JJS least) (CD 6))
+      (NNS servings))
+    (. .)))
+
+(ROOT
+  (NP (NN NYT-11-14-00) (CD 1553EST)))
+

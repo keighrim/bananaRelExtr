@@ -1,0 +1,435 @@
+(ROOT
+  (FRAG
+    (NP (NNP NYT20001020.2144.0366) (NNP NEWS) (NNP STORY))
+    (NP (CD 2000-10-20) (CD 22:01:10))))
+
+(ROOT
+  (NP
+    (NP (CD A1481) (NNS &Cx1f))
+    (: ;)
+    (NP
+      (NP (NNP taf-z))
+      (NP (PRP s)))
+    (X
+      (X
+        (X (SYM f))
+        (NP (NN BC-CITIGROUP-ART-$ADV22-) (CD 10-20)))
+      (NP (CD 0353)))))
+
+(ROOT
+  (S
+    (S
+      (NP (NNP BC-CITIGROUP-ART-$ADV22-3RD) (NNP TAKE-NYT))
+      (VP (VBD UNDATED)))
+    (: :)
+    (S
+      (NP (PRP he))
+      (VP (VBD added)))
+    (. .)))
+
+(ROOT
+  (NP
+    (NP (CD &LR) (: ;) (CD &HT))
+    (: ;)
+    (S
+      (S
+        (PP (IN As)
+          (PP (IN with)
+            (NP (NN credit) (NN insurance))))
+        (, ,)
+        (NP
+          (NP (JJ internal) (NNS documents))
+          (PP (IN from)
+            (NP (NNPS Associates))))
+        (VP (VBP suggest)
+          (SBAR (IN that)
+            (S
+              (NP (NNS employees))
+              (VP (VBP have)
+                (VP (VBN been)
+                  (VP (VBN pressured)
+                    (S
+                      (VP (TO to)
+                        (VP (VB encourage)
+                          (S
+                            (NP
+                              (NP (NNS homeowners))
+                              (CC and)
+                              (NP (JJ other) (NNS borrowers)))
+                            (VP (TO to)
+                              (VP (VB refinance)
+                                (NP (NNS loans)))))))))))))))
+      (: ;)
+      (S
+        (NP (DT the) (NN emphasis))
+        (VP (VBD was)
+          (PP (RB usually)
+            (PP (IN on)
+              (SBAR
+                (WHADVP (WRB how))
+                (S
+                  (NP (DT this))
+                  (VP (MD would)
+                    (VP (VB benefit)
+                      (NP (DT the) (NN company)))))))
+            (, ,) (RB not)
+            (PP (IN on)
+              (SBAR
+                (WHADVP (WRB how))
+                (S
+                  (NP (PRP it))
+                  (VP (MD might)
+                    (VP (VB help)
+                      (NP (DT the) (NN customer)))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (PP (IN In)
+      (NP (DT the) (NN ``Roadmap) ('' '') (NN memo)))
+    (, ,)
+    (PP (IN for)
+      (NP (NN example)))
+    (, ,)
+    (NP (DT a) (NN chart))
+    (VP (VBD showed)
+      (SBAR
+        (WHADVP (WRB how))
+        (S
+          (NP
+            (NP (DT the) (NN profitability))
+            (PP (IN of)
+              (NP (DT a) (NN consumer) (NN loan))))
+          (VP (VBZ decreases)
+            (SBAR (IN as)
+              (S
+                (NP (PRP it))
+                (VP (VBZ ages))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP ``You))
+    (VP (MD can)
+      (VP (VB see)
+        (SBAR
+          (WHADVP (WRB how))
+          (S
+            (NP
+              (NP (DT the) (NNS earnings) (NN decline))
+              (PP (IN over)
+                (NP (NN time))))
+            (VP (VBD ,'')
+              (SBAR
+                (S
+                  (NP (DT the) (NN memo))
+                  (VP (VBD said)))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NN ``Your) (NN controller))
+    (VP (MD can)
+      (VP (VB provide)
+        (NP (NNS lists))
+        (PP (TO to)
+          (NP
+            (NP (PRP you))
+            (PP (IN of)
+              (NP (JJ aged) (JJ personal) (NNS loans)))))
+        (S
+          (VP (TO to)
+            (VP (VB target)
+              (PP (IN for)
+                (NP (NN renewal) (NNS .''))))))))))
+
+(ROOT
+  (S
+    (NP
+      (NP (DT Another) (NN memo))
+      (, ,)
+      (VP (VBN sent)
+        (PP (IN in)
+          (NP (CD 1991)))
+        (PP (TO to)
+          (NP (JJ ``all) (NN branch) (NNS managers)))))
+    (ADVP (RB ,''))
+    (VP (VBN concerned)
+      (NP
+        (NP
+          (NP (NNP Associates) (POS '))
+          (NN practice))
+        (PP (IN of)
+          (S
+            (VP (VBG acquiring)
+              (NP
+                (NP (NN consumer) (NNS loans))
+                (VP (VBN made)
+                  (PP (IN by)
+                    (NP (JJ other) (NNS lenders)
+                      (CC or)
+                      (NNS retailers))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (JJ ``The) (JJ principal) (NN reason))
+      (SBAR
+        (S
+          (NP (PRP we))
+          (VP (VBP purchase)
+            (SBAR
+              (S
+                (NP (DT an) (NN acquisition))
+                (VP (VBZ is)
+                  (S
+                    (VP (TO to)
+                      (VP (VB convert)
+                        (NP (PRP it))
+                        (PP (TO to)
+                          (NP (DT a)
+                            (ADJP (RBR more) (JJ profitable))
+                            (NN loan)))))))))))))
+    (VP (VBD ,'')
+      (SBAR
+        (S
+          (NP (DT the) (NN memo))
+          (VP (VBD stated)))))
+    (. .)))
+
+(ROOT
+  (S
+    (S
+      (VP (VB ``If)
+        (S
+          (NP (PRP we))
+          (ADJP (JJ cannot))
+          (S
+            (VP (VB convert)
+              (NP (NNS acquisitions)))))))
+    (, ,)
+    (NP (PRP we))
+    (VP (VBP cannot)
+      (VP (VB continue)
+        (S
+          (VP (TO to)
+            (VP (VB purchase)
+              (S
+                (NP (PRP them))
+                (ADJP (JJ .''))))))))))
+
+(ROOT
+  (S
+    (NP (DT The) (NN memo))
+    (ADVP (RB then))
+    (VP (VBD stipulated)
+      (SBAR (IN that)
+        (S
+          (NP
+            (NP (NNS employees))
+            (SBAR
+              (WHNP (WP who))
+              (S
+                (VP (VBD renewed)
+                  (NP (JJ such) (NNS loans))))))
+          (, ,)
+          (SBAR (IN if)
+            (S
+              (VP (VBN secured)
+                (PP (IN by)
+                  (NP (JJ real) (NN estate))))))
+          (, ,)
+          (VP (MD would)
+            (VP (VB receive)
+              (NP
+                (NP (DT a) (CD $100) (NN bonus))
+                (PP (IN for)
+                  (NP (DT each) (NN loan)))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (JJ Last) (NN month))
+    (, ,)
+    (PP (IN in)
+      (NP (DT an) (NN investor) (NN conference) (NN call)))
+    (, ,)
+    (NP
+      (NP (NNP Keith) (NNP W.) (NNP Hughes))
+      (, ,)
+      (NP
+        (NP (DT the) (JJ chief) (NN executive))
+        (PP (IN of)
+          (NP
+            (NP (NNPS Associates))
+            (, ,)
+            (SBAR
+              (WHNP (WP who))
+              (S
+                (VP (MD will)
+                  (VP (VB join)
+                    (NP
+                      (NP (NNP Citigroup))
+                      (PP (IN as)
+                        (NP (DT a) (NN vice) (NN chairman))))
+                    (PP (IN after)
+                      (NP (DT the) (NN merger))))))))))
+      (, ,))
+    (VP (VBD cited)
+      (NP
+        (NP (DT the) (JJ strong) (JJ cultural) (NNS similarities))
+        (PP (IN between)
+          (NP (DT the) (NNS companies)))))
+    (. .)))
+
+(ROOT
+  (S (CC But)
+    (PP (IN in)
+      (NP (DT an) (NN interview)))
+    (NP (JJ last) (NN week))
+    (, ,)
+    (NP
+      (NP (NNP Marge) (NNP Magner))
+      (, ,)
+      (NP
+        (NP (DT a) (JJ Citigroup) (NN executive))
+        (SBAR
+          (WHNP (WP who))
+          (S
+            (ADVP (RB previously))
+            (VP (VBD oversaw)
+              (NP
+                (NP (NNP Citigroup) (POS 's))
+                (NN consumer) (NN finance) (NN business))))))
+      (, ,))
+    (VP (VBD stressed)
+      (SBAR
+        (WHNP (WP what))
+        (S
+          (NP (PRP she))
+          (VP (VBD said)
+            (SBAR
+              (S
+                (VP (VBD were)
+                  (NP (JJ big) (NNS differences))
+                  (, ,)
+                  (ADVP (RB particularly))
+                  (PP (IN in)
+                    (SBAR
+                      (WHADVP (WRB how))
+                      (S
+                        (NP (DT the) (NNS sales) (NN staff))
+                        (VP (VBZ is)
+                          (VP (VBN paid)))))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (S
+      (NP (NNP Associates) (NNS bases))
+      (VP (VBP pay)
+        (PP (IN on)
+          (NP
+            (NP (DT the) (NN volume))
+            (PP (IN of)
+              (NP (NNS loans)))))
+        (SBAR (IN that)
+          (S
+            (NP (NNS employees))
+            (VP (VBP generate) (, ,)
+              (S
+                (NP (DT a) (NN ``count))
+                (NP (PRP$ your) (NNS transactions) ('' '') (NN approach))))))))
+    (, ,)
+    (NP (NNP Magner))
+    (VP (VBD said))
+    (. .)))
+
+(ROOT
+  (S
+    (PP (IN At)
+      (NP (NNP Citifinancial)))
+    (, ,)
+    (NP (PRP she))
+    (VP
+      (VP (VBD said))
+      (, ,)
+      (NP
+        (NP (JJ ``we) (NN deal))
+        (PP (IN with)
+          (NP
+            (NP
+              (NP (DT the) (NN business))
+              (PP (IN as)
+                (NP (DT a) (NN whole))))
+            (, ,)
+            (NP (DT the) (JJ whole) (NN branch))
+            (CC and)
+            (SBAR
+              (WHADVP (WRB how))
+              (S
+                (NP (PRP it))
+                (VP (VBZ 's)
+                  (VP (VBG growing)
+                    (NP (NNS .''))))))))))))
+
+(ROOT
+  (S
+    (NP (PRP She))
+    (ADVP (RB also))
+    (VP (VBD emphasized)
+      (SBAR (IN that)
+        (S
+          (NP
+            (NP (DT the) (NNP Citifinancial) (NN computer) (NN system))
+            (VP (VBN used)
+              (PP (IN by)
+                (NP (DT the) (NNS sales) (NN staff)))))
+          (ADVP (RB automatically))
+          (VP (VBD rejected)
+            (NP
+              (NP (NNS products)
+                (CC and)
+                (NN interest) (NN rate) (NNS levels))
+              (SBAR
+                (WHNP (WDT that))
+                (S
+                  (VP (VBD did) (RB not)
+                    (VP (VB seem)
+                      (ADJP (JJ suitable))
+                      (PP (IN for)
+                        (NP (DT a) (JJ specific) (NN customer))))))))
+            (, ,)
+            (S
+              (VP (VBG giving)
+                (NP (NNP Citifinancial))
+                (NP
+                  (NP (DT a) (NN measure))
+                  (PP (IN of)
+                    (NP
+                      (NP (JJ centralized) (NN control))
+                      (PP (IN over)
+                        (NP (VBG lending) (NNS practices))))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (JJ ``A) (NN lot))
+      (PP (IN of)
+        (NP (DT the) (NN compliance) (NNS issues))))
+    (VP (VBP are)
+      (VP (VBN built)
+        (PP (IN into)
+          (NP
+            (NP (DT the) (NN system) (NN ,''))
+            (SBAR
+              (S
+                (NP (PRP she))
+                (VP (VBD said))))))))
+    (. .)))
+
+(ROOT
+  (NP (NN NYT-10-20-00) (CD 2201EDT)))
+

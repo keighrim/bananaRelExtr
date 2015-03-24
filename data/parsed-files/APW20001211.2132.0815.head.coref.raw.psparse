@@ -1,0 +1,555 @@
+(ROOT
+  (FRAG
+    (NP (NNP APW20001211.2132.0815) (NNP NEWS) (NNP STORY))
+    (NP (CD 2000-12-11) (CD 21:55:42))))
+
+(ROOT
+  (NP (NN SOC-MLS-Lawsuit)))
+
+(ROOT
+  (NP (NNP Major) (NNP League) (NNP Soccer) (NNP Wins) (NNP Lawsuit)))
+
+(ROOT
+  (FRAG
+    (NP (NNP BOSTON) (NNP [AP) (NNP ]))
+    (: -)
+    (S
+      (NP (NNP Major) (NNP League) (NNP Soccer))
+      (VP (VBD scored)
+        (NP (DT a) (NN victory))
+        (PP (IN over)
+          (NP (PRP$ its) (NNS players)))
+        (PP (IN on)
+          (NP (NNP Monday)))
+        (SBAR
+          (WHADVP (WRB when))
+          (S
+            (NP (DT a) (NN jury))
+            (VP (VBD decided)
+              (SBAR (IN that)
+                (S
+                  (NP (DT the) (NN league))
+                  (VP (VBD was) (RB not)
+                    (NP
+                      (NP (DT a) (NN monopoly))
+                      (PP (IN with)
+                        (NP (DT the) (NN power)
+                          (S
+                            (VP (TO to)
+                              (VP (VB depress)
+                                (NP (NNS salaries))))))))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (DT The) (JJ class-action) (JJ antitrust) (NN lawsuit))
+      (VP (VBN filed)
+        (PP (IN in)
+          (NP (JJ federal) (NN court)))))
+    (VP (VBD claimed)
+      (SBAR (IN that)
+        (S
+          (NP (NNP MLS) (NNS owners))
+          (VP (VBD conspired)
+            (PP (IN with)
+              (NP (DT the) (NNP U.S.) (NNP Soccer) (NNP Federation)))
+            (S
+              (VP (TO to)
+                (VP (VB eliminate)
+                  (NP (NN competition))
+                  (PP (IN for)
+                    (NP (NNP Division) (NNP I) (NN soccer) (NNS players))))))))))
+    (. .)))
+
+(ROOT
+  (S (CC But)
+    (PP (IN after)
+      (NP
+        (NP (RB about) (DT a) (NN day))
+        (PP (IN of)
+          (NP (NN deliberation)))))
+    (, ,)
+    (NP (DT the) (NN jury))
+    (VP (VBD found)
+      (SBAR (IN that)
+        (S
+          (NP
+            (NP (RB plenty))
+            (PP (IN of)
+              (NP (NN competition))))
+          (VP (VBD existed))))
+      (: -)
+      (PP (IN in)
+        (NP (NNP Europe)))
+      (, ,)
+      (PP
+        (PP (IN in)
+          (NP (NNP Latin) (NNP America)))
+        (, ,)
+        (CC and)
+        (PP (IN in)
+          (NP
+            (NP (JJ minor)
+              (CC and)
+              (JJ indoor) (NNS leagues))
+            (PP (IN in)
+              (NP (DT the) (NNP United) (NNPS States)))))))
+    (. .)))
+
+(ROOT
+  (SINV
+    (S
+      (NP (JJ ``We) (NN couldn't))
+      (VP (VBP have)
+        (VP (VBN told)
+          (NP (DT the) (NNS players))
+          (, ,)
+          (S
+            (VP
+              (VP (VB 'Take)
+                (NP (PRP it)))
+              (CC or)
+              (VP (VB leave)
+                (S
+                  (NP (PRP it))
+                  (ADJP (JJ ,'))
+                  (SBAR (IN because)
+                    (S
+                      (NP (PRP they))
+                      (VP (VBD had)
+                        (NP (JJ other) (NNS places)
+                          (S
+                            (VP (TO to)
+                              (VP (VB go)
+                                (NP (NNS ,''))))))))))))))))
+    (VP (VBD said))
+    (NP
+      (NP (NNP Michael) (NNP Cardozo))
+      (, ,)
+      (NP
+        (NP (DT an) (NN attorney))
+        (PP (IN for)
+          (NP (NNP MLS)))))
+    (. .)))
+
+(ROOT
+  (S
+    (S
+      (NP (DT The) (NNS players))
+      (VP (MD will)
+        (VP (VB appeal)
+          (NP (DT the) (NN verdict)))))
+    (, ,)
+    (NP (NN attorney) (NNP Jeffrey) (NNP Kessler))
+    (VP (VBD said))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP Jurors))
+    (VP (VBD told)
+      (NP (DT The) (NNP Associated) (NNP Press))
+      (SBAR (IN that)
+        (S
+          (NP (PRP they))
+          (VP (VBD were)
+            (VP (VBN impressed)
+              (PP (IN by)
+                (NP
+                  (NP (DT the) (NN testimony))
+                  (PP (IN of)
+                    (NP
+                      (NP (JJ former) (JJ deputy) (NN commissioner) (NNP Sunil) (NNP Gulati))
+                      (, ,)
+                      (SBAR
+                        (WHNP (WP who))
+                        (S
+                          (VP
+                            (VP (VBN compiled)
+                              (NP (DT a) (NN chart))
+                              (S
+                                (VP (VBG noting)
+                                  (SBAR (IN that)
+                                    (S
+                                      (NP (NNP MLS) (NNS players))
+                                      (VP (VBD had)
+                                        (VP (VBN come)
+                                          (PP (IN from)))))))))
+                            (CC and)
+                            (VP (VBN gone)
+                              (PP (TO to)
+                                (NP (JJ professional) (NNS leagues)))
+                              (PP (IN in)
+                                (NP
+                                  (NP (NNS dozens))
+                                  (PP (IN of)
+                                    (NP (JJ other) (NNS countries))))))))))))))))))
+    (. .)))
+
+(ROOT
+  (S (CC But)
+    (NP (DT the) (NNS players))
+    (VP (VBD argued)
+      (SBAR (IN that)
+        (S
+          (NP
+            (NP (RB only) (CD 20) (NN percent))
+            (PP (IN of)
+              (NP (NNP MLS) (NNS players))))
+          (VP (VBD had)
+            (NP (JJ international) (NNS options))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNS Others))
+    (VP (VBD were)
+      (VP (VBN turned)
+        (PRT (RP away))
+        (PP (RB because) (IN of)
+          (NP
+            (NP (NN visa)
+              (CC and)
+              (NN work-permit) (NNS requirements))
+            (CC or)
+            (NP (JJ other) (NNS limits))))
+        (PP (IN on)
+          (NP
+            (NP (DT the) (NN use))
+            (PP (IN of)
+              (NP (JJ foreign) (NNS players)))))))
+    (. .)))
+
+(ROOT
+  (SINV
+    (S
+      (NP
+        (NP (NN ``All))
+        (SBAR
+          (S
+            (NP (PRP we))
+            (VP (VBP want)))))
+      (VP (VBZ is)
+        (NP
+          (NP (DT an) (NN agreement))
+          (PP (IN between)
+            (NP (NN labor)
+              (CC and)
+              (NN management) (NNS ,''))))))
+    (VP (VBD said))
+    (NP
+      (NP (NNP Garth) (NNP Lagerway))
+      (, ,)
+      (NP (DT the) (NNP Miami) (NNP Fusion) (NN goalkeeper)
+        (CC and)
+        (NN player) (NN representative)))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (NN ``All))
+      (SBAR
+        (WHNP (WDT that))
+        (S
+          (VP (VBZ 's)
+            (VP (VBN happened)
+              (PP (IN in)
+                (NP
+                  (NP (DT the) (NN history))
+                  (PP (IN of)
+                    (NP (DT this) (NN league))))))))))
+    (VP (VBZ is)
+      (NP
+        (NP (DT the) (NN league))
+        (VP (VBG telling)
+          (NP (PRP us))
+          (SBAR
+            (WHNP (WP what))
+            (S
+              (NP (PRP we))
+              (VP (VBD had)
+                (S
+                  (VP (TO to)
+                    (VP (VB accept)
+                      (NP (NNS .'')))))))))))))
+
+(ROOT
+  (S
+    (SBAR (IN Because)
+      (S
+        (NP (DT the) (NN jury))
+        (VP (VBD sided)
+          (PP (IN with)
+            (NP (DT the) (NNS owners)))
+          (SBAR (IN that)
+            (S
+              (NP (DT the) (NN market))
+              (VP (VBD was) (RB not)
+                (VP (VBN limited)
+                  (PP (TO to)
+                    (NP (NNP Division) (NNP I) (NN soccer)))
+                  (PP (IN in)
+                    (NP (DT this) (NN country))))))))))
+    (, ,)
+    (NP (PRP it))
+    (VP (VBD did) (RB not)
+      (VP (VB have)
+        (S
+          (VP (TO to)
+            (VP (VB answer)
+              (NP
+                (NP (DT any))
+                (PP (IN of)
+                  (NP (DT the) (JJ other) (NNS questions)))))))))
+    (. .)))
+
+(ROOT
+  (SINV
+    (PP (IN At)
+      (NP
+        (NP (DT the) (NN heart))
+        (PP (IN of)
+          (NP
+            (NP (DT the) (NNS players) (POS '))
+            (NN case)))))
+    (VP (VBD was))
+    (NP (DT the) (NN claim)
+      (SBAR (IN that)
+        (S (, ,)
+          (SBAR (IN if)
+            (FRAG (RB not)
+              (PP (IN for)
+                (NP
+                  (NP (DT the) (NN exclusion))
+                  (PP (IN of)
+                    (NP (JJ other) (NNP Division) (NNP I) (NNS leagues)))))))
+          (, ,)
+          (NP (EX there))
+          (VP (MD could)
+            (VP (VB be)
+              (NP
+                (NP (DT a) (JJ thriving) (NN marketplace))
+                (PP (IN for)
+                  (NP (NN soccer) (NNS leagues)
+                    (CC and)
+                    (NNS players)))
+                (PP (IN in)
+                  (NP (DT this) (NN country)))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (ADVP (RB However))
+    (, ,)
+    (NP (DT the) (NN jury))
+    (VP (VBD found)
+      (SBAR (IN that)
+        (S
+          (NP (CD two) (JJ topflight) (NNS leagues))
+          (VP (MD would)
+            (VP (VB oversaturate)
+              (NP (DT the) (JJ limited) (JJ American) (NN interest))
+              (PP (IN in)
+                (NP (DT the) (NN sport))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NN ``It))
+    (VP (VBD was)
+      (NP (PRP$ our) (NN feeling))
+      (SBAR (IN that)
+        (S
+          (SBAR (IN if)
+            (S
+              (NP (DT these) (CD two) (NNS leagues))
+              (VP (VBD had)
+                (VP (VBN been)
+                  (PP (IN in)
+                    (NP (NN place)))))))
+          (, ,)
+          (NP (DT both))
+          (VP (MD would)
+            (VP (VB be)
+              (ADJP (JJ bankrupt)
+                (SBAR
+                  (S
+                    (NP (NNP ,'') (NN juror) (NNP Tina) (NNP Hart))
+                    (VP (VBD told)
+                      (NP (DT the) (NNP AP)))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (VP (VB ``There)
+      (NP (JJ isn't) (JJ enough) (NN demand))
+      (SBAR (IN for)
+        (S
+          (NP (PRP it))
+          (VP (VBZ .'')))))))
+
+(ROOT
+  (S
+    (NP (NNP MLS) (NNS owners))
+    (VP (VBD claimed)
+      (SBAR (IN that)
+        (S
+          (NP (PRP they))
+          (VP (VBP have)
+            (VP (VBN lost)
+              (NP
+                (NP
+                  (QP (CD $250) (CD million)))
+                (PP (IN since)
+                  (NP (CD 1995)))
+                (, ,)
+                (ADVP (RB even)))
+              (PP (IN without)
+                (NP (NN competition))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (DT A) (NN decision))
+      (PP (IN against)
+        (NP (PRP them))))
+    (VP (MD would)
+      (VP (VB have)
+        (VP (VBN been)
+          (VP
+            (VP (VBN tripled)
+              (PP (IN under)
+                (NP (JJ antitrust) (NN law))))
+            (CC and)
+            (VP
+              (ADVP (RB then))
+              (VBN applied)
+              (PP (TO to)
+                (NP (JJ other) (NNS players))))
+            (PP (IN in)
+              (NP
+                (NP (DT the) (NN class))
+                (, ,)
+                (SBAR
+                  (WHNP (WDT which))
+                  (S
+                    (VP (MD could)
+                      (VP (VB have)
+                        (VP (VBN put)
+                          (NP (PRP it))
+                          (PP (IN into)
+                            (NP
+                              (NP (DT the) (NNS tens))
+                              (PP (IN of)
+                                (NP
+                                  (NP (NNS millions))
+                                  (PP (IN of)
+                                    (NP (NNS dollars))))))))))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (DT The) (NN case))
+    (VP (VBD had)
+      (VP (VBN been)
+        (ADJP (RB closely) (VBN watched)
+          (PP (IN at)
+            (NP (DT the) (NN start)))
+          (SBAR
+            (WHADVP (WRB when))
+            (S
+              (NP (NNS players))
+              (VP (VBD claimed)
+                (SBAR (IN that)
+                  (S
+                    (NP
+                      (NP (DT the) (JJ ``single-entity) ('' '') (NN structure))
+                      (PP (IN of)
+                        (NP
+                          (NP (DT the) (NN league))
+                          (PRN (: -)
+                            (NP
+                              (NP (DT a) (JJ centralized) (NN ownership))
+                              (VP (VBN mimicked)
+                                (PP (IN by)
+                                  (NP
+                                    (NP (DT every) (JJ new) (NNS sports) (NN league))
+                                    (VP (VBN formed)
+                                      (PP (IN since)
+                                        (NP (NNP MLS))))))))
+                            (: -)))))
+                    (VP (VBD was)
+                      (ADVP (PRP itself))
+                      (NP (DT an) (JJ antitrust) (NN violation)))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (DT That) (NN claim))
+    (VP (VBD was)
+      (VP (VBN thrown)
+        (PRT (RP out))
+        (PP (IN before)
+          (NP (NN trial)))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP Kessler))
+    (VP (VBD said)
+      (SBAR
+        (S
+          (NP (PRP it))
+          (VP (MD would)
+            (VP (VB be)
+              (VP (VBN appealed) (, ,)
+                (ADVP (IN along)
+                  (PP (IN with)
+                    (NP
+                      (NP (DT this) (NN jury) (POS 's))
+                      (NN verdict))))))))))
+    (. .)))
+
+(ROOT
+  (S (CC But)
+    (NP
+      (NP (NNP Monday) (POS 's))
+      (NN decision))
+    (VP (VBZ is)
+      (NP
+        (NP (DT a) (NN setback))
+        (PP (IN for)
+          (NP
+            (NP (DT the) (NNS players))
+            (PP (IN in)
+              (NP (DT that) (NN case))))))
+      (ADVP (RB as) (RB well)))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (DT The) (NN league))
+    (VP (VBZ has)
+      (VP (VBN argued)
+        (SBAR (IN that)
+          (S
+            (NP
+              (NP
+                (NP (DT the) (NN jury) (POS 's))
+                (NN definition))
+              (PP (IN of)
+                (NP (DT the) (NN market))))
+            (VP (MD will)
+              (VP (VB apply)
+                (PP (TO to)
+                  (PRN (: -)
+                    (CC and)
+                    (ADJP (JJ undercut))
+                    (: -))
+                  (NP (DT that) (NN case)))
+                (ADVP (RB as) (RB well))))))))
+    (. .)))
+

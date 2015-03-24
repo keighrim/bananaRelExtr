@@ -1,0 +1,458 @@
+(ROOT
+  (FRAG
+    (NP (NNP NYT20001103.2226.0443) (NNP NEWS) (NNP STORY))
+    (NP (CD 2000-11-03) (CD 22:49:00))))
+
+(ROOT
+  (FRAG
+    (NP
+      (NP (CD A7372) (NNS &Cx1f))
+      (: ;)
+      (NP
+        (NP (JJ taf-z) (NN u))
+        (NP (DT a) (JJ BC-OBIT-SHENSON-NYT) (NN &LR)))
+      (: ;)
+      (NP (CD 11-03) (CD 0344)))))
+
+(ROOT
+  (NP (NNP BC-OBIT-SHENSON-NYT)))
+
+(ROOT
+  (FRAG
+    (NP
+      (NP (NNP WALTER) (NNP SHENSON))
+      (, ,)
+      (NP (CD 81))
+      (, ,)
+      (NP
+        (NP (NNP PRODUCER))
+        (PP (IN OF)
+          (NP (NNP MOVIES) (NNP STARRING) (NNP THE) (NNP BEATLES)))))))
+
+(ROOT
+  (NP
+    (NP (NNP &UR))
+    (: ;)
+    (NP (NNP c.2000) (NNP N.Y))
+    (. .)))
+
+(ROOT
+  (NP
+    (NP (NNP Times) (NNP News) (NNP Service) (NNP &QC))
+    (: ;)
+    (NP (CD &LR) (: ;) (CD &QL))
+    (: ;)))
+
+(ROOT
+  (S
+    (NP
+      (NP (NNP Walter) (NNP Shenson))
+      (, ,)
+      (NP
+        (NP
+          (NP (DT the) (NN producer))
+          (PP (IN of)
+            (NP
+              (NP (DT the) (NNPS Beatles) (POS '))
+              (NNS films) (NN ``A) (NNP Hard) (NNP Day's) (NNP Night))))
+        ('' '')
+        (CC and)
+        (NP (NN ``Help) (NNS !,''))))
+    (VP (VBD died)
+      (PP (IN on)
+        (NP (NNP Oct))))
+    (. .)))
+
+(ROOT
+  (NP
+    (NP (CD 17))
+    (PP (IN in)
+      (NP
+        (NP (NNP Woodland) (NNP Hills))
+        (, ,)
+        (NP (NNP Calif))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (PRP He))
+    (VP (VBD was)
+      (NP (CD 81)))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (NNP Shenson))
+      (, ,)
+      (SBAR
+        (WHNP (WP who))
+        (S
+          (VP (VBD was)
+            (VP (VBN born)
+              (PP (IN in)
+                (NP (NNP San) (NNP Francisco)))))))
+      (, ,))
+    (VP (VBD was)
+      (VP (VBG working)
+        (PP (IN in)
+          (NP (NNP London)))
+        (PP (IN as)
+          (NP
+            (NP (DT a) (NN film) (NN producer))
+            (PRN (: -)
+              (ADVP (RBS most) (RB notably)
+                (PP (IN of)
+                  (NP (NN ``The))))
+              (VP (VBG Mouse)
+                (NP (DT That) (NNP Roared) (NNP ,''))
+                (PP (IN with)
+                  (NP (NNP Peter) (NNPS Sellers))))
+              (: -))
+            (SBAR
+              (WHADVP (WRB when))
+              (S
+                (NP (PRP he))
+                (VP (VBD was)
+                  (VP (VBN approached)
+                    (PP (IN by)
+                      (NP (NNP United) (NNP Artists)))
+                    (S
+                      (VP (TO to)
+                        (VP (VB oversee)
+                          (NP (DT the) (JJ first) (NN foray))
+                          (PP (IN into)
+                            (NP (NN cinema)))
+                          (PP (IN by)
+                            (NP (DT the) (NNPS Beatles))))))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (DT The) (NN studio))
+    (VP (VBD had)
+      (VP (VBN discovered)
+        (SBAR (IN that)
+          (S
+            (NP
+              (NP (DT the) (VBG recording) (NN contract))
+              (PP (IN between)
+                (NP
+                  (NP (DT the) (NNS Beatles))
+                  (CC and)
+                  (NP (NNP EMI)))))
+            (VP (VBD did) (RB not)
+              (VP (VB cover)
+                (NP (NN film) (NNS soundtracks))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (SBAR (IN Although)
+      (S
+        (NP (DT the) (NNPS Beatles))
+        (VP (VBD had)
+          (ADVP (RB yet))
+          (S
+            (VP (TO to)
+              (VP (VB tour)
+                (NP (DT the) (NNP United) (NNPS States))))))))
+    (, ,)
+    (S
+      (NP
+        (NP
+          (NP (DT the) (NN group) (POS 's))
+          (NN popularity))
+        (PP (IN in)
+          (NP (NNP Britain))))
+      (VP (VBD was)
+        (ADJP (JJ phenomenal))))
+    (, ,)
+    (CC and)
+    (S
+      (NP (NNP United) (NNP Artists))
+      (VP (VBD decided)
+        (S
+          (VP (TO to)
+            (VP (VB exploit)
+              (NP (PRP it))
+              (PP (IN by)
+                (S
+                  (VP (VBG putting)
+                    (PRT (RP out))
+                    (NP (DT a)
+                      (ADJP
+                        (ADVP (RB cheaply))
+                        (VBN made))
+                      (NN film))
+                    (PP (IN as)
+                      (NP (DT a) (NN pretext)))
+                    (PP (IN for)
+                      (NP (DT a) (NN soundtrack) (NN album)))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (PRP He))
+    (VP (VBD hired)
+      (S
+        (NP
+          (NP (NNP Richard) (NNP Lester))
+          (, ,)
+          (NP (DT a) (JJ fellow) (NNP American))
+          (, ,))
+        (VP (TO to)
+          (VP (VB direct)))))
+    (. .)))
+
+(ROOT
+  (S
+    (PP (IN At)
+      (NP
+        (NP (DT the) (NN suggestion))
+        (PP (IN of)
+          (NP (NNP Paul) (NNP McCartney)))))
+    (, ,)
+    (NP (PRP he))
+    (VP (VBD recruited)
+      (S
+        (NP (DT the) (NNP Liverpool) (JJ -based) (NN playwright) (NNP Alun) (NNP Owen))
+        (VP (TO to)
+          (VP (VB write)
+            (NP (DT the) (NN screenplay))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (DT The) (NN film) (POS 's))
+      (NNS prospects))
+    (VP (VBD were)
+      (ADJP
+        (ADJP (RB so) (RB little) (JJ regarded))
+        (SBAR (IN that)
+          (S
+            (SBAR (IN while)
+              (S
+                (NP (NNP Shenson))
+                (VP (VBD was)
+                  (VP (VBN prepared)
+                    (S
+                      (VP (TO to)
+                        (VP (VB offer)
+                          (NP (DT the) (NNPS Beatles))
+                          (NP
+                            (NP (CD 25) (NN percent))
+                            (PP (IN of)
+                              (NP (DT the) (JJ net) (NN income)))))))))))
+            (, ,)
+            (NP
+              (NP
+                (NP (DT the) (NN band) (POS 's))
+                (NN manager))
+              (, ,)
+              (NP (NNP Brian) (NNP Epstein))
+              (, ,))
+            (VP
+              (ADVP (RB initially))
+              (VBD asked)
+              (PP (IN for)
+                (NP
+                  (QP (RB only) (CD 7))
+                  (NN percent))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (S
+      (NP (NNP United) (NNP Artists))
+      (VP (VBD thought)
+        (SBAR (IN that)
+          (S
+            (NP (DT the) (NNPS Beatles))
+            (VP (MD would)
+              (VP (VB be)
+                (NP (DT a) (JJ short-lived) (NN phenomenon))))))))
+    (, ,)
+    (CC but)
+    (S
+      (NP (NNP Shenson))
+      (VP
+        (VP (VBD foresaw)
+          (NP (PRP$ their) (NN staying) (NN power)))
+        (CC and)
+        (VP (VBD struck)
+          (NP (DT an) (NN agreement))
+          (PP (IN with)
+            (NP (DT the) (NN studio)))
+          (SBAR (IN that)
+            (S
+              (NP
+                (NP (DT all) (NNS rights))
+                (PP (TO to)
+                  (NP (DT the) (NN film))))
+              (VP (MD would)
+                (VP (VB revert)
+                  (PP (TO to)
+                    (NP (PRP him)))
+                  (PP (IN after)
+                    (NP (CD 15) (NNS years))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP ``A) (NNP Hard) (NNP Day))
+    (VP (VBZ 's)
+      (NP
+        (NP (NNP Night))
+        ('' '')
+        (SBAR
+          (S
+            (VP (VBD was)
+              (ADJP (RB so) (JJ popular))
+              (SBAR (IN that)
+                (S
+                  (NP (NNP Shenson))
+                  (VP (VBD said)
+                    (SBAR
+                      (S
+                        (NP (DT the) (NN studio))
+                        (VP (VBD recouped)
+                          (SBAR
+                            (WHNP (WP what))
+                            (S
+                              (NP (PRP it))
+                              (VP (VBD spent)
+                                (PP (IN on)
+                                  (NP
+                                    (NP
+                                      (NP (DT the) (NN production))
+                                      (PRN (: -)
+                                        (NP
+                                          (QP (RB about) (CD $600,000)))
+                                        (: -)))
+                                    (PP (IN in)
+                                      (NP (RB just) (CD one) (NN day)))))
+                                (PP (IN after)
+                                  (NP
+                                    (NP
+                                      (NP (DT the) (NN film) (POS 's))
+                                      (NN release))
+                                    (PP (IN in)
+                                      (NP (CD 1964)))))))))))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (DT A) (NN reissue))
+      (PP (IN of)
+        (NP (DT the) (NN film))))
+    (VP (VBZ is)
+      (S
+        (VP (TO to)
+          (VP (VB appear)
+            (PP (IN in)
+              (NP (NNS theaters)))
+            (NP (RBR later) (DT this) (NN year))))))
+    (. .)))
+
+(ROOT
+  (S
+    (S
+      (NP (NNP Shenson))
+      (VP (VBD was)
+        (PP (IN on)
+          (NP
+            (NP (DT the) (NN set))
+            (NP (DT every) (NN day))))))
+    (, ,)
+    (CC and)
+    (S
+      (SBAR (IN after)
+        (S
+          (NP (PRP he))
+          (VP (VBD had)
+            (VP (VBN looked)
+              (PP (IN at)
+                (NP (DT some) (JJ early) (NN rushes)))))))
+      (NP (PRP$ his) (NN wife))
+      (VP (VBD asked)
+        (NP (PRP him))
+        (SBAR (IN whether)
+          (S
+            (NP (DT the) (NNPS Beatles))
+            (VP (MD could)
+              (VP (VB act)))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (JJ ``I) (NN don't))
+    (VP (VBP know)
+      (SBAR
+        (S
+          (SBAR (IN if)
+            (S
+              (NP (PRP they))
+              (VP (MD can)
+                (VP (VB act)
+                  (NP
+                    (NP (NNP ,''))
+                    (SBAR
+                      (S
+                        (NP (PRP he))
+                        (VP (VBD replied)))))))))
+          (, ,)
+          (NP
+            (NP (NN ``but))
+            (SBAR
+              (S
+                (NP (PRP you))
+                (VP (VBP can't)
+                  (VP (VB keep)
+                    (NP (PRP$ your) (NNS eyes))
+                    (PRT (RP off)))))))
+          (NP (PRP them))
+          (VP (VBZ .'')))))))
+
+(ROOT
+  (S
+    (NP
+      (NP (PRP$ His) (NN wife))
+      (, ,)
+      (NP (NNP Geraldine))
+      (, ,))
+    (VP (VBD died)
+      (NP (JJ last) (NN year)))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (PRP He))
+    (VP (VBZ is)
+      (VP (VBN survived)
+        (PP (IN by)
+          (NP
+            (NP
+              (NP (CD two) (NNS sons))
+              (, ,)
+              (NP (NNP Richard))
+              (CC and)
+              (NP (NNP Douglas)))
+            (: ;)
+            (NP
+              (NP (DT a) (NN sister))
+              (, ,)
+              (NP
+                (NP (NNP Irma) (NNP Levin))
+                (PP (IN of)
+                  (NP (NNP San) (NNP Francisco)))))
+            (: ;)
+            (CC and)
+            (NP (CD four) (NNS grandchildren))))))
+    (. .)))
+
+(ROOT
+  (NP (NN NYT-11-03-00) (CD 2249EST)))
+

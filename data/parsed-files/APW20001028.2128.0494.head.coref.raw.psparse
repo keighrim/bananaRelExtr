@@ -1,0 +1,438 @@
+(ROOT
+  (FRAG
+    (NP (NNP APW20001028.2128.0494) (NNP NEWS) (NNP STORY))
+    (NP (CD 2000-10-28) (CD 22:09:40))))
+
+(ROOT
+  (NP (NNS Iraq-Flights)))
+
+(ROOT
+  (NP (NNP Baghdad) (NNP Airport) (NNP Sanctions) (NNP Lifted)))
+
+(ROOT
+  (NP
+    (NP (NNP BAGHDAD) (, ,) (NNP Iraq) (NNP [AP) (NNP ]))
+    (: -)
+    (S
+      (NP (NNP Saddam) (NNP International) (NNP Airport))
+      (VP (VBD was)
+        (ADJP (JJR busier))
+        (PP (IN than)
+          (NP (JJ usual) (NNP Saturday)))
+        (PP (IN with)
+          (NP
+            (NP (DT the) (JJS largest) (NN movement))
+            (PP (IN of)
+              (NP (NNS planes)))))
+        (SBAR (IN since)
+          (S
+            (NP (DT the) (NNP United) (NNPS States))
+            (VP (VBD imposed)
+              (NP (NNS sanctions))
+              (PP (IN on)
+                (NP (NNP Iraq)))
+              (PP (IN in)
+                (NP (CD 1990))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (S
+      (NP (CD Three) (NNS planes))
+      (VP (VBD arrived)))
+    (CC and)
+    (S
+      (NP (CD two))
+      (VP (VBD departed)
+        (PP (IN by)
+          (NP
+            (NP (DT the) (NN end))
+            (PP (IN of)
+              (NP (DT the) (NN day)))))
+        (, ,)
+        (S
+          (VP (VBG carrying)
+            (NP
+              (NP (NNS delegations))
+              (PP (IN of)
+                (NP
+                  (NP (NNS people))
+                  (VP (VBN opposed)
+                    (PP (TO to)
+                      (NP (DT the) (NNS sanctions)))
+                    (PP (IN from)
+                      (NP
+                        (NP (NNP Russia))
+                        (, ,)
+                        (NP (NNP Egypt))
+                        (, ,)
+                        (NP (NNP Turkey))
+                        (CC and)
+                        (PRN (, ,)
+                          (PP (IN for)
+                            (NP (DT the) (JJ first) (NN time)))
+                          (, ,))
+                        (NP (DT the) (NNP Ukraine))))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (DT The) (NNS sanctions))
+    (VP (VBD were)
+      (VP (VBN imposed)
+        (S
+          (VP (TO to)
+            (VP (VB punish)
+              (NP
+                (NP (NNP Iraq))
+                (PP (IN for)
+                  (NP
+                    (NP (PRP$ its) (CD 1990) (NN invasion))
+                    (PP (IN of)
+                      (NP (NNP Kuwait)))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (NNS Organizers))
+      (PP (IN of)
+        (NP (JJ recent) (NNS flights))))
+    (VP (VBP say)
+      (SBAR
+        (S
+          (NP (PRP they))
+          (VP (VBP wish)
+            (S
+              (VP (TO to)
+                (VP (VB express)
+                  (NP (NN solidarity))
+                  (PP (IN with)
+                    (NP (DT the) (JJ Iraqi) (NNS people))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP Iraq))
+    (VP (VBZ welcomes)
+      (NP (DT the) (NNS flights))
+      (PP (IN as)
+        (NP (DT a) (NN sign)))
+      (SBAR (IN that)
+        (S
+          (NP (NNS sanctions))
+          (VP (VBP are)
+            (ADJP (VBG collapsing))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (DT The) (NN airport))
+    (VP (VBD closed)
+      (PP (IN at)
+        (NP
+          (NP (DT the) (NN outbreak))
+          (PP (IN of)
+            (NP (DT the) (CD 1991) (NNP Gulf) (NNP War)))))
+      (, ,)
+      (S
+        (VP (VBG receiving)
+          (NP (JJ only) (JJ occasional) (JJ humanitarian) (NNS flights))
+          (SBAR (IN until)
+            (S
+              (NP (PRP it))
+              (VP (VBD was)
+                (VP (VBN reopened)
+                  (PP (IN for)
+                    (NP
+                      (NP (NN business))
+                      (PP (IN in)
+                        (NP (NNP August))))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (PP (IN Since)
+      (NP (RB then)))
+    (, ,)
+    (NP
+      (NP (NNS dozens))
+      (PP (IN of)
+        (NP (NNS planes))))
+    (VP (VBP have)
+      (VP (VBN flown)
+        (NP (NN business)
+          (CC and)
+          (JJ cultural) (NNS delegations))
+        (PP (TO to)
+          (NP (NNP Baghdad)))
+        (PP (IN in)
+          (NP
+            (NP (DT a) (NN show))
+            (PP (IN of)
+              (NP
+                (NP (NN support))
+                (CC and)
+                (NP (DT a) (NN bid))))))
+        (S
+          (VP (TO to)
+            (VP (VB end)
+              (NP (DT the) (NNS sanctions)))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (NNP Saturday) (POS 's))
+      (JJ Egyptian) (NN delegation))
+    (VP (VBD included)
+      (NP
+        (QP (JJR more) (IN than) (CD 150))
+        (NNS delegates))
+      (, ,)
+      (S
+        (VP
+          (ADVP (RBS most))
+          (VBG representing)
+          (NP
+            (NP (NNS unions))
+            (CC and)
+            (NP (JJ political) (NNS parties))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (NNS Actors)
+        (CC and)
+        (NNS singers))
+      (PP
+        (ADVP (RB also))
+        (IN on)
+        (NP (DT the) (NN flight))))
+    (VP (VBD held)
+      (NP (DT a) (NN benefit) (NN concert))
+      (PP (IN in)
+        (NP (NNP Baghdad) (NNP Saturday)))
+      (NP (NN evening))
+      (, ,)
+      (PP (IN with)
+        (NP
+          (NP (JJS most))
+          (PP (IN of)
+            (NP (DT the) (CD $13) (NN cover) (NN charge)))
+          (S
+            (VP (TO to)
+              (VP (VB be)
+                (VP (VBN donated)
+                  (S
+                    (VP (TO to)
+                      (VP (VB support)
+                        (NP (DT the) (JJ Palestinian) (NN uprising))))))))))))
+    (. .)))
+
+(ROOT
+  (SINV
+    (S
+      (S
+        (ADVP (RB ``All))
+        (NP (PRP$ my) (NNS feelings))
+        (VP (VBP have)
+          (VP (VBN been)
+            (PP (IN with)
+              (NP
+                (NP (NNP Iraq))
+                (CC and)
+                (NP (DT the) (NNS people)))))))
+      (, ,)
+      (CC but)
+      (S
+        (NP (DT this) (NN time))
+        (VP (VBZ is)
+          (ADJP (JJ special))
+          (SBAR (IN because)
+            (S
+              (NP (PRP I))
+              (VP (VBP am)
+                (ADJP (RB physically) (RB here)
+                  (S
+                    (VP (TO to)
+                      (VP (VB show)
+                        (NP (PRP$ my) (NN support) (NN ,''))))))))))))
+    (VP (VBD said))
+    (NP
+      (ADJP (JJ well-known))
+      (JJ Egyptian) (NN actress) (NNP Madeha) (NNP Yusri))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP Deputy) (NNP Prime) (NNP Minister) (NNP Tareq) (NNP Aziz))
+    (VP
+      (VP (VBD received)
+        (NP (DT the) (JJ Egyptian) (NN delegation)))
+      (CC and)
+      (VP (VBD praised)
+        (NP (PRP$ their) (NN arrival))
+        (PP (IN in)
+          (NP (NNP Baghdad)))
+        (, ,)
+        (VP (VBG stressing)
+          (NP (JJ Arab) (NN solidarity)))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (DT The) (JJ Russian) (, ,) (JJ Ukrainian)
+      (CC and)
+      (JJ Turkish) (NNS planes))
+    (VP (VBD carried)
+      (NP (NNS businessmen)
+        (CC and)
+        (NNS doctors)))
+    (. .)))
+
+(ROOT
+  (S
+    (ADVP (RB Meanwhile))
+    (, ,)
+    (NP (NNP Palestine) (NNP National) (NNP Council) (NNP Speaker) (NNP Salim) (NNP Zaanoun))
+    (VP (VBD said)
+      (SBAR
+        (S
+          (NP (DT the) (NNPS Palestinians))
+          (VP (MD will)
+            (VP (VB send)
+              (NP (DT a) (NN plane))
+              (PP (TO to)
+                (NP (NNP Iraq)))
+              (PP (IN on)
+                (NP (NNP Sunday)))
+              (S
+                (VP (TO to)
+                  (VP (VB ``challenge)
+                    (PP (TO to)
+                      (NP (DT the) (NNP United) (NNPS Nations) (NNS sanctions) (NNS .'')))))))))))))
+
+(ROOT
+  (S
+    (S
+      (VP (VBG Speaking)
+        (PP (IN in)
+          (NP (NNP Amman) (, ,) (NNP Jordan)))))
+    (, ,)
+    (NP (NNP Zaanoun))
+    (VP (VBD said)
+      (SBAR
+        (S
+          (NP (DT the) (NN plane))
+          (VP (MD will)
+            (VP (VB carry)
+              (NP
+                (NP (CD 20) (NNPS Palestinians))
+                (VP (VBN wounded)
+                  (PP (IN in)
+                    (NP
+                      (NP (JJ ongoing) (NN violence))
+                      (PP (IN in)
+                        (NP
+                          (NP (DT the) (JJ Palestinian) (NNS territories))
+                          (PP (IN for)
+                            (NP (NN treatment)))))))
+                  (PP (IN in)
+                    (NP (JJ Iraqi) (NNS hospitals))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (S
+      (NP (JJ Palestinian) (NNS lawmakers))
+      (VP (MD will)
+        (ADVP (RB also))
+        (VP (VB be)
+          (PP (IN on)
+            (NP
+              (NP (NN board))
+              (NP
+                (NP (DT the) (NN flight))
+                (, ,)
+                (SBAR
+                  (WHNP (WDT which))
+                  (S
+                    (VP (VBZ is)
+                      (VP (VBN scheduled)
+                        (S
+                          (VP (TO to)
+                            (VP
+                              (VP (VB leave)
+                                (PP (IN from)
+                                  (NP (NNP Gaza))))
+                              (CC and)
+                              (VP (VB stop)
+                                (ADVP (RB briefly))
+                                (PP (IN in)
+                                  (NP
+                                    (NP (NNP Amman))
+                                    (PP (IN on)
+                                      (NP (NNP Sunday)))))
+                                (NP (NN morning))))))))))))))))
+    (, ,)
+    (NP (NNP Zaanoun))
+    (VP (VBD said))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (PRP He))
+    (VP (VBD said)
+      (SBAR
+        (S
+          (NP (DT the) (NN flight))
+          (VP (VBD ``did) (RB not)
+            (VP (VB acquire)
+              (NP (NN permission))
+              (PP (IN from)
+                (NP (DT the) (NNP U.N.) (NNP Sanctions) (NNP Committee) (NNP .''))))))))))
+
+(ROOT
+  (S
+    (NP (NNP U.N.) (NNP Security) (NNP Council) (NNS resolutions))
+    (VP (VBP say)
+      (SBAR (IN that)
+        (S
+          (PP (IN for)
+            (NP (NNS sanctions)
+              (S
+                (VP (TO to)
+                  (VP (VB be)
+                    (VP (VBN lifted)))))))
+          (, ,)
+          (NP (NNP Iraq))
+          (VP (MD must)
+            (VP (VB eliminate)
+              (NP
+                (NP (PRP$ its) (NNS weapons))
+                (PP (IN of)
+                  (NP (JJ mass) (NN destruction)))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP Baghdad))
+    (VP
+      (VP (VBZ claims)
+        (S
+          (VP (TO to)
+            (VP (VB have)
+              (VP (VBN done)
+                (ADVP (RB so)))))))
+      (, ,)
+      (CC but)
+      (VP (VBZ refuses)
+        (S
+          (VP (TO to)
+            (VP (VB cooperate)
+              (PP (IN with)
+                (NP (NNP U.N.) (NNS arms) (NNS inspectors))))))))
+    (. .)))
+
