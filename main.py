@@ -42,9 +42,9 @@ class FeatureTagger():
         self.feature_functions = [self.string_match_no_articles,
                                   self.str_stem_match,
                                   self.words_str_match,
-                                  # self.acronym_match,               # hurts
-                                  # self.string_contains_no_articles, # hurts
-                                  # self.word_overlap,                # hurts
+                                  self.acronym_match,               # hurts
+                                  self.string_contains_no_articles, # hurts
+                                  self.word_overlap,                # hurts
 
                                   self.j_pronoun,  # no effect
                                   self.only_i_pronoun,  # no effect
@@ -57,9 +57,9 @@ class FeatureTagger():
                                   self.pro_str_match,  # no effect
                                   self.pn_str_match,  # no effect
                                   self.both_diff_proper,  # no effect
-                                  # self.pn_str_contains,             # hurts
-                                  # self.i_pronoun,                   # hurts
-                                  # self.only_j_pronoun,              # hurts
+                                  self.pn_str_contains,             # hurts
+                                  self.i_pronoun,                   # hurts
+                                  self.only_j_pronoun,              # hurts
 
                                   self.ner_tag_match,
 
@@ -71,16 +71,16 @@ class FeatureTagger():
                                   self.distance_tree,
                                   self.distance_tree_sum,
 
-                                  # self.i_object,                    # hurts
+                                  self.i_object,                    # hurts
                                   self.j_object,
-                                  # self.both_object,                 # hurts
-                                  # self.i_subject,                   # hurts
-                                  # self.j_subject,                   # hurts
-                                  # self.both_subject,                # hurts
-                                  # self.share_governing_verb,        # hurts
-                                  # self.governing_verbs_share_synset,# hurts
-                                  # self.syn_verb_same_role,          # hurts
-                                  # self.appositive                   # hurts
+                                  self.both_object,                 # hurts
+                                  self.i_subject,                   # hurts
+                                  self.j_subject,                   # hurts
+                                  self.both_subject,                # hurts
+                                  self.share_governing_verb,        # hurts
+                                  self.governing_verbs_share_synset,# hurts
+                                  self.syn_verb_same_role,          # hurts
+                                  self.appositive,                    # hurts
                                   # self.yago_ontology,           # hurts my heart
         ]
 
@@ -91,14 +91,23 @@ class FeatureTagger():
 
         self.pairs = None
 
-    def read_input_data(self, input_filename):
+    def read_input_data(self, input_filename, labeled=True):
         """load sentences from data file"""
         self.pairs = []
         cur_filename = None
         with open(os.path.join(DATA_PATH, input_filename)) as in_file:
             for line in in_file:
-                filename, i_line, i_start, i_end, i_ner, i_word,\
-                j_line, j_start, j_end, j_ner, j_word, gold_label = line.split(" ")
+                if labeled:
+                    gold_label, filename, \
+                    i_line, i_start, i_end, i_ner, _, i_word, \
+                    j_line, j_start, j_end, j_ner, _, j_word, \
+                    = line.strip().split("\t")
+                else:
+                    filename, \
+                    i_line, i_start, i_end, i_ner, _, i_word, \
+                    j_line, j_start, j_end, j_ner, _, j_word, \
+                        = line.strip().split("\t")
+                    gold_label = ""
 
                 # split underscored words
                 i_words = i_word.split("_")
@@ -1104,9 +1113,12 @@ class CoreferenceResolver(object):
         self.targetfile \
             = os.path.join('result', 'targetFeatureVector.txt')
         self.windows = sys.platform.startswith("win")
-        # TODO make a way for windows system
-        self.me_script \
-            = os.path.join(".", "mallet-maxent-classifier.sh")
+        if self.windows:
+            self.me_script \
+                = os.path.join(".", "mallet-maxent-classifier.bat")
+        else:
+            self.me_script \
+                = os.path.join(".", "mallet-maxent-classifier.sh")
         self.modelfile = os.path.join("result", "model")
 
     def train(self, train_filename):
@@ -1120,7 +1132,7 @@ class CoreferenceResolver(object):
 
     def classify(self, target_filename):
         """Run crfpp classifier to classify target file"""
-        self.ft.read_input_data(target_filename)
+        self.ft.read_input_data(target_filename, labeled=False)
         self.ft.feature_matrix(self.targetfile, train=False)
         if not os.path.isfile(self.modelfile):
             raise Exception("Model not found.")
@@ -1138,7 +1150,7 @@ class CoreferenceResolver(object):
         # evaluate the result
         target_name = target_filename.split("/")[-1].split(".")[0]
         subprocess.check_call(
-            ["python", "coref-evaluator.py",
+            ["python", "relation-evaluator.py",
              "data/%s.gold" % target_name, resultfile])
 
 if __name__ == '__main__':
@@ -1148,7 +1160,7 @@ if __name__ == '__main__':
     parser.add_argument(
         "-i",
         help="name of train set file",
-        default=os.path.join(PROJECT_PATH, 'data', 'coref-trainset.gold')
+        default=os.path.join(PROJECT_PATH, 'data', 'rel-trainset.gold')
     )
     parser.add_argument(
         "-t",
@@ -1165,10 +1177,10 @@ if __name__ == '__main__':
         try:
             target = input(
                 "enter a test file name with its path\n"
-                + "(relative or full, default: data/coref-testset.notag): ")
+                + "(relative or full, default: data/rel-devset.raw): ")
         # if input is empty
         except SyntaxError:
-            target = "coref-testset.notag"
+            target = "rel-devset.raw"
     else:
         target = args.t
     cor.classify(target)

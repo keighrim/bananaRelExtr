@@ -42,9 +42,9 @@ class reader(object):
         # POS tagged
         self.tokenized_sents = self.tokenize_sent()
         # PS parsing
-        #self.depparsed_sents = self.load_dep_parse()
+        self.depparsed_sents = self.load_dep_parse()
         # Dep parsing
-        #self.synparsed_sents = self.load_syn_parse()
+        self.synparsed_sents = self.load_syn_parse()
 
     def tokenize_sent(self):
         """separate out words and POS tags from .postagged files"""
