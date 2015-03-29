@@ -42,8 +42,6 @@ class RelExtrReader(object):
         self.filename = filename
         # POS tagged
         self.tokenized_sents = self.tokenize_sent()
-        # Dep parsing
-        # self.depparsed_sents = self.load_dep_parse()
         # Dep parse trees
         self.depparse_trees = self.load_dep_parse()
         # PS parse trees
@@ -91,8 +89,7 @@ class RelExtrReader(object):
                         sents.append(ptree.fromstring(sent))
                         sent = ""
                     except ValueError:
-                        print self.filename
-                        print sent
+                        print "TREE_LOAD_ERROR_AT: ", self.filename, sent
                         raise()
                 else:
                     sent += line.strip()
@@ -101,19 +98,67 @@ class RelExtrReader(object):
     def load_dep_parse(self):
         """load a string of Stanford Dependency parse into a data structure"""
         trees = []
+        sent = {}
         with open(os.path.join(DEPPARSE_DATA_PATH,
                                self.filename + ".raw.depparse")) as parse:
             stanford_format_tree = ""
             for line in parse:
                 if line == "\n":
-                    print len(trees)
-                    trees.append(
-                        self.convert_to_nltk_format(stanford_format_tree,
-                                                    self.tokenized_sents[len(trees)]))
-                    stanford_format_tree = ""
+                    # print "CONVERTING: ", stanford_format_tree, self.tokenized_sents[len(trees)]
+                    # trees.append(
+                    #     self.convert_to_nltk_format(stanford_format_tree,
+                    #                                 self.tokenized_sents[len(trees)]))
+                    # stanford_format_tree = ""
+                    trees.append(sent)
+                    sent = {}
                 else:
-                    stanford_format_tree += line
-            return trees
+                    # stanford_format_tree += line
+
+                    # each line of Stanford dependency looks like this
+                    # relation(govennor-gov_index, dependant-dep_index)
+                    m = re.match(r"^(.+)\((.+)-([0-9']+), (.+)-([0-9']+)\)", line)
+                    if m is None:
+                        print "REGEX ERROR: ", line
+                        continue
+                    rel = m.groups()[0]
+                    gov = m.groups()[1]
+                    gov_idx = m.groups()[2]
+
+                    # collapse primed nodes
+                    if gov_idx.endswith("'"):
+                        gov_idx = gov_idx.replace("'", "")
+                    gov_idx = int(gov_idx) - 1
+                    dep = m.groups()[3]
+                    dep_idx = m.groups()[4]
+                    if dep_idx.endswith("'"):
+                        dep_idx = dep_idx.replace("'", "")
+                    dep_idx = int(dep_idx) - 1
+                    if gov_idx == dep_idx:
+                        print gov, dep, "recursive relation"
+                        continue
+
+                    # final data structure will be a dict from
+                    # token_index: (token_word,
+                    #               dict of dependants of this token
+                    #               (head_rel, head_idx, head_word))
+                    # inner dict looks like
+                    # relation: [ (idx, node_token) ]
+                    try:
+                        sent[gov_idx][1][rel].append((dep_idx, dep))
+                    except KeyError:
+                        sent[gov_idx] = (gov,                               # name
+                                         collections.defaultdict(list),     # deps
+                                         [])     # govs
+                        sent[gov_idx][1][rel].append((dep_idx, dep))
+
+                    try:
+                        sent[dep_idx][2].extend([rel, gov_idx, gov])
+                    except KeyError:
+                        sent[dep_idx] = (dep,
+                                         collections.defaultdict(list),
+                                         [])
+                        sent[dep_idx][2].extend([rel, gov_idx, gov])
+        return trees
 
     @staticmethod
     def convert_to_nltk_format(stanford_tree, word_pos):
@@ -144,7 +189,8 @@ class RelExtrReader(object):
 
             nltk_string += "{0}\t{1}\t{2}\t{3}\n".format(
                 dep, word_pos[dep_idx][1], str(gov_idx + 1), rel)
-        print nltk_string
+        # print "CONVERTED: ", nltk_string
+        print nltk.dependencygraph.DependencyGraph(nltk_string).tree()
         return nltk.dependencygraph.DependencyGraph(nltk_string)
 
     @staticmethod
@@ -178,24 +224,24 @@ class RelExtrReader(object):
 
     def get_dependency_tree(self, sent):
         """get dependency tree of particula sentnece"""
-        return self.depparsed_sents[sent]
+        return self.depparse_trees[sent]
 
-    def compute_tree_path(self, sent, from_node, to_node):
+    def compute_tree_path_length(self, sent, from_node, to_node):
         """
         compute distance between two nodes in NLTK tree,
         It's using NLTK methods, because we love NLTK
         """
         tree = self.synparsed_trees[sent]
         lowest_descendant = tree.treeposition_spanning_leaves(from_node, to_node)
-        upward_path_length = len(tree.leaf_treeposition(from_node))\
-                             - len(lowest_descendant)
-        downward_path_length = len(tree.leaf_treeposition(to_node)) \
-                               - len(lowest_descendant)
+        upward_path_length \
+            = len(tree.leaf_treeposition(from_node)) - len(lowest_descendant)
+        downward_path_length \
+            = len(tree.leaf_treeposition(to_node)) - len(lowest_descendant)
         return upward_path_length, downward_path_length
 
     def get_dep_relation(self, sent, from_node, to_node):
         """get dependency relation of two nodes, if they are directly connected"""
-        parse = self.depparsed_sents[sent]
+        parse = self.depparse_trees[sent]
         # in case a mention is a relative pronoun go back to its antecedent
         while not parse.get(from_node):
             from_node -= 1
@@ -214,9 +260,69 @@ class RelExtrReader(object):
         # if no relation found, return null
         return
 
+    def get_dep_rel_path(self, sent, from_idx, to_idx):
+        """get all dependency relations on the path between two targets"""
+        print self.filename, sent, from_idx, to_idx
+        dep_tree = self.depparse_trees[sent]
+
+        def path_from_root(dep_tree, idx):
+            """get path from node to root of a given dependency graph"""
+            path = [idx]
+            try:
+                cur_node = dep_tree[idx]
+            except KeyError:
+                # this exception is caused by flaws in original data
+                # but all of those problematic cases are no-rel
+                # so, we'll just ignore them
+                return path
+            while cur_node[2][0] != "root":
+                head_idx = cur_node[2][1]
+                path.insert(0, head_idx)
+                cur_node = dep_tree[head_idx]
+            return path
+
+        def oneway_relations_on_path(dep_tree, lower_node_idx, upper_node_idx):
+            """return dependency relations on the oneway path from
+            lower node to uppper node"""
+            relations = []
+            # if two indices are same, there is no path
+            if lower_node_idx != upper_node_idx:
+                cur_node = dep_tree[lower_node_idx]
+                relations.append(cur_node[2][0])
+                while cur_node[2][1] != upper_node_idx:
+                    cur_node = dep_tree[cur_node[2][1]]
+                    relations.append(cur_node[2][0])
+            return relations
+
+        path_to_from = path_from_root(dep_tree, from_idx)
+        path_to_to = path_from_root(dep_tree, to_idx)
+
+        lowest_ancestor = None
+        for i in range(max(len(path_to_from), len(path_to_to))):
+            try:
+                if path_to_from[i] != path_to_to[i]:
+                    lowest_ancestor = path_to_from[i-1]
+                    break
+            except IndexError:
+                lowest_ancestor = path_to_from[i-1]
+                break
+
+        if lowest_ancestor is None:
+            print "NO COMMON ANCESTOR"
+            return None, None
+
+        # print "LCA: ", lowest_ancestor
+        upward_relations \
+            = oneway_relations_on_path(dep_tree, from_idx, lowest_ancestor)
+        downward_relations \
+            = oneway_relations_on_path(dep_tree, to_idx, lowest_ancestor)
+        downward_relations.reverse()
+
+        return upward_relations, downward_relations
+
     def is_subject(self, sent, token_offset):
         """return true if a token is playing subject"""
-        parse = self.depparsed_sents[sent]
+        parse = self.depparse_trees[sent]
 
         # since we are using collapsed dep parse trees,
         # in case a mention is a relative pronoun, it is collapsed in the parse
@@ -234,7 +340,7 @@ class RelExtrReader(object):
 
     def is_object(self, sent, token_offset):
         """return true if a token is playing object"""
-        parse = self.depparsed_sents[sent]
+        parse = self.depparse_trees[sent]
 
         # for rel_pronuon
         while not parse.get(token_offset):
@@ -249,7 +355,7 @@ class RelExtrReader(object):
 
     def get_deprel_verb(self, sent, noun_offset):
         """get a NE's governing verb is it's relation to its verb"""
-        parse = self.depparsed_sents[sent]
+        parse = self.depparse_trees[sent]
 
         # can this go into infinite loop? NO
         while True:
@@ -300,8 +406,15 @@ if __name__ == '__main__':
     #     r = reader(filename)
     #     r.write_raw_sents()
 
-    r = RelExtrReader("NYT20001230.1309.0093")
-    print r.depparse_trees[6].tree().pprint()
+    r = RelExtrReader("APW20001001.2021.0521")
+    # for tree in r.depparse_trees:
+    #     for i, node in tree.iteritems():
+    #         print len(node[2]), node[2]
+    # print r.depparse_trees[3].get(-1)[2]
+    # print r.tokenized_sents[3]
+    # print r.depparse_trees[3]
+    # print r.get_dep_rel_path(3, 0, 3)
+
 
     #print r.is_subject(15,4)
     #print r.is_object(15,4)

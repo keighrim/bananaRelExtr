@@ -232,7 +232,7 @@
 (ROOT
   (S
     (NP
-      (NP (DT A) (NNP New) (NNP York) (NNP Times) (NNP News) (NN poll))
+      (NP (DT A) (NNP New) (NNP York) (NNPS Times) (NNP News) (NNP /CBS) (NN poll))
       (VP (VBN taken)
         (ADVP (RB statewide))
         (NP (JJ last) (NN week))))

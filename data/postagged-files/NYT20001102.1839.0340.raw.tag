@@ -24,7 +24,7 @@ He_PRP does_VBZ not_RB have_VB much_JJ support_NN in_IN the_DT first_JJ place_NN
 And_CC the_DT support_NN he_PRP does_VBZ have_VBP ,_, Buchanan_NNP feels_NNS ,_, is_VBZ as_IN likely_JJ to_TO be_VB drawn_VBN from_IN Gore_JJ as_IN from_IN Bush_NNP ._. 
 
 
-A_DT New_NNP York_NNP Times_NNP News_NNP poll_MD taken_VBN statewide_NN last_JJ week_NN showed_VBD Buchanan_JJ with_IN 1_CD percent_NN of_IN the_DT vote_NN in_IN Florida_NNP ._. 
+A_DT New_NNP York_NNP Times_NNP /CBS_NNP News_NNP poll_MD taken_VBN statewide_NN last_JJ week_NN showed_VBD Buchanan_JJ with_IN 1_CD percent_NN of_IN the_DT vote_NN in_IN Florida_NNP ._.
 He_PRP is_VBZ apparently_RB not_RB doing_VBG much_RB better_RBR anywhere_RB else_VB in_IN the_DT country_NN ._. 
 
 

@@ -36,49 +36,52 @@ class FeatureTagger():
         # all feature_functions should
         # 1. take no parameters (use self.pairs)
         # 2. return a list or an iterable which has len of # number of tokens
-        self.feature_functions = [self.string_match_no_articles,
-                                  self.str_stem_match,
-                                  self.words_str_match,
-                                  self.acronym_match,               # hurts
-                                  self.string_contains_no_articles, # hurts
-                                  self.word_overlap,                # hurts
+        self.feature_functions = [
+            # self.string_match_no_articles,
+            # self.str_stem_match,
+            # self.words_str_match,
+            # self.acronym_match,               # hurts
+            # self.string_contains_no_articles, # hurts
+            # self.word_overlap,                # hurts
 
-                                  self.j_pronoun,  # no effect
-                                  self.only_i_pronoun,  # no effect
-                                  self.i_proper,  # no effect
-                                  self.j_proper,  # no effect
-                                  self.both_proper,  # no effect
-                                  self.i_proper_j_pronoun,  # no effect
-                                  self.j_definite,  # no effect
-                                  self.j_demonstrative,  # no effect
-                                  self.pro_str_match,  # no effect
-                                  self.pn_str_match,  # no effect
-                                  self.both_diff_proper,  # no effect
-                                  self.pn_str_contains,             # hurts
-                                  self.i_pronoun,                   # hurts
-                                  self.only_j_pronoun,              # hurts
+            # self.j_pronoun,  # no effect
+            # self.only_i_pronoun,  # no effect
+            # self.i_proper,  # no effect
+            # self.j_proper,  # no effect
+            # self.both_proper,  # no effect
+            # self.i_proper_j_pronoun,  # no effect
+            # self.j_definite,  # no effect
+            # self.j_demonstrative,  # no effect
+            # self.pro_str_match,  # no effect
+            # self.pn_str_match,  # no effect
+            # self.both_diff_proper,  # no effect
+            # self.pn_str_contains,             # hurts
+            # self.i_pronoun,                   # hurts
+            # self.only_j_pronoun,              # hurts
 
-                                  self.ner_tag_match,
+            # self.ner_tag_match,
 
-                                  self.distance_sent,
-                                  self.in_same_sent,
-                                  self.i_precedes_j,
+            # self.distance_sent,
+            # self.in_same_sent,
+            # self.i_precedes_j,
 
-                                  self.number_agree,
-                                  self.distance_tree,
-                                  self.distance_tree_sum,
+            # self.number_agree,
+            # self.distance_tree,
+            # self.distance_tree_sum,
 
-                                  self.i_object,                    # hurts
-                                  self.j_object,
-                                  self.both_object,                 # hurts
-                                  self.i_subject,                   # hurts
-                                  self.j_subject,                   # hurts
-                                  self.both_subject,                # hurts
-                                  self.share_governing_verb,        # hurts
-                                  self.governing_verbs_share_synset,# hurts
-                                  self.syn_verb_same_role,          # hurts
-                                  self.appositive,                    # hurts
-                                  # self.yago_ontology,           # hurts my heart
+            # self.i_object,                    # hurts
+            # self.j_object,
+            # self.both_object,                 # hurts
+            # self.i_subject,                   # hurts
+            # self.j_subject,                   # hurts
+            # self.both_subject,                # hurts
+            # self.share_governing_verb,        # hurts
+            # self.governing_verbs_share_synset,# hurts
+            # self.syn_verb_same_role,          # hurts
+            # self.appositive,                    # hurts
+            self.rels_i_to_lca,
+            self.rels_j_to_lca,
+            self.rels_between_i_j,
         ]
 
         # dicts will store name dictionaries
@@ -123,8 +126,7 @@ class FeatureTagger():
                      int(i_line),                   # 3: int
                      (int(i_start), int(i_end))),   # 4: tuple(int, int)
                     # info on j                                             # 1
-                    (j_words, j_pos, j_ner, int(j_line),
-                     (int(j_start), int(j_end))),
+                    (j_words, j_pos, j_ner, int(j_line), (int(j_start), int(j_end))),
                     # additional info
                     gold_label.strip(),                                     # 2
                     i_line == j_line,                                       # 3
@@ -856,7 +858,7 @@ class FeatureTagger():
                     cur_filename = filename
                 preceding = min(pair[0][4] + pair[1][4])
                 following = max(pair[0][4] + pair[1][4]) - 1
-                path = r.compute_tree_path(pair[0][3], preceding, following)
+                path = r.compute_tree_path_length(pair[0][3], preceding, following)
                 values.append(name + "u" + str(path[0]) + "d" + str(path[1]))
 
         return values
@@ -881,10 +883,80 @@ class FeatureTagger():
                     cur_filename = filename
                 preceding = min(pair[0][4] + pair[1][4])
                 following = max(pair[0][4] + pair[1][4]) - 1
-                path = r.compute_tree_path(pair[0][3], preceding, following)
+                path = r.compute_tree_path_length(pair[0][3], preceding, following)
                 values.append(name + str(sum(path)))
 
         return values
+
+    def rels_i_to_lca(self):
+        """return a concatenated relations from i entity to lowest common ancestor"""
+        name = "rels_i_to_lca="
+        values = []
+        r = None
+        cur_filename = None
+        i_head_idxs = self.get_head_idx(0)
+        j_head_idxs = self.get_head_idx(1)
+        for i, pair in enumerate(self.pairs):
+            if pair[3]:
+                sent = pair[0][3]
+                filename = pair[4]
+                if cur_filename != filename:
+                    r = document_reader.RelExtrReader(filename)
+                    cur_filename = filename
+                values.append(name +
+                              str(r.get_dep_rel_path(
+                                  sent, i_head_idxs[i], j_head_idxs[i])
+                                  [0]))
+            else:
+                values.append(name + "None")
+        return values
+
+    def rels_j_to_lca(self):
+        """return a concatenated relations from lowest common ancestor to j entity"""
+        name = "rels_j_to_lca="
+        values = []
+        r = None
+        cur_filename = None
+        i_head_idxs = self.get_head_idx(0)
+        j_head_idxs = self.get_head_idx(1)
+        for i, pair in enumerate(self.pairs):
+            if pair[3]:
+                sent = pair[0][3]
+                filename = pair[4]
+                if cur_filename != filename:
+                    r = document_reader.RelExtrReader(filename)
+                    cur_filename = filename
+                values.append(name +
+                              str(r.get_dep_rel_path(
+                                  sent, i_head_idxs[i], j_head_idxs[i])
+                                  [1]))
+            else:
+                values.append(name + "None")
+        return values
+
+    def rels_between_i_j(self):
+        """return a concatenated relations from i entity to lowest common ancestor"""
+        name = "rels_between_i_j="
+        values = []
+        r = None
+        cur_filename = None
+        i_head_idxs = self.get_head_idx(0)
+        j_head_idxs = self.get_head_idx(1)
+        for i, pair in enumerate(self.pairs):
+            if pair[3]:
+                sent = pair[0][3]
+                filename = pair[4]
+                if cur_filename != filename:
+                    r = document_reader.RelExtrReader(filename)
+                    cur_filename = filename
+                relations = r.get_dep_rel_path(
+                    sent, i_head_idxs[i], j_head_idxs[i])
+                values.append(name + "[{}-{}]".format(
+                    "-".join(relations[0]), "-".join(relations[1])))
+            else:
+                values.append(name + "None")
+        return values
+
 
     def i_subject(self):
         """returns true if i mention is subject of its sentence"""
