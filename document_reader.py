@@ -65,6 +65,12 @@ class RelExtrReader(object):
             sents.append([w for w, _ in sent])
         return sents
 
+    def get_all_pos_sents(self):
+        sents = []
+        for sent in self.tokenized_sents:
+            sents.append([pos for _, pos in sent])
+        return sents
+
     def write_raw_sents(self):
         """write a cleaned out raw text file from a given .postagged file"""
         if not os.path.exists(RAW_DATA_PATH):
