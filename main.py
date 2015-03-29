@@ -59,6 +59,8 @@ class FeatureTagger():
             self.i_pronoun,                   # hurts
             self.only_j_pronoun,              # hurts
 
+            self.i_ner_tag,
+            self.j_ner_tag,
             self.ner_tag_match,
 
             self.distance_sent,
@@ -80,8 +82,8 @@ class FeatureTagger():
             self.syn_verb_same_role,          # hurts
             self.appositive,                    # hurts
             
-            # self.words_between,          #30 min train/test
-            # self.pos_between,            # hurts.. :(
+            # self.bag_of_words_between,          #30 min train/test
+            self.pos_between,            # hurts.. :(
                                   
             self.rels_i_to_lca,
             self.rels_j_to_lca,
@@ -135,7 +137,7 @@ class FeatureTagger():
                     gold_label, filename, \
                     i_line, i_start, i_end, i_ner, _, i_word, \
                     j_line, j_start, j_end, j_ner, _, j_word, \
-                    = line.strip().split("\t")
+                        = line.strip().split("\t")
                 else:
                     filename, \
                     i_line, i_start, i_end, i_ner, _, i_word, \
@@ -190,11 +192,9 @@ class FeatureTagger():
         self.w_dict = {}
         for num, w in enumerate(words):
             self.w_dict[w] = num
-        print len(self.w_dict)
         self.pos_dict = {}
         for num, p in enumerate(tags):
             self.pos_dict[p] = num
-        print len(self.pos_dict)
 
     def is_coref(self):
         """return gold standard labels for each pairs"""
@@ -295,12 +295,6 @@ class FeatureTagger():
             self.feature_functions.remove(self.is_coref)
         return features
 
-    def populate_dict(self):
-        """Populate dictionaries using external files"""
-        # currently yago data only
-        # with open(os.path.join("resources", "yago", "yago_entries.p"), "rb") as pjar:
-        #     self.dicts["yago"] = pickle.load(pjar)
-
     def in_dict(self, typ):
         """See each token is in a certain dictionary"""
         tag = []
@@ -380,7 +374,17 @@ class FeatureTagger():
                 values.append(name + self.F)
 
         return values
-    
+
+    def i_ner_tag(self):
+        """return string value of NER tag of each instance"""
+        name = "i_ner="
+        return map(lambda x: name + x, self.get_i_ners())
+
+    def j_ner_tag(self):
+        """return string value of NER tag of each instance"""
+        name = "j_ner="
+        return map(lambda x: name + x, self.get_j_ners())
+
     def ner_tag_match(self):
         """true if two mentions share same ber tag"""
         name = "ner_tag_match="
@@ -1216,7 +1220,7 @@ class FeatureTagger():
 
     def bag_of_words_between(self):
         """A feature that lists all the words between two mentions"""
-        name = "words_between="
+        name = "w_btw="
         values = []
 
         cur_filename = None
@@ -1451,7 +1455,6 @@ if __name__ == '__main__':
     )
     args = parser.parse_args()
 
-    ft = FeatureTagger()
     cor = CoreferenceResolver()
     cor.train(args.i)
     if args.t is None:
