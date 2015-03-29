@@ -24,7 +24,6 @@ import document_reader
 
 PROJECT_PATH = os.getcwd()
 DATA_PATH = os.path.join(PROJECT_PATH, "data")
-POS_DATA_PATH = os.path.join(DATA_PATH, "postagged-files")
 RES_PATH = os.path.join(PROJECT_PATH, "resources")
 
 
@@ -81,12 +80,42 @@ class FeatureTagger():
             self.syn_verb_same_role,          # hurts
             self.appositive,                    # hurts
             
-            self.bag_of_words_between,          #30 min train/test
-            self.pos_between,            # hurts.. :(
+            # self.words_between,          #30 min train/test
+            # self.pos_between,            # hurts.. :(
                                   
             self.rels_i_to_lca,
             self.rels_j_to_lca,
             self.rels_between_i_j,
+            
+            self.i_prev_word,
+            self.i_prev_word_2,
+            self.i_prev_word_3,
+            #self.i_prev_pos,
+            #self.i_prev_pos_2,
+            #self.i_prev_pos_3,
+            
+            #self.j_prev_word,
+            #self.j_prev_word_2,
+            #self.j_prev_word_3,
+            #self.j_prev_pos,
+            #self.j_prev_pos_2,
+            #self.j_prev_pos_3,
+            
+            #self.i_next_word,
+            #self.i_next_word_2,
+            #self.i_next_word_3,
+            #self.i_next_pos,
+            #self.i_next_pos_2,
+            #self.i_next_pos_2,
+            
+            #self.j_next_word,
+            #self.j_next_word_2,
+            #self.j_next_word_3,
+            #self.j_next_pos,
+            #self.j_next_pos_2,
+            #self.j_next_pos_2,
+            
+            self.no_words_between,
         ]
 
         # dicts will store name dictionaries
@@ -166,7 +195,6 @@ class FeatureTagger():
         for num, p in enumerate(tags):
             self.pos_dict[p] = num
         print len(self.pos_dict)
-
 
     def is_coref(self):
         """return gold standard labels for each pairs"""
@@ -269,6 +297,9 @@ class FeatureTagger():
 
     def populate_dict(self):
         """Populate dictionaries using external files"""
+        # currently yago data only
+        # with open(os.path.join("resources", "yago", "yago_entries.p"), "rb") as pjar:
+        #     self.dicts["yago"] = pickle.load(pjar)
 
     def in_dict(self, typ):
         """See each token is in a certain dictionary"""
@@ -1233,6 +1264,7 @@ class FeatureTagger():
         return values
         
     def prev_or_next(self, name, i_or_j, n, pos=False):
+        """Helper function to return prev/next words or pos tags"""
         values = []
         
         cur_filename = None
@@ -1253,10 +1285,97 @@ class FeatureTagger():
                     target = r.get_pos(pair[0][3], index, index + 1)
                 else:
                     target = r.get_words(pair[0][3], index, index + 1)
-                values.append(name + target)
+                values.append(name + target[0])
             except IndexError:
                 values.append(name + "out_of_bounds")
                 
+        return values
+        
+    def i_prev_word(self):
+        return self.prev_or_next("i_prev_word=", 0, -1)
+    
+    def i_prev_word_2(self):
+        return self.prev_or_next("i_prev_word_2=", 0, -2)
+        
+    def i_prev_word_3(self):
+        return self.prev_or_next("i_prev_word_3=", 0, -3)
+        
+    def i_prev_pos(self):
+        return self.prev_or_next("i_prev_pos=", 0, -1, True)
+    
+    def i_prev_pos_2(self):
+        return self.prev_or_next("i_prev_pos_2=", 0, -2, True)
+        
+    def i_prev_pos_3(self):
+        return self.prev_or_next("i_prev_pos_3=", 0, -3, True)
+        
+    def j_prev_word(self):
+        return self.prev_or_next("j_prev_word=", 0, -1)
+    
+    def j_prev_word_2(self):
+        return self.prev_or_next("j_prev_word_2=", 0, -2)
+        
+    def j_prev_word_3(self):
+        return self.prev_or_next("j_prev_word_3=", 0, -3)
+        
+    def j_prev_pos(self):
+        return self.prev_or_next("j_prev_pos=", 0, -1, True)
+    
+    def j_prev_pos_2(self):
+        return self.prev_or_next("j_prev_pos_2=", 0, -2, True)
+        
+    def j_prev_pos_3(self):
+        return self.prev_or_next("j_prev_pos_3=", 0, -3, True)
+        
+    def i_next_word(self):
+        return self.prev_or_next("i_next_word=", 0, -1)
+    
+    def i_next_word_2(self):
+        return self.prev_or_next("i_next_word_2=", 0, -2)
+        
+    def i_next_word_3(self):
+        return self.prev_or_next("i_next_word_3=", 0, -3)
+        
+    def i_next_pos(self):
+        return self.prev_or_next("i_next_pos=", 0, -1, True)
+    
+    def i_next_pos_2(self):
+        return self.prev_or_next("i_next_pos_2=", 0, -2, True)
+        
+    def i_next_pos_3(self):
+        return self.prev_or_next("i_next_pos_3=", 0, -3, True)
+        
+    def j_next_word(self):
+        return self.prev_or_next("j_next_word=", 0, -1)
+    
+    def j_next_word_2(self):
+        return self.prev_or_next("j_next_word_2=", 0, -2)
+        
+    def j_next_word_3(self):
+        return self.prev_or_next("j_next_word_3=", 0, -3)
+        
+    def j_next_pos(self):
+        return self.prev_or_next("j_next_pos=", 0, -1, True)
+    
+    def j_next_pos_2(self):
+        return self.prev_or_next("j_next_pos_2=", 0, -2, True)
+        
+    def j_next_pos_3(self):
+        return self.prev_or_next("j_next_pos_3=", 0, -3, True)
+        
+    def no_words_between(self):
+        """Returns true if there are no words between two mentions"""
+        name = "no_words_between="
+        values = []
+        
+        for pair in self.pairs:
+            i_start, i_end = pair[0][4]
+            j_start, j_end = pair[1][4]
+            if (i_end == j_start or j_end == i_start) and pair[3]:
+                values.append(name + self.T)
+            else:
+                values.append(name + self.F)
+        
         return values
 
 
