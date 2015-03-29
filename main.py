@@ -10,6 +10,7 @@ import collections
 import subprocess
 import sys
 import cPickle as pickle
+import numpy as np
 
 
 reload(sys)
@@ -37,8 +38,8 @@ class FeatureTagger():
         # 1. take no parameters (use self.pairs)
         # 2. return a list or an iterable which has len of # number of tokens
         self.feature_functions = [
-            self.string_match_no_articles,
-            self.str_stem_match,
+            # self.string_match_no_articles,
+            # self.str_stem_match,
             self.words_str_match,
             self.acronym_match,               # hurts
             self.string_contains_no_articles, # hurts
@@ -69,17 +70,20 @@ class FeatureTagger():
             self.distance_tree,
             self.distance_tree_sum,
 
-            self.i_object,                    # hurts
-            self.j_object,
-            self.both_object,                 # hurts
-            self.i_subject,                   # hurts
-            self.j_subject,                   # hurts
-            self.both_subject,                # hurts
-            self.share_governing_verb,        # hurts
-            self.governing_verbs_share_synset,# hurts
-            self.syn_verb_same_role,          # hurts
-            self.appositive,                    # hurts
-
+            #self.i_object,                    # hurts
+            #self.j_object,
+            #self.both_object,                 # hurts
+            #self.i_subject,                   # hurts
+            #self.j_subject,                   # hurts
+            #self.both_subject,                # hurts
+            #self.share_governing_verb,        # hurts
+            #self.governing_verbs_share_synset,# hurts
+            #self.syn_verb_same_role,          # hurts
+            #self.appositive,                    # hurts
+            
+            #self.words_between,          #30 min train/test
+            #self.pos_between,            # hurts.. :(
+                                  
             self.rels_i_to_lca,
             self.rels_j_to_lca,
             self.rels_between_i_j,
@@ -148,6 +152,29 @@ class FeatureTagger():
                         filename, i_line, i_start, i_end,
                         r.get_words(i_line, i_start, i_end), i_words)
                 self.pairs.append(pair)
+
+    def load_dicts(self):
+        """ Creates a dict of all words in training data. Each word has a unique
+        index"""
+        self.w_dict = {}
+        self.pos_dict = {}
+        index = 0
+        pos_index = 0
+        POS_DATA_PATH = os.path.join(DATA_PATH, "postagged-files")
+        for filename in os.listdir(POS_DATA_PATH):
+            r = document_reader.reader(filename[:-8])
+            sents = r.get_all_sents()
+            pos_sents = r.get_all_pos_sents()
+            words = set([word for sent in sents for word in sent])
+            pos_tags = set([pos for sent in pos_sents for pos in sent])
+            for word in words:
+                if word not in self.w_dict:
+                    self.w_dict[word] = index
+                    index += 1
+            for pos in pos_tags:
+                if pos not in self.pos_dict:
+                    self.pos_dict[pos] = pos_index
+                    pos_index += 1
 
     def is_coref(self):
         """return gold standard labels for each pairs"""
@@ -674,6 +701,7 @@ class FeatureTagger():
         for i in range(len(tags)):
             nnps = [tag for tag in tags[i] if tag.startswith("NNP")]
             if len(nnps) == len(tags[i]):
+                # print i, " found NNP at first loc"
                 values.append(name + self.T)
             else:
                 values.append(name + self.F)
@@ -1164,6 +1192,89 @@ class FeatureTagger():
             else:
                 values.append(name + self.F)
 
+        return values
+
+    ########################################################
+    ##### Relation Functions ###############################
+    ########################################################
+    
+    def words_between(self):
+        """A feature that lists all the words between two mentions"""
+        name = "words_between="
+        feature = []
+        values = []
+        
+        cur_filename = None
+        for pair in self.pairs: 
+            if not pair[3]:
+                values.append(name + self.F)
+            else:
+                filename = pair[4]
+                if cur_filename != filename:
+                    r = document_reader.reader(pair[4])
+                    cur_filename = filename
+                preceding = min(pair[0][4] + pair[1][4])
+                following = max(pair[0][4] + pair[1][4]) - 1
+                words = set(r.get_words(pair[0][3], preceding, following))
+                pair_values = np.zeros(len(self.w_dict), dtype=np.int)
+                for key in self.w_dict.iterkeys():
+                    if key in words:
+                        pair_values[self.w_dict[key]] += 1
+                values.append("".join(map(str, pair_values)))
+                
+        return values
+        
+    def pos_between(self):
+        """A feature that lists all the POS of words between two mentions"""
+        name = "words_between="
+        feature = []
+        values = []
+        
+        cur_filename = None
+        for pair in self.pairs: 
+            if not pair[3]:
+                values.append(name + self.F)
+            else:
+                filename = pair[4]
+                if cur_filename != filename:
+                    r = document_reader.reader(pair[4])
+                    cur_filename = filename
+                preceding = min(pair[0][4] + pair[1][4])
+                following = max(pair[0][4] + pair[1][4]) - 1
+                tags = r.get_pos(pair[0][3], preceding, following)
+                pair_values = np.zeros(len(self.pos_dict), dtype=np.int)
+                for key in self.w_dict.iterkeys():
+                    if key in tags:
+                        pair_values[self.pos_dict[key]] += tags.count(key)
+                values.append("".join(map(str, pair_values)))
+                
+        return values
+        
+    def prev_or_next(self, name, i_or_j, n, pos=False):
+        values = []
+        
+        cur_filename = None
+        for pair in self.pairs: 
+            filename = pair[4]
+            if cur_filename != filename:
+                r = document_reader.reader(pair[4])
+                cur_filename = filename
+                
+            orig_start, orig_end = pair[i_or_j][4]
+            if n < 0:       
+                index = orig_start + n
+            else:
+                index = orig_end + n
+                
+            try:
+                if pos:
+                    target = r.get_pos(pair[0][3], index, index + 1)
+                else:
+                    target = r.get_words(pair[0][3], index, index + 1)
+                values.append(name + target)
+            except IndexError:
+                values.append(name + "out_of_bounds")
+                
         return values
 
 
