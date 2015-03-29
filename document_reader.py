@@ -27,8 +27,8 @@ __email__ = ['krim@brandeis.edu', 'tcurcuru@brandeis.edu', 'yalin@brandeis.edu']
 
 PROJECT_PATH = os.getcwd()
 DATA_PATH = os.path.join(PROJECT_PATH, "data")
-POS_DATA_PATH = os.path.join(DATA_PATH, "postagged-files")
 RAW_DATA_PATH = os.path.join(DATA_PATH, "rawtext-files")
+POS_DATA_PATH = os.path.join(DATA_PATH, "postagged-files")
 DEPPARSE_DATA_PATH = os.path.join(DATA_PATH, "depparsed-files")
 SYNPARSE_DATA_PATH = os.path.join(DATA_PATH, "parsed-files")
 
@@ -37,15 +37,16 @@ class RelExtrReader(object):
     reader is the main class for reading document files in project dataset
     Basically a reader object represent a document in corpus
     """
-    def __init__(self, filename):
+    def __init__(self, filename, full=True):
         super(RelExtrReader, self).__init__()
         self.filename = filename
         # POS tagged
         self.tokenized_sents = self.tokenize_sent()
-        # Dep parse trees
-        self.depparse_trees = self.load_dep_parse()
-        # PS parse trees
-        self.synparsed_trees = self.load_syn_parse()
+        if full:
+            # Dep parse trees
+            self.depparse_trees = self.load_dep_parse()
+            # PS parse trees
+            self.synparsed_trees = self.load_syn_parse()
 
     def tokenize_sent(self):
         """separate out words and POS tags from .postagged files"""
@@ -63,12 +64,6 @@ class RelExtrReader(object):
         sents = []
         for sent in self.tokenized_sents:
             sents.append([w for w, _ in sent])
-        return sents
-
-    def get_all_pos_sents(self):
-        sents = []
-        for sent in self.tokenized_sents:
-            sents.append([pos for _, pos in sent])
         return sents
 
     def write_raw_sents(self):
@@ -386,11 +381,20 @@ class RelExtrReader(object):
                     verbset.update(synset.lemma_names())
                 return verb_k in verbset
 
+def get_all_words_and_postags():
+    words = set()
+    postags = set()
+    for filename in os.listdir(RAW_DATA_PATH):
+        filename = filename[:-4]
+        r = RelExtrReader(filename, full=False)
+        for sent in r.tokenized_sents:
+            for w, p in sent:
+                words.add(w)
+                postags.add(p)
+    return words, postags
+
 
 if __name__ == '__main__':
-    # for filename in os.listdir(POS_DATA_PATH):
-    #     filename = filename[:-8]
-    #     r = reader(filename)
     #     r.write_raw_sents()
 
     r = RelExtrReader("APW20001001.2021.0521")
