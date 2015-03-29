@@ -190,7 +190,6 @@ class RelExtrReader(object):
             nltk_string += "{0}\t{1}\t{2}\t{3}\n".format(
                 dep, word_pos[dep_idx][1], str(gov_idx + 1), rel)
         # print "CONVERTED: ", nltk_string
-        print nltk.dependencygraph.DependencyGraph(nltk_string).tree()
         return nltk.dependencygraph.DependencyGraph(nltk_string)
 
     @staticmethod
@@ -254,15 +253,13 @@ class RelExtrReader(object):
             if dependent[0][0] == to_node:
                 return rel
         governors = parse[from_node][2]
-        for rel, governor in governors.iteritems():
-            if governor[0][0] == to_node:
-                return rel
+        if governors[1] == to_node:
+            return governors[0]
         # if no relation found, return null
         return
 
     def get_dep_rel_path(self, sent, from_idx, to_idx):
         """get all dependency relations on the path between two targets"""
-        print self.filename, sent, from_idx, to_idx
         dep_tree = self.depparse_trees[sent]
 
         def path_from_root(dep_tree, idx):
@@ -311,7 +308,6 @@ class RelExtrReader(object):
             print "NO COMMON ANCESTOR"
             return None, None
 
-        # print "LCA: ", lowest_ancestor
         upward_relations \
             = oneway_relations_on_path(dep_tree, from_idx, lowest_ancestor)
         downward_relations \
@@ -331,9 +327,7 @@ class RelExtrReader(object):
             token_offset -= 1
 
         governors = parse[token_offset][2]
-        if "nsubj" in governors.keys() \
-                or "nsubjpass" in governors.keys() \
-                or "subj" in governors.keys():
+        if governors[0] in ["nsubj", "nsubjpass", "subj"]:
             return True
         else:
             return False
@@ -346,9 +340,7 @@ class RelExtrReader(object):
         while not parse.get(token_offset):
             token_offset -= 1
         governors = parse[token_offset][2]
-        if "dobj" in governors.keys() \
-                or "iobj" in governors.keys() \
-                or "obj" in governors.keys():
+        if governors[0] in ["dobj",  "iobj",  "obj"]:
             return True
         else:
             return False
@@ -363,23 +355,20 @@ class RelExtrReader(object):
             while not parse.get(noun_offset):
                 noun_offset -= 1
             # go through the list of governors
-            governors = parse[noun_offset][2]
-            for num, rel in enumerate(governors.keys()):
-                # if verb found, return role and verb
-                if rel in ("subj", "nsubj", "nsubjpass"):
-                    return "subj", governors[rel][0][1]
-                elif rel in ("obj", "dobj", "iobj"):
-                    return "obj", governors[rel][0][1]
+            governor = parse[noun_offset][2]
+            if governor[0] in ("subj", "nsubj", "nsubjpass"):
+                return "subj", governor[2]
+            elif governor[0] in ("obj", "dobj", "iobj"):
+                return "obj", governor[2]
                 # if current token has a noun governor, move to that one,
                 # continue to go up the tree
-                elif rel in ("appos", "nn", "poss", "conj_and", "conj_or"):
-                    new_noun_offset = governors[rel][0][0]
-                    if new_noun_offset != noun_offset:
-                        noun_offset = new_noun_offset
-                        break
-                    else:
-                        continue
-                return None, None
+            elif governor[0] in ("appos", "nn", "poss", "conj_and", "conj_or"):
+                new_noun_offset = governor[1]
+                if new_noun_offset != noun_offset:
+                    noun_offset = new_noun_offset
+                else:
+                    continue
+            return (None, None)
 
 
     @staticmethod

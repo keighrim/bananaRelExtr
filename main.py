@@ -37,48 +37,49 @@ class FeatureTagger():
         # 1. take no parameters (use self.pairs)
         # 2. return a list or an iterable which has len of # number of tokens
         self.feature_functions = [
-            # self.string_match_no_articles,
-            # self.str_stem_match,
-            # self.words_str_match,
-            # self.acronym_match,               # hurts
-            # self.string_contains_no_articles, # hurts
-            # self.word_overlap,                # hurts
+            self.string_match_no_articles,
+            self.str_stem_match,
+            self.words_str_match,
+            self.acronym_match,               # hurts
+            self.string_contains_no_articles, # hurts
+            self.word_overlap,                # hurts
 
-            # self.j_pronoun,  # no effect
-            # self.only_i_pronoun,  # no effect
-            # self.i_proper,  # no effect
-            # self.j_proper,  # no effect
-            # self.both_proper,  # no effect
-            # self.i_proper_j_pronoun,  # no effect
-            # self.j_definite,  # no effect
-            # self.j_demonstrative,  # no effect
-            # self.pro_str_match,  # no effect
-            # self.pn_str_match,  # no effect
-            # self.both_diff_proper,  # no effect
-            # self.pn_str_contains,             # hurts
-            # self.i_pronoun,                   # hurts
-            # self.only_j_pronoun,              # hurts
+            self.j_pronoun,  # no effect
+            self.only_i_pronoun,  # no effect
+            self.i_proper,  # no effect
+            self.j_proper,  # no effect
+            self.both_proper,  # no effect
+            self.i_proper_j_pronoun,  # no effect
+            self.j_definite,  # no effect
+            self.j_demonstrative,  # no effect
+            self.pro_str_match,  # no effect
+            self.pn_str_match,  # no effect
+            self.both_diff_proper,  # no effect
+            self.pn_str_contains,             # hurts
+            self.i_pronoun,                   # hurts
+            self.only_j_pronoun,              # hurts
 
-            # self.ner_tag_match,
+            self.ner_tag_match,
 
-            # self.distance_sent,
-            # self.in_same_sent,
-            # self.i_precedes_j,
+            self.distance_sent,
+            self.in_same_sent,
+            self.i_precedes_j,
 
-            # self.number_agree,
-            # self.distance_tree,
-            # self.distance_tree_sum,
+            self.number_agree,
+            self.distance_tree,
+            self.distance_tree_sum,
 
-            # self.i_object,                    # hurts
-            # self.j_object,
-            # self.both_object,                 # hurts
-            # self.i_subject,                   # hurts
-            # self.j_subject,                   # hurts
-            # self.both_subject,                # hurts
-            # self.share_governing_verb,        # hurts
-            # self.governing_verbs_share_synset,# hurts
-            # self.syn_verb_same_role,          # hurts
-            # self.appositive,                    # hurts
+            self.i_object,                    # hurts
+            self.j_object,
+            self.both_object,                 # hurts
+            self.i_subject,                   # hurts
+            self.j_subject,                   # hurts
+            self.both_subject,                # hurts
+            self.share_governing_verb,        # hurts
+            self.governing_verbs_share_synset,# hurts
+            self.syn_verb_same_role,          # hurts
+            self.appositive,                    # hurts
+
             self.rels_i_to_lca,
             self.rels_j_to_lca,
             self.rels_between_i_j,
@@ -673,7 +674,6 @@ class FeatureTagger():
         for i in range(len(tags)):
             nnps = [tag for tag in tags[i] if tag.startswith("NNP")]
             if len(nnps) == len(tags[i]):
-                # print i, " found NNP at first loc"
                 values.append(name + self.T)
             else:
                 values.append(name + self.F)
