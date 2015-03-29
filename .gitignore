@@ -17,6 +17,8 @@ develop-eggs/
 dist/
 downloads/
 eggs/
+lib/stanford-parser
+lib/svmlight-TK
 # lib/
 # lib64/
 parts/

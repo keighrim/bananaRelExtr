@@ -107,19 +107,11 @@ class RelExtrReader(object):
         sent = {}
         with open(os.path.join(DEPPARSE_DATA_PATH,
                                self.filename + ".raw.depparse")) as parse:
-            stanford_format_tree = ""
             for line in parse:
                 if line == "\n":
-                    # print "CONVERTING: ", stanford_format_tree, self.tokenized_sents[len(trees)]
-                    # trees.append(
-                    #     self.convert_to_nltk_format(stanford_format_tree,
-                    #                                 self.tokenized_sents[len(trees)]))
-                    # stanford_format_tree = ""
                     trees.append(sent)
                     sent = {}
                 else:
-                    # stanford_format_tree += line
-
                     # each line of Stanford dependency looks like this
                     # relation(govennor-gov_index, dependant-dep_index)
                     m = re.match(r"^(.+)\((.+)-([0-9']+), (.+)-([0-9']+)\)", line)

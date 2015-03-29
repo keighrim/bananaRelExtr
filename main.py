@@ -81,8 +81,8 @@ class FeatureTagger():
             #self.syn_verb_same_role,          # hurts
             #self.appositive,                    # hurts
             
-            #self.words_between,          #30 min train/test
-            #self.pos_between,            # hurts.. :(
+            # self.words_between,          #30 min train/test
+            # self.pos_between,            # hurts.. :(
                                   
             self.rels_i_to_lca,
             self.rels_j_to_lca,
@@ -1194,9 +1194,9 @@ class FeatureTagger():
 
         return values
 
-    ########################################################
-    ##### Relation Functions ###############################
-    ########################################################
+    ##########################
+    ##### Relation Functions #
+    ##########################
     
     def words_between(self):
         """A feature that lists all the words between two mentions"""
