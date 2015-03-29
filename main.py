@@ -30,8 +30,8 @@ RES_PATH = os.path.join(PROJECT_PATH, "resources")
 
 class FeatureTagger():
     """FeatureTagger is a framework for tagging tokens from data file"""
-    T = 'true'
-    F = 'false'
+    T = 'T'
+    F = 'F'
 
     def __init__(self):
         # all feature_functions should
@@ -81,7 +81,7 @@ class FeatureTagger():
             self.syn_verb_same_role,          # hurts
             self.appositive,                    # hurts
             
-            self.words_between,          #30 min train/test
+            self.bag_of_words_between,          #30 min train/test
             self.pos_between,            # hurts.. :(
                                   
             self.rels_i_to_lca,
@@ -1183,15 +1183,11 @@ class FeatureTagger():
 
         return values
 
-    ##########################
-    ##### Relation Functions #
-    ##########################
-    
-    def words_between(self):
+    def bag_of_words_between(self):
         """A feature that lists all the words between two mentions"""
         name = "words_between="
         values = []
-        
+
         cur_filename = None
         for pair in self.pairs: 
             if not pair[3]:
@@ -1205,18 +1201,19 @@ class FeatureTagger():
                 following = max(pair[0][4] + pair[1][4]) - 1
                 words = set(r.get_words(pair[0][3], preceding, following))
                 pair_values = np.zeros(len(self.w_dict), dtype=np.int)
-                for key in self.w_dict.iterkeys():
-                    if key in words:
-                        pair_values[self.w_dict[key]] += 1
-                values.append("".join(map(str, pair_values)))
-                
+                for idx in [self.w_dict[w] for w in words]:
+                    pair_values[idx] = 1
+                # for key in self.w_dict.iterkeys():
+                #     if key in words:
+                #         pair_values[self.w_dict[key]] += 1
+                values.append("".join(map(str, map(int, pair_values))))
         return values
-        
+
     def pos_between(self):
         """A feature that lists all the POS of words between two mentions"""
         name = "words_between="
         values = []
-        
+
         cur_filename = None
         for pair in self.pairs: 
             if not pair[3]:
@@ -1230,11 +1227,9 @@ class FeatureTagger():
                 following = max(pair[0][4] + pair[1][4]) - 1
                 tags = r.get_pos(pair[0][3], preceding, following)
                 pair_values = np.zeros(len(self.pos_dict), dtype=np.int)
-                for key in self.w_dict.iterkeys():
-                    if key in tags:
-                        pair_values[self.pos_dict[key]] += tags.count(key)
-                values.append("".join(map(str, pair_values)))
-                
+                for idx in [self.pos_dict[p] for p in tags]:
+                    pair_values[idx] = 1
+                values.append("".join(map(str, map(int, pair_values))))
         return values
         
     def prev_or_next(self, name, i_or_j, n, pos=False):
