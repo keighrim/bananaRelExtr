@@ -70,16 +70,16 @@ class FeatureTagger():
             self.distance_tree,
             self.distance_tree_sum,
 
-            #self.i_object,                    # hurts
-            #self.j_object,
-            #self.both_object,                 # hurts
-            #self.i_subject,                   # hurts
-            #self.j_subject,                   # hurts
-            #self.both_subject,                # hurts
-            #self.share_governing_verb,        # hurts
-            #self.governing_verbs_share_synset,# hurts
-            #self.syn_verb_same_role,          # hurts
-            #self.appositive,                    # hurts
+            self.i_object,                    # hurts
+            self.j_object,
+            self.both_object,                 # hurts
+            self.i_subject,                   # hurts
+            self.j_subject,                   # hurts
+            self.both_subject,                # hurts
+            self.share_governing_verb,        # hurts
+            self.governing_verbs_share_synset,# hurts
+            self.syn_verb_same_role,          # hurts
+            self.appositive,                    # hurts
             
             # self.words_between,          #30 min train/test
             # self.pos_between,            # hurts.. :(
@@ -87,6 +87,36 @@ class FeatureTagger():
             self.rels_i_to_lca,
             self.rels_j_to_lca,
             self.rels_between_i_j,
+            
+            self.i_prev_word,
+            self.i_prev_word_2,
+            self.i_prev_word_3,
+            #self.i_prev_pos,
+            #self.i_prev_pos_2,
+            #self.i_prev_pos_3,
+            
+            #self.j_prev_word,
+            #self.j_prev_word_2,
+            #self.j_prev_word_3,
+            #self.j_prev_pos,
+            #self.j_prev_pos_2,
+            #self.j_prev_pos_3,
+            
+            #self.i_next_word,
+            #self.i_next_word_2,
+            #self.i_next_word_3,
+            #self.i_next_pos,
+            #self.i_next_pos_2,
+            #self.i_next_pos_2,
+            
+            #self.j_next_word,
+            #self.j_next_word_2,
+            #self.j_next_word_3,
+            #self.j_next_pos,
+            #self.j_next_pos_2,
+            #self.j_next_pos_2,
+            
+            self.no_words_between,
         ]
 
         # dicts will store name dictionaries
@@ -162,7 +192,7 @@ class FeatureTagger():
         pos_index = 0
         POS_DATA_PATH = os.path.join(DATA_PATH, "postagged-files")
         for filename in os.listdir(POS_DATA_PATH):
-            r = document_reader.reader(filename[:-8])
+            r = document_reader.RelExtrReader(filename[:-8])
             sents = r.get_all_sents()
             pos_sents = r.get_all_pos_sents()
             words = set([word for sent in sents for word in sent])
@@ -1251,13 +1281,14 @@ class FeatureTagger():
         return values
         
     def prev_or_next(self, name, i_or_j, n, pos=False):
+        """Helper function to return prev/next words or pos tags"""
         values = []
         
         cur_filename = None
         for pair in self.pairs: 
             filename = pair[4]
             if cur_filename != filename:
-                r = document_reader.reader(pair[4])
+                r = document_reader.RelExtrReader(pair[4])
                 cur_filename = filename
                 
             orig_start, orig_end = pair[i_or_j][4]
@@ -1271,10 +1302,97 @@ class FeatureTagger():
                     target = r.get_pos(pair[0][3], index, index + 1)
                 else:
                     target = r.get_words(pair[0][3], index, index + 1)
-                values.append(name + target)
+                values.append(name + target[0])
             except IndexError:
                 values.append(name + "out_of_bounds")
                 
+        return values
+        
+    def i_prev_word(self):
+        return self.prev_or_next("i_prev_word=", 0, -1)
+    
+    def i_prev_word_2(self):
+        return self.prev_or_next("i_prev_word_2=", 0, -2)
+        
+    def i_prev_word_3(self):
+        return self.prev_or_next("i_prev_word_3=", 0, -3)
+        
+    def i_prev_pos(self):
+        return self.prev_or_next("i_prev_pos=", 0, -1, True)
+    
+    def i_prev_pos_2(self):
+        return self.prev_or_next("i_prev_pos_2=", 0, -2, True)
+        
+    def i_prev_pos_3(self):
+        return self.prev_or_next("i_prev_pos_3=", 0, -3, True)
+        
+    def j_prev_word(self):
+        return self.prev_or_next("j_prev_word=", 0, -1)
+    
+    def j_prev_word_2(self):
+        return self.prev_or_next("j_prev_word_2=", 0, -2)
+        
+    def j_prev_word_3(self):
+        return self.prev_or_next("j_prev_word_3=", 0, -3)
+        
+    def j_prev_pos(self):
+        return self.prev_or_next("j_prev_pos=", 0, -1, True)
+    
+    def j_prev_pos_2(self):
+        return self.prev_or_next("j_prev_pos_2=", 0, -2, True)
+        
+    def j_prev_pos_3(self):
+        return self.prev_or_next("j_prev_pos_3=", 0, -3, True)
+        
+    def i_next_word(self):
+        return self.prev_or_next("i_next_word=", 0, -1)
+    
+    def i_next_word_2(self):
+        return self.prev_or_next("i_next_word_2=", 0, -2)
+        
+    def i_next_word_3(self):
+        return self.prev_or_next("i_next_word_3=", 0, -3)
+        
+    def i_next_pos(self):
+        return self.prev_or_next("i_next_pos=", 0, -1, True)
+    
+    def i_next_pos_2(self):
+        return self.prev_or_next("i_next_pos_2=", 0, -2, True)
+        
+    def i_next_pos_3(self):
+        return self.prev_or_next("i_next_pos_3=", 0, -3, True)
+        
+    def j_next_word(self):
+        return self.prev_or_next("j_next_word=", 0, -1)
+    
+    def j_next_word_2(self):
+        return self.prev_or_next("j_next_word_2=", 0, -2)
+        
+    def j_next_word_3(self):
+        return self.prev_or_next("j_next_word_3=", 0, -3)
+        
+    def j_next_pos(self):
+        return self.prev_or_next("j_next_pos=", 0, -1, True)
+    
+    def j_next_pos_2(self):
+        return self.prev_or_next("j_next_pos_2=", 0, -2, True)
+        
+    def j_next_pos_3(self):
+        return self.prev_or_next("j_next_pos_3=", 0, -3, True)
+        
+    def no_words_between(self):
+        """Returns true if there are no words between two mentions"""
+        name = "no_words_between="
+        values = []
+        
+        for pair in self.pairs:
+            i_start, i_end = pair[0][4]
+            j_start, j_end = pair[1][4]
+            if (i_end == j_start or j_end == i_start) and pair[3]:
+                values.append(name + self.T)
+            else:
+                values.append(name + self.F)
+        
         return values
 
 
