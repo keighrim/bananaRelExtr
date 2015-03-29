@@ -111,7 +111,7 @@ class FeatureTagger():
                 j_words = j_word.split("_")
 
                 if cur_filename != filename:
-                    r = document_reader.reader(filename)
+                    r = document_reader.RelExtrReader(filename)
                     cur_filename = filename
                 i_pos = r.get_pos(i_line, i_start, i_end)
                 j_pos = r.get_pos(j_line, j_start, j_end)
@@ -852,7 +852,7 @@ class FeatureTagger():
             else:
                 filename = pair[4]
                 if cur_filename != filename:
-                    r = document_reader.reader(pair[4])
+                    r = document_reader.RelExtrReader(pair[4])
                     cur_filename = filename
                 preceding = min(pair[0][4] + pair[1][4])
                 following = max(pair[0][4] + pair[1][4]) - 1
@@ -877,7 +877,7 @@ class FeatureTagger():
             else:
                 filename = pair[4]
                 if cur_filename != filename:
-                    r = document_reader.reader(pair[4])
+                    r = document_reader.RelExtrReader(pair[4])
                     cur_filename = filename
                 preceding = min(pair[0][4] + pair[1][4])
                 following = max(pair[0][4] + pair[1][4]) - 1
@@ -932,7 +932,7 @@ class FeatureTagger():
             sent = pair[i_or_j][3]
             filename = pair[4]
             if cur_filename != filename:
-                r = document_reader.reader(filename)
+                r = document_reader.RelExtrReader(filename)
                 cur_filename = filename
             values.append(r.is_subject(sent, head_idxs[i]))
 
@@ -984,7 +984,7 @@ class FeatureTagger():
             sent = pair[i_or_j][3]
             filename = pair[4]
             if cur_filename != filename:
-                r = document_reader.reader(filename)
+                r = document_reader.RelExtrReader(filename)
                 cur_filename = filename
             values.append(r.is_object(sent, head_idxs[i]))
 
@@ -1007,7 +1007,7 @@ class FeatureTagger():
             else:
                 filename = pair[4]
                 if cur_filename != filename:
-                    r = document_reader.reader(filename)
+                    r = document_reader.RelExtrReader(filename)
                     cur_filename = filename
                 if r.get_dep_relation(i_sent, i_head_idxs[i], j_head_idxs[i]) == "appos":
                     values.append(name + self.T)
@@ -1029,7 +1029,7 @@ class FeatureTagger():
             j_sent = pair[1][3]
             filename = pair[4]
             if cur_filename != filename:
-                r = document_reader.reader(filename)
+                r = document_reader.RelExtrReader(filename)
                 cur_filename = filename
             i_verb = r.get_deprel_verb(i_sent, i_head_idxs[i])[1]
             j_verb = r.get_deprel_verb(j_sent, j_head_idxs[i])[1]
@@ -1055,7 +1055,7 @@ class FeatureTagger():
             j_sent = pair[1][3]
             filename = pair[4]
             if cur_filename != filename:
-                r = document_reader.reader(filename)
+                r = document_reader.RelExtrReader(filename)
                 cur_filename = filename
             i_verb = r.get_deprel_verb(i_sent, i_head_idxs[i])[1]
             j_verb = r.get_deprel_verb(j_sent, j_head_idxs[i])[1]
@@ -1083,7 +1083,7 @@ class FeatureTagger():
             j_sent = pair[1][3]
             filename = pair[4]
             if cur_filename != filename:
-                r = document_reader.reader(filename)
+                r = document_reader.RelExtrReader(filename)
                 cur_filename = filename
             i_rel, i_verb = r.get_deprel_verb(i_sent, i_head_idxs[i])
             j_rel, j_verb = r.get_deprel_verb(j_sent, j_head_idxs[i])

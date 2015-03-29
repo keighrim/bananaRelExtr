@@ -12,6 +12,7 @@ import os
 import pprint
 import re
 import sys
+import nltk
 
 from nltk.corpus import wordnet as wn
 from nltk.tree import ParentedTree as ptree
@@ -21,7 +22,7 @@ reload(sys)
 sys.setdefaultencoding('utf8')
 
 __author__ = ["Keigh Rim", "Todd Curcuru", "Yalin Liu"]
-__date__ = "3/2/2015"
+__date__ = "3/20/2015"
 __email__ = ['krim@brandeis.edu', 'tcurcuru@brandeis.edu', 'yalin@brandeis.edu']
 
 PROJECT_PATH = os.getcwd()
@@ -31,20 +32,22 @@ RAW_DATA_PATH = os.path.join(DATA_PATH, "rawtext-files")
 DEPPARSE_DATA_PATH = os.path.join(DATA_PATH, "depparsed-files")
 SYNPARSE_DATA_PATH = os.path.join(DATA_PATH, "parsed-files")
 
-class reader(object):
+class RelExtrReader(object):
     """
     reader is the main class for reading document files in project dataset
     Basically a reader object represent a document in corpus
     """
     def __init__(self, filename):
-        super(reader, self).__init__()
+        super(RelExtrReader, self).__init__()
         self.filename = filename
         # POS tagged
         self.tokenized_sents = self.tokenize_sent()
-        # PS parsing
-        self.depparsed_sents = self.load_dep_parse()
         # Dep parsing
-        self.synparsed_sents = self.load_syn_parse()
+        # self.depparsed_sents = self.load_dep_parse()
+        # Dep parse trees
+        self.depparse_trees = self.load_dep_parse()
+        # PS parse trees
+        self.synparsed_trees = self.load_syn_parse()
 
     def tokenize_sent(self):
         """separate out words and POS tags from .postagged files"""
@@ -97,54 +100,52 @@ class reader(object):
 
     def load_dep_parse(self):
         """load a string of Stanford Dependency parse into a data structure"""
-        sents = []
+        trees = []
         with open(os.path.join(DEPPARSE_DATA_PATH,
                                self.filename + ".raw.depparse")) as parse:
-            sent = {}
+            stanford_format_tree = ""
             for line in parse:
                 if line == "\n":
-                    sents.append(sent)
-                    sent = {}
+                    print len(trees)
+                    trees.append(
+                        self.convert_to_nltk_format(stanford_format_tree,
+                                                    self.tokenized_sents[len(trees)]))
+                    stanford_format_tree = ""
                 else:
-                    # each line of Stanford dependency looks like this
-                    # relation(govennor-gov_index, dependent-dep_index)
-                    m = re.match(r"^(.+)\((.+)-([0-9']+), (.+)-([0-9']+)\)", line)
-                    if m is None:
-                        print "REGEX ERROR: ", line
-                        continue
-                    rel = m.groups()[0]
-                    gov = m.groups()[1]
-                    gov_idx = m.groups()[2]
-                    # collapse primed nodes
-                    if gov_idx.endswith("'"):
-                        gov_idx = gov_idx.replace("'", "")
-                    gov_idx = int(gov_idx) - 1
-                    dep = m.groups()[3]
-                    dep_idx = m.groups()[4]
-                    if dep_idx.endswith("'"):
-                        dep_idx = dep_idx.replace("'", "")
-                    dep_idx = int(dep_idx) - 1
+                    stanford_format_tree += line
+            return trees
 
-                    # final data structure will be a dict from
-                    # token_index: (token_word,
-                    #               dict of dependents of this token,
-                    #               dict of governors of this token)
-                    try:
-                        sent[gov_idx][1][rel].append((dep_idx, dep))
-                    except KeyError:
-                        sent[gov_idx] = (gov,                               # name
-                                         collections.defaultdict(list),     # deps
-                                         collections.defaultdict(list))     # govs
-                        sent[gov_idx][1][rel].append((dep_idx, dep))
+    @staticmethod
+    def convert_to_nltk_format(stanford_tree, word_pos):
+        nltk_string = ""
+        for line in stanford_tree.split("\n"):
+            if line == "\n" or len(line) == 0:
+                continue
+            m = re.match(r"^(.+)\((.+)-([0-9']+), (.+)-([0-9']+)\)", line)
+            if m is None:
+                print "REGEX ERROR: ", line
+                continue
+            rel = m.groups()[0].upper()
+            gov = m.groups()[1]
+            gov_idx = m.groups()[2]
+            dep = m.groups()[3]
+            dep_idx = m.groups()[4]
 
-                    try:
-                        sent[dep_idx][2][rel].append((gov_idx, gov))
-                    except KeyError:
-                        sent[dep_idx] = (dep,
-                                         collections.defaultdict(list),
-                                         collections.defaultdict(list))
-                        sent[dep_idx][2][rel].append((gov_idx, gov))
-        return sents
+            # collapse primed nodes
+            if gov_idx.endswith("'"):
+                gov_idx = gov_idx.replace("'", "")
+            gov_idx = int(gov_idx) - 1
+            if dep_idx.endswith("'"):
+                dep_idx = dep_idx.replace("'", "")
+            dep_idx = int(dep_idx) - 1
+            if gov_idx == dep_idx:
+                print gov, dep, "recursive relation"
+                continue
+
+            nltk_string += "{0}\t{1}\t{2}\t{3}\n".format(
+                dep, word_pos[dep_idx][1], str(gov_idx + 1), rel)
+        print nltk_string
+        return nltk.dependencygraph.DependencyGraph(nltk_string)
 
     @staticmethod
     def tokenize(line):
@@ -175,7 +176,7 @@ class reader(object):
         """get POS tags at particular position of particular sentence"""
         return [p for _, p in self.get_tokens(sent, start, end)]
 
-    def get_dependents(self, sent):
+    def get_dependency_tree(self, sent):
         """get dependency tree of particula sentnece"""
         return self.depparsed_sents[sent]
 
@@ -184,7 +185,7 @@ class reader(object):
         compute distance between two nodes in NLTK tree,
         It's using NLTK methods, because we love NLTK
         """
-        tree = self.synparsed_sents[sent]
+        tree = self.synparsed_trees[sent]
         lowest_descendant = tree.treeposition_spanning_leaves(from_node, to_node)
         upward_path_length = len(tree.leaf_treeposition(from_node))\
                              - len(lowest_descendant)
@@ -193,7 +194,7 @@ class reader(object):
         return upward_path_length, downward_path_length
 
     def get_dep_relation(self, sent, from_node, to_node):
-        """get dependency relation of two nodes"""
+        """get dependency relation of two nodes, if they are directly connected"""
         parse = self.depparsed_sents[sent]
         # in case a mention is a relative pronoun go back to its antecedent
         while not parse.get(from_node):
@@ -294,12 +295,14 @@ class reader(object):
 
 
 if __name__ == '__main__':
-    for filename in os.listdir(POS_DATA_PATH):
-        filename = filename[:-8]
-        r = reader(filename)
-        r.write_raw_sents()
+    # for filename in os.listdir(POS_DATA_PATH):
+    #     filename = filename[:-8]
+    #     r = reader(filename)
+    #     r.write_raw_sents()
 
-    #r = reader("NYT20001230.1309.0093.head.coref")
+    r = RelExtrReader("NYT20001230.1309.0093")
+    print r.depparse_trees[6].tree().pprint()
+
     #print r.is_subject(15,4)
     #print r.is_object(15,4)
     #print r.get_dep_relation(17, 6, 10)
