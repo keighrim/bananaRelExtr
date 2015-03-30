@@ -101,18 +101,22 @@ class FeatureTagger():
             ################
 
             # words
-            self.i_words,
-            self.j_words,
             self.i_head_words,
             self.j_head_words,
+            # precision = 0.555555555556 recall = 0.115163147793 f1 = 0.190779014308
+            self.i_words,
+            self.j_words,
+            # precision = 0.574626865672 recall = 0.147792706334 f1 = 0.235114503817
 
             # ner tag
             self.i_ner_tag,
             self.j_ner_tag,
+            # precision = 0.59067357513 recall = 0.218809980806 f1 = 0.319327731092
 
             # context
             # self.bag_of_words_between,          #30 min train/test
             self.pos_between,
+            # precision = 0.610859728507 recall = 0.259117082534 f1 = 0.363881401617
 
             # dependency tree
             self.rels_i_to_lca,
@@ -124,6 +128,9 @@ class FeatureTagger():
             # TODO test one by one
             # self.no_words_between,    # hurts
             # precision = 0.586666666667 recall = 0.337811900192 f1 = 0.4287454324
+            self.words_between,
+            self.first_word_between,
+            self.last_word_between,
             # self.i_prev_word,         # hurts
             # precision = 0.618181818182 recall = 0.326295585413 f1 = 0.427135678392
             # self.i_prev_word_2,
@@ -333,32 +340,6 @@ class FeatureTagger():
             self.feature_functions.remove(self.is_coref)
         return features
 
-    def in_dict(self, typ):
-        """See each token is in a certain dictionary"""
-        tag = []
-        s = "In_" + typ
-        d = self.dicts[typ]
-        for num, sent in enumerate(self.pairs):
-            tokens = [w for w, _, _ in sent]
-            i = 0
-            if typ == "person":
-                for token in tokens:
-                    if token.lower() in d:
-                        tag.append(s)
-                    else:
-                        tag.append("-" + s)
-                pass
-            else:
-                while i < len(tokens):
-                    for j in range(i + 1, len(tokens)):
-                        if " ".join(map(lambda x: x.lower(), tokens[i:j])) in d:
-                            tag.extend([s] * (j - i))
-                            i = j
-                            break
-                    tag.append("-" + s)
-                    i += 1
-        return tag
-
     """""""""""""""""
     feature functions
     """""""""""""""""
@@ -503,113 +484,6 @@ class FeatureTagger():
                 return "few"
             else:
                 return "none"
-
-    def yago_ontology(self):
-        """Uses the yago ontology to calculate the similarity between entities"""
-
-        ''' THIS FEATURE FAILED TO ITS DEATH '''
-
-        def yago_query(words, person):
-            """
-            make a proper query from given list of words
-            :person:if given named entity is a person name, it needs to be partially queried
-            (Should be able to retrieve the Obama, by quetying Barack only)
-            """
-            '''PARTIAL MATCH IS NOT FEASIBLE IN TERMS OF RUNNING TIME AND SPACE'''
-            # if person:
-            #     if len(words) > 1:
-            #         result = retrieve_yago(words + ["_".join(words)], person)
-            #     else:
-            #         result = retrieve_yago(words, person)
-            # else:
-            result = retrieve_yago("_".join(words).lower(), person)
-
-            return result
-
-        def yago_hash(string):
-            """Take only the first two alphabetic character from a string"""
-            hashed = ""
-            for c in string.lower():
-                if len(hashed) > 1:
-                    return hashed
-                else:
-                    if c.isalpha():
-                        hashed += c
-            while len(hashed) < 2:
-                hashed += "_"
-            return hashed
-
-        def retrieve_yago(query, person):
-            """get YAGO attribute list"""
-            attribs = set()
-            if query in results.keys():
-                attribs = results[query]
-            else:
-                #if querying person name, also query for each token
-                # if person:
-                #     yago_name = self.dicts['yago'].get(query)
-                #     print "FULL_NAMES from CUR_Q {}: {}".format(query, yago_name)
-                #otherwise, just use a singleton of full name
-                # else:
-                yago_name = [query.lower()]
-                if yago_name is not None:
-                    for name in yago_name:
-                        yago_d = load_yago(yago_hash(name))
-                        try:
-                            # union of all attribs
-                            '''TAKING UNION IS THE KEY REASON TO FAIL. 
-                            UNION OF 7,000 JESEPHS? HUH?'''
-                            attribs.update(yago_d[name])
-                        except KeyError:
-                            pass
-                results[query] = attribs
-            return attribs
-
-        def load_yago(filename):
-            """Load up a relevant yago dict file, given a hashed name"""
-            yago_path = os.path.join(PROJECT_PATH, "resources", "yago")
-            yago_dict = {}
-            with open(os.path.join(yago_path, filename)) as yago_file:
-                for line in yago_file:
-                    entry, attribs = line.split(": ")
-                    attribs = attribs[2:-2].split("', '")
-                    try:
-                        yago_dict[entry].extend(attribs)
-                    except KeyError:
-                        yago_dict[entry] = attribs
-            return yago_dict
-
-        '''main part of this feature function'''
-        name = "yago_ontology="
-        values = []
-
-        # YAGO dict is sooooooooooooooooooooooooooooooooooo huge, we need to memoize
-        results = {}
-
-        i_words = self.get_i_words()
-        j_words = self.get_j_words()
-        # make it refer to yago dict for only proper nouns
-        # otherwise, the program will refer YAGO for very common nouns like 'leader'
-        i_pns = self.i_proper()
-        j_pns = self.j_proper()
-        i_ners = self.get_i_ners()
-        j_ners = self.get_j_ners()
-        for instance in range(len(i_words)):
-            if i_pns[instance].endswith("true"):
-                result1 = yago_query(i_words[instance], i_ners[instance] == "PER")
-            else:
-                result1 = []
-            if j_pns[instance].endswith("true"):
-                result2 = yago_query(j_words[instance], j_ners[instance] == "PER")
-            else:
-                result2 = []
-
-            if result1 == [] or result2 == []:
-                values.append(name + "no data")
-            else:
-                values.append(name + str(self.compute_jaccard(result1, result2)))
-
-        return values
 
     def str_stem_match(self):
         """Stem first, and then check string match"""
@@ -931,6 +805,7 @@ class FeatureTagger():
         values = []
 
         cur_filename = None
+        r = None
         for pair in self.pairs:
             if not pair[3]:
                 values.append(name + "10000")
@@ -956,6 +831,7 @@ class FeatureTagger():
         values = []
 
         cur_filename = None
+        r = None
         for pair in self.pairs:
             if not pair[3]:
                 values.append(name + "10000")
@@ -970,6 +846,8 @@ class FeatureTagger():
                 values.append(name + str(sum(path)))
 
         return values
+
+    def nt_on_tree_path(self):
 
     def rels_i_to_lca(self):
         """return a concatenated relations from i entity to lowest common ancestor"""
@@ -1171,7 +1049,6 @@ class FeatureTagger():
                     values.append(name + self.T)
                 else:
                     values.append(name + self.F)
-
         return values
 
     def share_governing_verb(self):
@@ -1258,6 +1135,7 @@ class FeatureTagger():
         values = []
 
         cur_filename = None
+        r = None
         for pair in self.pairs: 
             if not pair[3]:
                 values.append(name + self.F)
@@ -1284,6 +1162,7 @@ class FeatureTagger():
         values = []
 
         cur_filename = None
+        r = None
         for pair in self.pairs: 
             if not pair[3]:
                 values.append(name + self.F)
@@ -1440,10 +1319,73 @@ class FeatureTagger():
         
     def j_next_pos_3(self):
         return self.prev_or_next("j_next_pos_3=", 1, 3, True)
-        
+
+    def words_between(self):
+        """return all words between two entities as a list"""
+        name = "w_betw="
+        values = []
+        cur_filename = None
+        r = None
+        for pair in self.pairs:
+            if not pair[3]:
+                values.append(name + self.F)
+            else:
+                i_end = pair[0][4][1]
+                j_start = pair[1][4][0]
+                filename = pair[4]
+                if cur_filename != filename:
+                    r = document_reader.RelExtrReader(filename)
+                    cur_filename = filename
+                values.append(name + str(r.get_words(pair[0][3], i_end, j_start)))
+        return values
+
+    def first_word_between(self):
+        """return first word between two entities as a list"""
+        name = "fw_betw="
+        values = []
+        cur_filename = None
+        r = None
+        for pair in self.pairs:
+            if not pair[3]:
+                values.append(name + self.F)
+            else:
+                i_end = pair[0][4][1]
+                j_start = pair[1][4][0]
+                if j_start - i_end < 3:
+                    values.append(name + self.F)
+                else:
+                    filename = pair[4]
+                    if cur_filename != filename:
+                        r = document_reader.RelExtrReader(filename)
+                        cur_filename = filename
+                    values.append(name + r.get_words(pair[0][3], i_end, j_start)[0])
+        return values
+
+    def last_word_between(self):
+        """return last word between two entities as a list"""
+        name = "lw_betw="
+        values = []
+        cur_filename = None
+        r = None
+        for pair in self.pairs:
+            if not pair[3]:
+                values.append(name + self.F)
+            else:
+                i_end = pair[0][4][1]
+                j_start = pair[1][4][0]
+                if j_start - i_end < 3:
+                    values.append(name + self.F)
+                else:
+                    filename = pair[4]
+                    if cur_filename != filename:
+                        r = document_reader.RelExtrReader(filename)
+                        cur_filename = filename
+                    values.append(name + r.get_words(pair[0][3], i_end, j_start)[-1])
+        return values
+
     def no_words_between(self):
         """Returns true if there are no words between two mentions"""
-        name = "no_words_between="
+        name = "no_w_betw="
         values = []
         
         for pair in self.pairs:
@@ -1476,7 +1418,7 @@ class FeatureTagger():
             if best_label > 0:
                 values.append(name + labels[list(instance).index(best_label)])
             else:
-                values.append(name + "no-rel")
+                values.append(name + "no_rel")
 
             # values.append(name + str(
             #     int(sum(map(lambda (x, y): 10 ** y * x,

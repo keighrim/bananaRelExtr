@@ -258,6 +258,35 @@ class RelExtrReader(object):
         # if no relation found, return null
         return
 
+    def get_phrase_path(self, sent, from_idx, to_idx):
+        """
+        get all phrase node names in the path between two targets in syntactic tree
+        """
+        tree = self.synparsed_trees[sent]
+
+        lowest_descendant = tree.treeposition_spanning_leaves(from_idx, to_idx)
+        from_node = tree.leaf_treeposition(from_idx)
+        to_node = tree.leaf_treeposition(to_idx)
+        path_to_from = from_node[len(lowest_descendant):]
+        path_to_to = to_node[len(lowest_descendant):]
+        lca_subtree = tree
+        for idx in lowest_descendant:
+            lca_subtree = lca_subtree[idx]
+        tmp_tree = lca_subtree
+        nodes_on_path_to_to = []
+        for idx in path_to_to:
+            nodes_on_path_to_to.append(tmp_tree[idx].label())
+            tmp_tree = tmp_tree[idx]
+
+        tmp_tree = lca_subtree
+        nodes_on_path_to_from = []
+        for idx in path_to_from:
+            nodes_on_path_to_from.append(tmp_tree[idx].label())
+            tmp_tree = tmp_tree[idx]
+
+        return nodes_on_path_to_from, nodes_on_path_to_to
+
+
     def get_dep_rel_path(self, sent, from_idx, to_idx):
         """get all dependency relations on the path between two targets"""
         dep_tree = self.depparse_trees[sent]
