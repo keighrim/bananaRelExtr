@@ -133,25 +133,43 @@ class FeatureTagger():
             self.last_word_between,
             # self.i_prev_word,         # hurts
             # precision = 0.618181818182 recall = 0.326295585413 f1 = 0.427135678392
-            # self.i_prev_word_2,
-            # self.i_prev_word_3,
-            # self.i_prev_pos,
-            # self.i_prev_pos_2,
-            # self.i_prev_pos_3,
+	    # YALIN
+            # self.i_prev_word_2,	#hurts
+	    # precision = 0.59375 recall = 0.328214971209 f1 = 0.422744128554
+            # self.i_prev_word_3,	#hurts
+	    # precision = 0.56856187291 recall = 0.326295585413 f1 = 0.414634146341
+            self.i_prev_pos,		#GOOD
+	    # precision = 0.619718309859 recall = 0.337811900192 f1 = 0.437267080745
+            # self.i_prev_pos_2,	#hurts
+	    # precision = 0.597122302158 recall = 0.318618042226 f1 = 0.415519399249
+            # self.i_prev_pos_3,	#hurts
+	    # precision = 0.578571428571 recall = 0.31094049904 f1 = 0.404494382022
 
-            # self.j_prev_word,
-            # self.j_prev_word_2,
-            # self.j_prev_word_3,
-            # self.j_prev_pos,
-            # self.j_prev_pos_2,
-            # self.j_prev_pos_3,
-            # self.i_next_word_2,
-            # self.i_next_word_3,
-            # self.i_next_pos,
-            # self.i_next_pos_2,
-            # self.i_next_pos_2,
+            # self.j_prev_word,		#hurts
+	    # precision = 0.59595959596 recall = 0.339731285988 f1 = 0.432762836186
+            # self.j_prev_word_2,	#hurts
+	    # precision = 0.604895104895 recall = 0.332053742802 f1 = 0.428748451053
+            # self.j_prev_word_3,	#hurts
+	    # precision = 0.606617647059 recall = 0.31669865643 f1 = 0.416141235813
+            # self.j_prev_pos,		#hurts
+	    # precision = 0.620567375887 recall = 0.335892514395 f1 = 0.435865504359
+            # self.j_prev_pos_2,	#hurts
+	    # precision = 0.585616438356 recall = 0.328214971209 f1 = 0.420664206642
+            # self.j_prev_pos_3,	#hurts
+	    # precision = 0.600706713781 recall = 0.326295585413 f1 = 0.422885572139
+            # self.i_next_word_2,	#hurts
+	    # precision = 0.610909090909 recall = 0.32245681382 f1 = 0.422110552764
+            # self.i_next_word_3,	#hurts
+	    # precision = 0.59298245614 recall = 0.324376199616 f1 = 0.41935483871
+            self.i_next_pos,		#GOOD
+	    # precision = 0.620805369128 recall = 0.355086372361 f1 = 0.45177045177
+            # self.i_next_pos_2,	#hurt
+	    # precision = 0.589655172414 recall = 0.328214971209 f1 = 0.421701602959
+            # self.i_next_pos_2,	#hurts
+	    # precision = 0.589655172414 recall = 0.328214971209 f1 = 0.421701602959
 
-            # self.j_next_word,
+            # self.j_next_word,		#hurts
+	    # precision = 0.611888111888 recall = 0.335892514395 f1 = 0.433705080545
             # self.j_next_word_2,
             # self.j_next_word_3,
             # self.j_next_pos,
