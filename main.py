@@ -94,34 +94,34 @@ class FeatureTagger():
             self.i_prev_word,
             self.i_prev_word_2,
             self.i_prev_word_3,
-            #self.i_prev_pos,  #hurts
-            #self.i_prev_pos_2,
-            #self.i_prev_pos_3,
+            self.i_prev_pos,  #hurts
+            self.i_prev_pos_2,
+            self.i_prev_pos_3,
             
             self.j_prev_word,
-            #self.j_prev_word_2, #hurts
-            #self.j_prev_word_3,
-            #self.j_prev_pos, #hurts
-            #self.j_prev_pos_2,
-            #self.j_prev_pos_3,
+            self.j_prev_word_2, #hurts
+            self.j_prev_word_3,
+            self.j_prev_pos, #hurts
+            self.j_prev_pos_2,
+            self.j_prev_pos_3,
             
-            #self.i_next_word, #hurts slightly
-            #self.i_next_word_2,
-            #self.i_next_word_3,
-            #self.i_next_pos, #hurts new
-            #self.i_next_pos_2,
-            #self.i_next_pos_2,
+            self.i_next_word, #hurts slightly
+            self.i_next_word_2,
+            self.i_next_word_3,
+            self.i_next_pos, #hurts new
+            self.i_next_pos_2,
+            self.i_next_pos_2,
             
             self.j_next_word,
-            #self.j_next_word_2, #barely hurts
-            #self.j_next_word_3,
-            #self.j_next_pos, #hurts new
-            #self.j_next_pos_2,
-            #self.j_next_pos_2,
+            self.j_next_word_2, #barely hurts
+            self.j_next_word_3,
+            self.j_next_pos, #hurts new
+            self.j_next_pos_2,
+            self.j_next_pos_2,
 
             self.no_words_between,
 
-            self.take_svm_tk_results,
+            # self.take_svm_tk_results,
         ]
 
         # dicts will store name dictionaries
@@ -1328,58 +1328,58 @@ class FeatureTagger():
         return self.prev_or_next("i_prev_pos_3=", 0, -3, True)
         
     def j_prev_word(self):
-        return self.prev_or_next("j_prev_word=", 0, -1)
+        return self.prev_or_next("j_prev_word=", 1, -1)
     
     def j_prev_word_2(self):
-        return self.prev_or_next("j_prev_word_2=", 0, -2)
+        return self.prev_or_next("j_prev_word_2=", 1, -2)
         
     def j_prev_word_3(self):
-        return self.prev_or_next("j_prev_word_3=", 0, -3)
+        return self.prev_or_next("j_prev_word_3=", 1, -3)
         
     def j_prev_pos(self):
-        return self.prev_or_next("j_prev_pos=", 0, -1, True)
+        return self.prev_or_next("j_prev_pos=", 1, -1, True)
     
     def j_prev_pos_2(self):
-        return self.prev_or_next("j_prev_pos_2=", 0, -2, True)
+        return self.prev_or_next("j_prev_pos_2=", 1, -2, True)
         
     def j_prev_pos_3(self):
-        return self.prev_or_next("j_prev_pos_3=", 0, -3, True)
+        return self.prev_or_next("j_prev_pos_3=", 1, -3, True)
         
     def i_next_word(self):
-        return self.prev_or_next("i_next_word=", 0, -1)
+        return self.prev_or_next("i_next_word=", 0, 1)
     
     def i_next_word_2(self):
-        return self.prev_or_next("i_next_word_2=", 0, -2)
+        return self.prev_or_next("i_next_word_2=", 0, 2)
         
     def i_next_word_3(self):
-        return self.prev_or_next("i_next_word_3=", 0, -3)
+        return self.prev_or_next("i_next_word_3=", 0, 3)
         
     def i_next_pos(self):
-        return self.prev_or_next("i_next_pos=", 0, -1, True)
+        return self.prev_or_next("i_next_pos=", 0, 1, True)
     
     def i_next_pos_2(self):
-        return self.prev_or_next("i_next_pos_2=", 0, -2, True)
+        return self.prev_or_next("i_next_pos_2=", 0, 2, True)
         
     def i_next_pos_3(self):
-        return self.prev_or_next("i_next_pos_3=", 0, -3, True)
+        return self.prev_or_next("i_next_pos_3=", 0, 3, True)
         
     def j_next_word(self):
-        return self.prev_or_next("j_next_word=", 0, -1)
+        return self.prev_or_next("j_next_word=", 1, 1)
     
     def j_next_word_2(self):
-        return self.prev_or_next("j_next_word_2=", 0, -2)
+        return self.prev_or_next("j_next_word_2=", 1, 2)
         
     def j_next_word_3(self):
-        return self.prev_or_next("j_next_word_3=", 0, -3)
+        return self.prev_or_next("j_next_word_3=", 1, 3)
         
     def j_next_pos(self):
-        return self.prev_or_next("j_next_pos=", 0, -1, True)
+        return self.prev_or_next("j_next_pos=", 1, 1, True)
     
     def j_next_pos_2(self):
-        return self.prev_or_next("j_next_pos_2=", 0, -2, True)
+        return self.prev_or_next("j_next_pos_2=", 1, 2, True)
         
     def j_next_pos_3(self):
-        return self.prev_or_next("j_next_pos_3=", 0, -3, True)
+        return self.prev_or_next("j_next_pos_3=", 1, 3, True)
         
     def no_words_between(self):
         """Returns true if there are no words between two mentions"""
@@ -1449,7 +1449,7 @@ class CoreferenceResolver(object):
         self.modelfile = os.path.join("result", "model")
 
     def train(self, train_filename):
-        """train crf++ module with a given data file"""
+        """train MaxEnt module with a given data file"""
         self.ft.read_input_data(train_filename)
         self.ft.feature_matrix(self.trainfile)
         subprocess.check_call(
@@ -1458,20 +1458,20 @@ class CoreferenceResolver(object):
              "-gold=" + self.trainfile])
 
     def classify(self, target_filename):
-        """Run crfpp classifier to classify target file"""
+        """Run MaxEnt classifier to classify target file"""
         self.ft.read_input_data(target_filename, labeled=False)
         self.ft.feature_matrix(self.targetfile, train=False)
         if not os.path.isfile(self.modelfile):
             raise Exception("Model not found.")
         resultfile = os.path.join("result", "result.txt")
 
-        crfppc = subprocess.Popen(
+        maxent_proc = subprocess.Popen(
             [self.me_script, "-classify",
              "-model=" + self.modelfile,
              "-input=" + self.targetfile],
             stdout=subprocess.PIPE)
         with open(resultfile, "w") as outf:
-            for line in crfppc.communicate()[0]:
+            for line in maxent_proc.communicate()[0]:
                 outf.write(line)
 
         # evaluate the result
