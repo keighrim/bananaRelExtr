@@ -94,28 +94,28 @@ class FeatureTagger():
             self.i_prev_word,
             self.i_prev_word_2,
             self.i_prev_word_3,
-            self.i_prev_pos,  #hurts
+            self.i_prev_pos,
             self.i_prev_pos_2,
             self.i_prev_pos_3,
             
             self.j_prev_word,
-            self.j_prev_word_2, #hurts
+            self.j_prev_word_2,
             self.j_prev_word_3,
-            self.j_prev_pos, #hurts
+            self.j_prev_pos,
             self.j_prev_pos_2,
             self.j_prev_pos_3,
             
-            self.i_next_word, #hurts slightly
+            self.i_next_word,
             self.i_next_word_2,
             self.i_next_word_3,
-            self.i_next_pos, #hurts new
+            self.i_next_pos,
             self.i_next_pos_2,
             self.i_next_pos_2,
             
             self.j_next_word,
-            self.j_next_word_2, #barely hurts
+            self.j_next_word_2,
             self.j_next_word_3,
-            self.j_next_pos, #hurts new
+            self.j_next_pos,
             self.j_next_pos_2,
             self.j_next_pos_2,
 
@@ -687,17 +687,10 @@ class FeatureTagger():
 
         return values
 
-    def j_indefinite(self):
-        """Check if second entity is an indefinite NP.
-        Without apositive???"""
-        # TODO implement
-        pass
-
     def j_demonstrative(self):
         """Check if second entity is a demonstrative NP"""
         name = "j_demonstrative="
         values = []
-        # TODO are these all?
         demons = {"these", "those", "this", "that"}
         for words in self.get_j_words():
             if words[0].lower() in demons:
