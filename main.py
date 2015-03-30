@@ -1400,24 +1400,28 @@ class FeatureTagger():
         name = "svm_classification="
         values = []
 
-        num_rels = len(svmlight_wrapper.RELATIONS)
+        labels = svmlight_wrapper.RELATIONS
+        num_rels = len(labels)
 
         # 2d array to store svm results: rows - per label, cols - instances
         results = np.zeros([num_rels, len(self.pairs)])
-        for num, label in enumerate(svmlight_wrapper.RELATIONS):
+        for num, label in enumerate(labels):
             svm_feed_filename = os.path.join(svmlight_wrapper.RES_PATH,
-                                             "svm_{}_{}".format(self.svm_prefix, label))
+                                             "svm_{}_{}".format(self.svm_prefix,
+                                                                label))
             results[num] = svmlight_wrapper.classify(label, svm_feed_filename)
-            # print classified
-            # results.append(classified)
-            # if num > 4:
-            #     break
         for i in range(len(self.pairs)):
             instance = results[:, i]
-            values.append(name + str(
-                int(sum(map(lambda (x, y): 10 ** y * x,
-                        zip(instance, range(len(instance)-1, -1, -1))))))
-                          .zfill(num_rels))
+            best_label = np.max(instance)
+            if best_label > 0:
+                values.append(name + labels[list(instance).index(best_label)])
+            else:
+                values.append(name + "no-rel")
+
+            # values.append(name + str(
+            #     int(sum(map(lambda (x, y): 10 ** y * x,
+            #             zip(instance, range(len(instance)-1, -1, -1))))))
+            #               .zfill(num_rels))
         return values
 
 

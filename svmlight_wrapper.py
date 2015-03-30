@@ -101,10 +101,15 @@ def classify(label, data_filename):
     classified = []
     with open(os.path.join(SVM_PATH, SVM_RESULT)) as svm_result:
         for line in svm_result:
-            if float(line) > 0:
-                classified.append(1)
-            else:
-                classified.append(0)
+
+            # 1 or 0?
+            # if float(line) > 0:
+            #     classified.append(1)
+            # else:
+            #     classified.append(0)
+
+            # reals?
+            classified.append(float(line))
     return classified
 
 
