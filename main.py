@@ -38,20 +38,27 @@ class FeatureTagger():
         # 1. take no parameters (use self.pairs)
         # 2. return a list or an iterable which has len of # number of tokens
         self.feature_functions = [
-            # self.string_match_no_articles,
-            # self.str_stem_match,
+
+            #####################
+            # Features from PA2 #
+            #####################
+
+            # string
+            self.string_match_no_articles,
+            self.str_stem_match,
             self.words_str_match,
             self.acronym_match,
-            self.string_contains_no_articles,
+            # self.string_contains_no_articles,         # hurts
             self.word_overlap,
 
+            # pos tag
             self.j_pronoun,
             self.only_i_pronoun,
             self.i_proper,
             self.j_proper,
             self.both_proper,
             self.i_proper_j_pronoun,
-            self.j_definite,
+            # self.j_definite,                          # hurts
             self.j_demonstrative,
             self.pro_str_match,
             self.pn_str_match,
@@ -60,67 +67,92 @@ class FeatureTagger():
             self.i_pronoun,
             self.only_j_pronoun,
 
+            # ner tag
             self.ner_tag_match,
-            # added
-            self.i_ner_tag,
-            self.j_ner_tag,
 
+            # position
             self.distance_sent,
             self.in_same_sent,
             self.i_precedes_j,
 
+            # agreement
             self.number_agree,
+
+            # syntactic tree
             self.distance_tree,
             self.distance_tree_sum,
 
+            # dependency tree
             self.i_object,
             self.j_object,
             self.both_object,
             self.i_subject,
             self.j_subject,
             self.both_subject,
-            self.share_governing_verb,
+            # self.share_governing_verb,                # hurts
             self.governing_verbs_share_synset,
             self.syn_verb_same_role,
             self.appositive,
+            # THREE features hurt; best perfomance using feats from PA2 is:
+            # p = 0.220338983051 r = 0.0249520153551 f1 = 0.0448275862069
 
-            # added
+            ################
+            # new features #
+            ################
+
+            # words
+            self.i_words,
+            self.j_words,
+            self.i_head_words,
+            self.j_head_words,
+
+            # ner tag
+            self.i_ner_tag,
+            self.j_ner_tag,
+
+            # context
             # self.bag_of_words_between,          #30 min train/test
-            self.pos_between,            # now it helps :)
+            self.pos_between,
+
+            # dependency tree
             self.rels_i_to_lca,
             self.rels_j_to_lca,
             self.rels_between_i_j,
-            
-            self.i_prev_word,
-            self.i_prev_word_2,
-            self.i_prev_word_3,
-            self.i_prev_pos,  #hurts
-            self.i_prev_pos_2,
-            self.i_prev_pos_3,
-            
-            self.j_prev_word,
-            self.j_prev_word_2, #hurts
-            self.j_prev_word_3,
-            self.j_prev_pos, #hurts
-            self.j_prev_pos_2,
-            self.j_prev_pos_3,
-            
-            self.i_next_word, #hurts slightly
-            self.i_next_word_2,
-            self.i_next_word_3,
-            self.i_next_pos, #hurts new
-            self.i_next_pos_2,
-            self.i_next_pos_2,
-            
-            self.j_next_word,
-            self.j_next_word_2, #barely hurts
-            self.j_next_word_3,
-            self.j_next_pos, #hurts new
-            self.j_next_pos_2,
-            self.j_next_pos_2,
+            # by far, combination above performs best:
+            # precision = 0.592592592593 recall = 0.337811900192 f1 = 0.430317848411
 
-            self.no_words_between,
+            # TODO test one by one
+            # self.no_words_between,    # hurts
+            # precision = 0.586666666667 recall = 0.337811900192 f1 = 0.4287454324
+            # self.i_prev_word,         # hurts
+            # precision = 0.618181818182 recall = 0.326295585413 f1 = 0.427135678392
+            # self.i_prev_word_2,
+            # self.i_prev_word_3,
+            # self.i_prev_pos,
+            # self.i_prev_pos_2,
+            # self.i_prev_pos_3,
 
+            # self.j_prev_word,
+            # self.j_prev_word_2,
+            # self.j_prev_word_3,
+            # self.j_prev_pos,
+            # self.j_prev_pos_2,
+            # self.j_prev_pos_3,
+            # self.i_next_word_2,
+            # self.i_next_word_3,
+            # self.i_next_pos,
+            # self.i_next_pos_2,
+            # self.i_next_pos_2,
+
+            # self.j_next_word,
+            # self.j_next_word_2,
+            # self.j_next_word_3,
+            # self.j_next_pos,
+            # self.j_next_pos_2,
+            # self.j_next_pos_2,
+
+
+            # tree kernel
             # self.take_svm_tk_results,
         ]
 
@@ -687,17 +719,10 @@ class FeatureTagger():
 
         return values
 
-    def j_indefinite(self):
-        """Check if second entity is an indefinite NP.
-        Without apositive???"""
-        # TODO implement
-        pass
-
     def j_demonstrative(self):
         """Check if second entity is a demonstrative NP"""
         name = "j_demonstrative="
         values = []
-        # TODO are these all?
         demons = {"these", "those", "this", "that"}
         for words in self.get_j_words():
             if words[0].lower() in demons:
@@ -1280,7 +1305,42 @@ class FeatureTagger():
                 values.append(value)
 
         return values
-        
+
+    def i_words(self):
+        """returns bags of words of i entity"""
+        name = "i_words="
+        values = []
+        for pair in self.pairs:
+            values.append(name + str(pair[0][0]))
+        return values
+
+    def j_words(self):
+        """returns bags of words of j entity"""
+        name = "j_words="
+        values = []
+        for pair in self.pairs:
+            values.append(name + str(pair[1][0]))
+        return values
+
+    def i_head_words(self):
+        """returns word string of head of i entity"""
+        return self.head_words("i_head=", 0)
+
+    def j_head_words(self):
+        """returns word string of head of j entity"""
+        return self.head_words("i_head=", 1)
+
+    def head_words(self, name, i_or_j):
+        """returns word string of head of i entity"""
+        values = []
+        head_idxs = self.get_head_idx(i_or_j)
+        for num, pair in enumerate(self.pairs):
+            words = pair[i_or_j][0]
+            start_idx = pair[i_or_j][4][0]
+            head_idx = head_idxs[num]
+            values.append(name + words[head_idx - start_idx])
+        return values
+
     def prev_or_next(self, name, i_or_j, n, pos=False):
         """Helper function to return prev/next words or pos tags"""
         values = []
