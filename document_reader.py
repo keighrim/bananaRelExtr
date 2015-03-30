@@ -267,15 +267,22 @@ class RelExtrReader(object):
             path = [idx]
             try:
                 cur_node = dep_tree[idx]
+                # print cur_node
+
             except KeyError:
                 # this exception is caused by flaws in original data
                 # but all of those problematic cases are no-rel
                 # so, we'll just ignore them
                 return path
-            while cur_node[2][0] != "root":
-                head_idx = cur_node[2][1]
-                path.insert(0, head_idx)
-                cur_node = dep_tree[head_idx]
+            try:
+                while cur_node[2][0] != "root":
+                    head_idx = cur_node[2][1]
+                    path.insert(0, head_idx)
+                    cur_node = dep_tree[head_idx]
+            except:
+                # this means path does not reach to root
+                # probably parse failed
+                return None
             return path
 
         def oneway_relations_on_path(dep_tree, lower_node_idx, upper_node_idx):
@@ -294,27 +301,32 @@ class RelExtrReader(object):
         path_to_from = path_from_root(dep_tree, from_idx)
         path_to_to = path_from_root(dep_tree, to_idx)
 
-        lowest_ancestor = None
-        for i in range(max(len(path_to_from), len(path_to_to))):
-            try:
-                if path_to_from[i] != path_to_to[i]:
+        # path might not be able to reach the root
+        if path_to_from is not None and path_to_to is not None:
+            lowest_ancestor = None
+            for i in range(max(len(path_to_from), len(path_to_to))):
+                try:
+                    if path_to_from[i] != path_to_to[i]:
+                        lowest_ancestor = path_to_from[i-1]
+                        break
+                except IndexError:
                     lowest_ancestor = path_to_from[i-1]
                     break
-            except IndexError:
-                lowest_ancestor = path_to_from[i-1]
-                break
 
-        if lowest_ancestor is None:
-            print "NO COMMON ANCESTOR"
+            if lowest_ancestor is None:
+                print "NO COMMON ANCESTOR"
+                return None, None
+
+            upward_relations \
+                = oneway_relations_on_path(dep_tree, from_idx, lowest_ancestor)
+            downward_relations \
+                = oneway_relations_on_path(dep_tree, to_idx, lowest_ancestor)
+            downward_relations.reverse()
+            return upward_relations, downward_relations
+        # in case path does't end normally (possibly parse fail)
+        else:
             return None, None
 
-        upward_relations \
-            = oneway_relations_on_path(dep_tree, from_idx, lowest_ancestor)
-        downward_relations \
-            = oneway_relations_on_path(dep_tree, to_idx, lowest_ancestor)
-        downward_relations.reverse()
-
-        return upward_relations, downward_relations
 
     def is_subject(self, sent, token_offset):
         """return true if a token is playing subject"""

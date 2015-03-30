@@ -98,15 +98,15 @@ def to_tree_string(subtree, words, pos):
 
 
 def classify(label, data_filename):
-    model_filename = "svm_model_" + label
-    subprocess.check_call([SVM_CLASSIFIER, '-t', '5', data_filename, model_filename])
+    model_filename = os.path.join(RES_PATH, "svm_model_" + label)
+    subprocess.check_call([SVM_CLASSIFIER, '-v', '0', data_filename, model_filename])
     classified = []
     with open(os.path.join(SVM_PATH, SVM_RESULT)) as svm_result:
         for line in svm_result:
             if float(line) > 0:
-                classified.append("T")
+                classified.append("1")
             else:
-                classified.append("F")
+                classified.append("0")
     return classified
 
 

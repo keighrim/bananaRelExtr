@@ -10,6 +10,8 @@ import collections
 import subprocess
 import sys
 import numpy as np
+import time
+import svmlight_wrapper
 
 
 reload(sys)
@@ -39,24 +41,24 @@ class FeatureTagger():
             # self.string_match_no_articles,
             # self.str_stem_match,
             self.words_str_match,
-            self.acronym_match,               
-            self.string_contains_no_articles, 
-            self.word_overlap,                
+            self.acronym_match,
+            self.string_contains_no_articles,
+            self.word_overlap,
 
-            self.j_pronoun,  
-            self.only_i_pronoun,  
-            self.i_proper,  
-            self.j_proper,  
-            self.both_proper,  
-            self.i_proper_j_pronoun,  
-            self.j_definite,  
-            self.j_demonstrative,  
-            self.pro_str_match, 
-            self.pn_str_match,  
-            self.both_diff_proper,  
-            self.pn_str_contains,           
-            self.i_pronoun,                  
-            self.only_j_pronoun,             
+            self.j_pronoun,
+            self.only_i_pronoun,
+            self.i_proper,
+            self.j_proper,
+            self.both_proper,
+            self.i_proper_j_pronoun,
+            self.j_definite,
+            self.j_demonstrative,
+            self.pro_str_match,
+            self.pn_str_match,
+            self.both_diff_proper,
+            self.pn_str_contains,
+            self.i_pronoun,
+            self.only_j_pronoun,
 
             self.ner_tag_match,
             # added
@@ -71,15 +73,15 @@ class FeatureTagger():
             self.distance_tree,
             self.distance_tree_sum,
 
-            self.i_object,                 
+            self.i_object,
             self.j_object,
-            self.both_object,                
-            self.i_subject,                 
-            self.j_subject,                  
-            self.both_subject,              
-            self.share_governing_verb,      
+            self.both_object,
+            self.i_subject,
+            self.j_subject,
+            self.both_subject,
+            self.share_governing_verb,
             self.governing_verbs_share_synset,
-            self.syn_verb_same_role,         
+            self.syn_verb_same_role,
             self.appositive,
 
             # added
@@ -116,8 +118,10 @@ class FeatureTagger():
             #self.j_next_pos, #hurts new
             #self.j_next_pos_2,
             #self.j_next_pos_2,
-            
+
             self.no_words_between,
+
+            self.take_svm_tk_results,
         ]
 
         # dicts will store name dictionaries
@@ -130,7 +134,7 @@ class FeatureTagger():
     def read_input_data(self, input_filename, labeled=True):
         """load sentences from data file"""
         self.pairs = []
-        self.svm_prefix = input_filename[4:-7]
+        self.svm_prefix = input_filename.split(os.sep)[-1].split(".")[0][4:-3]
         cur_filename = None
         with open(os.path.join(DATA_PATH, input_filename)) as in_file:
             for line in in_file:
@@ -1004,8 +1008,11 @@ class FeatureTagger():
                     cur_filename = filename
                 relations = r.get_dep_rel_path(
                     sent, i_head_idxs[i], j_head_idxs[i])
-                values.append(name + "[{}-{}]".format(
-                    "-".join(relations[0]), "-".join(relations[1])))
+                if None not in relations:
+                    values.append(name + "[{}-{}]".format(
+                        "-".join(relations[0]), "-".join(relations[1])))
+                else:
+                    values.append(name + "None")
             else:
                 values.append(name + "None")
         return values
@@ -1383,6 +1390,25 @@ class FeatureTagger():
 
         return values
 
+    def take_svm_tk_results(self):
+        name = "svm_classification="
+        results = []
+        values = []
+        for num, label in enumerate(svmlight_wrapper.RELATIONS):
+            svm_feed_file = os.path.join(svmlight_wrapper.RES_PATH,
+                                         "svm_{}_{}".format(
+                                             self.svm_prefix, label))
+            classified = svmlight_wrapper.classify(label, svm_feed_file)
+            # print classified
+            results.append(classified)
+            # if num > 4:
+            #     break
+        for i in range(len(results[0])):
+            values.append(name +
+                          "".join([result_per_label[i]
+                                   for result_per_label in results]))
+        return values
+
 
 class CoreferenceResolver(object):
     """
@@ -1454,6 +1480,7 @@ if __name__ == '__main__':
         "name of target file, if not given, program will ask users after training",
         default=None
     )
+    start_time = time.time()
     args = parser.parse_args()
 
     cor = CoreferenceResolver()
@@ -1469,3 +1496,5 @@ if __name__ == '__main__':
     else:
         target = args.t
     cor.classify(target)
+    print "elapsed: " + str(time.time() - start_time)
+
