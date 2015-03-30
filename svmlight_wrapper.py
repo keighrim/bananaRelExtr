@@ -67,26 +67,24 @@ def make_svm_feed_files(prefix, data_filename):
             i_start = int(i_start)
             j_end = int(j_end)
 
-            # this file has a serious problem but can't specify...
-            if filename.startswith("NYT20001115.2157.0439"):
-                continue
-
-
             if cur_filename != filename:
                 r = document_reader.RelExtrReader(filename)
                 cur_filename = filename
 
             subtree = r.get_spanning_tree(i_line, i_start, j_end)
             subtree = re.sub(r"[\n\s]+", " ", str(subtree))
-            subtree = subtree.replace("--", "-")
             words = r.get_words(i_line, i_start, j_end)
             pos = r.get_pos(i_line, i_start, j_end)
 
             for l, f in labelled_files.iteritems():
-                if label == l:
-                    f.write("1" + to_tree_string(subtree, words, pos))
+                # this file has a serious problem but can't specify...
+                if filename.startswith("NYT20001115.2157.0439"):
+                    f.write("0 |BT| |ET|\n")
                 else:
-                    f.write("-1" + to_tree_string(subtree, words, pos))
+                    if label == l:
+                        f.write("1" + to_tree_string(subtree, words, pos))
+                    else:
+                        f.write("-1" + to_tree_string(subtree, words, pos))
 
     for label in labelled_files.keys():
         labelled_files[label].close()
@@ -104,15 +102,15 @@ def classify(label, data_filename):
     with open(os.path.join(SVM_PATH, SVM_RESULT)) as svm_result:
         for line in svm_result:
             if float(line) > 0:
-                classified.append("1")
+                classified.append(1)
             else:
-                classified.append("0")
+                classified.append(0)
     return classified
 
 
 if __name__ == '__main__':
     # make_svm_feed_files("train", "rel-trainset.gold")
     # make_svm_feed_files("dev", "rel-devset.gold")
-    # make_svm_feed_files("test", "rel-testset.gold")
-    train_all()
+    make_svm_feed_files("test", "rel-testset.gold")
+    # train_all()
 

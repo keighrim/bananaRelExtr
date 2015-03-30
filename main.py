@@ -188,6 +188,7 @@ class FeatureTagger():
                         filename, i_line, i_start, i_end,
                         r.get_words(i_line, i_start, i_end), i_words)
                 self.pairs.append(pair)
+        print "INSTANCES: ", len(self.pairs)
 
     def load_dicts(self):
         """
@@ -1254,7 +1255,7 @@ class FeatureTagger():
 
     def pos_between(self):
         """A feature that lists all the POS of words between two mentions"""
-        name = "words_between="
+        name = "pos_between="
         values = []
 
         cur_filename = None
@@ -1272,7 +1273,12 @@ class FeatureTagger():
                 pair_values = np.zeros(len(self.pos_dict), dtype=np.int)
                 for idx in [self.pos_dict[p] for p in tags]:
                     pair_values[idx] = 1
-                values.append("".join(map(str, map(int, pair_values))))
+                value = name + str(
+                    sum(map(lambda (x, y): 10 ** y * x,
+                            zip(pair_values, range(len(pair_values)-1, -1, -1))))).\
+                    zfill(len(pair_values))
+                values.append(value)
+
         return values
         
     def prev_or_next(self, name, i_or_j, n, pos=False):
@@ -1392,21 +1398,26 @@ class FeatureTagger():
 
     def take_svm_tk_results(self):
         name = "svm_classification="
-        results = []
         values = []
+
+        num_rels = len(svmlight_wrapper.RELATIONS)
+
+        # 2d array to store svm results: rows - per label, cols - instances
+        results = np.zeros([num_rels, len(self.pairs)])
         for num, label in enumerate(svmlight_wrapper.RELATIONS):
-            svm_feed_file = os.path.join(svmlight_wrapper.RES_PATH,
-                                         "svm_{}_{}".format(
-                                             self.svm_prefix, label))
-            classified = svmlight_wrapper.classify(label, svm_feed_file)
+            svm_feed_filename = os.path.join(svmlight_wrapper.RES_PATH,
+                                             "svm_{}_{}".format(self.svm_prefix, label))
+            results[num] = svmlight_wrapper.classify(label, svm_feed_filename)
             # print classified
-            results.append(classified)
+            # results.append(classified)
             # if num > 4:
             #     break
-        for i in range(len(results[0])):
-            values.append(name +
-                          "".join([result_per_label[i]
-                                   for result_per_label in results]))
+        for i in range(len(self.pairs)):
+            instance = results[:, i]
+            values.append(name + str(
+                int(sum(map(lambda (x, y): 10 ** y * x,
+                        zip(instance, range(len(instance)-1, -1, -1))))))
+                          .zfill(num_rels))
         return values
 
 
@@ -1492,7 +1503,7 @@ if __name__ == '__main__':
                 + "(relative or full, default: data/rel-devset.raw): ")
         # if input is empty
         except SyntaxError:
-            target = "rel-devset.raw"
+            target = "rel-testset.raw"
     else:
         target = args.t
     cor.classify(target)
