@@ -1,0 +1,93 @@
+SVM-light Version V5.01-TK-1.2
+5 # kernel type
+3 # kernel parameter -d 
+1 # kernel parameter -g 
+1 # kernel parameter -s 
+1 # kernel parameter -r 
+empty# kernel parameter -u 
+0.4 # kernel parameter -L 
+1 # kernel parameter -T 
+T # kernel parameter -C 
+1 # kernel parameter -F 
+1 # kernel parameter -S 
+1.000000 # kernel parameter -D 
+3 # kernel parameter -N 
+S # kernel parameter -V 
+S # kernel parameter -W 
+0 # highest feature index 
+16257 # number of training documents 
+74 # number of support vectors plus 1 
+1.0342845 # threshold b, each following line is a SV (starting with alpha*y)
+-0.026400635677636070941520785027024  |BT| (NP (NP (DT the)(NN state)(POS 's))(JJ 100,000-strong)(NN police)(NN force)) |BT| (BOW (state *)('s *)(100,000-strong *)(police *)(force *)) |BT| (BOP (NN *)(POS *)(JJ *)(NN *)(NN *)) |ET| 
+-0.0084505956832542725859491739015539  |BT| (S (NP (PRP It))(VP (VBD found)(S (NP (PRP him))(ADJP (JJ guilty)(PP (IN of)(S (VP (VBG enriching)(NP (PRP himself))(PP (IN through)(NP (NP (DT a)(NN property)(NN deal))(PP (IN with)(NP (NP (DT the)(NN state)(POS 's))(JJ main)(NN food)(NN supply)(NN agency)))))))))))(. .)) |BT| (BOW (It *)(found *)(him *)(guilty *)(of *)(enriching *)(himself *)(through *)(a *)(property *)(deal *)(with *)(the *)(state *)('s *)(main *)(food *)(supply *)(agency *)) |BT| (BOP (PRP *)(VBD *)(PRP *)(NN *)(IN *)(VBG *)(PRP *)(IN *)(DT *)(NN *)(NN *)(IN *)(DT *)(NN *)(POS *)(NN *)(VBD *)(VB *)(NN *)) |ET| 
+-0.015967705646052578194460380700548  |BT| (NP (NP (DT the)(NN party)(POS 's))(JJ northern)(NN stronghold)) |BT| (BOW (party *)('s *)(northern *)(stronghold *)) |BT| (BOP (NN *)(POS *)(NN *)(VBD *)) |ET| 
+-0.016161259700336043365620497525015  |BT| (NP (NP (DT the)(NN country)(POS 's))(VBN elected)(NNS lawmakers)) |BT| (BOW (country *)('s *)(elected *)(lawmakers *)) |BT| (BOP (NN *)(POS *)(VBD *)(NNS *)) |ET| 
+-0.078732535335358094785718208186154  |BT| (NP (PRP$ its)(JJ neo-communist)(NNS allies)) |BT| (BOW (its *)(neo-communist *)(allies *)) |BT| (BOP (PRP$ *)(JJ *)(NNS *)) |ET| 
+0.33333333333351461424953754431044  |BT| (NP (NP (DT the)(NN state)(POS 's))(JJ main)(NN food)(NN supply)(NN agency)) |BT| (BOW (state *)('s *)(main *)(food *)(supply *)(agency *)) |BT| (BOP (NN *)(POS *)(NN *)(VBD *)(VB *)(NN *)) |ET| 
+0.33333333333351461424953754431044  |BT| (NP (PRP$ its)(JJ affiliated)(NNS stations)) |BT| (BOW (its *)(affiliated *)(stations *)) |BT| (BOP (PRP$ *)(JJ *)(NNS *)) |ET| 
+-0.078889505343544191751092853337468  |BT| (NP (NP (DT Some))(PP (IN of)(NP (PRP$ its)(JJ affiliated)(NNS stations)))) |BT| (BOW (Some *)(of *)(its *)(affiliated *)(stations *)) |BT| (BOP (DT *)(IN *)(PRP$ *)(JJ *)(NNS *)) |ET| 
+-0.046448532705434336653738114364387  |BT| (VP (VBG enriching)(NP (PRP himself))(PP (IN through)(NP (NP (DT a)(NN property)(NN deal))(PP (IN with)(NP (NP (DT the)(NN state)(POS 's))(JJ main)(NN food)(NN supply)(NN agency)))))) |BT| (BOW (himself *)(through *)(a *)(property *)(deal *)(with *)(the *)(state *)('s *)(main *)(food *)(supply *)(agency *)) |BT| (BOP (PRP *)(IN *)(DT *)(NN *)(NN *)(IN *)(DT *)(NN *)(POS *)(NN *)(VBD *)(VB *)(NN *)) |ET| 
+-0.025897029482347247442142190720915  |BT| (S (NP (DT the)(NN agency))(VP (VBZ issues)(NP (PRP$ its)(JJ final)(NN decision)))) |BT| (BOW (agency *)(issues *)(its *)) |BT| (BOP (NN *)(NNS *)(PRP$ *)) |ET| 
+-0.037239277468243084379118101878703  |BT| (NP (PRP$ their)(JJ public)(NNS employees)) |BT| (BOW (their *)(public *)(employees *)) |BT| (BOP (PRP$ *)(JJ *)(NNS *)) |ET| 
+-0.035030213940888378643112588406439  |BT| (NP (PRP$ his)(JJ Giant)(NNS teammates)) |BT| (BOW (his *)(Giant *)(teammates *)) |BT| (BOP (PRP$ *)(JJ *)(NNS *)) |ET| 
+-0.024246092250454574085205550204591  |BT| (NP (NP (DT the)(NN state)(POS 's))(JJ rural)(JJ southeastern)(NN corner)) |BT| (BOW (state *)('s *)(rural *)(southeastern *)(corner *)) |BT| (BOP (NN *)(POS *)(JJ *)(JJ *)(NN *)) |ET| 
+-0.0057205723334088362866389765315489  |BT| (NP (PRP$ its)(NN coach)) |BT| (BOW (its *)(coach *)) |BT| (BOP (PRP$ *)(NN *)) |ET| 
+-0.014602032261872139456970742799058  |BT| (NP (NP (NNP German)(POS 's))(JJ main)(NN licensing)(NN group)) |BT| (BOW (German *)('s *)(main *)(licensing *)(group *)) |BT| (BOP (NNP *)(POS *)(NN *)(VBG *)(NN *)) |ET| 
+-0.0095490417427761542512598680332303  |BT| (NP (DT the)(NNP Attica)(NN state)(NN prison)) |BT| (BOW (state *)(prison *)) |BT| (BOP (NN *)(NN *)) |ET| 
+-0.015665274988804527706021119115576  |BT| (S (NP (PRP him))(ADJP (JJ guilty)(PP (IN of)(S (VP (VBG enriching)(NP (PRP himself))(PP (IN through)(NP (NP (DT a)(NN property)(NN deal))(PP (IN with)(NP (NP (DT the)(NN state)(POS 's))(JJ main)(NN food)(NN supply)(NN agency)))))))))) |BT| (BOW (him *)(guilty *)(of *)(enriching *)(himself *)(through *)(a *)(property *)(deal *)(with *)(the *)(state *)('s *)(main *)(food *)(supply *)(agency *)) |BT| (BOP (PRP *)(NN *)(IN *)(VBG *)(PRP *)(IN *)(DT *)(NN *)(NN *)(IN *)(DT *)(NN *)(POS *)(NN *)(VBD *)(VB *)(NN *)) |ET| 
+-0.018033069689260473877912005491453  |BT| (NP (PRP$ its)(JJ trans-Pacific)(NNS flights)) |BT| (BOW (its *)(trans-Pacific *)) |BT| (BOP (PRP$ *)(JJ *)) |ET| 
+-0.0059373344866719968138113472377881  |BT| (NP (NP (DT the)(NN nation)(POS 's))(NN president)) |BT| (BOW (nation *)('s *)(president *)) |BT| (BOP (NN *)(POS *)(NN *)) |ET| 
+-0.0066186295040536659989305334761411  |BT| (NP (NN state)(NNS prosecutors)) |BT| (BOW (state *)(prosecutors *)) |BT| (BOP (NN *)(NNS *)) |ET| 
+-0.0076687861018476018853951003961811  |BT| (S (NP (PRP$ its)(NN voting)(NN weight))(VP (VBD increased)(S (VP (TO to)(VP (VB reflect)(NP (PRP$ its)(NN position))(PP (IN as)(NP (NP (DT the)(NNP EU)(POS 's))(JJS biggest)(NN nation)))))))) |BT| (BOW (its *)(voting *)(weight *)(increased *)(to *)(reflect *)(its *)) |BT| (BOP (PRP$ *)(NN *)(VBD *)(VBN *)(TO *)(VB *)(PRP$ *)) |ET| 
+-0.011346700600470147057841074911266  |BT| (NP (NP (DT the)(NN league)(POS 's))(NNS coaches)) |BT| (BOW (league *)('s *)(coaches *)) |BT| (BOP (NN *)(POS *)(NNS *)) |ET| 
+-0.0070675259811519980379657113189751  |BT| (NP (PRP$ its)(JJS closest)(NN rival)) |BT| (BOW (its *)(closest *)(rival *)) |BT| (BOP (PRP$ *)(NN *)(NN *)) |ET| 
+-0.008137972588670772111640872026328  |BT| (NP (NP (DT the)(NN city)(POS 's))(NN stock)(NN exchange)(NN building)) |BT| (BOW (city *)('s *)(stock *)(exchange *)(building *)) |BT| (BOP (NN *)(POS *)(NN *)(NN *)(NN *)) |ET| 
+-0.0060668518906470967136379535133983  |BT| (NP (PRP$ its)(JJ public)(NNS functions)) |BT| (BOW (presidential *)(palace *)) |BT| (BOP (JJ *)(NN *)) |ET| 
+-0.0049306940634179317189955682465552  |BT| (NP (NN state)(NN utility)(NN labor)(NNS unions)) |BT| (BOW (state *)(utility *)(labor *)) |BT| (BOP (NN *)(NN *)(NN *)) |ET| 
+-0.0062556610897961384409882157342508  |BT| (S (NP (PRP It))(VP (VBD found)(S (NP (PRP him))(ADJP (JJ guilty)(PP (IN of)(S (VP (VBG enriching)(NP (PRP himself))(PP (IN through)(NP (NP (DT a)(NN property)(NN deal))(PP (IN with)(NP (NP (DT the)(NN state)(POS 's))(JJ main)(NN food)(NN supply)(NN agency)))))))))))(. .)) |BT| (BOW (It *)(found *)(him *)) |BT| (BOP (PRP *)(VBD *)(PRP *)) |ET| 
+-0.0075412453398320993327996752952913  |BT| (NP (NP (DT the)(NN governor)(POS 's))(NN mansion)) |BT| (BOW (governor *)('s *)(mansion *)) |BT| (BOP (NN *)(POS *)(NN *)) |ET| 
+-0.0056202011360713495166652187151612  |BT| (VP (VP (VB modernize)(NP (NP (PRP$ his)(NN nation)(POS 's))(NN bureaucracy)))(CC and)(VP (VB revive)(NP (PRP$ its)(JJ stagnant)(NN economy)))) |BT| (BOW (nation *)('s *)(bureaucracy *)(and *)(revive *)(its *)) |BT| (BOP (NN *)(POS *)(NN *)(CC *)(VB *)(PRP$ *)) |ET| 
+-0.0061047226401723300032164942763302  |BT| (NP (DT the)(NNP Indonesian)(NN state)) |BT| (BOW (Indonesian *)(state *)) |BT| (BOP (JJ *)(NN *)) |ET| 
+-0.011166183803896778670150524703786  |BT| (NP (PRP$ his)(JJ political)(NNS allies)) |BT| (BOW (his *)(political *)(allies *)) |BT| (BOP (PRP$ *)(JJ *)(NNS *)) |ET| 
+-0.0048431000889556383506850956166545  |BT| (NP (DT the)(NN state)(NNP Senate)) |BT| (BOW (state *)(Senate *)) |BT| (BOP (NN *)(NNP *)) |ET| 
+-0.0019601743949585349185982252606664  |BT| (NP (PRP$ its)(NNS soldiers)) |BT| (BOW (its *)(soldiers *)) |BT| (BOP (PRP$ *)(NNS *)) |ET| 
+-0.0062693717244535944813077499304654  |BT| (NP (NP (DT the)(NN world)(POS 's))(JJ fourth-biggest)(NN airline)) |BT| (BOW (world *)('s *)(fourth-biggest *)(airline *)) |BT| (BOP (NN *)(POS *)(JJ *)(NN *)) |ET| 
+-0.0043505579853683560426214071981121  |BT| (S (PP (IN In)(NP (NN return)))(, ,)(NP (PRP it))(VP (VBD promised)(S (VP (TO to)(VP (VB restructure)(NP (NP (PRP$ its)(JJ bloated)(NNS businesses))(CC and)(NP (JJ inefficient)(JJ financial)(NN sector)))))))(. .)) |BT| (BOW (it *)(promised *)(to *)(restructure *)(its *)) |BT| (BOP (PRP *)(VBD *)(TO *)(VB *)(PRP$ *)) |ET| 
+-0.0033850536297299615995370913879015  |BT| (NP (NP (NNP Britain)(POS 's))(JJ top)(NN law)(NN enforcement)(NN officer)) |BT| (BOW (Britain *)('s *)(top *)(law *)(enforcement *)(officer *)) |BT| (BOP (NNP *)(POS *)(JJ *)(NN *)(NN *)(NN *)) |ET| 
+-0.0038937777598285596217242421346327  |BT| (NP (PRP$ its)(NNP Oldsmobile)(NN division)) |BT| (BOW (its *)(Oldsmobile *)(division *)) |BT| (BOP (PRP$ *)(JJ *)(NN *)) |ET| 
+-0.0077315723818260333882745882760901  |BT| (NP (NP (DT the)(NN sheriff)(POS 's))(NN department)) |BT| (BOW (sheriff *)('s *)(department *)) |BT| (BOP (NN *)(POS *)(NN *)) |ET| 
+-0.0041838831303983624668174634564366  |BT| (S (NP (NNP Owens))(VP (VBD said)(SBAR (S (NP (NN state)(NN health)(CC and)(JJ environmental)(NNS experts))(VP (MD would)(VP (VB meet)(PP (IN with)(NP (NNP Army)(NNS officials)))(NP (JJ next)(NN week))(S (VP (TO to)(VP (VB ensure)(SBAR (S (NP (DT the)(NN plan))(VP (VBZ is)(ADJP (JJ sound)))))))))))))(. .)) |BT| (BOW (Owens *)(said *)(state *)) |BT| (BOP (NNS *)(VBD *)(NN *)) |ET| 
+-0.0075085669122631273908474724976259  |BT| (VP (VBG enriching)(NP (PRP himself))(PP (IN through)(NP (NP (DT a)(NN property)(NN deal))(PP (IN with)(NP (NP (DT the)(NN state)(POS 's))(JJ main)(NN food)(NN supply)(NN agency)))))) |BT| (BOW (himself *)(through *)(a *)(property *)(deal *)(with *)(the *)(state *)) |BT| (BOP (PRP *)(IN *)(DT *)(NN *)(NN *)(IN *)(DT *)(NN *)) |ET| 
+-0.0053683266507596654262823854253384  |BT| (NP (NP (DT the)(NN nation)(POS 's))(JJS highest)(NN court)) |BT| (BOW (nation *)('s *)(highest *)(court *)) |BT| (BOP (NN *)(POS *)(JJS *)(NN *)) |ET| 
+-0.0059936113822965601111159017477803  |BT| (NP (NN state)(NNS waters)) |BT| (BOW (state *)(waters *)) |BT| (BOP (NN *)(NNS *)) |ET| 
+-0.0040626186535641138977692499167915  |BT| (NP (NP (DT the)(NN world)(POS 's))(JJS biggest)(JJ mobile)(NN phone)(NN maker)) |BT| (BOW (world *)('s *)(biggest *)(mobile *)(phone *)(maker *)) |BT| (BOP (NN *)(POS *)(JJS *)(NN *)(NN *)(NN *)) |ET| 
+-0.0039107051217686962518715887426879  |BT| (NP (DT a)(JJ three-term)(NN state)(NN representative)) |BT| (BOW (state *)(representative *)) |BT| (BOP (NN *)(NN *)) |ET| 
+-0.0020858202172418793818309268317535  |BT| (NP (PRP$ its)(NNS suburbs)) |BT| (BOW (its *)(suburbs *)) |BT| (BOP (PRP$ *)(NNS *)) |ET| 
+-0.0033470639980564594745393591779248  |BT| (NP (NP (DT the)(NN world)(POS 's))(JJS largest)(JJ pharmaceutical)(NN company)) |BT| (BOW (world *)('s *)(largest *)(pharmaceutical *)(company *)) |BT| (BOP (NN *)(POS *)(JJS *)(JJ *)(NN *)) |ET| 
+-0.0038340692238914312814368479109817  |BT| (NP (PRP$ its)(JJ profitable)(JJ cut-price)(NN subsidiary)) |BT| (BOW (its *)(profitable *)(cut-price *)(subsidiary *)) |BT| (BOP (PRP$ *)(JJ *)(NN *)(NN *)) |ET| 
+-0.0031783135941220444151134039145745  |BT| (PP (IN from)(NP (DT the)(JJ presidential)(NN palace))) |BT| (BOW (Jakarta *)('s *)(main *)(park *)) |BT| (BOP (NNP *)(POS *)(NN *)(NN *)) |ET| 
+-0.001902687923829304850187327247113  |BT| (NP (JJ oil-rich)(NNP Tabasco)(NN state)) |BT| (BOW (Tabasco *)(state *)) |BT| (BOP (NNP *)(NN *)) |ET| 
+-0.0051886330069502283740545678369926  |BT| (NP (PRP$ its)(NN population)) |BT| (BOW (its *)(population *)) |BT| (BOP (PRP$ *)(NN *)) |ET| 
+-0.0022783381730587626105843934709583  |BT| (NP (NP (NNP Germany)(POS 's))(ADJP (RBS most)(JJ populous))(NN state)) |BT| (BOW (Germany *)('s *)(most *)(populous *)(state *)) |BT| (BOP (NNP *)(POS *)(JJS *)(JJ *)(NN *)) |ET| 
+-0.0027894263463301067519639619973759  |BT| (S (PP (IN In)(NP (CD 1962)))(, ,)(NP (DT the)(NN court))(VP (VBD abandoned)(NP (PRP$ its)(NN caution)))(. .)) |BT| (BOW (court *)(abandoned *)(its *)) |BT| (BOP (NN *)(VBD *)(PRP$ *)) |ET| 
+-0.0021097449354245574604238555593838  |BT| (NP (NP (PRP$ its)(JJ bloated)(NNS businesses))(CC and)(NP (JJ inefficient)(JJ financial)(NN sector))) |BT| (BOW (its *)(bloated *)(businesses *)(and *)(inefficient *)(financial *)(sector *)) |BT| (BOP (PRP$ *)(JJ *)(NNS *)(CC *)(JJ *)(JJ *)(NN *)) |ET| 
+-0.0017327251197495710001439395142597  |BT| (NP (PRP$ its)(NNS weapons)) |BT| (BOW (its *)(weapons *)) |BT| (BOP (PRP$ *)(NNS *)) |ET| 
+-0.0020557110070202190381383200445953  |BT| (NP (NN state)(NN utility)(NN labor)(NNS unions)) |BT| (BOW (state *)(utility *)(labor *)(unions *)) |BT| (BOP (NN *)(NN *)(NN *)(NNS *)) |ET| 
+-0.0015578934641564117381112852811498  |BT| (NP (PRP$ its)(NNS people)) |BT| (BOW (its *)(people *)) |BT| (BOP (PRP$ *)(NNS *)) |ET| 
+-0.001829320250066225920712592589723  |BT| (NP (NP (DT the)(NN country)(POS 's))(JJ top)(JJ young)(NN coaching)(NNS prospects)) |BT| (BOW (country *)('s *)(top *)(young *)(coaching *)(prospects *)) |BT| (BOP (NN *)(POS *)(JJ *)(JJ *)(NN *)(NNS *)) |ET| 
+-0.0008580068574429351464100124147194  |BT| (NP (NP (JJ several)(NN TV)(CC and)(NN radio)(NNS stations))(PP (IN in)(NP (NNP Oklahoma)))) |BT| (BOW (stations *)(in *)(Oklahoma *)) |BT| (BOP (NNS *)(IN *)(NNP *)) |ET| 
+-0.0016736336553465993616518492359546  |BT| (NP (PRP$ its)(JJ substantial)(NN customer)(NN base)) |BT| (BOW (its *)(substantial *)(customer *)) |BT| (BOP (PRP$ *)(JJ *)(NN *)) |ET| 
+-0.0013897575237506927005315393586216  |BT| (NP (NNP Washington)(NN state)(NN law)) |BT| (BOW (Washington *)(state *)) |BT| (BOP (NNP *)(NN *)) |ET| 
+-0.0013984682021483539789141747888834  |BT| (NP (NP (DT The)(NN commission)(POS 's))(NN staff)) |BT| (BOW (commission *)('s *)(staff *)) |BT| (BOP (NN *)(POS *)(NN *)) |ET| 
+-0.0012874398326017852910163608015637  |BT| (NP (PRP$ its)(JJ core)(JJ trans-Atlantic)(NNS flights)) |BT| (BOW (its *)(core *)(trans-Atlantic *)) |BT| (BOP (PRP$ *)(NN *)(JJ *)) |ET| 
+-0.0010147811014220575742683649878018  |BT| (SBAR (WHNP (WDT that))(S (VP (VBD did)(RB not)(VP (VB send)(NP (NNS delegates))(PP (TO to)(NP (DT the)(NN summit))))))) |BT| (BOW (that *)(did *)(not *)(send *)(delegates *)) |BT| (BOP (WDT *)(VBD *)(RB *)(VB *)(NNS *)) |ET| 
+-0.0010693136973898419595646602786587  |BT| (NP (JJ federal)(, ,)(NN state)(CC and)(NN school)(NNS sources)) |BT| (BOW (state *)(and *)(school *)) |BT| (BOP (NN *)(CC *)(NN *)) |ET| 
+-0.0015098758932784819321304414785345  |BT| (NP (PRP$ its)(NNS competitors)) |BT| (BOW (its *)(competitors *)) |BT| (BOP (PRP$ *)(NNS *)) |ET| 
+-0.0011225409649802120526373983011581  |BT| (NP (DT a)(NN state)(NN -run)(NN power)(NN company)) |BT| (BOW (state *)(-run *)(power *)(company *)) |BT| (BOP (NN *)(JJ *)(NN *)(NN *)) |ET| 
+-0.001304892035522457142265873031306  |BT| (NP (PRP$ its)(NNS players)) |BT| (BOW (its *)(players *)) |BT| (BOP (PRP$ *)(NNS *)) |ET| 
+-0.0013951018781488070796131806261542  |BT| (VP (VP (VB modernize)(NP (NP (PRP$ his)(NN nation)(POS 's))(NN bureaucracy)))(CC and)(VP (VB revive)(NP (PRP$ its)(JJ stagnant)(NN economy)))) |BT| (BOW (bureaucracy *)(and *)(revive *)(its *)) |BT| (BOP (NN *)(CC *)(VB *)(PRP$ *)) |ET| 
+-0.0013300587820356626379825204509189  |BT| (NP (PRP$ its)(NNS citizens)) |BT| (BOW (its *)(citizens *)) |BT| (BOP (PRP$ *)(NNS *)) |ET| 
+-0.00089585752426872089591164405320001  |BT| (NP (NP (DT this)(NN city)(POS 's))(JJ new)(NN Capitol)) |BT| (BOW (city *)('s *)(new *)(Capitol *)) |BT| (BOP (NN *)(POS *)(JJ *)(NN *)) |ET| 
+-0.00060634336769961930634076363588747  |BT| (NP (NP (JJ supporting)(NNP Yugoslavia)(POS 's))(ADJP (RB newly)(VBN elected))(NNS leaders)) |BT| (BOW (Yugoslavia *)('s *)(newly *)(elected *)(leaders *)) |BT| (BOP (NNP *)(POS *)(NN *)(VBD *)(NNS *)) |ET| 
+-0.00054384107115511737436108763432685  |BT| (NP (JJ Democratic)(NN state)(NNP Sen.)(NNP Ellen)(NNP Anderson)) |BT| (BOW (Democratic *)(state *)) |BT| (BOP (JJ *)(NN *)) |ET| 
+-0.00041980372739865482421828257741936  |BT| (S (NP (NN ``We))(ADVP (RB now))(VP (VBP expect)(S (NP (NN state)(NNS prosecutors))(VP (TO to)(VP (VB bring)(NP (NNS charges))(PP (IN against)(NP (NP (NNP Slobodan)(NNP Milosevic)(NNP ,'')(NNP Dinkic))(VP (VBD said))))))))(. .)) |BT| (BOW (``We *)(now *)(expect *)(state *)) |BT| (BOP (RB *)(RB *)(VB *)(NN *)) |ET| 

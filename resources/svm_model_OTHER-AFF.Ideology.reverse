@@ -1,0 +1,163 @@
+SVM-light Version V5.01-TK-1.2
+5 # kernel type
+3 # kernel parameter -d 
+1 # kernel parameter -g 
+1 # kernel parameter -s 
+1 # kernel parameter -r 
+empty# kernel parameter -u 
+0.4 # kernel parameter -L 
+1 # kernel parameter -T 
+T # kernel parameter -C 
+1 # kernel parameter -F 
+1 # kernel parameter -S 
+1.000000 # kernel parameter -D 
+3 # kernel parameter -N 
+S # kernel parameter -V 
+S # kernel parameter -W 
+0 # highest feature index 
+16257 # number of training documents 
+144 # number of support vectors plus 1 
+1.1331413 # threshold b, each following line is a SV (starting with alpha*y)
+-0.10769662939019575276233808835968  |BT| (NP (NP (JJ Jewish)(NNS settlements))(PP (IN in)(NP (NN territory)))) |BT| (BOW (Jewish *)(settlements *)(in *)(territory *)) |BT| (BOP (JJ *)(NNS *)(IN *)(NN *)) |ET| 
+-0.047713626211958043432659337668156  |BT| (NP (NNP four-term)(NNP Democratic)(NNP Rep)) |BT| (BOW (Democratic *)(Rep *)) |BT| (BOP (JJ *)(NN *)) |ET| 
+-0.03340164815124570252269364800668  |BT| (NP (NN Indonesian)(NNS leaders)) |BT| (BOW (Indonesian *)(leaders *)) |BT| (BOP (JJ *)(NNS *)) |ET| 
+-0.17206350453822696899841560025379  |BT| (NP (QP (CD 137)(CD Shiite))(JJ Muslim)(NNS prisoners)) |BT| (BOW (Shiite *)(Muslim *)) |BT| (BOP (NNP *)(NNP *)) |ET| 
+-0.049228668331759019294313617365333  |BT| (NP (DT the)(JJ central)(NNP Javanese)(NN city)) |BT| (BOW (Javanese *)(city *)) |BT| (BOP (JJ *)(NN *)) |ET| 
+0.33333333333351461424953754431044  |BT| (NP (DT a)(JJ Jewish)(NN seminary)) |BT| (BOW (Jewish *)(seminary *)) |BT| (BOP (JJ *)(NN *)) |ET| 
+0.33333333333351461424953754431044  |BT| (NP (DT the)(JJ radical)(JJ Islamic)(NN group)(NN Hamas)) |BT| (BOW (Islamic *)(group *)) |BT| (BOP (NNP *)(NN *)) |ET| 
+0.33333333333351461424953754431044  |BT| (NP (JJ Jewish)(NNS settlements)) |BT| (BOW (Jewish *)(settlements *)) |BT| (BOP (JJ *)(NNS *)) |ET| 
+0.33333333333351461424953754431044  |BT| (NP (DT the)(RB traditionally)(JJ Democratic)(NN region)) |BT| (BOW (Democratic *)(region *)) |BT| (BOP (JJ *)(NN *)) |ET| 
+0.33333333333351461424953754431044  |BT| (NP (NP (DT the)(NN world)(POS 's))(ADJP (RBS most)(JJ populous))(JJ Muslim)(NN country)) |BT| (BOW (Muslim *)(country *)) |BT| (BOP (NNP *)(NN *)) |ET| 
+-0.29310413879562047245741496226401  |BT| (NP (DT a)(JJ Jewish)(JJ civilian)) |BT| (BOW (Jewish *)(civilian *)) |BT| (BOP (JJ *)(NN *)) |ET| 
+0.33333333333351461424953754431044  |BT| (NP (QP (CD 137)(CD Shiite))(JJ Muslim)(NNS prisoners)) |BT| (BOW (Shiite *)(Muslim *)(prisoners *)) |BT| (BOP (NNP *)(NNP *)(NNS *)) |ET| 
+-0.17785637886608976487856637049845  |BT| (NP (QP (CD 137)(CD Shiite))(JJ Muslim)(NNS prisoners)) |BT| (BOW (Muslim *)(prisoners *)) |BT| (BOP (NNP *)(NNS *)) |ET| 
+0.33333333333351461424953754431044  |BT| (NP (NP (NNP Iran)(POS 's))(JJ only)(JJ Jewish)(NN legislator)) |BT| (BOW (Jewish *)(legislator *)) |BT| (BOP (JJ *)(NN *)) |ET| 
+-0.11846021249989728552076684309213  |BT| (NP (NP (NNP Iran)(POS 's))(JJ only)(JJ Jewish)(NN legislator)) |BT| (BOW (Iran *)('s *)(only *)(Jewish *)(legislator *)) |BT| (BOP (NNP *)(POS *)(JJ *)(JJ *)(NN *)) |ET| 
+0.33333333333351461424953754431044  |BT| (NP (JJ Muslim)(NNS youths)) |BT| (BOW (Muslim *)(youths *)) |BT| (BOP (NNP *)(VBZ *)) |ET| 
+-0.098753901906456151293944856206508  |BT| (NP (NP (DT the)(NN world)(POS 's))(ADJP (RBS most)(JJ populous))(JJ Muslim)(NN country)) |BT| (BOW (world *)('s *)(most *)(populous *)(Muslim *)(country *)) |BT| (BOP (NN *)(POS *)(JJS *)(JJ *)(NNP *)(NN *)) |ET| 
+0.33333333333351461424953754431044  |BT| (NP (DT the)(JJ Muslim)(JJ religious)(NNS leaders)) |BT| (BOW (Muslim *)(religious *)(leaders *)) |BT| (BOP (NNP *)(JJ *)(NNS *)) |ET| 
+-0.12270676357692902880280882982333  |BT| (NP (JJ Democratic)(NNS surrogates)) |BT| (BOW (Democratic *)(surrogates *)) |BT| (BOP (JJ *)(NNS *)) |ET| 
+0.33333333333351461424953754431044  |BT| (NP (NP (NNP Britain)(POS 's))(NNP Labor)(NN government)) |BT| (BOW (Labor *)(government *)) |BT| (BOP (NNP *)(NN *)) |ET| 
+-0.099860910811655365093564284961758  |BT| (NP (DT the)(NNP Alpine)(NN region)) |BT| (BOW (Alpine *)(region *)) |BT| (BOP (NNP *)(NN *)) |ET| 
+0.33333333333351461424953754431044  |BT| (NP (JJ non-Muslim)(NNS families)) |BT| (BOW (non-Muslim *)(families *)) |BT| (BOP (JJ *)(NNS *)) |ET| 
+-0.071557684708221006020245624767995  |BT| (NP (JJ nuclear)(NNS weapons)) |BT| (BOW (nuclear *)(weapons *)) |BT| (BOP (JJ *)(NNS *)) |ET| 
+-0.11489208985031158782863514034034  |BT| (NP (DT the)(JJ British)(NN government)) |BT| (BOW (British *)(government *)) |BT| (BOP (JJ *)(NN *)) |ET| 
+0.33333333333351461424953754431044  |BT| (NP (JJ Islamic)(NNS militants)) |BT| (BOW (Islamic *)(militants *)) |BT| (BOP (JJ *)(NNS *)) |ET| 
+-0.071437724497395160838664196489844  |BT| (NP (JJ pro-Indonesian)(NNS militias)) |BT| (BOW (pro-Indonesian *)(militias *)) |BT| (BOP (JJ *)(NNS *)) |ET| 
+0.33333333333351461424953754431044  |BT| (NP (DT the)(JJ sole)(JJ Jewish)(NN representative)) |BT| (BOW (Jewish *)(representative *)) |BT| (BOP (JJ *)(NN *)) |ET| 
+-0.22147578406491658098431685175456  |BT| (NP (DT the)(JJ radical)(JJ Islamic)(NN group)(NN Hamas)) |BT| (BOW (Islamic *)(group *)(Hamas *)) |BT| (BOP (NNP *)(NN *)(NNP *)) |ET| 
+0.33333333333351461424953754431044  |BT| (NP (DT the)(JJS largest)(JJ Jewish)(NN community)) |BT| (BOW (Jewish *)(community *)) |BT| (BOP (JJ *)(NN *)) |ET| 
+-0.082982510546593016287353350435296  |BT| (NP (DT the)(JJ Republican)(JJ presidential)(NN nominee)) |BT| (BOW (presidential *)(nominee *)) |BT| (BOP (JJ *)(NN *)) |ET| 
+-0.064295559877610444776685483248002  |BT| (NP (DT The)(JJ Palestinian)(NN representative)) |BT| (BOW (Palestinian *)(representative *)) |BT| (BOP (JJ *)(NN *)) |ET| 
+-0.05297669511148542231815383729554  |BT| (NP (NP (NNP Saturday)(POS 's))(JJ Egyptian)(NN delegation)) |BT| (BOW (Egyptian *)(delegation *)) |BT| (BOP (JJ *)(NN *)) |ET| 
+0.33333333333351461424953754431044  |BT| (NP (DT the)(NN majority)(JJ Islamic)(NN sect)) |BT| (BOW (Islamic *)(sect *)) |BT| (BOP (JJ *)(NN *)) |ET| 
+-0.064719459755355771002349740683712  |BT| (NP (NP (DT the)(NN majority)(JJ Islamic)(NN sect))(PP (IN in)(NP (DT the)(NN country)))) |BT| (BOW (Islamic *)(sect *)(in *)(the *)(country *)) |BT| (BOP (JJ *)(NN *)(IN *)(DT *)(NN *)) |ET| 
+-0.087220755177410139169502656386612  |BT| (NP (JJ Jewish)(NN west)(NNS Jerusalem)) |BT| (BOW (Jewish *)(west *)(Jerusalem *)) |BT| (BOP (JJ *)(JJ *)(NN *)) |ET| 
+-0.060933605112495875522071742125263  |BT| (NP (DT the)(JJ European)(NN aircraft)(NN consortium)) |BT| (BOW (European *)(aircraft *)) |BT| (BOP (JJ *)(NN *)) |ET| 
+-0.032787442311414498330446321006093  |BT| (NP (DT the)(NNP Alabama)(JJ -Florida)(NN line)) |BT| (BOW (-Florida *)(line *)) |BT| (BOP (NNP *)(NN *)) |ET| 
+-0.038150833446125548276128824909392  |BT| (NP (JJ Jewish)(CC and)(JJ American)(NNS targets)) |BT| (BOW (Jewish *)(and *)(American *)(targets *)) |BT| (BOP (JJ *)(CC *)(JJ *)(NNS *)) |ET| 
+-0.034616753854012673186080206733095  |BT| (NP (NP (NNP Indonesia)(POS 's))(JJ war-torn)(JJ Aceh)(NN province)) |BT| (BOW (Aceh *)(province *)) |BT| (BOP (NNP *)(NN *)) |ET| 
+-0.038454184317066777976101832337008  |BT| (NP (DT a)(JJ young)(JJ French)(NN designer)) |BT| (BOW (French *)(designer *)) |BT| (BOP (JJ *)(NN *)) |ET| 
+-0.051568316665262368958533301110947  |BT| (NP (DT the)(NNP Bush)(NN campaign)(POS 's)) |BT| (BOW (Bush *)(campaign *)) |BT| (BOP (NNP *)(NN *)) |ET| 
+-0.069614650911449318937407326757238  |BT| (NP (JJ Chinese)(NNS carriers)) |BT| (BOW (Chinese *)(carriers *)) |BT| (BOP (JJ *)(NNS *)) |ET| 
+-0.028746969884588947918846457696418  |BT| (NP (NNP State)(NNP Senate)(NNS candidates)) |BT| (BOW (Senate *)(candidates *)) |BT| (BOP (NNP *)(VBZ *)) |ET| 
+-0.032490739899690750103200542753257  |BT| (NP (DT The)(JJ late)(JJ Syrian)(NN president)) |BT| (BOW (Syrian *)(president *)) |BT| (BOP (JJ *)(NN *)) |ET| 
+-0.071655145914239173898785395522282  |BT| (NP (JJ Scottish)(NNS judges)) |BT| (BOW (Scottish *)(judges *)) |BT| (BOP (JJ *)(NNS *)) |ET| 
+-0.054622540100589311862222530180588  |BT| (NP (DT the)(JJ Italian)(NN team)) |BT| (BOW (Italian *)(team *)) |BT| (BOP (JJ *)(NN *)) |ET| 
+-0.067498713918427460933813222254685  |BT| (NP (JJ Russian)(NNS lawmakers)) |BT| (BOW (Russian *)(lawmakers *)) |BT| (BOP (JJ *)(NNS *)) |ET| 
+-0.042083756460593119141933016180701  |BT| (VP (VBD was)(ADVP (RB home))(PP (TO to)(NP (DT a)(JJ Jewish)(NN seminary)))(, ,)(SBAR (WHADVP (WRB where))(S (NP (QP (RB about)(CD 30))(NNS students))(VP (MD would)(VP (VB study)(PP (IN during)(NP (DT the)(NN day)))))))) |BT| (BOW (Jewish *)(seminary *)(, *)(where *)) |BT| (BOP (JJ *)(NN *)(, *)(WRB *)) |ET| 
+-0.045916896004998930536089574161451  |BT| (NP (NP (DT the)(JJ Muslim)(JJ religious)(NNS leaders))(CC and)(NP (NP (DT the)(NNS officials))(PP (IN of)(NP (DT the)(NN judiciary)(S (VP (TO to)(VP (VB pay)(NP (JJR more)(NN attention))(PP (TO to)(NP (NP (DT the)(NNS rights))(PP (IN of)(NP (JJ non-Muslim)(NNS families)))))(ADVP (ADVP (RB as)(RB far))(SBAR (IN as)(S (NP (NP (NNS issues))(PP (JJ such)(IN as)(NP (NP (NN blood)(NN money))(CC and)(NP (NP (DT the)(NNS verdicts))(PP (IN of)(NP (DT the)(NNS courts)))))))(VP (VBP are)(VP (VBN concerned)(S (ADJP (JJ ,''))))))))))))))) |BT| (BOW (Muslim *)(religious *)(leaders *)(and *)(the *)(officials *)) |BT| (BOP (NNP *)(JJ *)(NNS *)(CC *)(DT *)(NNS *)) |ET| 
+-0.02567716371851110762625225447664  |BT| (NP (NP (NNP Britain)(POS 's))(NNP Labor)(NN government)) |BT| (BOW (Britain *)('s *)(Labor *)) |BT| (BOP (NNP *)(POS *)(NNP *)) |ET| 
+-0.071115834832440050217172711199964  |BT| (NP (JJ pro-Gore)(NNS demonstrators)) |BT| (BOW (pro-Gore *)(demonstrators *)) |BT| (BOP (JJ *)(NNS *)) |ET| 
+-0.03933075959658986070488495556674  |BT| (NP (DT the)(JJ Arab)(NN world)(POS 's)) |BT| (BOW (Arab *)(world *)) |BT| (BOP (NNP *)(NN *)) |ET| 
+-0.054198356383867482555238836994249  |BT| (NP (JJ Democratic)(NN lawyer)(NNP David)(NNP Fisher)) |BT| (BOW (Democratic *)(lawyer *)) |BT| (BOP (JJ *)(NN *)) |ET| 
+-0.023513169710967951608893145021284  |BT| (NP (DT the)(NNP Attica)(NN state)(NN prison)) |BT| (BOW (Attica *)(state *)) |BT| (BOP (NNP *)(NN *)) |ET| 
+-0.03031290284208251056830007996723  |BT| (S (NP (PRP It))(VP (VBZ remains)(NP (NP (DT the)(JJS largest)(JJ Jewish)(NN community))(PP (IN in)(NP (NP (DT the)(NNP Middle)(NNP East))(PP (IN outside)(NP (NNP Israel)))))))(. .)) |BT| (BOW (It *)(remains *)(the *)(largest *)(Jewish *)(community *)) |BT| (BOP (PRP *)(VBZ *)(DT *)(JJS *)(JJ *)(NN *)) |ET| 
+-0.035289699523166663530648889945951  |BT| (NP (JJ Israeli)(NN government)(NN spokesman)(NNP Nahman)(NNP Shai)) |BT| (BOW (Israeli *)(government *)) |BT| (BOP (NNP *)(NN *)) |ET| 
+-0.048611970390911925232746426672747  |BT| (NP (JJ American)(NNS motorcycles)) |BT| (BOW (American *)(motorcycles *)) |BT| (BOP (JJ *)(NNS *)) |ET| 
+-0.066360850024237333366627922259795  |BT| (NP (NP (DT the)(JJ sole)(JJ Jewish)(NN representative))(PP (IN in)(NP (NP (NNP Iran)(POS 's))(JJ 290-seat)(NN parliament)))) |BT| (BOW (Jewish *)(representative *)(in *)(Iran *)) |BT| (BOP (JJ *)(NN *)(IN *)(NNP *)) |ET| 
+-0.034407564607885798846353964108857  |BT| (NP (NNP Serbian)(NNP President)(NNP Milan)(NNP Milutinovic)) |BT| (BOW (Serbian *)(President *)) |BT| (BOP (JJ *)(NN *)) |ET| 
+-0.091363321579772727165646983849001  |BT| (NP (NP (NNP Iran)(POS 's))(JJ only)(JJ Jewish)(NN legislator)) |BT| (BOW (Iran *)('s *)(only *)(Jewish *)) |BT| (BOP (NNP *)(POS *)(JJ *)(JJ *)) |ET| 
+-0.02912198906206633908233527563425  |BT| (NP (NN hospital)(NN spokeswoman)(NNP Rebecca)(NNP O'Grady)) |BT| (BOW (hospital *)(spokeswoman *)) |BT| (BOP (JJ *)(NN *)) |ET| 
+-0.038777071065137329319849612829785  |BT| (S (PP (IN Over)(NP (DT the)(NN weekend)))(, ,)(NP (JJ Islamic)(NNS militants))(VP (VBD went)(PP (TO to)(NP (NNS hotels)))(PP (IN in)(NP (NP (DT the)(JJ central)(NNP Javanese)(NN city))(PP (IN of)(NP (NNP Solo)))))(, ,)(S (VP (VBG demanding)(SBAR (IN that)(S (NP (JJ American)(NNS tourists))(VP (VBP leave)(NP (NP (DT the)(NN country))(PP (IN within)(NP (CD 48)(NNS hours))))))))))(. .)) |BT| (BOW (Islamic *)(militants *)(went *)(to *)(hotels *)) |BT| (BOP (JJ *)(NNS *)(VBD *)(TO *)(NNS *)) |ET| 
+-0.022488009386239272979768344384865  |BT| (NP (DT the)(JJ other)(NNP Copley)(NNP Press)(NNS papers)) |BT| (BOW (Copley *)(Press *)(papers *)) |BT| (BOP (NNP *)(NNP *)(NNS *)) |ET| 
+-0.032762854811230049389969565254432  |BT| (NP (PRP$ its)(NNP Oldsmobile)(NN division)) |BT| (BOW (Oldsmobile *)(division *)) |BT| (BOP (JJ *)(NN *)) |ET| 
+-0.062792334072193742300349583729258  |BT| (NP (NP (DT the)(NN world)(POS 's))(ADJP (RBS most)(JJ populous))(JJ Muslim)(NN country)) |BT| (BOW (world *)('s *)(most *)(populous *)(Muslim *)) |BT| (BOP (NN *)(POS *)(JJS *)(JJ *)(NNP *)) |ET| 
+-0.034426614997013584018592524671476  |BT| (NP (DT this)(NN beach)(NN resort)) |BT| (BOW (beach *)(resort *)) |BT| (BOP (JJ *)(NN *)) |ET| 
+-0.031857444894694122994316387575964  |BT| (NP (DT the)(CD 189)(NNP U.N.)(NN member)(NNS states)) |BT| (BOW (U.N. *)(member *)) |BT| (BOP (NNP *)(NN *)) |ET| 
+-0.023057096650292870781973064708836  |BT| (NP (DT a)(JJ parliamentary)(NN committee)) |BT| (BOW (parliamentary *)(committee *)) |BT| (BOP (JJ *)(NN *)) |ET| 
+-0.026160287976257468045560017344542  |BT| (NP (NNP Gore)(NNS aides)) |BT| (BOW (Gore *)(aides *)) |BT| (BOP (NNP *)(VBZ *)) |ET| 
+-0.025388083590867343425356850161734  |BT| (NP (NP (NNP Sunni)(NNP Muslim))(, ,)(SBAR (WHNP (WDT which))(S (VP (VBZ is)(NP (NP (DT the)(NN majority)(JJ Islamic)(NN sect))(PP (IN in)(NP (DT the)(NN country)))))))) |BT| (BOW (Muslim *)(, *)(which *)(is *)(the *)(majority *)(Islamic *)(sect *)) |BT| (BOP (NNP *)(, *)(WDT *)(VBZ *)(DT *)(NN *)(JJ *)(NN *)) |ET| 
+-0.030204289793065004776639881356459  |BT| (NP (JJ Anti-Pinochet)(NN attorney)(NNP Alfonso)(NNP Insunza)) |BT| (BOW (Anti-Pinochet *)(attorney *)) |BT| (BOP (JJ *)(NN *)) |ET| 
+-0.0258751843602741983529913483153  |BT| (NP (DT the)(JJ German)(NN magazine)(NNP Das)(NNP Motorrad)) |BT| (BOW (German *)(magazine *)) |BT| (BOP (NNP *)(NN *)) |ET| 
+-0.05963236606685376473002691000147  |BT| (NP (JJ Indonesian)(NNS officials)) |BT| (BOW (Indonesian *)(officials *)) |BT| (BOP (JJ *)(NNS *)) |ET| 
+-0.021885467824095269917528128189588  |BT| (NP (DT the)(JJ senior)(NNP U.S.)(NN official)) |BT| (BOW (U.S. *)(official *)) |BT| (BOP (NNP *)(NN *)) |ET| 
+-0.046181587167144315386746455942557  |BT| (NP (JJ Democratic)(NN state)(NNP Sen.)(NNP Ellen)(NNP Anderson)) |BT| (BOW (Democratic *)(state *)) |BT| (BOP (JJ *)(NN *)) |ET| 
+-0.047675836453997845476582284618416  |BT| (NP (JJ Palestinian)(NNS gunmen)) |BT| (BOW (Palestinian *)(gunmen *)) |BT| (BOP (JJ *)(NNS *)) |ET| 
+-0.020446777793508154330570647516652  |BT| (NP (DT the)(JJ Milosevic)(NN regime)) |BT| (BOW (Milosevic *)(regime *)) |BT| (BOP (NNP *)(NN *)) |ET| 
+-0.045670795611197315122531392717065  |BT| (NP (NNS women)(NNS leaders)) |BT| (BOW (women *)(leaders *)) |BT| (BOP (JJ *)(NNS *)) |ET| 
+-0.052224050815734703034909358621007  |BT| (NP (NP (NNP Britain)(POS 's))(NNP Labor)(NN government)) |BT| (BOW (Britain *)('s *)(Labor *)(government *)) |BT| (BOP (NNP *)(POS *)(NNP *)(NN *)) |ET| 
+-0.027780678284777888392698130815006  |BT| (S (NP (NNS Demonstrators))(VP (VBD threw)(NP (JJ Jewish)(NN prayer)(NNS books))(PP (IN from)(NP (DT the)(NN tomb)))(, ,)(S (VP (VBG burning)(CC and)(VBG tearing)(NP (PRP them)))))(. .)) |BT| (BOW (Demonstrators *)(threw *)(Jewish *)) |BT| (BOP (NNS *)(IN *)(JJ *)) |ET| 
+-0.023596413073278938582477692875727  |BT| (NP (JJ Libyan)(JJ secret)(NNS agents)) |BT| (BOW (Libyan *)(secret *)(agents *)) |BT| (BOP (NNP *)(JJ *)(NNS *)) |ET| 
+-0.022957335545395616410724315414882  |BT| (NP (DT a)(JJ PFLP-GC)(NN hide-out)) |BT| (BOW (PFLP-GC *)(hide-out *)) |BT| (BOP (JJ *)(NN *)) |ET| 
+-0.022152597629032995396602956361676  |BT| (NP (DT the)(JJ principal)(NNP Yugoslav)(NN republic)) |BT| (BOW (Yugoslav *)(republic *)) |BT| (BOP (NNP *)(NN *)) |ET| 
+-0.029704493721519373977679734366575  |BT| (NP (DT That)(NNP Gore)(JJ -Bush)(NN audience)) |BT| (BOW (-Bush *)(audience *)) |BT| (BOP (JJ *)(NN *)) |ET| 
+-0.01530614978365040651508977020967  |BT| (NP (DT the)(NNP Suharto)(NN clan)) |BT| (BOW (Suharto *)(clan *)) |BT| (BOP (NNP *)(NN *)) |ET| 
+-0.03726117706749719482584026764016  |BT| (NP (DT the)(JJ Egyptian)(NN army)) |BT| (BOW (Egyptian *)(army *)) |BT| (BOP (JJ *)(NN *)) |ET| 
+-0.023148277281562990026486659189686  |BT| (NP (NP (QP (CD 137)(CD Shiite))(JJ Muslim)(NNS prisoners))(SBAR (S (NP (PRP it))(VP (VP (VBD had)(VP (VBN held)(PP (IN for)(NP (QP (RB nearly)(CD two))(NNS years)))))(CC and)(VP (VBD urged)(NP (DT the)(NN opposition))(S (VP (TO to)(VP (VB follow)(NP (NP (NN suit)(CC and)(NN release)(NN government)(NNS prisoners))(SBAR (S (NP (PRP it))(VP (VBZ is)(VP (VBG holding)))))))))))))) |BT| (BOW (Muslim *)(prisoners *)(it *)) |BT| (BOP (NNP *)(NNS *)(PRP *)) |ET| 
+-0.027601921625329366161150090874798  |BT| (NP (NNP Embassy)(NN spokeswoman)(NNP Lela)(NNP Margiou)) |BT| (BOW (Embassy *)(spokeswoman *)) |BT| (BOP (JJ *)(NN *)) |ET| 
+-0.02937000733120901166395277925858  |BT| (NP (NP (NNP Afghanistan)(POS 's))(JJ central)(JJ Bamyan)(NN province)) |BT| (BOW (Bamyan *)(province *)) |BT| (BOP (NNP *)(NN *)) |ET| 
+-0.032247829959887439055243874008738  |BT| (NP (JJ Jewish)(CC and)(JJ American)(NNS targets)) |BT| (BOW (Jewish *)(and *)(American *)) |BT| (BOP (JJ *)(CC *)(JJ *)) |ET| 
+-0.021740599416630874973765941149395  |BT| (NP (DT the)(JJ fashionable)(NNP Dallas)(NN suburb)) |BT| (BOW (Dallas *)(suburb *)) |BT| (BOP (NNP *)(NN *)) |ET| 
+-0.023686579731573238760677924119591  |BT| (NP (DT A)(JJ Danish)(NN couple)) |BT| (BOW (Danish *)(couple *)) |BT| (BOP (JJ *)(NN *)) |ET| 
+-0.024606692771773158723291885507933  |BT| (NP (DT the)(JJ Japanese)(NNS makers)(NN .'')) |BT| (BOW (Japanese *)(makers *)) |BT| (BOP (JJ *)(NNS *)) |ET| 
+-0.018841499698607787338655583653235  |BT| (NP (NP (NNP Sunni)(NNP Muslim))(, ,)(SBAR (WHNP (WDT which))(S (VP (VBZ is)(NP (NP (DT the)(NN majority)(JJ Islamic)(NN sect))(PP (IN in)(NP (DT the)(NN country)))))))) |BT| (BOW (Muslim *)(, *)(which *)(is *)(the *)(majority *)(Islamic *)) |BT| (BOP (NNP *)(, *)(WDT *)(VBZ *)(DT *)(NN *)(JJ *)) |ET| 
+-0.022352883827713238701351272652573  |BT| (NP (DT a)(JJ congressional)(NN commission)) |BT| (BOW (congressional *)(commission *)) |BT| (BOP (JJ *)(NN *)) |ET| 
+-0.027114786381767584655388958481126  |BT| (NP (DT the)(JJ radical)(JJ Islamic)(NN group)(NN Hamas)) |BT| (BOW (group *)(Hamas *)) |BT| (BOP (NN *)(NNP *)) |ET| 
+-0.015939109552377664358324693694158  |BT| (NP (DT an)(NNP Algerian)(NN asylum-seeker)) |BT| (BOW (Algerian *)(asylum-seeker *)) |BT| (BOP (JJ *)(NN *)) |ET| 
+-0.021621692006725819201751193077143  |BT| (NP (DT the)(JJ former)(NNP Coca-Cola)(NN executive)) |BT| (BOW (Coca-Cola *)(executive *)) |BT| (BOP (NNP *)(NN *)) |ET| 
+-0.022359312320103942595128643233693  |BT| (NP (DT a)(JJ military)(NN party)) |BT| (BOW (military *)(party *)) |BT| (BOP (JJ *)(NN *)) |ET| 
+-0.01529618671223738866904451327855  |BT| (NP (DT the)(NNP Clinton)(NN administration)) |BT| (BOW (Clinton *)(administration *)) |BT| (BOP (NNP *)(NN *)) |ET| 
+-0.030298049046044803894739416705306  |BT| (NP (DT The)(JJ Syrian)(NN leader)(POS 's)) |BT| (BOW (Syrian *)(leader *)) |BT| (BOP (JJ *)(NN *)) |ET| 
+-0.02146442305361636812555126141433  |BT| (NP (DT the)(JJ only)(JJ Arab)(NNP League)(NNS countries)) |BT| (BOW (Arab *)(League *)(countries *)) |BT| (BOP (NNP *)(NNP *)(NNS *)) |ET| 
+-0.019341872107159863852787751170581  |BT| (NP (PRP$ its)(JJ public)(NNS functions)) |BT| (BOW (presidential *)(palace *)) |BT| (BOP (JJ *)(NN *)) |ET| 
+-0.024268807158063926410207500339311  |BT| (NP (DT the)(JJ American)(NN public)) |BT| (BOW (American *)(public *)) |BT| (BOP (JJ *)(NN *)) |ET| 
+-0.014946732183400405005735400720823  |BT| (NP (JJ Military)(NNS leaders)) |BT| (BOW (Military *)(leaders *)) |BT| (BOP (NNP *)(NNS *)) |ET| 
+-0.017461118572420279010382060391748  |BT| (SBAR (WHNP (WDT which))(S (VP (VBZ is)(NP (NP (DT the)(NN majority)(JJ Islamic)(NN sect))(PP (IN in)(NP (DT the)(NN country))))))) |BT| (BOW (which *)(is *)(the *)(majority *)(Islamic *)(sect *)) |BT| (BOP (WDT *)(VBZ *)(DT *)(NN *)(JJ *)(NN *)) |ET| 
+-0.014210576653894954612944445671019  |BT| (NP (NP (NNP Maurice)(NNP Motamed))(, ,)(NP (NP (DT the)(JJ sole)(JJ Jewish)(NN representative))(PP (IN in)(NP (NP (NNP Iran)(POS 's))(JJ 290-seat)(NN parliament))))) |BT| (BOW (Maurice *)(Motamed *)(, *)(the *)(sole *)(Jewish *)(representative *)) |BT| (BOP (NNP *)(NNP *)(, *)(DT *)(NN *)(JJ *)(NN *)) |ET| 
+-0.017756538109165647537635024377778  |BT| (NP (ADJP (JJ well-known))(JJ Egyptian)(NN actress)(NNP Madeha)(NNP Yusri)) |BT| (BOW (Egyptian *)(actress *)) |BT| (BOP (JJ *)(NN *)) |ET| 
+-0.021927241388848800474065114940458  |BT| (NP (DT the)(JJ liberal)(NNP Yabloko)(NN faction)) |BT| (BOW (Yabloko *)(faction *)) |BT| (BOP (NNP *)(NN *)) |ET| 
+-0.019556564915594348841310079478717  |BT| (NP (DT a)(JJ leading)(JJ European)(NN brand)(NN ,'')) |BT| (BOW (European *)(brand *)) |BT| (BOP (JJ *)(NN *)) |ET| 
+-0.014701036839889597765407280860472  |BT| (NP (DT the)(NNP Kostunica)(NN camp)) |BT| (BOW (Kostunica *)(camp *)) |BT| (BOP (NNP *)(NN *)) |ET| 
+-0.012973278838205586083187625945357  |BT| (NP (JJ gay)(NNS men)) |BT| (BOW (gay *)(men *)) |BT| (BOP (NN *)(NNS *)) |ET| 
+-0.017080056205608384195526738835724  |BT| (NP (DT the)(NNP Indonesian)(NN state)) |BT| (BOW (Indonesian *)(state *)) |BT| (BOP (JJ *)(NN *)) |ET| 
+-0.014686379270979384170647819018996  |BT| (NP (DT the)(NNP BOJ)(NN board)) |BT| (BOW (BOJ *)(board *)) |BT| (BOP (NNP *)(NN *)) |ET| 
+-0.014944522718282528955802135328668  |BT| (NP (DT the)(NNP Mediterranean)(NN island)) |BT| (BOW (Mediterranean *)(island *)) |BT| (BOP (NNP *)(NN *)) |ET| 
+-0.012364621727311675414284763974138  |BT| (VP (VBD was)(ADVP (RB home))(PP (TO to)(NP (DT a)(JJ Jewish)(NN seminary)))(, ,)(SBAR (WHADVP (WRB where))(S (NP (QP (RB about)(CD 30))(NNS students))(VP (MD would)(VP (VB study)(PP (IN during)(NP (DT the)(NN day)))))))) |BT| (BOW (home *)(to *)(a *)(Jewish *)(seminary *)) |BT| (BOP (NN *)(TO *)(DT *)(JJ *)(NN *)) |ET| 
+-0.013572287120623027778520963693154  |BT| (NP (DT An)(NNP Alabama)(NN jury)) |BT| (BOW (Alabama *)(jury *)) |BT| (BOP (JJ *)(NN *)) |ET| 
+-0.015992567419595857258762805486185  |BT| (NP (DT a)(JJ go-cart)(NN magazine)) |BT| (BOW (go-cart *)(magazine *)) |BT| (BOP (JJ *)(NN *)) |ET| 
+-0.009895877509080162545695991127559  |BT| (NP (DT an)(JJ alleged)(JJ Palestinian)(JJ terrorist)(NN base)(NNS months)) |BT| (BOW (Palestinian *)(terrorist *)) |BT| (BOP (JJ *)(NN *)) |ET| 
+-0.010120513536635705742483537505905  |BT| (NP (NP (QP (CD 137)(CD Shiite))(JJ Muslim)(NNS prisoners))(SBAR (S (NP (PRP it))(VP (VP (VBD had)(VP (VBN held)(PP (IN for)(NP (QP (RB nearly)(CD two))(NNS years)))))(CC and)(VP (VBD urged)(NP (DT the)(NN opposition))(S (VP (TO to)(VP (VB follow)(NP (NP (NN suit)(CC and)(NN release)(NN government)(NNS prisoners))(SBAR (S (NP (PRP it))(VP (VBZ is)(VP (VBG holding)))))))))))))) |BT| (BOW (Shiite *)(Muslim *)(prisoners *)(it *)) |BT| (BOP (NNP *)(NNP *)(NNS *)(PRP *)) |ET| 
+-0.011695751336540896603288786081976  |BT| (NP (NP (DT the)(JJS largest)(JJ Jewish)(NN community))(PP (IN in)(NP (NP (DT the)(NNP Middle)(NNP East))(PP (IN outside)(NP (NNP Israel)))))) |BT| (BOW (Jewish *)(community *)(in *)(the *)(Middle *)(East *)) |BT| (BOP (JJ *)(NN *)(IN *)(DT *)(NNP *)(NNP *)) |ET| 
+-0.0062812779837904675339643745246576  |BT| (NP (JJ disabled)(NNS workers)(CC and)(NNS families)) |BT| (BOW (workers *)(and *)(families *)) |BT| (BOP (NNS *)(CC *)(NNS *)) |ET| 
+-0.014029372877121554230583910793939  |BT| (NP (DT the)(JJ German)(NN star)) |BT| (BOW (German *)(star *)) |BT| (BOP (NNP *)(NN *)) |ET| 
+-0.010447791895253279170763249794618  |BT| (NP (JJ presidential)(NN candidate)(NNP Joseph)(NNP Lieberman)) |BT| (BOW (presidential *)(candidate *)) |BT| (BOP (JJ *)(NN *)) |ET| 
+-0.0075374607047363562442598983182052  |BT| (NP (JJ Golan)(NN land)) |BT| (BOW (Golan *)(land *)) |BT| (BOP (NNP *)(NN *)) |ET| 
+-0.0070605939027952018677281031955317  |BT| (NP (NNP Texas)(NN governor)) |BT| (BOW (Texas *)(governor *)) |BT| (BOP (NNP *)(NN *)) |ET| 
+-0.0091426356877256139549237090591305  |BT| (S (NP (PRP It))(VP (VBZ remains)(NP (NP (DT the)(JJS largest)(JJ Jewish)(NN community))(PP (IN in)(NP (NP (DT the)(NNP Middle)(NNP East))(PP (IN outside)(NP (NNP Israel)))))))(. .)) |BT| (BOW (It *)(remains *)(the *)(largest *)(Jewish *)) |BT| (BOP (PRP *)(VBZ *)(DT *)(JJS *)(JJ *)) |ET| 
+-0.0068746749918011784002969122298055  |BT| (NP (PRP$ Her)(NN family)) |BT| (BOW (Her *)(family *)) |BT| (BOP (NNP *)(NN *)) |ET| 
+-0.010195803129150294435989465569037  |BT| (NP (NP (NNP Sunni)(NNP Muslim))(, ,)(SBAR (WHNP (WDT which))(S (VP (VBZ is)(NP (NP (DT the)(NN majority)(JJ Islamic)(NN sect))(PP (IN in)(NP (DT the)(NN country)))))))) |BT| (BOW (Sunni *)(Muslim *)(, *)(which *)(is *)(the *)(majority *)(Islamic *)(sect *)) |BT| (BOP (NNP *)(NNP *)(, *)(WDT *)(VBZ *)(DT *)(NN *)(JJ *)(NN *)) |ET| 
+-0.012009050604951793800312387361373  |BT| (NP (JJ Palestinian)(NNS lawmakers)) |BT| (BOW (Palestinian *)(lawmakers *)) |BT| (BOP (JJ *)(NNS *)) |ET| 
+-0.0088424969588987885338315919625529  |BT| (NP (DT the)(JJ Chinese)(NNS researchers)(POS ')) |BT| (BOW (Chinese *)(researchers *)) |BT| (BOP (JJ *)(NNS *)) |ET| 
+-0.0049960582932421686644386404907436  |BT| (NP (NP (NNP Sunni)(NNP Muslim))(, ,)(SBAR (WHNP (WDT which))(S (VP (VBZ is)(NP (NP (DT the)(NN majority)(JJ Islamic)(NN sect))(PP (IN in)(NP (DT the)(NN country)))))))) |BT| (BOW (Sunni *)(Muslim *)(, *)(which *)(is *)(the *)(majority *)(Islamic *)) |BT| (BOP (NNP *)(NNP *)(, *)(WDT *)(VBZ *)(DT *)(NN *)(JJ *)) |ET| 
+-0.0047221008944446918320636541466229  |BT| (NP (NNP TCU)(NN coach)(NNP Dennis)(NNP Franchione)) |BT| (BOW (TCU *)(coach *)) |BT| (BOP (NNP *)(NN *)) |ET| 
+-0.0049635937949576991456979158101603  |BT| (NP (NNP Duma)(NN speaker)(NNP Gennady)(NNP Seleznyov)) |BT| (BOW (Duma *)(speaker *)) |BT| (BOP (NNP *)(NN *)) |ET| 
+-0.0047859094858585179976806500690145  |BT| (NP (NNP Florida)(NN developer)(NNP Al)(NNP Hoffman)) |BT| (BOW (Florida *)(developer *)) |BT| (BOP (NNP *)(NN *)) |ET| 
+-0.0030352515295273187895253030887943  |BT| (S (NP (NNP Rush)(NNP Holt)(CC and)(NNP GOP))(VP (VBP challenger)(NP (NP (NNP Dick)(NNP Zimmer))(, ,)(SBAR (SBAR (WHNP (WP who))(S (ADVP (RB formerly))(VP (VBD held)(NP (DT the)(NN seat)))))(: ;)(CC and)(SBAR (IN in)(FRAG (NP (NP (NNP Florida)(POS 's))(NNP 22nd)(NNP District))))))(, ,)(SBAR (WHADVP (WRB where))(S (NP (NN veteran)(NNP GOP)(NNP Rep)))))(. .)) |BT| (BOW (GOP *)(challenger *)) |BT| (BOP (NNP *)(NN *)) |ET| 
+-0.0029015721204551274750582656736242  |BT| (NP (NP (NNP Sunni)(NNP Muslim))(, ,)(SBAR (WHNP (WDT which))(S (VP (VBZ is)(NP (NP (DT the)(NN majority)(JJ Islamic)(NN sect))(PP (IN in)(NP (DT the)(NN country)))))))) |BT| (BOW (Muslim *)(, *)(which *)) |BT| (BOP (NNP *)(, *)(WDT *)) |ET| 
+-0.0027845277723470562847296605468728  |BT| (NP (NNP CBS)(NNP anchor)(NNP Dan)) |BT| (BOW (CBS *)(anchor *)) |BT| (BOP (NNP *)(NN *)) |ET| 
+-0.0021722714252597440098835335220429  |BT| (NP (NP (NNP Maurice)(NNP Motamed))(, ,)(NP (NP (DT the)(JJ sole)(JJ Jewish)(NN representative))(PP (IN in)(NP (NP (NNP Iran)(POS 's))(JJ 290-seat)(NN parliament))))) |BT| (BOW (Maurice *)(Motamed *)(, *)(the *)(sole *)(Jewish *)) |BT| (BOP (NNP *)(NNP *)(, *)(DT *)(NN *)(JJ *)) |ET| 
+-0.0020227195768118249458167312582191  |BT| (NP (NNP Junta)(NN leader)(NNP Gen.)(NNP Robert)(NNP Guei)) |BT| (BOW (Junta *)(leader *)) |BT| (BOP (NNP *)(NN *)) |ET| 
+-0.0017470023040129973885409286893378  |BT| (NP (NP (NNP Social)(NNP Security)(NNS benefits))(VP (VBN paid)(PP (TO to)(NP (JJ disabled)(NNS workers)(CC and)(NNS families))))(SBAR (WP$ whose)(S (NP (NNS breadwinners))(VP (VBP have)(VP (VBN died)))))) |BT| (BOW (families *)(whose *)(breadwinners *)) |BT| (BOP (NNS *)(WP$ *)(NNS *)) |ET| 
+-0.0006530103501711532337781207502303  |BT| (NP (PRP$ his)(JJ central)(NNP Texas)(NN ranch)) |BT| (BOW (Texas *)(ranch *)) |BT| (BOP (NNP *)(NN *)) |ET| 
+-0.00049485321321030006913588294992223  |BT| (NP (DT the)(JJ Israeli)(JJ occupying)(NNS forces)) |BT| (BOW (Israeli *)(occupying *)(forces *)) |BT| (BOP (NNP *)(VBG *)(NNS *)) |ET| 

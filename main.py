@@ -24,7 +24,6 @@ import document_reader
 
 PROJECT_PATH = os.getcwd()
 DATA_PATH = os.path.join(PROJECT_PATH, "data")
-RES_PATH = os.path.join(PROJECT_PATH, "resources")
 
 
 class FeatureTagger():
@@ -59,9 +58,10 @@ class FeatureTagger():
             self.i_pronoun,                   # hurts
             self.only_j_pronoun,              # hurts
 
+            self.ner_tag_match,
+            # added
             self.i_ner_tag,
             self.j_ner_tag,
-            self.ner_tag_match,
 
             self.distance_sent,
             self.in_same_sent,
@@ -84,7 +84,8 @@ class FeatureTagger():
             
             # self.bag_of_words_between,          #30 min train/test
             self.pos_between,            # hurts.. :(
-                                  
+
+            # added
             self.rels_i_to_lca,
             self.rels_j_to_lca,
             self.rels_between_i_j,
@@ -130,6 +131,7 @@ class FeatureTagger():
     def read_input_data(self, input_filename, labeled=True):
         """load sentences from data file"""
         self.pairs = []
+        self.svm_prefix = input_filename[4:-7]
         cur_filename = None
         with open(os.path.join(DATA_PATH, input_filename)) as in_file:
             for line in in_file:
@@ -1379,7 +1381,7 @@ class FeatureTagger():
                 values.append(name + self.T)
             else:
                 values.append(name + self.F)
-        
+
         return values
 
 

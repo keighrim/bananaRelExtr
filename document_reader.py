@@ -218,6 +218,13 @@ class RelExtrReader(object):
         """get dependency tree of particula sentnece"""
         return self.depparse_trees[sent]
 
+    def get_spanning_tree(self, sent, from_node, to_node):
+        tree = self.synparsed_trees[sent]
+        lowest_descendant = tree.treeposition_spanning_leaves(from_node, to_node)
+        for idx in lowest_descendant:
+            tree = tree[idx]
+        return tree
+
     def compute_tree_path_length(self, sent, from_node, to_node):
         """
         compute distance between two nodes in NLTK tree,

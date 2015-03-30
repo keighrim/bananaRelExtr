@@ -1,0 +1,98 @@
+SVM-light Version V5.01-TK-1.2
+5 # kernel type
+3 # kernel parameter -d 
+1 # kernel parameter -g 
+1 # kernel parameter -s 
+1 # kernel parameter -r 
+empty# kernel parameter -u 
+0.4 # kernel parameter -L 
+1 # kernel parameter -T 
+T # kernel parameter -C 
+1 # kernel parameter -F 
+1 # kernel parameter -S 
+1.000000 # kernel parameter -D 
+3 # kernel parameter -N 
+S # kernel parameter -V 
+S # kernel parameter -W 
+0 # highest feature index 
+16257 # number of training documents 
+79 # number of support vectors plus 1 
+1.057867 # threshold b, each following line is a SV (starting with alpha*y)
+-0.036149544348367625146156711934964  |BT| (NP (PRP$ his)(NNS allies)) |BT| (BOW (his *)(allies *)) |BT| (BOP (PRP$ *)(NNS *)) |ET| 
+-0.028791168549410106614061533036875  |BT| (VP (VBD vandalized)(NP (DT the)(NN tomb))(PP (IN with)(NP (PRP$ his)(NNS friends)))) |BT| (BOW (tomb *)(with *)(his *)(friends *)) |BT| (BOP (NN *)(IN *)(PRP$ *)(NNS *)) |ET| 
+-0.049087351066818545042291788149669  |BT| (NP (NP (NNP Douglas)(NNP Hattaway))(, ,)(NP (DT a)(NNP Gore)(NN spokesman))) |BT| (BOW (Douglas *)(Hattaway *)(, *)(a *)(Gore *)(spokesman *)) |BT| (BOP (NNP *)(NNP *)(, *)(DT *)(JJ *)(NN *)) |ET| 
+-0.059695558612485058458396736114082  |BT| (NP (NP (NNP Bush)(POS 's))(NNS supporters)) |BT| (BOW (Bush *)('s *)(supporters *)) |BT| (BOP (NNP *)(POS *)(NNS *)) |ET| 
+-0.0071391053423780857084546269675229  |BT| (NP (DT a)(JJ Jewish)(NN seminary)) |BT| (BOW (Jewish *)(seminary *)) |BT| (BOP (JJ *)(NN *)) |ET| 
+0.33333333333351461424953754431044  |BT| (NP (PRP$ his)(NNS friends)) |BT| (BOW (his *)(friends *)) |BT| (BOP (PRP$ *)(NNS *)) |ET| 
+0.33333333333351461424953754431044  |BT| (NP (NP (NNP Milosevic)(POS 's))(NNS supporters)(NN ``to)) |BT| (BOW (Milosevic *)('s *)(supporters *)) |BT| (BOP (NNP *)(POS *)(NNS *)) |ET| 
+0.33333333333351461424953754431044  |BT| (NP (DT a)(NNP Gore)(NN spokesman)) |BT| (BOW (Gore *)(spokesman *)) |BT| (BOP (JJ *)(NN *)) |ET| 
+-0.083852035256182816391756773555244  |BT| (NP (NP (NNP Jefferson)(POS 's))(NNS friends)) |BT| (BOW (Jefferson *)('s *)(friends *)) |BT| (BOP (NNP *)(POS *)(NNS *)) |ET| 
+-0.064140205356590776486491733976436  |BT| (NP (NP (NNP Gore)(POS 's))(NNS surrogates)) |BT| (BOW (Gore *)('s *)(surrogates *)) |BT| (BOP (NNP *)(POS *)(NNS *)) |ET| 
+-0.039081263716337723279625748773469  |BT| (NP (PRP$ his)(NNS teams)) |BT| (BOW (his *)(teams *)) |BT| (BOP (PRP$ *)(NNS *)) |ET| 
+-0.028325094079753920794928490067832  |BT| (NP (DT The)(NNP Gore)(NN campaign)) |BT| (BOW (Gore *)(campaign *)) |BT| (BOP (NNP *)(NN *)) |ET| 
+-0.019987335569478698743539624160803  |BT| (NP (DT the)(NNP Indonesian)(NN state)) |BT| (BOW (Indonesian *)(state *)) |BT| (BOP (JJ *)(NN *)) |ET| 
+-0.022905845331184188778950172604709  |BT| (NP (NNS co-workers)(CC and)(NNS friends)) |BT| (BOW (co-workers *)(and *)(friends *)) |BT| (BOP (NNS *)(CC *)(NNS *)) |ET| 
+-0.009439563846874055030866657034494  |BT| (NP (DT a)(JJ civilian)(NN area)(NN .'')) |BT| (BOW (civilian *)(area *)) |BT| (BOP (JJ *)(NN *)) |ET| 
+-0.03066840116075201377876524588828  |BT| (NP (NP (NNP Milosevic)(POS 's))(JJS closest)(NNS cronies)) |BT| (BOW (Milosevic *)('s *)(closest *)(cronies *)) |BT| (BOP (NNP *)(POS *)(JJS *)(NNS *)) |ET| 
+-0.027768389101704794852398805460325  |BT| (NP (DT a)(JJ parole)(NN board)(NN spokesman)) |BT| (BOW (board *)(spokesman *)) |BT| (BOP (NN *)(NN *)) |ET| 
+-0.038709702921136956987879784719553  |BT| (NP (PRP$ his)(NNS players)) |BT| (BOW (his *)(players *)) |BT| (BOP (PRP$ *)(NNS *)) |ET| 
+-0.021389437452408621709309954894707  |BT| (NP (DT an)(NNP Algerian)(NN asylum-seeker)) |BT| (BOW (Algerian *)(asylum-seeker *)) |BT| (BOP (JJ *)(NN *)) |ET| 
+-0.01818642521871453865411893957571  |BT| (NP (JJ Many)(NN suspect)(NNS supporters)) |BT| (BOW (Many *)(suspect *)(supporters *)) |BT| (BOP (JJ *)(JJ *)(NNS *)) |ET| 
+-0.017101471945485030579092722291534  |BT| (NP (DT That)(NNP Gore)(JJ -Bush)(NN audience)) |BT| (BOW (-Bush *)(audience *)) |BT| (BOP (JJ *)(NN *)) |ET| 
+-0.037988025184352069985038724553306  |BT| (NP (PRP$ his)(NNS lawyers)) |BT| (BOW (his *)(lawyers *)) |BT| (BOP (PRP$ *)(NNS *)) |ET| 
+-0.021702802773156355115036220126967  |BT| (NP (DT An)(NNP Alabama)(NN jury)) |BT| (BOW (Alabama *)(jury *)) |BT| (BOP (JJ *)(NN *)) |ET| 
+-0.038155529476748828443533056997694  |BT| (NP (PRP$ his)(NNS teammates)) |BT| (BOW (his *)(teammates *)) |BT| (BOP (PRP$ *)(NNS *)) |ET| 
+-0.014744437205200947374472697504189  |BT| (NP (DT a)(JJ young)(JJ French)(NN designer)) |BT| (BOW (French *)(designer *)) |BT| (BOP (JJ *)(NN *)) |ET| 
+-0.038120746387427274781689590099631  |BT| (NP (PRP$ his)(NNS aides)) |BT| (BOW (his *)(aides *)) |BT| (BOP (PRP$ *)(NNS *)) |ET| 
+-0.012247396037903182999806439568147  |BT| (NP (DT a)(NNP College)(NNP Board)(NN spokesman)) |BT| (BOW (College *)(Board *)(spokesman *)) |BT| (BOP (NNP *)(NNP *)(NN *)) |ET| 
+-0.0099783001046830875624404910695375  |BT| (S (NP (PRP$ his)(NN fate))(VP (VBZ depends)(PP (IN on)(NP (NP (NNP Milosevic)(POS 's))(JJ own)(JJ political)(NN survival))))) |BT| (BOW (his *)(fate *)(depends *)(on *)(Milosevic *)) |BT| (BOP (PRP$ *)(JJ *)(NNS *)(IN *)(NNP *)) |ET| 
+-0.010885935889525244490982913703192  |BT| (NP (DT a)(JJ parliamentary)(NN committee)) |BT| (BOW (parliamentary *)(committee *)) |BT| (BOP (JJ *)(NN *)) |ET| 
+-0.012853101322790974961329801828924  |BT| (NP (DT a)(JJ leading)(JJ European)(NN brand)(NN ,'')) |BT| (BOW (European *)(brand *)) |BT| (BOP (JJ *)(NN *)) |ET| 
+-0.010614892304629567135187961923748  |BT| (NP (PDT both)(PRP$ his)(NNS parents)) |BT| (BOW (his *)(parents *)) |BT| (BOP (PRP$ *)(NNS *)) |ET| 
+-0.017744978589836150201231035339333  |BT| (NP (NP (NNP Douglas)(NNP Hattaway))(, ,)(NP (DT a)(NNP Gore)(NN spokesman))) |BT| (BOW (Douglas *)(Hattaway *)(, *)(a *)(Gore *)) |BT| (BOP (NNP *)(NNP *)(, *)(DT *)(JJ *)) |ET| 
+-0.0066529833040300245805553913669428  |BT| (NP (NP (NNP Gore)(POS 's))(NN press)(NN secretary)) |BT| (BOW (Gore *)('s *)(press *)(secretary *)) |BT| (BOP (NNP *)(POS *)(NN *)(NN *)) |ET| 
+-0.010045305485676614409840112784877  |BT| (NP (PRP$ his)(NN boss)(POS ')) |BT| (BOW (his *)(boss *)) |BT| (BOP (PRP$ *)(NNS *)) |ET| 
+-0.010331913691033145497044642979745  |BT| (NP (DT a)(JJ PFLP-GC)(NN hide-out)) |BT| (BOW (PFLP-GC *)(hide-out *)) |BT| (BOP (JJ *)(NN *)) |ET| 
+-0.010136215649546068476305471506294  |BT| (NP (DT a)(JJ congressional)(NN commission)) |BT| (BOW (congressional *)(commission *)) |BT| (BOP (JJ *)(NN *)) |ET| 
+-0.0058236221209547371982506724918949  |BT| (NP (NP (JJ other)(NNS centers))(PP (IN of)(NP (NP (NNP Milosevic)(POS 's))(NN power)))) |BT| (BOW (centers *)(of *)(Milosevic *)) |BT| (BOP (NNS *)(IN *)(NNP *)) |ET| 
+-0.010180940058020022248586045066077  |BT| (NP (DT a)(JJ military)(NN party)) |BT| (BOW (military *)(party *)) |BT| (BOP (JJ *)(NN *)) |ET| 
+-0.0070154572896493992001376582834382  |BT| (NP (NNP Kostunica)(NNS supporters)) |BT| (BOW (Kostunica *)(supporters *)) |BT| (BOP (NNP *)(NNS *)) |ET| 
+-0.010424681811805150757899163238562  |BT| (NP (DT a)(JJ go-cart)(NN magazine)) |BT| (BOW (go-cart *)(magazine *)) |BT| (BOP (JJ *)(NN *)) |ET| 
+-0.0087993468145735782848237960251936  |BT| (NP (JJ Israeli)(NN government)(NN spokesman)(NNP Nahman)(NNP Shai)) |BT| (BOW (government *)(spokesman *)) |BT| (BOP (NN *)(NN *)) |ET| 
+-0.0061169300818010186732154309652287  |BT| (NP (NP (NNP Pinochet)(POS 's))(NNS supporters)(CC and)(NNS opponents)) |BT| (BOW (Pinochet *)('s *)(supporters *)(and *)(opponents *)) |BT| (BOP (NNP *)(POS *)(NNS *)(CC *)(NNS *)) |ET| 
+-0.012699414412632892279475527175236  |BT| (NP (DT a)(JJ Jewish)(JJ civilian)) |BT| (BOW (Jewish *)(civilian *)) |BT| (BOP (JJ *)(NN *)) |ET| 
+-0.0018730270049866068124422291418796  |BT| (NP (PRP$ their)(NNS campaigns)) |BT| (BOW (their *)(campaigns *)) |BT| (BOP (PRP$ *)(NNS *)) |ET| 
+-0.0070468459620199501783344153693633  |BT| (NP (NP (NNP Saturday)(POS 's))(JJ Egyptian)(NN delegation)) |BT| (BOW (Egyptian *)(delegation *)) |BT| (BOP (JJ *)(NN *)) |ET| 
+-0.0071575575704619547393048328842724  |BT| (NP (NP (NNP Milosevic))(CC and)(NP (PRP$ his)(NNS allies))) |BT| (BOW (Milosevic *)(and *)(his *)(allies *)) |BT| (BOP (NNP *)(CC *)(PRP$ *)(NNS *)) |ET| 
+-0.00354496302058584285971098992718  |BT| (NP (NP (NNP Gore))(SBAR (WHNP (WP who))(S (VP (VBD was)(ADJP (JJ uninformed)(CC and)(JJ didn't))(SBAR (RB even)(S (VP (VBP know)(NP (NP (DT the)(NN administration)(NN policy))(SBAR (S (NP (NNP ,'')(NNP Thiessen))(VP (VBD said)))))))))))) |BT| (BOW (Gore *)(who *)) |BT| (BOP (JJ *)(WP *)) |ET| 
+-0.005795194469054579071431998471553  |BT| (NP (JJ Pinochet)(NNS supporters)) |BT| (BOW (Pinochet *)(supporters *)) |BT| (BOP (NNP *)(NNS *)) |ET| 
+-0.003124073102390489964363951003179  |BT| (NP (PRP$ our)(NNS martyrs)) |BT| (BOW (our *)(martyrs *)) |BT| (BOP (PRP$ *)(NNS *)) |ET| 
+-0.0029193422449905375229417536786514  |BT| (NP (NNP Mr.)(NNP Milosevic)) |BT| (BOW (Mr. *)(Milosevic *)) |BT| (BOP (NNP *)(NNP *)) |ET| 
+-0.0016380171058098134603819850951822  |BT| (NP (PRP$ its)(NNS soldiers)) |BT| (BOW (its *)(soldiers *)) |BT| (BOP (PRP$ *)(NNS *)) |ET| 
+-0.0032493007139341814094868343687494  |BT| (NP (PRP$ your)(NNS homes)) |BT| (BOW (your *)(homes *)) |BT| (BOP (PRP$ *)(NNS *)) |ET| 
+-0.0019517384156645758465364881573123  |BT| (NP (DT The)(JJ Syrian)(NN leader)(POS 's)) |BT| (BOW (Syrian *)(leader *)) |BT| (BOP (JJ *)(NN *)) |ET| 
+-0.0037595538303161939522323287121708  |BT| (VP (VBD backed)(NP (NNP Milosevic))(PP (IN until)(NP (PRP$ his)(NN downfall)))) |BT| (BOW (Milosevic *)(until *)(his *)) |BT| (BOP (NNP *)(IN *)(PRP$ *)) |ET| 
+-0.0020061724351193429768946963065446  |BT| (NP (NNP Serbian)(NNP President)(NNP Milan)(NNP Milutinovic)) |BT| (BOW (Serbian *)(President *)) |BT| (BOP (JJ *)(NN *)) |ET| 
+-0.0020469631101512524365415579552518  |BT| (NP (PRP$ our)(NNS courts)) |BT| (BOW (our *)(courts *)) |BT| (BOP (PRP$ *)(NNS *)) |ET| 
+-0.0021290690901170110024831494399677  |BT| (NP (PRP$ their)(NNS ``bosses)) |BT| (BOW (their *)(``bosses *)) |BT| (BOP (PRP$ *)(NNS *)) |ET| 
+-0.001930559466721520033016812334381  |BT| (NP (NN hospital)(NN spokeswoman)(NNP Rebecca)(NNP O'Grady)) |BT| (BOW (hospital *)(spokeswoman *)) |BT| (BOP (JJ *)(NN *)) |ET| 
+-0.0016411794344632912867609775275923  |BT| (NP (JJ presidential)(NN candidate)(NNP Joseph)(NNP Lieberman)) |BT| (BOW (presidential *)(candidate *)) |BT| (BOP (JJ *)(NN *)) |ET| 
+-0.0020415071314305124373922328828712  |BT| (NP (NP (NNP Iran)(POS 's))(JJ only)(JJ Jewish)(NN legislator)) |BT| (BOW (Jewish *)(legislator *)) |BT| (BOP (JJ *)(NN *)) |ET| 
+-0.0016231388394389867357858747709543  |BT| (NP (PRP$ its)(NNS suburbs)) |BT| (BOW (its *)(suburbs *)) |BT| (BOP (PRP$ *)(NNS *)) |ET| 
+-0.0016432919879833343158870295752649  |BT| (NP (NNP four-term)(NNP Democratic)(NNP Rep)) |BT| (BOW (Democratic *)(Rep *)) |BT| (BOP (JJ *)(NN *)) |ET| 
+-0.0013751489438253252685362415519421  |BT| (NP (JJ Anti-Pinochet)(NN attorney)(NNP Alfonso)(NNP Insunza)) |BT| (BOW (Anti-Pinochet *)(attorney *)) |BT| (BOP (JJ *)(NN *)) |ET| 
+-0.001752355592901100322933416464366  |BT| (NP (DT this)(NN beach)(NN resort)) |BT| (BOW (beach *)(resort *)) |BT| (BOP (JJ *)(NN *)) |ET| 
+-0.0012553930570646056920358635267121  |BT| (NP (NNP Embassy)(NN spokeswoman)(NNP Lela)(NNP Margiou)) |BT| (BOW (Embassy *)(spokeswoman *)) |BT| (BOP (JJ *)(NN *)) |ET| 
+-0.0012907185275824091270219229343752  |BT| (NP (PRP$ their)(NNS counterparts)) |BT| (BOW (their *)(counterparts *)) |BT| (BOP (PRP$ *)(NNS *)) |ET| 
+-0.0012100584184850937674582382896915  |BT| (NP (PRP$ its)(NNS weapons)) |BT| (BOW (its *)(weapons *)) |BT| (BOP (PRP$ *)(NNS *)) |ET| 
+-0.0013326365074514492405077792369639  |BT| (NP (JJ Democratic)(NN lawyer)(NNP David)(NNP Fisher)) |BT| (BOW (Democratic *)(lawyer *)) |BT| (BOP (JJ *)(NN *)) |ET| 
+-0.0012135090556294099179562850920888  |BT| (NP (PRP$ its)(NNS people)) |BT| (BOW (its *)(people *)) |BT| (BOP (PRP$ *)(NNS *)) |ET| 
+-0.0010112169865044151606525701936334  |BT| (S (NP (NNP Kostunica)(NNS supporters))(VP (VBD stormed)(S (NP (NNP Belgrade))(VP (TO to)(VP (VB drive)(PRT (RP out))(NP (NNP Milosevic))))))) |BT| (BOW (supporters *)(stormed *)(Belgrade *)(to *)(drive *)(out *)(Milosevic *)) |BT| (BOP (NNS *)(VBD *)(NNP *)(TO *)(VB *)(RP *)(NNP *)) |ET| 
+-0.0014332814816713963530087072584251  |BT| (NP (PRP$ their)(NNS users)) |BT| (BOW (their *)(users *)) |BT| (BOP (PRP$ *)(NNS *)) |ET| 
+-0.0007871563695439990357774484586173  |BT| (NP (PRP$ its)(NNP Oldsmobile)(NN division)) |BT| (BOW (Oldsmobile *)(division *)) |BT| (BOP (JJ *)(NN *)) |ET| 
+-0.00086175585181839464785774618249548  |BT| (NP (PRP$ its)(NNS competitors)) |BT| (BOW (its *)(competitors *)) |BT| (BOP (PRP$ *)(NNS *)) |ET| 
+-0.00070136478105253807768804108491167  |BT| (NP (PRP$ its)(JJ public)(NNS functions)) |BT| (BOW (presidential *)(palace *)) |BT| (BOP (JJ *)(NN *)) |ET| 
+-0.00060174558590486704190425371052697  |BT| (NP (DT an)(JJ alleged)(JJ Palestinian)(JJ terrorist)(NN base)(NNS months)) |BT| (BOW (Palestinian *)(terrorist *)) |BT| (BOP (JJ *)(NN *)) |ET| 
+-0.0006648179791665201647174465726664  |BT| (NP (NP (NNP Milosevic)(POS 's))(NN attempt)(S (VP (TO to)(VP (VB deny)(NP (NP (NNP Kostunica)(POS 's))(NN victory)))))) |BT| (BOW (Milosevic *)('s *)(attempt *)(to *)(deny *)(Kostunica *)) |BT| (BOP (NNP *)(POS *)(NN *)(TO *)(VB *)(NNP *)) |ET| 
+-0.0011071138930954043354260019071944  |BT| (NP (PRP$ its)(NNS citizens)) |BT| (BOW (its *)(citizens *)) |BT| (BOP (PRP$ *)(NNS *)) |ET| 
+-0.00059937716116694080004112521464776  |BT| (NP (ADJP (JJ well-known))(JJ Egyptian)(NN actress)(NNP Madeha)(NNP Yusri)) |BT| (BOW (Egyptian *)(actress *)) |BT| (BOP (JJ *)(NN *)) |ET| 
