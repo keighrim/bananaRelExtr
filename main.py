@@ -40,24 +40,24 @@ class FeatureTagger():
             # self.string_match_no_articles,
             # self.str_stem_match,
             self.words_str_match,
-            self.acronym_match,               # hurts
-            self.string_contains_no_articles, # hurts
-            self.word_overlap,                # hurts
+            self.acronym_match,               
+            self.string_contains_no_articles, 
+            self.word_overlap,                
 
-            self.j_pronoun,  # no effect
-            self.only_i_pronoun,  # no effect
-            self.i_proper,  # no effect
-            self.j_proper,  # no effect
-            self.both_proper,  # no effect
-            self.i_proper_j_pronoun,  # no effect
-            self.j_definite,  # no effect
-            self.j_demonstrative,  # no effect
-            self.pro_str_match,  # no effect
-            self.pn_str_match,  # no effect
-            self.both_diff_proper,  # no effect
-            self.pn_str_contains,             # hurts
-            self.i_pronoun,                   # hurts
-            self.only_j_pronoun,              # hurts
+            self.j_pronoun,  
+            self.only_i_pronoun,  
+            self.i_proper,  
+            self.j_proper,  
+            self.both_proper,  
+            self.i_proper_j_pronoun,  
+            self.j_definite,  
+            self.j_demonstrative,  
+            self.pro_str_match, 
+            self.pn_str_match,  
+            self.both_diff_proper,  
+            self.pn_str_contains,           
+            self.i_pronoun,                  
+            self.only_j_pronoun,             
 
             self.i_ner_tag,
             self.j_ner_tag,
@@ -71,19 +71,19 @@ class FeatureTagger():
             self.distance_tree,
             self.distance_tree_sum,
 
-            self.i_object,                    # hurts
+            self.i_object,                 
             self.j_object,
-            self.both_object,                 # hurts
-            self.i_subject,                   # hurts
-            self.j_subject,                   # hurts
-            self.both_subject,                # hurts
-            self.share_governing_verb,        # hurts
-            self.governing_verbs_share_synset,# hurts
-            self.syn_verb_same_role,          # hurts
-            self.appositive,                    # hurts
+            self.both_object,                
+            self.i_subject,                 
+            self.j_subject,                  
+            self.both_subject,              
+            self.share_governing_verb,      
+            self.governing_verbs_share_synset,
+            self.syn_verb_same_role,         
+            self.appositive,                 
             
             # self.bag_of_words_between,          #30 min train/test
-            self.pos_between,            # hurts.. :(
+            self.pos_between,            # now it helps :)
                                   
             self.rels_i_to_lca,
             self.rels_j_to_lca,
@@ -92,28 +92,28 @@ class FeatureTagger():
             self.i_prev_word,
             self.i_prev_word_2,
             self.i_prev_word_3,
-            #self.i_prev_pos,
+            #self.i_prev_pos,  #hurts
             #self.i_prev_pos_2,
             #self.i_prev_pos_3,
             
-            #self.j_prev_word,
-            #self.j_prev_word_2,
+            self.j_prev_word,
+            #self.j_prev_word_2, #hurts
             #self.j_prev_word_3,
-            #self.j_prev_pos,
+            #self.j_prev_pos, #hurts
             #self.j_prev_pos_2,
             #self.j_prev_pos_3,
             
-            #self.i_next_word,
+            #self.i_next_word, #hurts slightly
             #self.i_next_word_2,
             #self.i_next_word_3,
-            #self.i_next_pos,
+            #self.i_next_pos, #hurts new
             #self.i_next_pos_2,
             #self.i_next_pos_2,
             
-            #self.j_next_word,
-            #self.j_next_word_2,
+            self.j_next_word,
+            #self.j_next_word_2, #barely hurts
             #self.j_next_word_3,
-            #self.j_next_pos,
+            #self.j_next_pos, #hurts new
             #self.j_next_pos_2,
             #self.j_next_pos_2,
             
