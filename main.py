@@ -163,11 +163,16 @@ class FeatureTagger():
 
             # self.j_next_word,		#hurts
 	    # precision = 0.611888111888 recall = 0.335892514395 f1 = 0.433705080545
-            # self.j_next_word_2,
-            # self.j_next_word_3,
-            # self.j_next_pos,
-            # self.j_next_pos_2,
-            # self.j_next_pos_2,
+            # self.j_next_word_2,	#hurts
+	    # precision = 0.614583333333 recall = 0.339731285988 f1 = 0.437577255871
+            # self.j_next_word_3,	#hurts
+	    # precision = 0.609489051095 recall = 0.320537428023 f1 = 0.420125786164
+            # self.j_next_pos,		#hurts
+	    # precision = 0.59022556391 recall = 0.301343570058 f1 = 0.398983481576
+            # self.j_next_pos_2,	#hurts
+	    # precision = 0.620567375887 recall = 0.335892514395 f1 = 0.435865504359
+            # self.j_next_pos_2,	#hurts
+	    # precision = 0.620567375887 recall = 0.335892514395 f1 = 0.435865504359
 
 
             # tree kernel
