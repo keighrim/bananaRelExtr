@@ -154,15 +154,19 @@ class FeatureTagger():
             self.words_between,
             # precision = 0.63 recall = 0.362763915547 f1 = 0.460414129111
             # self.first_word_between,  # hurts
-            # self.last_word_between,
+            # self.last_word_between,   # hurts
 
             # parse tree
-            # self.nodes_i_to_lca,
-            # self.nodes_j_to_lca,
-            # self.nodes_i_to_j,
-            # self.nonterminals_i_to_lca,
-            # self.nonterminals_j_to_lca,
-            # self.nonterminals_i_to_j,
+            self.nodes_i_to_lca,
+            # precision = 0.635761589404 recall = 0.368522072937 f1 = 0.466585662211
+            # self.nodes_j_to_lca,      # hurts
+            self.nodes_i_to_j,
+            # precision = 0.639871382637 recall = 0.381957773512 f1 = 0.478365384615
+            # self.nonterminals_i_to_lca,   # hurts
+            # self.nonterminals_j_to_lca,   # hurts
+            # self.nonterminals_i_to_j,     # hurts
+            # self.nodes_i_to_j_collapsed,  # hurts
+            # self.nonterminals_i_to_j_collapsed, # hurts
             # self.lca_nodename,
 
             # tree kernel
@@ -884,6 +888,21 @@ class FeatureTagger():
                 values.append(name + str(path[0] + path[1]))
         return values
 
+    def nodes_i_to_j_collapsed(self):
+        name = "c_nodes_i_to_j="
+        values = []
+        for path in self.phrase_nodes_between():
+            if path is None:
+                values.append(name + "None")
+            else:
+                fullpath = path[0] + path[1]
+                collapsed_path = [fullpath[0]]
+                for i in range(1, len(fullpath)):
+                    if fullpath[i-1] != fullpath[i]:
+                        collapsed_path.append(fullpath[i])
+                values.append(name + str(collapsed_path))
+        return values
+
     def nonterminals_i_to_lca(self):
         name = "nt_i_to_lca="
         values = []
@@ -915,6 +934,24 @@ class FeatureTagger():
                 values.append(name + str(path[1][:-1]))
         return values
 
+    def nonterminals_i_to_j_collapsed(self):
+        name = "nt_i_to_j="
+        values = []
+        for path in self.phrase_nodes_between():
+            if path is None:
+                values.append(name + "None")
+            else:
+                nonterminal_path = path[1:-1]
+                if len(nonterminal_path) == 0:
+                    values.append(name + "None")
+                else:
+                    collapsed_path = [nonterminal_path[0]]
+                    for i in range(1, len(nonterminal_path)):
+                        if nonterminal_path[i-1] != nonterminal_path[i]:
+                            collapsed_path.append(nonterminal_path[i])
+                    values.append(name + str(collapsed_path))
+        return values
+
     def lca_nodename(self):
         """returns the node name of lowest common ancestor"""
         name = "lca_name="
@@ -935,7 +972,6 @@ class FeatureTagger():
                               + r.get_spanning_tree(sent, i_head_idxs[i],
                                                     j_head_idxs[i]).label())
         return values
-
 
     def phrase_nodes_between(self):
         """helper function for ps parsing path features"""
