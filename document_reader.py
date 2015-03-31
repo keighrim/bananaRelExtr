@@ -264,24 +264,40 @@ class RelExtrReader(object):
         """
         tree = self.synparsed_trees[sent]
 
-        lowest_descendant = tree.treeposition_spanning_leaves(from_idx, to_idx)
-        from_node = tree.leaf_treeposition(from_idx)
-        to_node = tree.leaf_treeposition(to_idx)
-        path_to_from = from_node[len(lowest_descendant):]
-        path_to_to = to_node[len(lowest_descendant):]
-        lca_subtree = tree
-        for idx in lowest_descendant:
-            lca_subtree = lca_subtree[idx]
-        tmp_tree = lca_subtree
-        nodes_on_path_to_to = []
-        for idx in path_to_to:
-            nodes_on_path_to_to.append(tmp_tree[idx].label())
-            tmp_tree = tmp_tree[idx]
+        # lowest_descendant = tree.treeposition_spanning_leaves(from_idx, to_idx)
+        path_root_to_from = tree.leaf_treeposition(from_idx)
+        path_root_to_to = tree.leaf_treeposition(to_idx)
 
+        # need to write this part, instead of using buggy NLTK spanning_treeposition
+        lowest_ancestor = None
+        if path_root_to_from is not None and path_root_to_to is not None:
+            for i in range(max(len(path_root_to_from), len(path_root_to_to))):
+                try:
+                    if path_root_to_from[i] != path_root_to_to[i]:
+                        lowest_ancestor = path_root_to_from[:i-1]
+                        break
+                except IndexError:
+                    lowest_ancestor = path_root_to_from[:i-1]
+                    break
+        path_to_from = path_root_to_from[len(lowest_ancestor):]
+        path_to_to = path_root_to_to[len(lowest_ancestor):]
+
+        lca_subtree = tree
+        for idx in lowest_ancestor:
+            lca_subtree = lca_subtree[idx]
+
+        # first go through path from LCA to FROM node
         tmp_tree = lca_subtree
         nodes_on_path_to_from = []
-        for idx in path_to_from:
-            nodes_on_path_to_from.append(tmp_tree[idx].label())
+        for idx in path_to_from[:-1]:
+            nodes_on_path_to_from.insert(0, tmp_tree[idx].label())
+            tmp_tree = tmp_tree[idx]
+
+        # then go through path from LCA to TO node
+        tmp_tree = lca_subtree
+        nodes_on_path_to_to = []
+        for idx in path_to_to[:-1]:
+            nodes_on_path_to_to.append(tmp_tree[idx].label())
             tmp_tree = tmp_tree[idx]
 
         return nodes_on_path_to_from, nodes_on_path_to_to
@@ -445,7 +461,10 @@ def get_all_words_and_postags():
 if __name__ == '__main__':
     #     r.write_raw_sents()
 
-    r = RelExtrReader("APW20001001.2021.0521")
+    for filename in os.listdir(RAW_DATA_PATH):
+        filename = filename[:-4]
+        r = RelExtrReader(filename)
+        print r.get_phrase_path(3, 2, 7)
     # for tree in r.depparse_trees:
     #     for i, node in tree.iteritems():
     #         print len(node[2]), node[2]

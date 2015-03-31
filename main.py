@@ -111,71 +111,59 @@ class FeatureTagger():
             # ner tag
             self.i_ner_tag,
             self.j_ner_tag,
-            # precision = 0.59067357513 recall = 0.218809980806 f1 = 0.319327731092
-
-            # context
-            # self.bag_of_words_between,          #30 min train/test
-            self.pos_between,
-            # precision = 0.610859728507 recall = 0.259117082534 f1 = 0.363881401617
+            # precision = 0.6 recall = 0.224568138196 f1 = 0.326815642458
 
             # dependency tree
             self.rels_i_to_lca,
             self.rels_j_to_lca,
             self.rels_between_i_j,
-            # by far, combination above performs best:
-            # precision = 0.592592592593 recall = 0.337811900192 f1 = 0.430317848411
+            # precision = 0.580769230769 recall = 0.289827255278 f1 = 0.386683738796
 
-            # TODO test one by one
-            # self.no_words_between,    # hurts
-            # precision = 0.586666666667 recall = 0.337811900192 f1 = 0.4287454324
-            self.words_between,
-            self.first_word_between,
-            self.last_word_between,
+            # context features
+            # self.bag_of_words_between,          #30 min train/test
+            self.pos_between,
+            # precision = 0.590443686007 recall = 0.332053742802 f1 = 0.425061425061
+            self.no_words_between,
+            # precision = 0.598639455782 recall = 0.337811900192 f1 = 0.431901840491
             # self.i_prev_word,         # hurts
-            # precision = 0.618181818182 recall = 0.326295585413 f1 = 0.427135678392
-	    # YALIN
-            # self.i_prev_word_2,	#hurts
-	    # precision = 0.59375 recall = 0.328214971209 f1 = 0.422744128554
-            # self.i_prev_word_3,	#hurts
-	    # precision = 0.56856187291 recall = 0.326295585413 f1 = 0.414634146341
-            self.i_prev_pos,		#GOOD
-	    # precision = 0.619718309859 recall = 0.337811900192 f1 = 0.437267080745
-            # self.i_prev_pos_2,	#hurts
-	    # precision = 0.597122302158 recall = 0.318618042226 f1 = 0.415519399249
-            # self.i_prev_pos_3,	#hurts
-	    # precision = 0.578571428571 recall = 0.31094049904 f1 = 0.404494382022
+            # self.i_prev_word_2,       # hurts
+            # self.i_prev_word_3,       # hurts
+            self.i_prev_pos,
+            # precision = 0.620209059233 recall = 0.341650671785 f1 = 0.440594059406
+            # self.i_prev_pos_2,        # hurts
+            # self.i_prev_pos_3,        # hurts
+            # self.j_prev_word,         # hurts
+            # self.j_prev_word_2,       # hurts
+            # self.j_prev_word_3,       # hurts
+            # self.j_prev_pos,          # hurts
+            # self.j_prev_pos_2,        # hurts
+            # self.j_prev_pos_3,        # hurts
+            # self.i_next_word_2,       # hurts
+            # self.i_next_word_3,       # hurts
+            self.i_next_pos,
+            # precision = 0.61724137931 recall = 0.343570057582 f1 = 0.441430332922
+            # self.i_next_pos_2,        # hurts
+            # self.i_next_pos_2,        # hurts
+            # self.j_next_word,         # hurts
+            # self.j_next_word_2,       # hurts
+            # self.j_next_word_3,       # hurts
+            # self.j_next_pos,          # hurts
+            # self.j_next_pos_2,        # hurts
+            # self.j_next_pos_2,        # hurts
 
-            # self.j_prev_word,		#hurts
-	    # precision = 0.59595959596 recall = 0.339731285988 f1 = 0.432762836186
-            # self.j_prev_word_2,	#hurts
-	    # precision = 0.604895104895 recall = 0.332053742802 f1 = 0.428748451053
-            # self.j_prev_word_3,	#hurts
-	    # precision = 0.606617647059 recall = 0.31669865643 f1 = 0.416141235813
-            # self.j_prev_pos,		#hurts
-	    # precision = 0.620567375887 recall = 0.335892514395 f1 = 0.435865504359
-            # self.j_prev_pos_2,	#hurts
-	    # precision = 0.585616438356 recall = 0.328214971209 f1 = 0.420664206642
-            # self.j_prev_pos_3,	#hurts
-	    # precision = 0.600706713781 recall = 0.326295585413 f1 = 0.422885572139
-            # self.i_next_word_2,	#hurts
-	    # precision = 0.610909090909 recall = 0.32245681382 f1 = 0.422110552764
-            # self.i_next_word_3,	#hurts
-	    # precision = 0.59298245614 recall = 0.324376199616 f1 = 0.41935483871
-            self.i_next_pos,		#GOOD
-	    # precision = 0.620805369128 recall = 0.355086372361 f1 = 0.45177045177
-            # self.i_next_pos_2,	#hurt
-	    # precision = 0.589655172414 recall = 0.328214971209 f1 = 0.421701602959
-            # self.i_next_pos_2,	#hurts
-	    # precision = 0.589655172414 recall = 0.328214971209 f1 = 0.421701602959
+            self.words_between,
+            # precision = 0.63 recall = 0.362763915547 f1 = 0.460414129111
+            # self.first_word_between,  # hurts
+            # self.last_word_between,
 
-            # self.j_next_word,		#hurts
-	    # precision = 0.611888111888 recall = 0.335892514395 f1 = 0.433705080545
-            # self.j_next_word_2,
-            # self.j_next_word_3,
-            # self.j_next_pos,
-            # self.j_next_pos_2,
-            # self.j_next_pos_2,
-
+            # parse tree
+            # self.nodes_i_to_lca,
+            # self.nodes_j_to_lca,
+            # self.nodes_i_to_j,
+            # self.nonterminals_i_to_lca,
+            # self.nonterminals_j_to_lca,
+            # self.nonterminals_i_to_j,
+            # self.lca_nodename,
 
             # tree kernel
             # self.take_svm_tk_results,
@@ -865,7 +853,108 @@ class FeatureTagger():
 
         return values
 
-    def nt_on_tree_path(self):
+    def nodes_i_to_lca(self):
+        """return lists of phrase structural nodes from i to lowest ancestor"""
+        name = "nodes_i_to_lca="
+        values = []
+        for path in self.phrase_nodes_between():
+            if path is None:
+                values.append(name + "None")
+            else:
+                values.append(name + str(path[0]))
+        return values
+
+    def nodes_j_to_lca(self):
+        name = "nodes_j_to_lca="
+        values = []
+        for path in self.phrase_nodes_between():
+            if path is None:
+                values.append(name + "None")
+            else:
+                values.append(name + str(path[1]))
+        return values
+
+    def nodes_i_to_j(self):
+        name = "nodes_i_to_j="
+        values = []
+        for path in self.phrase_nodes_between():
+            if path is None:
+                values.append(name + "None")
+            else:
+                values.append(name + str(path[0] + path[1]))
+        return values
+
+    def nonterminals_i_to_lca(self):
+        name = "nt_i_to_lca="
+        values = []
+        for path in self.phrase_nodes_between():
+            if path is None:
+                values.append(name + "None")
+            else:
+                values.append(name + str((path[0] + path[1])[1:-1]))
+        return values
+
+    def nonterminals_j_to_lca(self):
+        name = "nt_j_to_lca="
+        values = []
+        for path in self.phrase_nodes_between():
+            if path is None:
+                values.append(name + "None")
+            else:
+                values.append(name + str(path[0][1:]))
+        return values
+        pass
+
+    def nonterminals_i_to_j(self):
+        name = "nt_i_to_j="
+        values = []
+        for path in self.phrase_nodes_between():
+            if path is None:
+                values.append(name + "None")
+            else:
+                values.append(name + str(path[1][:-1]))
+        return values
+
+    def lca_nodename(self):
+        """returns the node name of lowest common ancestor"""
+        name = "lca_name="
+        values = []
+
+        r = None
+        cur_filename = None
+        i_head_idxs = self.get_head_idx(0)
+        j_head_idxs = self.get_head_idx(1)
+        for i, pair in enumerate(self.pairs):
+            if pair[3]:
+                sent = pair[0][3]
+                filename = pair[4]
+                if cur_filename != filename:
+                    r = document_reader.RelExtrReader(filename)
+                    cur_filename = filename
+                values.append(name
+                              + r.get_spanning_tree(sent, i_head_idxs[i],
+                                                    j_head_idxs[i]).label())
+        return values
+
+
+    def phrase_nodes_between(self):
+        """helper function for ps parsing path features"""
+        paths = []
+        r = None
+        cur_filename = None
+        i_head_idxs = self.get_head_idx(0)
+        j_head_idxs = self.get_head_idx(1)
+        for i, pair in enumerate(self.pairs):
+            if pair[3]:
+                sent = pair[0][3]
+                filename = pair[4]
+                if cur_filename != filename:
+                    r = document_reader.RelExtrReader(filename)
+                    cur_filename = filename
+                paths.append(r.get_phrase_path(sent, i_head_idxs[i], j_head_idxs[i]))
+            else:
+                paths.append(None)
+        return paths
 
     def rels_i_to_lca(self):
         """return a concatenated relations from i entity to lowest common ancestor"""
