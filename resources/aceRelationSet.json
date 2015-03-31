@@ -1,6 +1,8 @@
 {
   "relations": [
     "ART.Inventor-or-Manufacturer",
+    "ART.Inventor-or-Manufacturer.reverse",
+    "ART.Other",
     "ART.Other.reverse",
     "ART.User-or-Owner",
     "ART.User-or-Owner.reverse",
@@ -26,6 +28,7 @@
     "GPE-AFF.Citizen-or-Resident.reverse",
     "GPE-AFF.Other",
     "GPE-AFF.Other.reverse",
+    "OTHER-AFF.Ethnic",
     "OTHER-AFF.Ethnic.reverse",
     "OTHER-AFF.Ideology",
     "OTHER-AFF.Ideology.reverse",

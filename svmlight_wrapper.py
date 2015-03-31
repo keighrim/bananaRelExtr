@@ -97,6 +97,8 @@ def to_tree_string(subtree, words, pos):
 
 def classify(label, data_filename):
     model_filename = os.path.join(RES_PATH, "svm_model_" + label)
+    if not os.path.isfile(model_filename):
+        return None
     subprocess.check_call([SVM_CLASSIFIER, '-v', '0', data_filename, model_filename])
     classified = []
     with open(os.path.join(SVM_PATH, SVM_RESULT)) as svm_result:

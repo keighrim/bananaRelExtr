@@ -167,10 +167,10 @@ class FeatureTagger():
             # self.nonterminals_i_to_j,     # hurts
             # self.nodes_i_to_j_collapsed,  # hurts
             # self.nonterminals_i_to_j_collapsed, # hurts
-            # self.lca_nodename,
+            # self.lca_nodename,            # hurts
 
             # tree kernel
-            # self.take_svm_tk_results,
+            self.take_svm_tk_results,
         ]
 
         # dicts will store name dictionaries
@@ -1554,7 +1554,10 @@ class FeatureTagger():
             svm_feed_filename = os.path.join(svmlight_wrapper.RES_PATH,
                                              "svm_{}_{}".format(self.svm_prefix,
                                                                 label))
-            results[num] = svmlight_wrapper.classify(label, svm_feed_filename)
+            classified = svmlight_wrapper.classify(label, svm_feed_filename)
+            if classified is None:
+                classified = [-1] * len(self.pairs)
+            results[num] = classified
         for i in range(len(self.pairs)):
             instance = results[:, i]
             best_label = np.max(instance)

@@ -222,7 +222,11 @@ class RelExtrReader(object):
         tree = self.synparsed_trees[sent]
         lowest_descendant = tree.treeposition_spanning_leaves(from_node, to_node)
         for idx in lowest_descendant:
-            tree = tree[idx]
+            # this happens when two entities are adjacent
+            if type(tree[idx]) == str:
+                return tree
+            else:
+                tree = tree[idx]
         return tree
 
     def compute_tree_path_length(self, sent, from_node, to_node):

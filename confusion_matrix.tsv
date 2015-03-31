@@ -1,46 +1,49 @@
-	ART.Inventor-or-Manufacturer	ART.Other.reverse	ART.User-or-Owner	ART.User-or-Owner.reverse	DISC.UNDEF	DISC.UNDEF.reverse	EMP-ORG.Employ-Executive	EMP-ORG.Employ-Executive.reverse	EMP-ORG.Employ-Staff	EMP-ORG.Employ-Staff.reverse	EMP-ORG.Employ-Undetermined	EMP-ORG.Employ-Undetermined.reverse	EMP-ORG.Member-of-Group	EMP-ORG.Member-of-Group.reverse	EMP-ORG.Other	EMP-ORG.Other.reverse	EMP-ORG.Partner	EMP-ORG.Partner.reverse	EMP-ORG.Subsidiary	EMP-ORG.Subsidiary.reverse	GPE-AFF.Based-In	GPE-AFF.Based-In.reverse	GPE-AFF.Citizen-or-Resident	GPE-AFF.Citizen-or-Resident.reverse	GPE-AFF.Other	GPE-AFF.Other.reverse	OTHER-AFF.Ethnic.reverse	OTHER-AFF.Ideology	OTHER-AFF.Ideology.reverse	OTHER-AFF.Other	OTHER-AFF.Other.reverse	PER-SOC.Business	PER-SOC.Business.reverse	PER-SOC.Family	PER-SOC.Family.reverse	PER-SOC.Other	PER-SOC.Other.reverse	PHYS.Located	PHYS.Located.reverse	PHYS.Near	PHYS.Near.reverse	PHYS.Part-Whole	PHYS.Part-Whole.reverse	no_rel	sum
-ART.Inventor-or-Manufacturer	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
-ART.Other.reverse	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
-ART.User-or-Owner	0	0	9	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	10	21
-ART.User-or-Owner.reverse	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
-DISC.UNDEF	0	0	0	0	8	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	12	21
-DISC.UNDEF.reverse	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	26	28
-EMP-ORG.Employ-Executive	0	0	0	0	0	0	28	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	17	46
-EMP-ORG.Employ-Executive.reverse	0	0	0	0	0	0	0	12	0	7	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	8	29
-EMP-ORG.Employ-Staff	0	0	0	0	0	0	6	0	12	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	21	40
-EMP-ORG.Employ-Staff.reverse	0	0	0	0	0	0	0	2	0	9	0	1	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	8	22
-EMP-ORG.Employ-Undetermined	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	4	5
-EMP-ORG.Employ-Undetermined.reverse	0	0	0	0	0	0	0	1	0	1	0	5	0	0	0	0	0	0	0	1	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	11
-EMP-ORG.Member-of-Group	0	0	0	0	0	0	4	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	7
-EMP-ORG.Member-of-Group.reverse	0	0	0	0	0	0	0	1	0	1	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	3	6
-EMP-ORG.Other	0	0	0	0	0	0	2	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	3	6
-EMP-ORG.Other.reverse	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	4	4
-EMP-ORG.Partner	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	6	6
-EMP-ORG.Partner.reverse	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
-EMP-ORG.Subsidiary	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	7	7
-EMP-ORG.Subsidiary.reverse	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	14	0	3	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	5	22
-GPE-AFF.Based-In	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	5	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	6	12
-GPE-AFF.Based-In.reverse	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	5	0	14	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	6	25
-GPE-AFF.Citizen-or-Resident	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	3	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	5	8
-GPE-AFF.Citizen-or-Resident.reverse	0	0	0	0	0	0	0	1	0	3	0	0	0	0	0	0	0	0	0	0	0	0	0	4	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	6	14
-GPE-AFF.Other	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
-GPE-AFF.Other.reverse	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	3	4
-OTHER-AFF.Ethnic.reverse	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	3	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	6
-OTHER-AFF.Ideology	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1
-OTHER-AFF.Ideology.reverse	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	4
-OTHER-AFF.Other	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	2	3
-OTHER-AFF.Other.reverse	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	2
-PER-SOC.Business	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	10	2	2	0	0	0	0	0	0	0	0	0	11	25
-PER-SOC.Business.reverse	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	4	0	0	0	0	0	0	0	0	0	0	1	5
-PER-SOC.Family	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	6	0	0	0	0	0	0	0	0	0	9	15
-PER-SOC.Family.reverse	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1	0	0	0	0	0	0	0	0	1	3
-PER-SOC.Other	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1	1	0	0	0	0	0	0	0	0	0	9	12
-PER-SOC.Other.reverse	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	2
-PHYS.Located	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	19	0	0	0	0	0	26	46
-PHYS.Located.reverse	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	10	12
-PHYS.Near	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	2
-PHYS.Near.reverse	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	2	3
-PHYS.Part-Whole	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	19	0	5	24
-PHYS.Part-Whole.reverse	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	7	5	12
-no_rel	0	0	1	0	2	0	5	1	2	1	0	1	0	1	0	0	0	0	1	4	0	3	0	2	0	0	0	0	1	0	0	0	0	0	0	0	0	8	1	0	0	3	2	5872	5911
-sum	0	0	10	0	11	0	47	18	18	22	0	7	0	3	0	0	0	0	1	24	5	20	5	13	0	0	3	0	4	0	0	12	8	10	1	0	0	28	3	1	0	23	10	6125
+	ART.Inventor-or-Manufacturer	ART.Inventor-or-Manufacturer.reverse	ART.Other	ART.Other.reverse	ART.User-or-Owner	ART.User-or-Owner.reverse	DISC.UNDEF	DISC.UNDEF.reverse	EMP-ORG.Employ-Executive	EMP-ORG.Employ-Executive.reverse	EMP-ORG.Employ-Staff	EMP-ORG.Employ-Staff.reverse	EMP-ORG.Employ-Undetermined	EMP-ORG.Employ-Undetermined.reverse	EMP-ORG.Member-of-Group	EMP-ORG.Member-of-Group.reverse	EMP-ORG.Other	EMP-ORG.Other.reverse	EMP-ORG.Partner	EMP-ORG.Partner.reverse	EMP-ORG.Subsidiary	EMP-ORG.Subsidiary.reverse	GPE-AFF.Based-In	GPE-AFF.Based-In.reverse	GPE-AFF.Citizen-or-Resident	GPE-AFF.Citizen-or-Resident.reverse	GPE-AFF.Other	GPE-AFF.Other.reverse	OTHER-AFF.Ethnic	OTHER-AFF.Ethnic.reverse	OTHER-AFF.Ideology	OTHER-AFF.Ideology.reverse	OTHER-AFF.Other	OTHER-AFF.Other.reverse	PER-SOC.Business	PER-SOC.Business.reverse	PER-SOC.Family	PER-SOC.Family.reverse	PER-SOC.Other	PER-SOC.Other.reverse	PHYS.Located	PHYS.Located.reverse	PHYS.Near	PHYS.Near.reverse	PHYS.Part-Whole	PHYS.Part-Whole.reverse	no_rel	sum
+ART.Inventor-or-Manufacturer	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1
+ART.Inventor-or-Manufacturer.reverse	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+ART.Other	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1
+ART.Other.reverse	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+ART.User-or-Owner	0	0	0	0	10	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	10	20
+ART.User-or-Owner.reverse	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	3	3
+DISC.UNDEF	0	0	0	0	0	0	4	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	2	8
+DISC.UNDEF.reverse	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	27	27
+EMP-ORG.Employ-Executive	0	0	0	0	0	0	0	0	11	0	5	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	10	26
+EMP-ORG.Employ-Executive.reverse	0	0	0	0	0	0	0	0	0	9	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	5	17
+EMP-ORG.Employ-Staff	0	0	0	0	0	0	0	0	0	0	8	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	9	17
+EMP-ORG.Employ-Staff.reverse	0	0	0	0	0	0	0	0	0	1	0	12	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	17
+EMP-ORG.Employ-Undetermined	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1
+EMP-ORG.Employ-Undetermined.reverse	0	0	0	0	0	0	0	0	0	0	0	1	0	3	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	6
+EMP-ORG.Member-of-Group	0	0	0	0	0	0	0	0	3	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	4
+EMP-ORG.Member-of-Group.reverse	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	3	5
+EMP-ORG.Other	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	6	6
+EMP-ORG.Other.reverse	0	0	0	0	0	0	0	0	0	0	0	5	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	11	18
+EMP-ORG.Partner	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+EMP-ORG.Partner.reverse	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+EMP-ORG.Subsidiary	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	3
+EMP-ORG.Subsidiary.reverse	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	6	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	5	11
+GPE-AFF.Based-In	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	6	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	7	14
+GPE-AFF.Based-In.reverse	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	3	0	5	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	5	13
+GPE-AFF.Citizen-or-Resident	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	3	0	0	0	0	0	8	15
+GPE-AFF.Citizen-or-Resident.reverse	0	0	0	0	0	0	0	0	0	2	0	3	0	0	0	0	0	0	0	0	0	0	0	0	0	10	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	1	0	0	0	0	6	23
+GPE-AFF.Other	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	2	3
+GPE-AFF.Other.reverse	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+OTHER-AFF.Ethnic	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1
+OTHER-AFF.Ethnic.reverse	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1
+OTHER-AFF.Ideology	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	2
+OTHER-AFF.Ideology.reverse	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	3
+OTHER-AFF.Other	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1
+OTHER-AFF.Other.reverse	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1
+PER-SOC.Business	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	7	9
+PER-SOC.Business.reverse	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+PER-SOC.Family	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	4	0	0	0	0	0	0	0	0	0	2	6
+PER-SOC.Family.reverse	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+PER-SOC.Other	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	3	0	0	0	0	0	0	0	0	0	2	6
+PER-SOC.Other.reverse	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	3	4
+PHYS.Located	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	12	0	0	0	0	0	39	51
+PHYS.Located.reverse	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	10	11
+PHYS.Near	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	7	8
+PHYS.Near.reverse	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+PHYS.Part-Whole	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	9	0	11	20
+PHYS.Part-Whole.reverse	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+no_rel	0	0	0	0	1	0	3	0	1	1	2	5	0	0	0	0	0	0	0	0	0	1	0	0	1	3	0	0	0	0	0	0	0	0	1	0	3	0	0	0	7	1	0	0	1	0	5131	5162
+sum	0	0	0	0	12	0	8	1	17	13	15	30	0	3	1	1	0	0	0	0	0	13	6	5	3	18	0	0	0	0	0	2	0	1	3	0	11	0	0	0	24	3	0	0	11	1	5343
