@@ -51,7 +51,7 @@ class FeatureTagger():
             # self.string_contains_no_articles,         # hurts
             self.word_overlap,
 
-            # pos tag
+            # entity level
             self.j_pronoun,
             self.only_i_pronoun,
             self.i_proper,
@@ -103,33 +103,26 @@ class FeatureTagger():
             # words
             self.i_head_words,
             self.j_head_words,
-            # precision = 0.555555555556 recall = 0.115163147793 f1 = 0.190779014308
             self.i_words,
             self.j_words,
-            # precision = 0.574626865672 recall = 0.147792706334 f1 = 0.235114503817
 
             # ner tag
             self.i_ner_tag,
             self.j_ner_tag,
-            # precision = 0.6 recall = 0.224568138196 f1 = 0.326815642458
 
             # dependency tree
             self.rels_i_to_lca,
             self.rels_j_to_lca,
             self.rels_between_i_j,
-            # precision = 0.580769230769 recall = 0.289827255278 f1 = 0.386683738796
 
             # context features
-            # self.bag_of_words_between,          #30 min train/test
+            # self.bag_of_words_between,          #30 min train/test --> hurts
             self.pos_between,
-            # precision = 0.590443686007 recall = 0.332053742802 f1 = 0.425061425061
             self.no_words_between,
-            # precision = 0.598639455782 recall = 0.337811900192 f1 = 0.431901840491
             # self.i_prev_word,         # hurts
             # self.i_prev_word_2,       # hurts
             # self.i_prev_word_3,       # hurts
             self.i_prev_pos,
-            # precision = 0.620209059233 recall = 0.341650671785 f1 = 0.440594059406
             # self.i_prev_pos_2,        # hurts
             # self.i_prev_pos_3,        # hurts
             # self.j_prev_word,         # hurts
@@ -141,7 +134,6 @@ class FeatureTagger():
             # self.i_next_word_2,       # hurts
             # self.i_next_word_3,       # hurts
             self.i_next_pos,
-            # precision = 0.61724137931 recall = 0.343570057582 f1 = 0.441430332922
             # self.i_next_pos_2,        # hurts
             # self.i_next_pos_2,        # hurts
             # self.j_next_word,         # hurts
@@ -152,16 +144,13 @@ class FeatureTagger():
             # self.j_next_pos_2,        # hurts
 
             self.words_between,
-            # precision = 0.63 recall = 0.362763915547 f1 = 0.460414129111
             # self.first_word_between,  # hurts
             # self.last_word_between,   # hurts
 
             # parse tree
             self.nodes_i_to_lca,
-            # precision = 0.635761589404 recall = 0.368522072937 f1 = 0.466585662211
             # self.nodes_j_to_lca,      # hurts
             self.nodes_i_to_j,
-            # precision = 0.639871382637 recall = 0.381957773512 f1 = 0.478365384615
             # self.nonterminals_i_to_lca,   # hurts
             # self.nonterminals_j_to_lca,   # hurts
             # self.nonterminals_i_to_j,     # hurts
@@ -170,14 +159,10 @@ class FeatureTagger():
             # self.lca_nodename,            # hurts
 
             # tree kernel
-            self.take_svm_tk_results,
+            # self.take_svm_tk_results,     # hurts
         ]
 
-        # dicts will store name dictionaries
-        # self.dicts = {}
-        # self.org_suffixes = []
         self.load_dicts()
-
         self.pairs = None
 
     def read_input_data(self, input_filename, labeled=True):
@@ -364,7 +349,6 @@ class FeatureTagger():
                 values.append(name + self.T)
             else:
                 values.append(name + self.F)
-
         return values
 
     def j_pronoun(self):
@@ -377,7 +361,6 @@ class FeatureTagger():
                 values.append(name + self.T)
             else:
                 values.append(name + self.F)
-
         return values
 
     def only_j_pronoun(self):
@@ -389,7 +372,6 @@ class FeatureTagger():
                 values.append(name + self.T)
             else:
                 values.append(name + self.F)
-
         return values
 
     def only_i_pronoun(self):
@@ -401,7 +383,6 @@ class FeatureTagger():
                 values.append(name + self.T)
             else:
                 values.append(name + self.F)
-
         return values
 
     def i_ner_tag(self):
@@ -423,7 +404,6 @@ class FeatureTagger():
                 values.append(name + self.T)
             else:
                 values.append(name + self.F)
-
         return values
 
     @staticmethod
@@ -433,7 +413,6 @@ class FeatureTagger():
         for i in range(len(words)):
             if tags[i] != "DT":
                 return_string += words[i]
-
         return return_string
 
     def string_match_no_articles(self):
@@ -451,7 +430,6 @@ class FeatureTagger():
                 values.append(name + self.T)
             else:
                 values.append(name + self.F)
-
         return values
 
     def string_contains_no_articles(self):
@@ -470,38 +448,13 @@ class FeatureTagger():
                 values.append(name + self.T)
             else:
                 values.append(name + self.F)
-
         return values
-
-    @staticmethod
-    def compute_jaccard(set1, set2, numeric=False):
-        """A simple Jaccard similiarity metric between two sets"""
-        total1 = len(set1)
-        total2 = len(set2)
-        total = total1 + total2
-        similarity_count = 0
-        for item in set1:
-            if item in set2:
-                similarity_count += 1
-        if numeric:
-            return similarity_count*2/total
-        else:
-            if similarity_count >= total/2:
-                return "most"
-            elif similarity_count >= total/2:
-                return "some"
-            elif similarity_count > 0:
-                return "few"
-            else:
-                return "none"
 
     def str_stem_match(self):
         """Stem first, and then check string match"""
         from nltk.stem.lancaster import LancasterStemmer
-
         name = "str_stem_match="
         values = []
-
         stemmer = LancasterStemmer()
         i_words = self.get_i_words()
         j_words = self.get_j_words()
@@ -514,7 +467,6 @@ class FeatureTagger():
                 values.append(name + self.T)
             else:
                 values.append(name + self.F)
-
         return values
 
     def pro_str_match(self):
@@ -531,7 +483,6 @@ class FeatureTagger():
                 values.append(name + self.T)
             else:
                 values.append(name + self.F)
-
         return values
 
     def pn_str_match(self):
@@ -550,7 +501,6 @@ class FeatureTagger():
                 values.append(name + self.T)
             else:
                 values.append(name + self.F)
-
         return values
 
     def pn_str_contains(self):
@@ -571,7 +521,6 @@ class FeatureTagger():
                 values.append(name + self.T)
             else:
                 values.append(name + self.F)
-
         return values
 
     def words_str_match(self):
@@ -588,7 +537,6 @@ class FeatureTagger():
                 values.append(name + self.T)
             else:
                 values.append(name + self.F)
-
         return values
 
     def j_definite(self):
@@ -600,7 +548,6 @@ class FeatureTagger():
                 values.append(name + self.T)
             else:
                 values.append(name + self.F)
-
         return values
 
     def j_demonstrative(self):
@@ -613,7 +560,6 @@ class FeatureTagger():
                 values.append(name + self.T)
             else:
                 values.append(name + self.F)
-
         return values
 
     def word_overlap(self):
@@ -629,7 +575,6 @@ class FeatureTagger():
                 values.append(name + self.T)
             else:
                 values.append(name + self.F)
-
         return values
 
     def i_proper(self):
@@ -644,7 +589,6 @@ class FeatureTagger():
                 values.append(name + self.T)
             else:
                 values.append(name + self.F)
-
         return values
 
     def j_proper(self):
@@ -658,10 +602,10 @@ class FeatureTagger():
                 values.append(name + self.T)
             else:
                 values.append(name + self.F)
-
         return values
 
     def i_proper_j_pronoun(self):
+        """check if i is a proper noun && j is a pronoun"""
         name = "i_pn_i_pro="
         values = []
         for bools in zip(self.i_proper(), self.j_pronoun()):
@@ -669,20 +613,17 @@ class FeatureTagger():
                 values.append(name + self.T)
             else:
                 values.append(name + self.F)
-
         return values
 
     def both_proper(self):
         """Check if both entities are proper nouns"""
         name = "both_proper="
         values = []
-
         for bools in zip(self.i_proper(), self.j_proper()):
             if bools[0].endswith("true") and bools[1].endswith("true"):
                 values.append(name + self.T)
             else:
                 values.append(name + self.F)
-
         return values
 
     def both_diff_proper(self):
@@ -703,7 +644,6 @@ class FeatureTagger():
                 values.append(name + self.T)
             else:
                 values.append(name + self.F)
-
         return values
 
     def acronym_match(self):
@@ -719,7 +659,6 @@ class FeatureTagger():
                 values.append(name + self.T)
             else:
                 values.append(name + self.F)
-
         return values
 
     def distance_sent(self):
@@ -731,7 +670,6 @@ class FeatureTagger():
         for num, i_sent in enumerate(i_sents):
             dist = i_sent - j_sents[num]
             values.append(name + str(dist))
-
         return values
 
     def in_same_sent(self):
@@ -743,7 +681,6 @@ class FeatureTagger():
                 values.append(name + self.T)
             else:
                 values.append(name + self.F)
-
         return values
 
     def i_precedes_j(self):
@@ -768,7 +705,6 @@ class FeatureTagger():
                     values.append(name + self.T)
                 else:
                     values.append(name + self.F)
-
         return values
 
     def number_agree(self):
@@ -813,7 +749,6 @@ class FeatureTagger():
         """
         name = "distance_tree="
         values = []
-
         cur_filename = None
         r = None
         for pair in self.pairs:
@@ -828,7 +763,6 @@ class FeatureTagger():
                 following = max(pair[0][4] + pair[1][4]) - 1
                 path = r.compute_tree_path_length(pair[0][3], preceding, following)
                 values.append(name + "u" + str(path[0]) + "d" + str(path[1]))
-
         return values
 
     def distance_tree_sum(self):
@@ -839,7 +773,6 @@ class FeatureTagger():
         """
         name = "distance_tree_sum="
         values = []
-
         cur_filename = None
         r = None
         for pair in self.pairs:
@@ -854,7 +787,6 @@ class FeatureTagger():
                 following = max(pair[0][4] + pair[1][4]) - 1
                 path = r.compute_tree_path_length(pair[0][3], preceding, following)
                 values.append(name + str(sum(path)))
-
         return values
 
     def nodes_i_to_lca(self):
@@ -869,6 +801,7 @@ class FeatureTagger():
         return values
 
     def nodes_j_to_lca(self):
+        """return lists of phrase structural nodes from j to lowest ancestor"""
         name = "nodes_j_to_lca="
         values = []
         for path in self.phrase_nodes_between():
@@ -879,6 +812,7 @@ class FeatureTagger():
         return values
 
     def nodes_i_to_j(self):
+        """return lists of phrase structural nodes from i to j"""
         name = "nodes_i_to_j="
         values = []
         for path in self.phrase_nodes_between():
@@ -889,6 +823,7 @@ class FeatureTagger():
         return values
 
     def nodes_i_to_j_collapsed(self):
+        """nodes from i to j, collapsed duplicates"""
         name = "c_nodes_i_to_j="
         values = []
         for path in self.phrase_nodes_between():
@@ -904,6 +839,7 @@ class FeatureTagger():
         return values
 
     def nonterminals_i_to_lca(self):
+        """return lists of nonterminal nodes from i to LCA"""
         name = "nt_i_to_lca="
         values = []
         for path in self.phrase_nodes_between():
@@ -914,6 +850,7 @@ class FeatureTagger():
         return values
 
     def nonterminals_j_to_lca(self):
+        """return lists of nonterminal nodes from j to LCA"""
         name = "nt_j_to_lca="
         values = []
         for path in self.phrase_nodes_between():
@@ -925,6 +862,7 @@ class FeatureTagger():
         pass
 
     def nonterminals_i_to_j(self):
+        """return lists of nonterminal nodes from i to j"""
         name = "nt_i_to_j="
         values = []
         for path in self.phrase_nodes_between():
@@ -935,6 +873,7 @@ class FeatureTagger():
         return values
 
     def nonterminals_i_to_j_collapsed(self):
+        """nonterminal nodes from i to j, collapsed duplicates"""
         name = "nt_i_to_j="
         values = []
         for path in self.phrase_nodes_between():
@@ -956,7 +895,6 @@ class FeatureTagger():
         """returns the node name of lowest common ancestor"""
         name = "lca_name="
         values = []
-
         r = None
         cur_filename = None
         i_head_idxs = self.get_head_idx(0)
@@ -968,9 +906,8 @@ class FeatureTagger():
                 if cur_filename != filename:
                     r = document_reader.RelExtrReader(filename)
                     cur_filename = filename
-                values.append(name
-                              + r.get_spanning_tree(sent, i_head_idxs[i],
-                                                    j_head_idxs[i]).label())
+                values.append(name + r.get_spanning_tree(sent, i_head_idxs[i],
+                                                         j_head_idxs[i]).label())
         return values
 
     def phrase_nodes_between(self):
@@ -1007,10 +944,8 @@ class FeatureTagger():
                 if cur_filename != filename:
                     r = document_reader.RelExtrReader(filename)
                     cur_filename = filename
-                values.append(name +
-                              str(r.get_dep_rel_path(
-                                  sent, i_head_idxs[i], j_head_idxs[i])
-                                  [0]))
+                values.append(name + str(r.get_dep_rel_path(
+                    sent, i_head_idxs[i], j_head_idxs[i])[0]))
             else:
                 values.append(name + "None")
         return values
@@ -1030,10 +965,8 @@ class FeatureTagger():
                 if cur_filename != filename:
                     r = document_reader.RelExtrReader(filename)
                     cur_filename = filename
-                values.append(name +
-                              str(r.get_dep_rel_path(
-                                  sent, i_head_idxs[i], j_head_idxs[i])
-                                  [1]))
+                values.append(name + str(r.get_dep_rel_path(
+                    sent, i_head_idxs[i], j_head_idxs[i])[1]))
             else:
                 values.append(name + "None")
         return values
@@ -1074,7 +1007,6 @@ class FeatureTagger():
                 values.append(name + self.T)
             else:
                 values.append(name + self.F)
-
         return values
 
     def j_subject(self):
@@ -1086,7 +1018,6 @@ class FeatureTagger():
                 values.append(name + self.T)
             else:
                 values.append(name + self.F)
-
         return values
 
     def both_subject(self):
@@ -1098,7 +1029,6 @@ class FeatureTagger():
                 values.append(name + self.T)
             else:
                 values.append(name + self.F)
-
         return values
 
     def is_subject(self, i_or_j):
@@ -1114,7 +1044,6 @@ class FeatureTagger():
                 r = document_reader.RelExtrReader(filename)
                 cur_filename = filename
             values.append(r.is_subject(sent, head_idxs[i]))
-
         return values
 
     def i_object(self):
@@ -1126,7 +1055,6 @@ class FeatureTagger():
                 values.append(name + self.T)
             else:
                 values.append(name + self.F)
-
         return values
 
     def j_object(self):
@@ -1138,7 +1066,6 @@ class FeatureTagger():
                 values.append(name + self.T)
             else:
                 values.append(name + self.F)
-
         return values
 
     def both_object(self):
@@ -1150,7 +1077,6 @@ class FeatureTagger():
                 values.append(name + self.T)
             else:
                 values.append(name + self.F)
-
         return values
 
     def is_object(self, i_or_j):
@@ -1166,14 +1092,12 @@ class FeatureTagger():
                 r = document_reader.RelExtrReader(filename)
                 cur_filename = filename
             values.append(r.is_object(sent, head_idxs[i]))
-
         return values
 
     def appositive(self):
         """return true if two mentions are in appositive construction"""
         name = "appositive="
         values = []
-
         r = None
         cur_filename = None
         i_head_idxs = self.get_i_head_idx()
@@ -1198,7 +1122,6 @@ class FeatureTagger():
         """return true if two mention has a shared verb as their governor"""
         name = "share_verb="
         values = []
-
         cur_filename = None
         i_head_idxs = self.get_i_head_idx()
         j_head_idxs = self.get_j_head_idx()
@@ -1241,7 +1164,6 @@ class FeatureTagger():
                 values.append(name + self.T)
             else:
                 values.append(name + self.F)
-
         return values
 
     def syn_verb_same_role(self):
@@ -1269,14 +1191,12 @@ class FeatureTagger():
                 values.append(name + self.T)
             else:
                 values.append(name + self.F)
-
         return values
 
     def bag_of_words_between(self):
         """A feature that lists all the words between two mentions"""
         name = "w_btw="
         values = []
-
         cur_filename = None
         r = None
         for pair in self.pairs: 
@@ -1293,17 +1213,16 @@ class FeatureTagger():
                 pair_values = np.zeros(len(self.w_dict), dtype=np.int)
                 for idx in [self.w_dict[w] for w in words]:
                     pair_values[idx] = 1
-                # for key in self.w_dict.iterkeys():
-                #     if key in words:
-                #         pair_values[self.w_dict[key]] += 1
                 values.append("".join(map(str, map(int, pair_values))))
         return values
 
     def pos_between(self):
-        """A feature that lists all the POS of words between two mentions"""
+        """
+        A feature that lists all the POS of words between two mentions
+        Because of space, list is a binary number, each digit indexed to a POS tag
+        """
         name = "pos_between="
         values = []
-
         cur_filename = None
         r = None
         for pair in self.pairs: 
@@ -1325,7 +1244,6 @@ class FeatureTagger():
                             zip(pair_values, range(len(pair_values)-1, -1, -1))))).\
                     zfill(len(pair_values))
                 values.append(value)
-
         return values
 
     def i_words(self):
@@ -1366,7 +1284,6 @@ class FeatureTagger():
     def prev_or_next(self, name, i_or_j, n, pos=False):
         """Helper function to return prev/next words or pos tags"""
         values = []
-        
         cur_filename = None
         for pair in self.pairs: 
             filename = pair[4]
@@ -1379,7 +1296,6 @@ class FeatureTagger():
                 index = orig_start + n
             else:
                 index = orig_end + n
-                
             try:
                 if pos:
                     target = r.get_pos(pair[0][3], index, index + 1)
@@ -1388,7 +1304,6 @@ class FeatureTagger():
                 values.append(name + target[0])
             except IndexError:
                 values.append(name + "out_of_bounds")
-                
         return values
         
     def i_prev_word(self):
@@ -1523,7 +1438,7 @@ class FeatureTagger():
                     if cur_filename != filename:
                         r = document_reader.RelExtrReader(filename)
                         cur_filename = filename
-                    values.append(name + r.get_words(pair[0][3], i_end, j_start)[-1])
+                    values.append(name+r.get_words(pair[0][3], i_end, j_start)[-1])
         return values
 
     def no_words_between(self):
@@ -1538,26 +1453,27 @@ class FeatureTagger():
                 values.append(name + self.T)
             else:
                 values.append(name + self.F)
-
         return values
 
     def take_svm_tk_results(self):
+        """
+        feed instances through 43 SVM classifier,
+        get their results and pick the most confident label, return as feature value
+        """
         name = "svm_classification="
         values = []
-
         labels = svmlight_wrapper.RELATIONS
         num_rels = len(labels)
-
-        # 2d array to store svm results: rows - per label, cols - instances
+        # 2d array to store svm results: rows - label, cols - instances
         results = np.zeros([num_rels, len(self.pairs)])
-        for num, label in enumerate(labels):
-            svm_feed_filename = os.path.join(svmlight_wrapper.RES_PATH,
-                                             "svm_{}_{}".format(self.svm_prefix,
-                                                                label))
-            classified = svmlight_wrapper.classify(label, svm_feed_filename)
+        for num, l in enumerate(labels):
+            svm_feed_filename = os.path.join(svmlight_wrapper.SVM_DATA_PATH,
+                                             "svm_{}_{}".format(self.svm_prefix, l))
+            classified = svmlight_wrapper.classify(l, svm_feed_filename)
             if classified is None:
                 classified = [-1] * len(self.pairs)
             results[num] = classified
+        # now get through each column, find the most confident
         for i in range(len(self.pairs)):
             instance = results[:, i]
             best_label = np.max(instance)
@@ -1565,11 +1481,6 @@ class FeatureTagger():
                 values.append(name + labels[list(instance).index(best_label)])
             else:
                 values.append(name + "no_rel")
-
-            # values.append(name + str(
-            #     int(sum(map(lambda (x, y): 10 ** y * x,
-            #             zip(instance, range(len(instance)-1, -1, -1))))))
-            #               .zfill(num_rels))
         return values
 
 
